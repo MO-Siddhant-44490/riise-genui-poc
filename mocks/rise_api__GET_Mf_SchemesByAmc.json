@@ -1,0 +1,75 @@
+{
+ "endpoint": "/master/v2/api/Mf/SchemesByAmc",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "MfFinderFilterData",
+ "source_flow": "debug_dump",
+ "response": {
+  "data": {
+   "Entry": [
+    {
+     "AmcId": 94,
+     "AmcName": "Motilal Oswal",
+     "AmcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/9054-motilal-oswal-3__BASE__.png",
+     "Schemes": [
+      {
+       "Name": "Motilal Oswal Nasdaq 100 FOF Regular-Growth",
+       "IsinCode": "INF247L01700",
+       "Category": "Equity",
+       "SubCategory": " International",
+       "Ret1M": 2735,
+       "Ret3M": 3537,
+       "Ret1Y": 7719,
+       "Ret3Y": 4211,
+       "Ret5Y": 2417,
+       "RiskLevel": "VeryHighRisk",
+       "Ratings": "Not Rated",
+       "InceptionDate": 1543449600,
+       "InvestorDoubleMonth": 50,
+       "FundAum": 598734,
+       "MinimumInvestment": 50000,
+       "QtrAumPer": -155
+      },
+      {
+       "Name": "Motilal Oswal Gold and Silver Passive FoF Regular-Growth",
+       "IsinCode": "INF247L01BN6",
+       "Category": "Commodities",
+       "SubCategory": " Gold",
+       "Ret1M": 104,
+       "Ret3M": -422,
+       "Ret1Y": 7581,
+       "Ret3Y": 3517,
+       "Ret5Y": 0,
+       "RiskLevel": "VeryHighRisk",
+       "Ratings": "1",
+       "InceptionDate": 1665619200,
+       "InvestorDoubleMonth": 13,
+       "FundAum": 248341,
+       "MinimumInvestment": 50000,
+       "QtrAumPer": -1660
+      },
+      {
+       "Name": "Motilal Oswal BSE Enhanced Value Index Fund Regular-Growth",
+       "IsinCode": "INF247L01BG0",
+       "Category": "Equity",
+       "SubCategory": " Value Oriented",
+       "Ret1M": 843,
+       "Ret3M": -423,
+       "Ret1Y": 1617,
+       "Ret3Y": 3039,
+       "Ret5Y": 0,
+       "RiskLevel": "VeryHighRisk",
+       "Ratings": "5",
+       "InceptionDate": 1661126400,
+       "InvestorDoubleMonth": 30,
+       "FundAum": 157040,
+       "MinimumInvestment": 50000,
+       "QtrAumPer": 800
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

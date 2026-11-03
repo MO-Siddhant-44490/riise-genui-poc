@@ -1,0 +1,167 @@
+{
+ "endpoint": "/cmsapi/v2/api/FlashNews",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "FlashNewsListResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "items": [
+   {
+    "id": "BSEYESBANK30102026212334D7B8CO66UO",
+    "timestamp": 1793375614,
+    "impact": "Negative",
+    "company": {
+     "id": {
+      "scripCode": 11915
+     },
+     "symbol": "YESBANK",
+     "isin": "INE528G01035",
+     "logo": "img/f0760a67bb57.png",
+     "companyName": "Yes Bank Ltd"
+    },
+    "title": "YES BANK: SC AT-1 Bond Judgment Update",
+    "shortDescription": "YES BANK faces 3-day ultimatum from Axis Trustee to reinstate Rs 8,415 crore AT-1 Bonds or face contempt proceedings; Bank commits to comply with Supreme Court order.",
+    "stockData": {
+     "onInsertionLtp": "1515",
+     "afterImpactLtp": "1545"
+    },
+    "recommendation": {
+     "callId": 396,
+     "recoPrice": "2274",
+     "targetPrice": "3822",
+     "type": "BUY",
+     "callCategory": "Option",
+     "callSubCategory": "short term",
+     "callType": "Option Express"
+    },
+    "category": "General Announcements",
+    "subCategory": "General",
+    "pdfLink": "https://www.bseindia.com/stockinfo/annpdfopen.aspx?pname=34e6b3c0-c177-485b-adb6-dc36b27d49ff.pdf",
+    "longDescription": "YES BANK disclosed that Axis Trustee Services, acting for bondholders of its Rs 8,415 crore Additional Tier-1 Bonds, has demanded reinstatement within 3 days following the Supreme Court's October 15, 2026 judgment upholding restoration of the bonds. The Trustee threatened contempt proceedings against the Bank and its directors for non-compliance. YES BANK responded affirming its commitment to act per the SC judgment while examining legal implications. The bonds were written off in March 2020 during the Bank's reconstruction, later challenged successfully before the Bombay High Court. This development carries significant capital adequacy and liability implications for YES BANK, with investors monitoring the Bank's compliance timeline and potential financial impact of restoring these perpetual instruments.",
+    "marketData": {
+     "marketCap": "MidCap",
+     "peRatio": 6333,
+     "diiHolding": 2310,
+     "fiiHolding": 4779
+    },
+    "deepLinkUrl": "https://moriseapp.onelink.me/VgB3/flashNewsDetails?flashnewsId=BSEYESBANK30102026212334D7B8CO66UO"
+   },
+   {
+    "id": "BSEYESBANK29102026114100UZHHNZ66Q3",
+    "timestamp": 1793254260,
+    "company": {
+     "id": {
+      "scripCode": 11915
+     },
+     "symbol": "YESBANK",
+     "isin": "INE528G01035",
+     "logo": "img/f0760a67bb57.png",
+     "companyName": "Yes Bank Ltd"
+    },
+    "title": "YES BANK: Kotak Midcap Conference 2026",
+    "shortDescription": "YES BANK to participate in Kotak Midcap Conference 2026 on Nov 26-27 in Mumbai for group and 1x1 investor meetings.",
+    "stockData": {
+     "onInsertionLtp": "1547"
+    },
+    "recommendation": {
+     "callId": 396,
+     "recoPrice": "2274",
+     "targetPrice": "3822",
+     "type": "BUY",
+     "callCategory": "Option",
+     "callSubCategory": "short term",
+     "callType": "Option Express"
+    },
+    "category": "General Announcements",
+    "subCategory": "Analyst / Investor Meet",
+    "pdfLink": "https://www.bseindia.com/stockinfo/annpdfopen.aspx?pname=6f05adf7-9cca-40a9-baf1-2bcd93173f6c.pdf",
+    "longDescription": "YES BANK announced its participation in the Kotak Midcap Conference 2026, scheduled for November 26-27, 2026, in Mumbai. The bank will engage in group and one-on-one meetings with analysts and institutional investors. The disclosure confirms no unpublished price-sensitive information will be shared during these interactions. This investor outreach reflects YES BANK's ongoing efforts to maintain transparency and strengthen market relationships. The schedule remains subject to change based on investor or bank requirements, with participant details to be submitted post-event as per regulatory norms.",
+    "marketData": {
+     "marketCap": "MidCap",
+     "peRatio": 6333,
+     "diiHolding": 2310,
+     "fiiHolding": 4779
+    },
+    "deepLinkUrl": "https://moriseapp.onelink.me/VgB3/flashNewsDetails?flashnewsId=BSEYESBANK29102026114100UZHHNZ66Q3"
+   },
+   {
+    "id": "BSEYESBANK29102026113719JZ2O5HFT1F",
+    "timestamp": 1793254039,
+    "company": {
+     "id": {
+      "scripCode": 11915
+     },
+     "symbol": "YESBANK",
+     "isin": "INE528G01035",
+     "logo": "img/f0760a67bb57.png",
+     "companyName": "Yes Bank Ltd"
+    },
+    "title": "YES BANK: Investor Meet at JM India Xchange",
+    "shortDescription": "YES BANK to engage analysts & institutional investors at JM Financial's India Xchange 2026 in Mumbai, Nov 16-18.",
+    "stockData": {
+     "onInsertionLtp": "1547"
+    },
+    "recommendation": {
+     "callId": 396,
+     "recoPrice": "2274",
+     "targetPrice": "3822",
+     "type": "BUY",
+     "callCategory": "Option",
+     "callSubCategory": "short term",
+     "callType": "Option Express"
+    },
+    "category": "General Announcements",
+    "subCategory": "Analyst / Investor Meet",
+    "pdfLink": "https://www.bseindia.com/stockinfo/annpdfopen.aspx?pname=b8ab059d-3cd9-4560-8480-36733facc9dc.pdf",
+    "longDescription": "YES BANK announced participation in JM Financial's flagship India Xchange 2026 conference, scheduled for November 16-18, 2026 in Mumbai. The bank will conduct group and one-on-one physical meetings with analysts and institutional investors. No unpublished price-sensitive information will be disclosed. The event marks a key investor engagement initiative for YES BANK as it continues rebuilding market confidence and strengthening institutional relationships.",
+    "marketData": {
+     "marketCap": "MidCap",
+     "peRatio": 6333,
+     "diiHolding": 2310,
+     "fiiHolding": 4779
+    },
+    "deepLinkUrl": "https://moriseapp.onelink.me/VgB3/flashNewsDetails?flashnewsId=BSEYESBANK29102026113719JZ2O5HFT1F"
+   },
+   {
+    "id": "BSEYESBANK29102026113300OAPCYSB4WE",
+    "timestamp": 1793253780,
+    "company": {
+     "id": {
+      "scripCode": 11915
+     },
+     "symbol": "YESBANK",
+     "isin": "INE528G01035",
+     "logo": "img/f0760a67bb57.png",
+     "companyName": "Yes Bank Ltd"
+    },
+    "title": "YES BANK: Avendus Spark INDX 2026 Meet",
+    "shortDescription": "YES BANK to participate in Avendus Spark INDX 2026 investor conference in Mumbai, Nov 16-18, 2026. Group and 1x1 meetings scheduled. No UPSI to be shared.",
+    "stockData": {
+     "onInsertionLtp": "1547"
+    },
+    "recommendation": {
+     "callId": 396,
+     "recoPrice": "2274",
+     "targetPrice": "3822",
+     "type": "BUY",
+     "callCategory": "Option",
+     "callSubCategory": "short term",
+     "callType": "Option Express"
+    },
+    "category": "General Announcements",
+    "subCategory": "Analyst / Investor Meet",
+    "pdfLink": "https://www.bseindia.com/stockinfo/annpdfopen.aspx?pname=f50c37ee-8dea-45e7-a3a9-bf0ef9f67644.pdf",
+    "longDescription": "YES BANK announced its participation in Avendus Spark INDX 2026, a premier institutional investor conference, scheduled for November 16-18, 2026 in Mumbai. The private sector lender will engage with analysts and institutional investors through group presentations and one-on-one meetings. The bank clarified that no Unpublished Price Sensitive Information will be disclosed during these interactions. The schedule remains subject to change based on investor or bank exigencies. Participant details will be submitted post-event as per regulatory requirements. This disclosure aligns with SEBI LODR Regulation 30, reinforcing YES BANK's commitment to transparent investor communications. The announcement was digitally signed by Company Secretary Sanjay Abhyankar.",
+    "marketData": {
+     "marketCap": "MidCap",
+     "peRatio": 6333,
+     "diiHolding": 2310,
+     "fiiHolding": 4779
+    },
+    "deepLinkUrl": "https://moriseapp.onelink.me/VgB3/flashNewsDetails?flashnewsId=BSEYESBANK29102026113300OAPCYSB4WE"
+   }
+  ],
+  "totalNews": 4
+ }
+}

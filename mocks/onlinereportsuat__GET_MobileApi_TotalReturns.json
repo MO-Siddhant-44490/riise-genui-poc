@@ -1,0 +1,17 @@
+{
+ "endpoint": "/StratX_API/api/MobileApi/TotalReturns",
+ "method": "GET",
+ "host": "onlinereportsuat.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "TotalReturns",
+ "source_flow": "debug_dump",
+ "response": {
+  "status": 500,
+  "errors": [
+   {
+    "message": "Invalid API response.",
+    "code": "EXCEPTION"
+   }
+  ]
+ }
+}

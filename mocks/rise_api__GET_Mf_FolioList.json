@@ -1,0 +1,15 @@
+{
+ "endpoint": "/master/v2/api/Mf/FolioList",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "FolioModel",
+ "source_flow": "debug_dump",
+ "response": {
+  "error": {
+   "errorCode": "200",
+   "errorMessage": "42883: function superapp.get_folio_list_by_isin_v2(text, integer) does not exist\n\nPOSITION: 15",
+   "localisedMessage": "42883: function superapp.get_folio_list_by_isin_v2(text, integer) does not exist\n\nPOSITION: 15"
+  }
+ }
+}

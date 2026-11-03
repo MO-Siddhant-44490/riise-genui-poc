@@ -1,0 +1,40 @@
+{
+ "endpoint": "/wms/api/Holding/FindHoldingData",
+ "method": "POST",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "CurrentValueModel",
+ "source_flow": "debug_dump",
+ "response": {
+  "status": true,
+  "data": {
+   "foliotype": "",
+   "entryfrom": "",
+   "noofshares": 1584.111,
+   "st": 0.0,
+   "lt": 15.408,
+   "stgl": 0.0,
+   "ltgl": 828.2184,
+   "accountcode": "",
+   "pl": 0.0,
+   "portfoliostartdate": "2019-05-27T00:00:00",
+   "clientucid": "4965701",
+   "assettypeid": 0,
+   "assettypename": "Clientwise",
+   "valuationdate": "2025-07-27T00:00:00",
+   "typeea": "C",
+   "originalcost": 184000.59,
+   "marketvalue": 69339.0,
+   "unrealisedgainloss": -114661.62,
+   "unrealisedgainlossper": -62.31,
+   "prevdaymktvalue": 69408.5032,
+   "daychangevalue": -69.4864,
+   "daychangeper": -0.1,
+   "dividendamount": 0.0,
+   "xirr": -3.82,
+   "absreturn": -62.31
+  },
+  "message": "success",
+  "statusCode": "200"
+ }
+}

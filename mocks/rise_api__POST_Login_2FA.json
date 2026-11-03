@@ -1,0 +1,12 @@
+{
+ "endpoint": "/userlogin/api/Login/2FA",
+ "method": "POST",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "TwoFactorAuthResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "status": "OK",
+  "message": "2FA Validation successfully completed"
+ }
+}

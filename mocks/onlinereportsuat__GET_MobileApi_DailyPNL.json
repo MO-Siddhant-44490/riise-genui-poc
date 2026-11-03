@@ -1,0 +1,27 @@
+{
+ "endpoint": "/StratX_API/api/MobileApi/DailyPNL",
+ "method": "GET",
+ "host": "onlinereportsuat.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "DailyPnlResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "status": 2,
+  "errors": [
+   {
+    "code": "failed to validate Bearer",
+    "message": "failed to validate Bearer"
+   },
+   {
+    "code": "invalid jwt token",
+    "message": "invalid jwt token"
+   },
+   {
+    "code": "invalid access token",
+    "message": "invalid access token"
+   }
+  ],
+  "startDate": "2026-01-01",
+  "endDate": "2026-12-31"
+ }
+}

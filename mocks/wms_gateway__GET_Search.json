@@ -1,0 +1,4643 @@
+{
+ "endpoint": "/dev/wms/v2/api/Search",
+ "method": "GET",
+ "host": "e74xime5x0.execute-api.ap-south-1.amazonaws.com",
+ "http_status": 200,
+ "decoded_as": "SearchResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "stock": [
+   {
+    "id": {
+     "scripCode": 1333
+    },
+    "tradeSymbol": "HDFCBANK",
+    "description": "HDFC Bank Ltd",
+    "tag": "Equity",
+    "optionType": "EQ",
+    "logoUrl": "img/80edb0d5ef78.png",
+    "hasDerivatives": true,
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 500180,
+     "exchange": "BSE"
+    },
+    "tradeSymbol": "HDFCBANK",
+    "description": "HDFC Bank Ltd",
+    "tag": "Equity",
+    "optionType": "A",
+    "logoUrl": "img/80edb0d5ef78.png",
+    "hasDerivatives": true,
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 10876
+    },
+    "tradeSymbol": "HDFCSILVER",
+    "description": "HDFC Silver ETF",
+    "tag": "Equity,ETF",
+    "optionType": "EQ",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 543592,
+     "exchange": "BSE"
+    },
+    "tradeSymbol": "HDFCSILVER",
+    "description": "HDFC Mutual Fund-HDFCSILVER",
+    "tag": "Equity,ETF",
+    "optionType": "E",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 766726
+    },
+    "tradeSymbol": "HDFIRE",
+    "description": "HD FIRE PROTECT LIMITED-HDFIRE EQ",
+    "tag": "Equity",
+    "optionType": "EQ",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 19543
+    },
+    "tradeSymbol": "HDFCGOLD",
+    "description": "HDFC Gold ETF",
+    "tag": "Equity,ETF",
+    "optionType": "EQ",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 533230,
+     "exchange": "BSE"
+    },
+    "tradeSymbol": "HDFCGOLD",
+    "description": "HDFC MUTUAL FUND - HDFC GOLD E-HDFCGOLD",
+    "tag": "Equity,ETF",
+    "optionType": "E",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 467
+    },
+    "tradeSymbol": "HDFCLIFE",
+    "description": "HDFC Life Insurance Company Ltd",
+    "tag": "Equity",
+    "optionType": "EQ",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/HDFCLifeInsuranceCompanyLtd_86429089807_21997.png",
+    "hasDerivatives": true,
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 540777,
+     "exchange": "BSE"
+    },
+    "tradeSymbol": "HDFCLIFE",
+    "description": "HDFC Life Insurance Company Ltd",
+    "tag": "Equity",
+    "optionType": "A",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/HDFCLifeInsuranceCompanyLtd_86429089807_21997.png",
+    "hasDerivatives": true,
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 4244
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "HDFC Asset Management Company Ltd",
+    "tag": "Equity",
+    "optionType": "EQ",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/HDFCAssetManagementCompanyLtd_12019358568_21272.png",
+    "hasDerivatives": true,
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 541729,
+     "exchange": "BSE"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "HDFC Asset Management Company Ltd",
+    "tag": "Equity",
+    "optionType": "A",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/HDFCAssetManagementCompanyLtd_12019358568_21272.png",
+    "hasDerivatives": true,
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 14233
+    },
+    "tradeSymbol": "HDFCSML250",
+    "description": "HDFC Nifty Small Cap 250 ETF",
+    "tag": "Equity,ETF",
+    "optionType": "EQ",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 543775,
+     "exchange": "BSE"
+    },
+    "tradeSymbol": "HDFCSML250",
+    "description": "HDFC Mutual Fund-HDFCSML250",
+    "tag": "Equity,ETF",
+    "optionType": "B",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 757772
+    },
+    "tradeSymbol": "HDBFS",
+    "description": "HDB FINANCIAL SERVICES L-HDBFS EQ",
+    "tag": "Equity",
+    "optionType": "EQ",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 544429,
+     "exchange": "BSE"
+    },
+    "tradeSymbol": "HDBFS",
+    "description": "HDB FINANCIAL SERVICES LIMITED-HDBFS",
+    "tag": "Equity",
+    "optionType": "B",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 1797
+    },
+    "tradeSymbol": "AWHCL",
+    "description": "Antony Waste Handling Cell Ltd",
+    "tag": "Equity",
+    "optionType": "EQ",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/AntonyWasteHandlingCellLtd._34098054_45888.png",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 11591
+    },
+    "tradeSymbol": "HDFCNIFTY",
+    "description": "HDFC Nifty 50 ETF",
+    "tag": "Equity,ETF",
+    "optionType": "EQ",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 539516,
+     "exchange": "BSE"
+    },
+    "tradeSymbol": "HDFCNIFTY",
+    "description": "HDFC Mutual Fund-HDFCNIFTY",
+    "tag": "Equity,ETF",
+    "optionType": "B",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 18279
+    },
+    "tradeSymbol": "HDFCLIQUID",
+    "description": "HDFC Nifty 1D Rate Liquid ETF",
+    "tag": "Equity,ETF",
+    "optionType": "EQ",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 543973,
+     "exchange": "BSE"
+    },
+    "tradeSymbol": "HDFCLIQUID",
+    "description": "HDFC Mutual Fund-HDFCLIQUID",
+    "tag": "Equity,ETF",
+    "optionType": "F",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 14236
+    },
+    "tradeSymbol": "HDFCMID150",
+    "description": "HDFC Nifty Midcap 150 ETF",
+    "tag": "Equity,ETF",
+    "optionType": "EQ",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 543776,
+     "exchange": "BSE"
+    },
+    "tradeSymbol": "HDFCMID150",
+    "description": "HDFC Mutual Fund-HDFCMID150",
+    "tag": "Equity,ETF",
+    "optionType": "B",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 22433
+    },
+    "tradeSymbol": "HDFCNIFBAN",
+    "description": "HDFC Nifty Banking ETF",
+    "tag": "Equity,ETF",
+    "optionType": "EQ",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 543224,
+     "exchange": "BSE"
+    },
+    "tradeSymbol": "HDFCNIFBAN",
+    "description": "HDFC Mutual Fund-HDFCNIFBAN",
+    "tag": "Equity,ETF",
+    "optionType": "B",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 11593
+    },
+    "tradeSymbol": "HDFCSENSEX",
+    "description": "HDFC S&P BSE Sensex ETF",
+    "tag": "Equity,ETF",
+    "optionType": "EQ",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 539517,
+     "exchange": "BSE"
+    },
+    "tradeSymbol": "HDFCSENSEX",
+    "description": "HDFC Mutual Fund-HDFCSENSEX",
+    "tag": "Equity,ETF",
+    "optionType": "A",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 11241
+    },
+    "tradeSymbol": "HDFCGROWTH",
+    "description": "HDFC Nifty Growth Sectors 15 ETF",
+    "tag": "Equity,ETF",
+    "optionType": "EQ",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 543607,
+     "exchange": "BSE"
+    },
+    "tradeSymbol": "HDFCGROWTH",
+    "description": "HDFC Mutual Fund-HDFCGROWTH",
+    "tag": "Equity,ETF",
+    "optionType": "B",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 11538
+    },
+    "tradeSymbol": "HDFCMOMENT",
+    "description": "HDFC Nifty 200 Momentum 30 ETF",
+    "tag": "Equity,ETF",
+    "optionType": "EQ",
+    "lotSize": 1
+   },
+   {
+    "id": {
+     "scripCode": 61581,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov",
+    "tag": "Futures",
+    "optionType": "XX",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 215818978,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov 29 Dec",
+    "tag": "Spread",
+    "optionType": "SP",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 61582,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCBANK",
+    "description": "23 Nov",
+    "tag": "Futures",
+    "optionType": "XX",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1795392000",
+    "lotSize": 650
+   },
+   {
+    "id": {
+     "scripCode": 215828979,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCBANK",
+    "description": "23 Nov 29 Dec",
+    "tag": "Spread",
+    "optionType": "SP",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1795392000",
+    "lotSize": 650
+   },
+   {
+    "id": {
+     "scripCode": 61583,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCLIFE",
+    "description": "23 Nov",
+    "tag": "Futures",
+    "optionType": "XX",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1795392000",
+    "lotSize": 1100
+   },
+   {
+    "id": {
+     "scripCode": 215838980,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCLIFE",
+    "description": "23 Nov 29 Dec",
+    "tag": "Spread",
+    "optionType": "SP",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1795392000",
+    "lotSize": 1100
+   },
+   {
+    "id": {
+     "scripCode": 1111484,
+     "exchange": "BSE_FO"
+    },
+    "tradeSymbol": "HDLF",
+    "description": "26 Nov",
+    "tag": "Futures",
+    "optionType": "XX",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1795651200",
+    "lotSize": 1100
+   },
+   {
+    "id": {
+     "scripCode": 1101692,
+     "exchange": "BSE_FO"
+    },
+    "tradeSymbol": "HDBK",
+    "description": "26 Nov",
+    "tag": "Futures",
+    "optionType": "XX",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1795651200",
+    "lotSize": 650
+   },
+   {
+    "id": {
+     "scripCode": 58978,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "29 Dec",
+    "tag": "Futures",
+    "optionType": "XX",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1798502400",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 58979,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCBANK",
+    "description": "29 Dec",
+    "tag": "Futures",
+    "optionType": "XX",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1798502400",
+    "lotSize": 650
+   },
+   {
+    "id": {
+     "scripCode": 289784954,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "29 Dec 25 Jan",
+    "tag": "Spread",
+    "optionType": "SP",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1798502400",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 58980,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCLIFE",
+    "description": "29 Dec",
+    "tag": "Futures",
+    "optionType": "XX",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1798502400",
+    "lotSize": 1100
+   },
+   {
+    "id": {
+     "scripCode": 289804959,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCLIFE",
+    "description": "29 Dec 25 Jan",
+    "tag": "Spread",
+    "optionType": "SP",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1798502400",
+    "lotSize": 1100
+   },
+   {
+    "id": {
+     "scripCode": 1146666,
+     "exchange": "BSE_FO"
+    },
+    "tradeSymbol": "HDBK",
+    "description": "31 Dec",
+    "tag": "Futures",
+    "optionType": "XX",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1798675200",
+    "lotSize": 650
+   },
+   {
+    "id": {
+     "scripCode": 1138039,
+     "exchange": "BSE_FO"
+    },
+    "tradeSymbol": "HDLF",
+    "description": "31 Dec",
+    "tag": "Futures",
+    "optionType": "XX",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1798675200",
+    "lotSize": 1100
+   },
+   {
+    "id": {
+     "scripCode": 54954,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "25 Jan 2027",
+    "tag": "Futures",
+    "optionType": "XX",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1800835200",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 54958,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCBANK",
+    "description": "25 Jan 2027",
+    "tag": "Futures",
+    "optionType": "XX",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1800835200",
+    "lotSize": 750
+   },
+   {
+    "id": {
+     "scripCode": 54959,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCLIFE",
+    "description": "25 Jan 2027",
+    "tag": "Futures",
+    "optionType": "XX",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1800835200",
+    "lotSize": 1100
+   },
+   {
+    "id": {
+     "scripCode": 61731,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "TORNTPHARM",
+    "description": "23 Nov",
+    "tag": "Futures",
+    "optionType": "XX",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1795392000",
+    "lotSize": 125
+   },
+   {
+    "id": {
+     "scripCode": 217319137,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "TORNTPHARM",
+    "description": "23 Nov 29 Dec",
+    "tag": "Spread",
+    "optionType": "SP",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1795392000",
+    "lotSize": 125
+   },
+   {
+    "id": {
+     "scripCode": 215708965,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "GLENMARK",
+    "description": "23 Nov 29 Dec",
+    "tag": "Spread",
+    "optionType": "SP",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1795392000",
+    "lotSize": 375
+   },
+   {
+    "id": {
+     "scripCode": 61570,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "GLENMARK",
+    "description": "23 Nov",
+    "tag": "Futures",
+    "optionType": "XX",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1795392000",
+    "lotSize": 375
+   },
+   {
+    "id": {
+     "scripCode": 61644,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "MARUTI",
+    "description": "23 Nov",
+    "tag": "Futures",
+    "optionType": "XX",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1795392000",
+    "lotSize": 50
+   },
+   {
+    "id": {
+     "scripCode": 216449036,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "MARUTI",
+    "description": "23 Nov 29 Dec",
+    "tag": "Spread",
+    "optionType": "SP",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "expiryDate": "1795392000",
+    "lotSize": 50
+   },
+   {
+    "id": {
+     "scripCode": 116169,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov CE 2340",
+    "tag": "Options",
+    "optionType": "CE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "234000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116171,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov CE 2360",
+    "tag": "Options",
+    "optionType": "CE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "236000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116176,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov CE 2380",
+    "tag": "Options",
+    "optionType": "CE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "238000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116192,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov CE 2560",
+    "tag": "Options",
+    "optionType": "CE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "256000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116204,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov CE 2720",
+    "tag": "Options",
+    "optionType": "CE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "272000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 95795,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "29 Dec CE 2380",
+    "tag": "Options",
+    "optionType": "CE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "238000",
+    "expiryDate": "1798502400",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116278,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov CE 2920",
+    "tag": "Options",
+    "optionType": "CE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "292000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 97115,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov CE 1400",
+    "tag": "Options",
+    "optionType": "CE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "140000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116283,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov CE 2960",
+    "tag": "Options",
+    "optionType": "CE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "296000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 97159,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov CE 1800",
+    "tag": "Options",
+    "optionType": "CE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "180000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 35818,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov CE 3360",
+    "tag": "Options",
+    "optionType": "CE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "336000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116007,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov CE 1520",
+    "tag": "Options",
+    "optionType": "CE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "152000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116120,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov CE 1960",
+    "tag": "Options",
+    "optionType": "CE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "196000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116202,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov CE 2680",
+    "tag": "Options",
+    "optionType": "CE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "268000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116181,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov CE 2440",
+    "tag": "Options",
+    "optionType": "CE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "244000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 97186,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov PE 2400",
+    "tag": "Options",
+    "optionType": "PE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "240000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116124,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov PE 1960",
+    "tag": "Options",
+    "optionType": "PE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "196000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116132,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov PE 2020",
+    "tag": "Options",
+    "optionType": "PE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "202000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116172,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov PE 2360",
+    "tag": "Options",
+    "optionType": "PE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "236000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116158,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov PE 2240",
+    "tag": "Options",
+    "optionType": "PE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "224000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116687,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "29 Dec PE 2360",
+    "tag": "Options",
+    "optionType": "PE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "236000",
+    "expiryDate": "1798502400",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 35819,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov PE 3360",
+    "tag": "Options",
+    "optionType": "PE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "336000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116028,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov PE 1560",
+    "tag": "Options",
+    "optionType": "PE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "156000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 97202,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov PE 2900",
+    "tag": "Options",
+    "optionType": "PE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "290000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 37484,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov PE 3400",
+    "tag": "Options",
+    "optionType": "PE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "340000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116138,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov PE 2080",
+    "tag": "Options",
+    "optionType": "PE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "208000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116199,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov PE 2640",
+    "tag": "Options",
+    "optionType": "PE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "264000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116170,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov PE 2340",
+    "tag": "Options",
+    "optionType": "PE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "234000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116109,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov PE 1860",
+    "tag": "Options",
+    "optionType": "PE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "186000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   },
+   {
+    "id": {
+     "scripCode": 116193,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "HDFCAMC",
+    "description": "23 Nov PE 2560",
+    "tag": "Options",
+    "optionType": "PE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "256000",
+    "expiryDate": "1795392000",
+    "lotSize": 300
+   }
+  ],
+  "mf": [
+   {
+    "isin": "INF179KC1DV5",
+    "name": "HDFC Silver ETF FoF Regular-Growth",
+    "category": "Commodities",
+    "subCategory": " Silver",
+    "return3Year": 4338,
+    "currentNav": "390791",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 4338,
+    "minSip": "100"
+   },
+   {
+    "isin": "INF179KC1GL9",
+    "name": "HDFC Defence Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Thematic",
+    "currentNav": "270160",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "TWO_YEAR",
+    "returnValue": 2010,
+    "minSip": "100"
+   },
+   {
+    "isin": "INF179K01LC5",
+    "name": "HDFC Gold ETF Fund of Fund Regular-Growth",
+    "category": "Commodities",
+    "subCategory": " Gold",
+    "return3Year": 3201,
+    "currentNav": "438992",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 3201,
+    "minSip": "100",
+    "rating": 3
+   },
+   {
+    "isin": "INF179KC1HL7",
+    "name": "HDFC Pharma And Healthcare Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Sectoral-Pharma",
+    "currentNav": "186540",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "TWO_YEAR",
+    "returnValue": 2164,
+    "minSip": "100"
+   },
+   {
+    "isin": "INF179KC1GX4",
+    "name": "HDFC Transportation and Logistics Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Sectoral-Auto & Transportation",
+    "currentNav": "171310",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "TWO_YEAR",
+    "returnValue": 982,
+    "minSip": "100"
+   },
+   {
+    "isin": "INF179KC1BR7",
+    "name": "HDFC NIFTY Next 50 Index Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Large Cap",
+    "return3Year": 2058,
+    "currentNav": "163546",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 2058,
+    "minSip": "100",
+    "rating": 3
+   },
+   {
+    "isin": "INF179K01608",
+    "name": "HDFC Flexi Cap Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Flexi Cap",
+    "return3Year": 1872,
+    "currentNav": "19440420",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 1872,
+    "minSip": "100",
+    "rating": 5
+   },
+   {
+    "isin": "INF179K01CR2",
+    "name": "HDFC Mid Cap Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Mid Cap",
+    "return3Year": 2317,
+    "currentNav": "1976430",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 2317,
+    "minSip": "100",
+    "rating": 5
+   },
+   {
+    "isin": "INF179K01426",
+    "name": "HDFC Value Fund-Growth",
+    "category": "Equity",
+    "subCategory": " Value Oriented",
+    "return3Year": 1842,
+    "currentNav": "7449180",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 1842,
+    "minSip": "100",
+    "rating": 3
+   },
+   {
+    "isin": "INF179K01574",
+    "name": "HDFC Focused Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Flexi Cap",
+    "return3Year": 1777,
+    "currentNav": "2219890",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 1777,
+    "minSip": "100",
+    "rating": 5
+   },
+   {
+    "isin": "INF179K01BB8",
+    "name": "HDFC ELSS Tax Saver Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " ELSS",
+    "return3Year": 1734,
+    "currentNav": "13342960",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 1734,
+    "minSip": "500",
+    "rating": 5
+   },
+   {
+    "isin": "INF179KC1BD7",
+    "name": "HDFC Multi-Asset Active FoF Regular-Growth",
+    "category": "Hybrid",
+    "subCategory": " Multi Asset Allocation",
+    "return3Year": 1434,
+    "currentNav": "189470",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 1434,
+    "minSip": "100",
+    "rating": 4
+   },
+   {
+    "isin": "INF179K01GF8",
+    "name": "HDFC Infrastructure Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Thematic-Infrastructure",
+    "return3Year": 2429,
+    "currentNav": "474190",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 2429,
+    "minSip": "100",
+    "rating": 4
+   },
+   {
+    "isin": "INF179K01AP0",
+    "name": "HDFC Multi-Asset Allocation Fund Regular-Growth",
+    "category": "Hybrid",
+    "subCategory": " Multi Asset Allocation",
+    "return3Year": 1298,
+    "currentNav": "738960",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 1298,
+    "minSip": "100",
+    "rating": 3
+   },
+   {
+    "isin": "INF179K01830",
+    "name": "HDFC Balanced Advantage Fund Regular-Growth",
+    "category": "Hybrid",
+    "subCategory": " Dynamic Asset Allocation",
+    "return3Year": 1536,
+    "currentNav": "5153040",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 1536,
+    "minSip": "100",
+    "rating": 5
+   },
+   {
+    "isin": "INF179KC1EB5",
+    "name": "HDFC Business Cycle Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Thematic-Business Cycle",
+    "return3Year": 1217,
+    "currentNav": "141380",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 1217,
+    "minSip": "100"
+   },
+   {
+    "isin": "INF179KC1AR9",
+    "name": "HDFC Dividend Yield Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Thematic-Dividend Yield",
+    "return3Year": 1561,
+    "currentNav": "243200",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 1561,
+    "minSip": "100"
+   },
+   {
+    "isin": "INF179KC1BV9",
+    "name": "HDFC Multi Cap Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Multi Cap",
+    "return3Year": 1711,
+    "currentNav": "182630",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 1711,
+    "minSip": "100",
+    "rating": 3
+   },
+   {
+    "isin": "INF179KC1GH7",
+    "name": "HDFC BSE 500 Index Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Flexi Cap",
+    "return3Year": 1366,
+    "currentNav": "151033",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 1366,
+    "minSip": "100",
+    "rating": 2
+   },
+   {
+    "isin": "INF179KC1BZ0",
+    "name": "HDFC NIFTY 100 Index Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Large Cap",
+    "return3Year": 1195,
+    "currentNav": "145372",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 1195,
+    "minSip": "100",
+    "rating": 3
+   },
+   {
+    "isin": "INF179KB1MG8",
+    "name": "HDFC Retirement Savings Fund - Equity Plan Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Flexi Cap",
+    "return3Year": 1354,
+    "currentNav": "480370",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 1354,
+    "minSip": "100",
+    "rating": 4
+   },
+   {
+    "isin": "INF179K01BE2",
+    "name": "HDFC Large Cap Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Large Cap",
+    "return3Year": 1257,
+    "currentNav": "10923820",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 1257,
+    "minSip": "100",
+    "rating": 5
+   },
+   {
+    "isin": "INF179KC1HF9",
+    "name": "HDFC Technology Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Sectoral-Technology",
+    "currentNav": "108020",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "TWO_YEAR",
+    "returnValue": -133,
+    "minSip": "100"
+   },
+   {
+    "isin": "INF179KA1RZ8",
+    "name": "HDFC Small Cap Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Small Cap",
+    "return3Year": 1633,
+    "currentNav": "1331630",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 1633,
+    "minSip": "100",
+    "rating": 4
+   },
+   {
+    "isin": "INF179KC1GR6",
+    "name": "HDFC Consumption Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Thematic-Consumption",
+    "currentNav": "132810",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "TWO_YEAR",
+    "returnValue": 281,
+    "minSip": "100"
+   },
+   {
+    "isin": "INF179KA1GC0",
+    "name": "HDFC Credit Risk Debt Fund Regular-Growth",
+    "category": "Debt",
+    "subCategory": " Credit Risk",
+    "return3Year": 729,
+    "currentNav": "253092",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 729,
+    "minSip": "100",
+    "rating": 3
+   },
+   {
+    "isin": "INF179K01AM7",
+    "name": "HDFC Equity Savings Fund Regular-Growth",
+    "category": "Hybrid",
+    "subCategory": " Equity Savings",
+    "return3Year": 904,
+    "currentNav": "666840",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 904,
+    "minSip": "100",
+    "rating": 3
+   },
+   {
+    "isin": "INF179K01KZ8",
+    "name": "HDFC NIFTY 50 Index Fund Regular-Growth",
+    "category": "Equity",
+    "subCategory": " Large Cap",
+    "return3Year": 1078,
+    "currentNav": "2282566",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 1078,
+    "minSip": "100",
+    "rating": 3
+   },
+   {
+    "isin": "INF179KC1FR8",
+    "name": "HDFC Nifty G-Sec Apr 2029 Index Fund Regular-Growth",
+    "category": "Debt",
+    "subCategory": " Target Maturity",
+    "return3Year": 720,
+    "currentNav": "127039",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 720,
+    "minSip": "100"
+   },
+   {
+    "isin": "INF179KC1IY8",
+    "name": "HDFC Children's Fund Regular Plan",
+    "category": "Hybrid",
+    "subCategory": " Aggressive Hybrid",
+    "return3Year": 1056,
+    "currentNav": "2810340",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 1056,
+    "minSip": "100",
+    "rating": 4
+   },
+   {
+    "isin": "INF179KC1EK6",
+    "name": "HDFC Nifty G-Sec Jun 2027 Index Regular-Growth",
+    "category": "Debt",
+    "subCategory": " Target Maturity",
+    "return3Year": 702,
+    "currentNav": "127043",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 702,
+    "minSip": "100"
+   },
+   {
+    "isin": "INF179KB1HR5",
+    "name": "HDFC Money Market Fund Regular-Growth",
+    "category": "Debt",
+    "subCategory": " Money Market",
+    "return3Year": 721,
+    "currentNav": "60171374",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 721,
+    "minSip": "100",
+    "rating": 4
+   },
+   {
+    "isin": "INF179K01707",
+    "name": "HDFC Floating Rate Debt Fund Regular-Growth",
+    "category": "Debt",
+    "subCategory": " Floater",
+    "return3Year": 755,
+    "currentNav": "524038",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 755,
+    "minSip": "100",
+    "rating": 4
+   },
+   {
+    "isin": "INF179KC1EG4",
+    "name": "HDFC Nifty G-sec Dec 2026 Index Regular-Growth",
+    "category": "Debt",
+    "subCategory": " Target Maturity",
+    "return3Year": 686,
+    "currentNav": "127391",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 686,
+    "minSip": "100"
+   },
+   {
+    "isin": "INF179KC1EI0",
+    "name": "HDFC Nifty G-Sec July 2031 Index Regular-Growth",
+    "category": "Debt",
+    "subCategory": " Target Maturity",
+    "return3Year": 716,
+    "currentNav": "129337",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 716,
+    "minSip": "100"
+   },
+   {
+    "isin": "INF179K01913",
+    "name": "HDFC Medium Term Debt Fund Regular-Growth",
+    "category": "Debt",
+    "subCategory": " Medium Duration",
+    "return3Year": 691,
+    "currentNav": "586931",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 691,
+    "minSip": "100",
+    "rating": 1
+   },
+   {
+    "isin": "INF179KC1FT4",
+    "name": "HDFC NIFTY G-Sec Jun 2036 Index Fund Regular-Growth",
+    "category": "Debt",
+    "subCategory": " Target Maturity",
+    "return3Year": 679,
+    "currentNav": "126828",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 679,
+    "minSip": "100"
+   },
+   {
+    "isin": "INF179KC1EM2",
+    "name": "HDFC Nifty G-Sec Sep 2032 Index Regular-Growth",
+    "category": "Debt",
+    "subCategory": " Target Maturity",
+    "return3Year": 692,
+    "currentNav": "127883",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 692,
+    "minSip": "100"
+   },
+   {
+    "isin": "INF179K01CU6",
+    "name": "HDFC Short Term Debt Fund-Growth",
+    "category": "Debt",
+    "subCategory": " Short Duration",
+    "return3Year": 717,
+    "currentNav": "333918",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 717,
+    "minSip": "100",
+    "rating": 5
+   },
+   {
+    "isin": "INF179KB1HK0",
+    "name": "HDFC Liquid Fund Regular-Growth",
+    "category": "Debt",
+    "subCategory": " Liquid",
+    "return3Year": 687,
+    "currentNav": "53881002",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 687,
+    "minSip": "100",
+    "rating": 3
+   }
+  ],
+  "usStock": [
+   {
+    "ticker": "HDB",
+    "isin": "US40415F1012",
+    "name": "HDFC Bank Ltd.",
+    "category": "LARGE CAP",
+    "sector": "Financial Services",
+    "logoUrl": "https://drivewealth.imgix.net/symbols/hdb_1658858964.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+    "stockPrice": "3281",
+    "changePer": 89
+   },
+   {
+    "ticker": "HD",
+    "isin": "US4370761029",
+    "name": "Home Depot, Inc., The",
+    "category": "MEGA CAP",
+    "sector": "Consumer Cyclical",
+    "logoUrl": "https://drivewealth.imgix.net/symbols/hd_1666586681.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+    "stockPrice": "38304",
+    "changePer": -205
+   },
+   {
+    "ticker": "HDGVX",
+    "isin": "US41664R2913",
+    "name": "Hartford Dividend and Growth R6",
+    "category": "MICRO CAP",
+    "stockPrice": "3691",
+    "changePer": 68
+   },
+   {
+    "ticker": "AGZD",
+    "isin": "US97717W3806",
+    "name": "WisdomTree Interest Rate Hdg US Aggr Bd",
+    "logoUrl": "https://drivewealth.imgix.net/symbols/agzd_1673650065.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+    "stockPrice": "2253",
+    "changePer": -4
+   },
+   {
+    "ticker": "HDUS",
+    "isin": "US5184168707",
+    "name": "Hartford Disciplined US Equity ETF",
+    "category": "MEGA CAP",
+    "logoUrl": "https://drivewealth.imgix.net/symbols/hdus_1694381637.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+    "stockPrice": "6569",
+    "changePer": 11
+   },
+   {
+    "ticker": "HDSIX",
+    "isin": "US<redacted>",
+    "name": "Hodges Small Cap Institutional",
+    "category": "MICRO CAP",
+    "stockPrice": "2502",
+    "changePer": 134
+   },
+   {
+    "ticker": "HDRVX",
+    "isin": "US47103X8231",
+    "name": "Janus Henderson Dividend & Inc Builder N",
+    "category": "MICRO CAP",
+    "logoUrl": "https://drivewealth.imgix.net/symbols/hdrvx_1721444973.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+    "stockPrice": "1977",
+    "changePer": 41
+   },
+   {
+    "ticker": "HDG",
+    "isin": "US74347X2945",
+    "name": "ProShares Hedge Replication ETF",
+    "category": "MID CAP",
+    "logoUrl": "https://drivewealth.imgix.net/symbols/hdg_1694384959.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+    "stockPrice": "5269",
+    "changePer": 2
+   },
+   {
+    "ticker": "HDV",
+    "isin": "US46429B6636",
+    "name": "Core High Dividend iShares",
+    "category": "LARGE CAP",
+    "logoUrl": "https://d3an3cesqmrf1x.cloudfront.net/images/symbols/hdv.png",
+    "stockPrice": "13762",
+    "changePer": -82
+   },
+   {
+    "ticker": "HDEF",
+    "isin": "US2330516301",
+    "name": "XTRACKERS MSCI EAFE HIGH DIV",
+    "category": "LARGE CAP",
+    "logoUrl": "https://drivewealth.imgix.net/symbols/HDEF.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+    "stockPrice": "3361",
+    "changePer": 33
+   },
+   {
+    "ticker": "HDGE",
+    "isin": "US00768Y4127",
+    "name": "AdvisorShares Ranger Equity Bear ETF",
+    "category": "MICRO CAP",
+    "logoUrl": "https://d3an3cesqmrf1x.cloudfront.net/images/symbols/hdge.png",
+    "stockPrice": "1691",
+    "changePer": -12
+   },
+   {
+    "ticker": "SCEP",
+    "name": "STRLING CPTL HDG EP INCM ETF",
+    "stockPrice": "2453",
+    "changePer": 62
+   },
+   {
+    "ticker": "HDVVX",
+    "isin": "US41665K4931",
+    "name": "Hartford International Equity R6",
+    "stockPrice": "1610",
+    "changePer": 6
+   },
+   {
+    "ticker": "LU0266009959",
+    "name": "AXA WF GLB INF BND \"A\" (USD HDG)",
+    "stockPrice": "19919",
+    "changePer": 21
+   },
+   {
+    "ticker": "HDLB",
+    "isin": "US90269A4849",
+    "name": "ETRACS 2X HI DIV L-VOL ETN-B",
+    "logoUrl": "https://drivewealth.imgix.net/symbols/hdlb_1666598962.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+    "stockPrice": "1843",
+    "changePer": -36
+   },
+   {
+    "ticker": "HDL",
+    "isin": "US86803S1069",
+    "name": "SUPER HI INTERNATIONAL HOLDING",
+    "category": "SMALL CAP",
+    "sector": "Consumer Cyclical",
+    "logoUrl": "https://drivewealth.imgix.net/symbols/hdl_1715788198.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+    "stockPrice": "1750"
+   },
+   {
+    "ticker": "JABS",
+    "name": "JANUS HDRSN ASS BKD SEC ETF",
+    "stockPrice": "5035",
+    "changePer": -21
+   },
+   {
+    "ticker": "HOLA",
+    "name": "JPM INTLL HDG EQ LDDR OVRLY",
+    "stockPrice": "5478",
+    "changePer": 16
+   },
+   {
+    "ticker": "HDSN",
+    "isin": "US4441441098",
+    "name": "Hudson Technologies Inc",
+    "category": "SMALL CAP",
+    "sector": "Basic Materials",
+    "logoUrl": "https://drivewealth.imgix.net/symbols/hdsn.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+    "stockPrice": "724",
+    "changePer": -216
+   },
+   {
+    "ticker": "HDMV",
+    "isin": "US33739P8712",
+    "name": "First Trust Horizon Managed Vol Dev Intl ETF",
+    "category": "LARGE CAP",
+    "logoUrl": "https://drivewealth.imgix.net/symbols/hdmv_1694381636.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+    "stockPrice": "3872",
+    "changePer": 1
+   }
+  ]
+ },
+ "variants": {
+  "query=HD": {
+   "stock": [
+    {
+     "id": {
+      "scripCode": 1333
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "HDFC Bank Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/80edb0d5ef78.png",
+     "hasDerivatives": true,
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 500180,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "HDFC Bank Ltd",
+     "tag": "Equity",
+     "optionType": "A",
+     "logoUrl": "img/80edb0d5ef78.png",
+     "hasDerivatives": true,
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 10876
+     },
+     "tradeSymbol": "HDFCSILVER",
+     "description": "HDFC Silver ETF",
+     "tag": "Equity,ETF",
+     "optionType": "EQ",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 543592,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "HDFCSILVER",
+     "description": "HDFC Mutual Fund-HDFCSILVER",
+     "tag": "Equity,ETF",
+     "optionType": "E",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 766726
+     },
+     "tradeSymbol": "HDFIRE",
+     "description": "HD FIRE PROTECT LIMITED-HDFIRE EQ",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 19543
+     },
+     "tradeSymbol": "HDFCGOLD",
+     "description": "HDFC Gold ETF",
+     "tag": "Equity,ETF",
+     "optionType": "EQ",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 533230,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "HDFCGOLD",
+     "description": "HDFC MUTUAL FUND - HDFC GOLD E-HDFCGOLD",
+     "tag": "Equity,ETF",
+     "optionType": "E",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 467
+     },
+     "tradeSymbol": "HDFCLIFE",
+     "description": "HDFC Life Insurance Company Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/HDFCLifeInsuranceCompanyLtd_86429089807_21997.png",
+     "hasDerivatives": true,
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 540777,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "HDFCLIFE",
+     "description": "HDFC Life Insurance Company Ltd",
+     "tag": "Equity",
+     "optionType": "A",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/HDFCLifeInsuranceCompanyLtd_86429089807_21997.png",
+     "hasDerivatives": true,
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 4244
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "HDFC Asset Management Company Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/HDFCAssetManagementCompanyLtd_12019358568_21272.png",
+     "hasDerivatives": true,
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 541729,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "HDFC Asset Management Company Ltd",
+     "tag": "Equity",
+     "optionType": "A",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/HDFCAssetManagementCompanyLtd_12019358568_21272.png",
+     "hasDerivatives": true,
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 14233
+     },
+     "tradeSymbol": "HDFCSML250",
+     "description": "HDFC Nifty Small Cap 250 ETF",
+     "tag": "Equity,ETF",
+     "optionType": "EQ",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 543775,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "HDFCSML250",
+     "description": "HDFC Mutual Fund-HDFCSML250",
+     "tag": "Equity,ETF",
+     "optionType": "B",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 757772
+     },
+     "tradeSymbol": "HDBFS",
+     "description": "HDB FINANCIAL SERVICES L-HDBFS EQ",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 544429,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "HDBFS",
+     "description": "HDB FINANCIAL SERVICES LIMITED-HDBFS",
+     "tag": "Equity",
+     "optionType": "B",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 1797
+     },
+     "tradeSymbol": "AWHCL",
+     "description": "Antony Waste Handling Cell Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/AntonyWasteHandlingCellLtd._34098054_45888.png",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 11591
+     },
+     "tradeSymbol": "HDFCNIFTY",
+     "description": "HDFC Nifty 50 ETF",
+     "tag": "Equity,ETF",
+     "optionType": "EQ",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 539516,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "HDFCNIFTY",
+     "description": "HDFC Mutual Fund-HDFCNIFTY",
+     "tag": "Equity,ETF",
+     "optionType": "B",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 18279
+     },
+     "tradeSymbol": "HDFCLIQUID",
+     "description": "HDFC Nifty 1D Rate Liquid ETF",
+     "tag": "Equity,ETF",
+     "optionType": "EQ",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 543973,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "HDFCLIQUID",
+     "description": "HDFC Mutual Fund-HDFCLIQUID",
+     "tag": "Equity,ETF",
+     "optionType": "F",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 14236
+     },
+     "tradeSymbol": "HDFCMID150",
+     "description": "HDFC Nifty Midcap 150 ETF",
+     "tag": "Equity,ETF",
+     "optionType": "EQ",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 543776,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "HDFCMID150",
+     "description": "HDFC Mutual Fund-HDFCMID150",
+     "tag": "Equity,ETF",
+     "optionType": "B",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 22433
+     },
+     "tradeSymbol": "HDFCNIFBAN",
+     "description": "HDFC Nifty Banking ETF",
+     "tag": "Equity,ETF",
+     "optionType": "EQ",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 543224,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "HDFCNIFBAN",
+     "description": "HDFC Mutual Fund-HDFCNIFBAN",
+     "tag": "Equity,ETF",
+     "optionType": "B",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 11593
+     },
+     "tradeSymbol": "HDFCSENSEX",
+     "description": "HDFC S&P BSE Sensex ETF",
+     "tag": "Equity,ETF",
+     "optionType": "EQ",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 539517,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "HDFCSENSEX",
+     "description": "HDFC Mutual Fund-HDFCSENSEX",
+     "tag": "Equity,ETF",
+     "optionType": "A",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 11241
+     },
+     "tradeSymbol": "HDFCGROWTH",
+     "description": "HDFC Nifty Growth Sectors 15 ETF",
+     "tag": "Equity,ETF",
+     "optionType": "EQ",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 543607,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "HDFCGROWTH",
+     "description": "HDFC Mutual Fund-HDFCGROWTH",
+     "tag": "Equity,ETF",
+     "optionType": "B",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 11538
+     },
+     "tradeSymbol": "HDFCMOMENT",
+     "description": "HDFC Nifty 200 Momentum 30 ETF",
+     "tag": "Equity,ETF",
+     "optionType": "EQ",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 61581,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 215818978,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov 29 Dec",
+     "tag": "Spread",
+     "optionType": "SP",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 61582,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 215828979,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov 29 Dec",
+     "tag": "Spread",
+     "optionType": "SP",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 61583,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCLIFE",
+     "description": "23 Nov",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795392000",
+     "lotSize": 1100
+    },
+    {
+     "id": {
+      "scripCode": 215838980,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCLIFE",
+     "description": "23 Nov 29 Dec",
+     "tag": "Spread",
+     "optionType": "SP",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795392000",
+     "lotSize": 1100
+    },
+    {
+     "id": {
+      "scripCode": 1111484,
+      "exchange": "BSE_FO"
+     },
+     "tradeSymbol": "HDLF",
+     "description": "26 Nov",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795651200",
+     "lotSize": 1100
+    },
+    {
+     "id": {
+      "scripCode": 1101692,
+      "exchange": "BSE_FO"
+     },
+     "tradeSymbol": "HDBK",
+     "description": "26 Nov",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795651200",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 58978,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "29 Dec",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1798502400",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 58979,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "29 Dec",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1798502400",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 289784954,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "29 Dec 25 Jan",
+     "tag": "Spread",
+     "optionType": "SP",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1798502400",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 58980,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCLIFE",
+     "description": "29 Dec",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1798502400",
+     "lotSize": 1100
+    },
+    {
+     "id": {
+      "scripCode": 289804959,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCLIFE",
+     "description": "29 Dec 25 Jan",
+     "tag": "Spread",
+     "optionType": "SP",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1798502400",
+     "lotSize": 1100
+    },
+    {
+     "id": {
+      "scripCode": 1146666,
+      "exchange": "BSE_FO"
+     },
+     "tradeSymbol": "HDBK",
+     "description": "31 Dec",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1798675200",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 1138039,
+      "exchange": "BSE_FO"
+     },
+     "tradeSymbol": "HDLF",
+     "description": "31 Dec",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1798675200",
+     "lotSize": 1100
+    },
+    {
+     "id": {
+      "scripCode": 54954,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "25 Jan 2027",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1800835200",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 54958,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "25 Jan 2027",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1800835200",
+     "lotSize": 750
+    },
+    {
+     "id": {
+      "scripCode": 54959,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCLIFE",
+     "description": "25 Jan 2027",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1800835200",
+     "lotSize": 1100
+    },
+    {
+     "id": {
+      "scripCode": 61731,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "TORNTPHARM",
+     "description": "23 Nov",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795392000",
+     "lotSize": 125
+    },
+    {
+     "id": {
+      "scripCode": 217319137,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "TORNTPHARM",
+     "description": "23 Nov 29 Dec",
+     "tag": "Spread",
+     "optionType": "SP",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795392000",
+     "lotSize": 125
+    },
+    {
+     "id": {
+      "scripCode": 215708965,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "GLENMARK",
+     "description": "23 Nov 29 Dec",
+     "tag": "Spread",
+     "optionType": "SP",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795392000",
+     "lotSize": 375
+    },
+    {
+     "id": {
+      "scripCode": 61570,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "GLENMARK",
+     "description": "23 Nov",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795392000",
+     "lotSize": 375
+    },
+    {
+     "id": {
+      "scripCode": 61644,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "MARUTI",
+     "description": "23 Nov",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795392000",
+     "lotSize": 50
+    },
+    {
+     "id": {
+      "scripCode": 216449036,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "MARUTI",
+     "description": "23 Nov 29 Dec",
+     "tag": "Spread",
+     "optionType": "SP",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795392000",
+     "lotSize": 50
+    },
+    {
+     "id": {
+      "scripCode": 116169,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov CE 2340",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "234000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116171,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov CE 2360",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "236000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116176,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov CE 2380",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "238000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116192,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov CE 2560",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "256000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116204,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov CE 2720",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "272000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 95795,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "29 Dec CE 2380",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "238000",
+     "expiryDate": "1798502400",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116278,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov CE 2920",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "292000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 97115,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov CE 1400",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "140000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116283,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov CE 2960",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "296000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 97159,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov CE 1800",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "180000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 35818,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov CE 3360",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "336000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116007,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov CE 1520",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "152000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116120,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov CE 1960",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "196000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116202,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov CE 2680",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "268000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116181,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov CE 2440",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "244000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 97186,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov PE 2400",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "240000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116124,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov PE 1960",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "196000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116132,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov PE 2020",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "202000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116172,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov PE 2360",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "236000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116158,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov PE 2240",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "224000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116687,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "29 Dec PE 2360",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "236000",
+     "expiryDate": "1798502400",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 35819,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov PE 3360",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "336000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116028,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov PE 1560",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "156000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 97202,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov PE 2900",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "290000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 37484,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov PE 3400",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "340000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116138,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov PE 2080",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "208000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116199,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov PE 2640",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "264000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116170,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov PE 2340",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "234000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116109,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov PE 1860",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "186000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    },
+    {
+     "id": {
+      "scripCode": 116193,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCAMC",
+     "description": "23 Nov PE 2560",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "256000",
+     "expiryDate": "1795392000",
+     "lotSize": 300
+    }
+   ],
+   "mf": [
+    {
+     "isin": "INF179KC1DV5",
+     "name": "HDFC Silver ETF FoF Regular-Growth",
+     "category": "Commodities",
+     "subCategory": " Silver",
+     "return3Year": 4338,
+     "currentNav": "390791",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 4338,
+     "minSip": "100"
+    },
+    {
+     "isin": "INF179KC1GL9",
+     "name": "HDFC Defence Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Thematic",
+     "currentNav": "270160",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "TWO_YEAR",
+     "returnValue": 2010,
+     "minSip": "100"
+    },
+    {
+     "isin": "INF179K01LC5",
+     "name": "HDFC Gold ETF Fund of Fund Regular-Growth",
+     "category": "Commodities",
+     "subCategory": " Gold",
+     "return3Year": 3201,
+     "currentNav": "438992",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 3201,
+     "minSip": "100",
+     "rating": 3
+    },
+    {
+     "isin": "INF179KC1HL7",
+     "name": "HDFC Pharma And Healthcare Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Sectoral-Pharma",
+     "currentNav": "186540",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "TWO_YEAR",
+     "returnValue": 2164,
+     "minSip": "100"
+    },
+    {
+     "isin": "INF179KC1GX4",
+     "name": "HDFC Transportation and Logistics Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Sectoral-Auto & Transportation",
+     "currentNav": "171310",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "TWO_YEAR",
+     "returnValue": 982,
+     "minSip": "100"
+    },
+    {
+     "isin": "INF179KC1BR7",
+     "name": "HDFC NIFTY Next 50 Index Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Large Cap",
+     "return3Year": 2058,
+     "currentNav": "163546",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 2058,
+     "minSip": "100",
+     "rating": 3
+    },
+    {
+     "isin": "INF179K01608",
+     "name": "HDFC Flexi Cap Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Flexi Cap",
+     "return3Year": 1872,
+     "currentNav": "19440420",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1872,
+     "minSip": "100",
+     "rating": 5
+    },
+    {
+     "isin": "INF179K01CR2",
+     "name": "HDFC Mid Cap Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Mid Cap",
+     "return3Year": 2317,
+     "currentNav": "1976430",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 2317,
+     "minSip": "100",
+     "rating": 5
+    },
+    {
+     "isin": "INF179K01426",
+     "name": "HDFC Value Fund-Growth",
+     "category": "Equity",
+     "subCategory": " Value Oriented",
+     "return3Year": 1842,
+     "currentNav": "7449180",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1842,
+     "minSip": "100",
+     "rating": 3
+    },
+    {
+     "isin": "INF179K01574",
+     "name": "HDFC Focused Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Flexi Cap",
+     "return3Year": 1777,
+     "currentNav": "2219890",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1777,
+     "minSip": "100",
+     "rating": 5
+    },
+    {
+     "isin": "INF179K01BB8",
+     "name": "HDFC ELSS Tax Saver Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " ELSS",
+     "return3Year": 1734,
+     "currentNav": "13342960",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1734,
+     "minSip": "500",
+     "rating": 5
+    },
+    {
+     "isin": "INF179KC1BD7",
+     "name": "HDFC Multi-Asset Active FoF Regular-Growth",
+     "category": "Hybrid",
+     "subCategory": " Multi Asset Allocation",
+     "return3Year": 1434,
+     "currentNav": "189470",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1434,
+     "minSip": "100",
+     "rating": 4
+    },
+    {
+     "isin": "INF179K01GF8",
+     "name": "HDFC Infrastructure Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Thematic-Infrastructure",
+     "return3Year": 2429,
+     "currentNav": "474190",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 2429,
+     "minSip": "100",
+     "rating": 4
+    },
+    {
+     "isin": "INF179K01AP0",
+     "name": "HDFC Multi-Asset Allocation Fund Regular-Growth",
+     "category": "Hybrid",
+     "subCategory": " Multi Asset Allocation",
+     "return3Year": 1298,
+     "currentNav": "738960",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1298,
+     "minSip": "100",
+     "rating": 3
+    },
+    {
+     "isin": "INF179K01830",
+     "name": "HDFC Balanced Advantage Fund Regular-Growth",
+     "category": "Hybrid",
+     "subCategory": " Dynamic Asset Allocation",
+     "return3Year": 1536,
+     "currentNav": "5153040",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1536,
+     "minSip": "100",
+     "rating": 5
+    },
+    {
+     "isin": "INF179KC1EB5",
+     "name": "HDFC Business Cycle Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Thematic-Business Cycle",
+     "return3Year": 1217,
+     "currentNav": "141380",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1217,
+     "minSip": "100"
+    },
+    {
+     "isin": "INF179KC1AR9",
+     "name": "HDFC Dividend Yield Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Thematic-Dividend Yield",
+     "return3Year": 1561,
+     "currentNav": "243200",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1561,
+     "minSip": "100"
+    },
+    {
+     "isin": "INF179KC1BV9",
+     "name": "HDFC Multi Cap Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Multi Cap",
+     "return3Year": 1711,
+     "currentNav": "182630",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1711,
+     "minSip": "100",
+     "rating": 3
+    },
+    {
+     "isin": "INF179KC1GH7",
+     "name": "HDFC BSE 500 Index Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Flexi Cap",
+     "return3Year": 1366,
+     "currentNav": "151033",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1366,
+     "minSip": "100",
+     "rating": 2
+    },
+    {
+     "isin": "INF179KC1BZ0",
+     "name": "HDFC NIFTY 100 Index Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Large Cap",
+     "return3Year": 1195,
+     "currentNav": "145372",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1195,
+     "minSip": "100",
+     "rating": 3
+    },
+    {
+     "isin": "INF179KB1MG8",
+     "name": "HDFC Retirement Savings Fund - Equity Plan Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Flexi Cap",
+     "return3Year": 1354,
+     "currentNav": "480370",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1354,
+     "minSip": "100",
+     "rating": 4
+    },
+    {
+     "isin": "INF179K01BE2",
+     "name": "HDFC Large Cap Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Large Cap",
+     "return3Year": 1257,
+     "currentNav": "10923820",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1257,
+     "minSip": "100",
+     "rating": 5
+    },
+    {
+     "isin": "INF179KC1HF9",
+     "name": "HDFC Technology Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Sectoral-Technology",
+     "currentNav": "108020",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "TWO_YEAR",
+     "returnValue": -133,
+     "minSip": "100"
+    },
+    {
+     "isin": "INF179KA1RZ8",
+     "name": "HDFC Small Cap Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Small Cap",
+     "return3Year": 1633,
+     "currentNav": "1331630",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1633,
+     "minSip": "100",
+     "rating": 4
+    },
+    {
+     "isin": "INF179KC1GR6",
+     "name": "HDFC Consumption Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Thematic-Consumption",
+     "currentNav": "132810",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "TWO_YEAR",
+     "returnValue": 281,
+     "minSip": "100"
+    },
+    {
+     "isin": "INF179KA1GC0",
+     "name": "HDFC Credit Risk Debt Fund Regular-Growth",
+     "category": "Debt",
+     "subCategory": " Credit Risk",
+     "return3Year": 729,
+     "currentNav": "253092",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 729,
+     "minSip": "100",
+     "rating": 3
+    },
+    {
+     "isin": "INF179K01AM7",
+     "name": "HDFC Equity Savings Fund Regular-Growth",
+     "category": "Hybrid",
+     "subCategory": " Equity Savings",
+     "return3Year": 904,
+     "currentNav": "666840",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 904,
+     "minSip": "100",
+     "rating": 3
+    },
+    {
+     "isin": "INF179K01KZ8",
+     "name": "HDFC NIFTY 50 Index Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Large Cap",
+     "return3Year": 1078,
+     "currentNav": "2282566",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1078,
+     "minSip": "100",
+     "rating": 3
+    },
+    {
+     "isin": "INF179KC1FR8",
+     "name": "HDFC Nifty G-Sec Apr 2029 Index Fund Regular-Growth",
+     "category": "Debt",
+     "subCategory": " Target Maturity",
+     "return3Year": 720,
+     "currentNav": "127039",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 720,
+     "minSip": "100"
+    },
+    {
+     "isin": "INF179KC1IY8",
+     "name": "HDFC Children's Fund Regular Plan",
+     "category": "Hybrid",
+     "subCategory": " Aggressive Hybrid",
+     "return3Year": 1056,
+     "currentNav": "2810340",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1056,
+     "minSip": "100",
+     "rating": 4
+    },
+    {
+     "isin": "INF179KC1EK6",
+     "name": "HDFC Nifty G-Sec Jun 2027 Index Regular-Growth",
+     "category": "Debt",
+     "subCategory": " Target Maturity",
+     "return3Year": 702,
+     "currentNav": "127043",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 702,
+     "minSip": "100"
+    },
+    {
+     "isin": "INF179KB1HR5",
+     "name": "HDFC Money Market Fund Regular-Growth",
+     "category": "Debt",
+     "subCategory": " Money Market",
+     "return3Year": 721,
+     "currentNav": "60171374",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 721,
+     "minSip": "100",
+     "rating": 4
+    },
+    {
+     "isin": "INF179K01707",
+     "name": "HDFC Floating Rate Debt Fund Regular-Growth",
+     "category": "Debt",
+     "subCategory": " Floater",
+     "return3Year": 755,
+     "currentNav": "524038",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 755,
+     "minSip": "100",
+     "rating": 4
+    },
+    {
+     "isin": "INF179KC1EG4",
+     "name": "HDFC Nifty G-sec Dec 2026 Index Regular-Growth",
+     "category": "Debt",
+     "subCategory": " Target Maturity",
+     "return3Year": 686,
+     "currentNav": "127391",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 686,
+     "minSip": "100"
+    },
+    {
+     "isin": "INF179KC1EI0",
+     "name": "HDFC Nifty G-Sec July 2031 Index Regular-Growth",
+     "category": "Debt",
+     "subCategory": " Target Maturity",
+     "return3Year": 716,
+     "currentNav": "129337",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 716,
+     "minSip": "100"
+    },
+    {
+     "isin": "INF179K01913",
+     "name": "HDFC Medium Term Debt Fund Regular-Growth",
+     "category": "Debt",
+     "subCategory": " Medium Duration",
+     "return3Year": 691,
+     "currentNav": "586931",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 691,
+     "minSip": "100",
+     "rating": 1
+    },
+    {
+     "isin": "INF179KC1FT4",
+     "name": "HDFC NIFTY G-Sec Jun 2036 Index Fund Regular-Growth",
+     "category": "Debt",
+     "subCategory": " Target Maturity",
+     "return3Year": 679,
+     "currentNav": "126828",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 679,
+     "minSip": "100"
+    },
+    {
+     "isin": "INF179KC1EM2",
+     "name": "HDFC Nifty G-Sec Sep 2032 Index Regular-Growth",
+     "category": "Debt",
+     "subCategory": " Target Maturity",
+     "return3Year": 692,
+     "currentNav": "127883",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 692,
+     "minSip": "100"
+    },
+    {
+     "isin": "INF179K01CU6",
+     "name": "HDFC Short Term Debt Fund-Growth",
+     "category": "Debt",
+     "subCategory": " Short Duration",
+     "return3Year": 717,
+     "currentNav": "333918",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 717,
+     "minSip": "100",
+     "rating": 5
+    },
+    {
+     "isin": "INF179KB1HK0",
+     "name": "HDFC Liquid Fund Regular-Growth",
+     "category": "Debt",
+     "subCategory": " Liquid",
+     "return3Year": 687,
+     "currentNav": "53881002",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 687,
+     "minSip": "100",
+     "rating": 3
+    }
+   ],
+   "usStock": [
+    {
+     "ticker": "HDB",
+     "isin": "US40415F1012",
+     "name": "HDFC Bank Ltd.",
+     "category": "LARGE CAP",
+     "sector": "Financial Services",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/hdb_1658858964.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "3281",
+     "changePer": 89
+    },
+    {
+     "ticker": "HD",
+     "isin": "US4370761029",
+     "name": "Home Depot, Inc., The",
+     "category": "MEGA CAP",
+     "sector": "Consumer Cyclical",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/hd_1666586681.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "38304",
+     "changePer": -205
+    },
+    {
+     "ticker": "HDGVX",
+     "isin": "US41664R2913",
+     "name": "Hartford Dividend and Growth R6",
+     "category": "MICRO CAP",
+     "stockPrice": "3691",
+     "changePer": 68
+    },
+    {
+     "ticker": "AGZD",
+     "isin": "US97717W3806",
+     "name": "WisdomTree Interest Rate Hdg US Aggr Bd",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/agzd_1673650065.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "2253",
+     "changePer": -4
+    },
+    {
+     "ticker": "HDUS",
+     "isin": "US5184168707",
+     "name": "Hartford Disciplined US Equity ETF",
+     "category": "MEGA CAP",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/hdus_1694381637.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "6569",
+     "changePer": 11
+    },
+    {
+     "ticker": "HDSIX",
+     "isin": "US<redacted>",
+     "name": "Hodges Small Cap Institutional",
+     "category": "MICRO CAP",
+     "stockPrice": "2502",
+     "changePer": 134
+    },
+    {
+     "ticker": "HDRVX",
+     "isin": "US47103X8231",
+     "name": "Janus Henderson Dividend & Inc Builder N",
+     "category": "MICRO CAP",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/hdrvx_1721444973.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "1977",
+     "changePer": 41
+    },
+    {
+     "ticker": "HDG",
+     "isin": "US74347X2945",
+     "name": "ProShares Hedge Replication ETF",
+     "category": "MID CAP",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/hdg_1694384959.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "5269",
+     "changePer": 2
+    },
+    {
+     "ticker": "HDV",
+     "isin": "US46429B6636",
+     "name": "Core High Dividend iShares",
+     "category": "LARGE CAP",
+     "logoUrl": "https://d3an3cesqmrf1x.cloudfront.net/images/symbols/hdv.png",
+     "stockPrice": "13762",
+     "changePer": -82
+    },
+    {
+     "ticker": "HDEF",
+     "isin": "US2330516301",
+     "name": "XTRACKERS MSCI EAFE HIGH DIV",
+     "category": "LARGE CAP",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/HDEF.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "3361",
+     "changePer": 33
+    },
+    {
+     "ticker": "HDGE",
+     "isin": "US00768Y4127",
+     "name": "AdvisorShares Ranger Equity Bear ETF",
+     "category": "MICRO CAP",
+     "logoUrl": "https://d3an3cesqmrf1x.cloudfront.net/images/symbols/hdge.png",
+     "stockPrice": "1691",
+     "changePer": -12
+    },
+    {
+     "ticker": "SCEP",
+     "name": "STRLING CPTL HDG EP INCM ETF",
+     "stockPrice": "2453",
+     "changePer": 62
+    },
+    {
+     "ticker": "HDVVX",
+     "isin": "US41665K4931",
+     "name": "Hartford International Equity R6",
+     "stockPrice": "1610",
+     "changePer": 6
+    },
+    {
+     "ticker": "LU0266009959",
+     "name": "AXA WF GLB INF BND \"A\" (USD HDG)",
+     "stockPrice": "19919",
+     "changePer": 21
+    },
+    {
+     "ticker": "HDLB",
+     "isin": "US90269A4849",
+     "name": "ETRACS 2X HI DIV L-VOL ETN-B",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/hdlb_1666598962.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "1843",
+     "changePer": -36
+    },
+    {
+     "ticker": "HDL",
+     "isin": "US86803S1069",
+     "name": "SUPER HI INTERNATIONAL HOLDING",
+     "category": "SMALL CAP",
+     "sector": "Consumer Cyclical",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/hdl_1715788198.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "1750"
+    },
+    {
+     "ticker": "JABS",
+     "name": "JANUS HDRSN ASS BKD SEC ETF",
+     "stockPrice": "5035",
+     "changePer": -21
+    },
+    {
+     "ticker": "HOLA",
+     "name": "JPM INTLL HDG EQ LDDR OVRLY",
+     "stockPrice": "5478",
+     "changePer": 16
+    },
+    {
+     "ticker": "HDSN",
+     "isin": "US4441441098",
+     "name": "Hudson Technologies Inc",
+     "category": "SMALL CAP",
+     "sector": "Basic Materials",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/hdsn.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "724",
+     "changePer": -216
+    },
+    {
+     "ticker": "HDMV",
+     "isin": "US33739P8712",
+     "name": "First Trust Horizon Managed Vol Dev Intl ETF",
+     "category": "LARGE CAP",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/hdmv_1694381636.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "3872",
+     "changePer": 1
+    }
+   ]
+  },
+  "query=HDFCBA": {
+   "stock": [
+    {
+     "id": {
+      "scripCode": 1333
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "HDFC Bank Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/80edb0d5ef78.png",
+     "hasDerivatives": true,
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 500180,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "HDFC Bank Ltd",
+     "tag": "Equity",
+     "optionType": "A",
+     "logoUrl": "img/80edb0d5ef78.png",
+     "hasDerivatives": true,
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 199134,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "HDFCBANINAV",
+     "description": "INAVHDFCPVTBAN-HDFCBANINAV",
+     "tag": "Equity",
+     "optionType": "B",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 61582,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 215828979,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov 29 Dec",
+     "tag": "Spread",
+     "optionType": "SP",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 58979,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "29 Dec",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1798502400",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 54958,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "25 Jan 2027",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1800835200",
+     "lotSize": 750
+    },
+    {
+     "id": {
+      "scripCode": 97526,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 700",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "70000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116876,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 710",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "71000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116843,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 690",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "69000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97532,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 720",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "72000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116878,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 730",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "73000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97534,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 740",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "74000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116974,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 750",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "75000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97432,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 680",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "68000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97540,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 800",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "80000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 117138,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "29 Dec CE 800",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "80000",
+     "expiryDate": "1798502400",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 117134,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "29 Dec CE 760",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "76000",
+     "expiryDate": "1798502400",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97536,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 760",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "76000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 117056,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 770",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "77000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 117130,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "29 Dec CE 720",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "72000",
+     "expiryDate": "1798502400",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 117058,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 790",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "79000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116875,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 690",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "69000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97527,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 700",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "70000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116840,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 650",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "65000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97429,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 640",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "64000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97533,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 720",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "72000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116838,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 630",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "63000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 96215,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "29 Dec PE 670",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "67000",
+     "expiryDate": "1798502400",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97425,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 600",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "60000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97423,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 580",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "58000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116836,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 610",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "61000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 117127,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "29 Dec PE 680",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "68000",
+     "expiryDate": "1798502400",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116883,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 730",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "73000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 96523,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "25 Jan 2027 PE 680",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "68000",
+     "expiryDate": "1800835200",
+     "lotSize": 750
+    },
+    {
+     "id": {
+      "scripCode": 117123,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "29 Dec PE 640",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "64000",
+     "expiryDate": "1798502400",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116976,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 750",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "75000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    }
+   ]
+  },
+  "query=HDFCBANK": {
+   "stock": [
+    {
+     "id": {
+      "scripCode": 1333
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "HDFC Bank Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/80edb0d5ef78.png",
+     "hasDerivatives": true,
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 500180,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "HDFC Bank Ltd",
+     "tag": "Equity",
+     "optionType": "A",
+     "logoUrl": "img/80edb0d5ef78.png",
+     "hasDerivatives": true,
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 61582,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 215828979,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov 29 Dec",
+     "tag": "Spread",
+     "optionType": "SP",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 58979,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "29 Dec",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1798502400",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 54958,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "25 Jan 2027",
+     "tag": "Futures",
+     "optionType": "XX",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "expiryDate": "1800835200",
+     "lotSize": 750
+    },
+    {
+     "id": {
+      "scripCode": 97526,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 700",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "70000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116876,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 710",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "71000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116843,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 690",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "69000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97532,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 720",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "72000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116878,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 730",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "73000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97534,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 740",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "74000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116974,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 750",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "75000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97432,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 680",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "68000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97540,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 800",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "80000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 117138,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "29 Dec CE 800",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "80000",
+     "expiryDate": "1798502400",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 117134,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "29 Dec CE 760",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "76000",
+     "expiryDate": "1798502400",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97536,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 760",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "76000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 117056,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 770",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "77000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 117130,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "29 Dec CE 720",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "72000",
+     "expiryDate": "1798502400",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 117058,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov CE 790",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "79000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116875,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 690",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "69000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97527,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 700",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "70000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116840,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 650",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "65000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97429,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 640",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "64000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97533,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 720",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "72000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116838,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 630",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "63000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 96215,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "29 Dec PE 670",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "67000",
+     "expiryDate": "1798502400",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97425,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 600",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "60000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 97423,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 580",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "58000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116836,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 610",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "61000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 117127,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "29 Dec PE 680",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "68000",
+     "expiryDate": "1798502400",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116883,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 730",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "73000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 96523,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "25 Jan 2027 PE 680",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "68000",
+     "expiryDate": "1800835200",
+     "lotSize": 750
+    },
+    {
+     "id": {
+      "scripCode": 117123,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "29 Dec PE 640",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "64000",
+     "expiryDate": "1798502400",
+     "lotSize": 650
+    },
+    {
+     "id": {
+      "scripCode": 116976,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "23 Nov PE 750",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "75000",
+     "expiryDate": "1795392000",
+     "lotSize": 650
+    }
+   ]
+  }
+ }
+}

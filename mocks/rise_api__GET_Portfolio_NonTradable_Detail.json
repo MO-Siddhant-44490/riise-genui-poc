@@ -1,0 +1,29 @@
+{
+ "endpoint": "/wms/v2/api/Portfolio/NonTradable/Detail",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "NonTradableDetailResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "investedValue": "851119",
+  "marketValue": "851119",
+  "equity": [
+   {
+    "isin": "INF179KC1DV5",
+    "scripName": "HDFC Silver ETF FoF Reg-G",
+    "totalQty": 200,
+    "investedValue": "851119",
+    "marketValue": "851119",
+    "ltp": "4259",
+    "valuationDate": "1766102400"
+   },
+   {
+    "isin": "INE658R01011",
+    "scripName": "MOTILAL OSWAL HOME FINANCE LIMITED#FORMERLY ASPIRE HOME FINANCE CORPORATION LIMITED",
+    "totalQty": 10000,
+    "valuationDate": "1793404800"
+   }
+  ]
+ }
+}

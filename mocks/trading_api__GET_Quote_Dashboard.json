@@ -1,0 +1,76 @@
+{
+ "endpoint": "/TradingApiV2/api/Quote/Dashboard",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "QuoteDashboardResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "tradeSymbol": "BSX",
+  "exchange": "BSE",
+  "index": {
+   "indexId": "SENSEX",
+   "exchange": "BSE"
+  },
+  "showIndex": true,
+  "showFutures": true,
+  "showOptions": true,
+  "isIndex": true,
+  "scripCode": 495213,
+  "isFutures": true,
+  "showCash": true,
+  "isCash": true,
+  "cashScrip": {
+   "scripCode": 1333
+  },
+  "showCashDetails": true
+ },
+ "variants": {
+  "exchange=1&indexId=SENSEX": {
+   "tradeSymbol": "BSX",
+   "exchange": "BSE",
+   "index": {
+    "indexId": "SENSEX",
+    "exchange": "BSE"
+   },
+   "showIndex": true,
+   "showFutures": true,
+   "showOptions": true,
+   "isIndex": true
+  },
+  "exchange=6&scripCode=495213&source=quote": {
+   "tradeSymbol": "GOLD",
+   "exchange": "MCX",
+   "scripCode": 495213,
+   "index": {
+    "exchange": "MCX"
+   },
+   "showFutures": true,
+   "showOptions": true,
+   "isFutures": true
+  },
+  "exchange=0&scripCode=1333&source=quote": {
+   "tradeSymbol": "HDFCBANK",
+   "scripCode": 1333,
+   "index": {},
+   "showCash": true,
+   "showFutures": true,
+   "showOptions": true,
+   "isCash": true,
+   "cashScrip": {
+    "scripCode": 1333
+   },
+   "showCashDetails": true
+  },
+  "exchange=0&indexId=NIFTY%20BANK": {
+   "tradeSymbol": "BANKNIFTY",
+   "index": {
+    "indexId": "NIFTY BANK"
+   },
+   "showIndex": true,
+   "showFutures": true,
+   "showOptions": true,
+   "isIndex": true
+  }
+ }
+}

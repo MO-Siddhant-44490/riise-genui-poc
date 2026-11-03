@@ -1,0 +1,52 @@
+{
+ "endpoint": "/wms/v2/api/Portfolio/External/UserPortfolioInfo",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "ExternalUserPortfolioInfoResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "aaMfStatus": 2,
+  "isRmConsent": true,
+  "rmConsentDateTime": "1769074547",
+  "aaServiceAvailable": true,
+  "isEqRefreshAllowed": true,
+  "isMfRefreshAllowed": true,
+  "eqLastUpdatedTime": "1746671802",
+  "mfLastUpdatedTime": "1769074923",
+  "links": [
+   {
+    "link": "/banner/portfoliomofsllbanner.svg",
+    "type": "portfoliomofsllbanner"
+   },
+   {
+    "link": "/banner/portfoliooverallbanner.svg",
+    "type": "portfoliooverallbanner"
+   },
+   {
+    "link": "mosl://pwmapp.com/pwm/review_your_investment",
+    "type": "riskprofilecompleteddeeplink"
+   },
+   {
+    "link": "mosl://pwmapp.com/pwm/investment_charter",
+    "type": "iccompleteddeeplink"
+   },
+   {
+    "link": "mosl://superapp.com/openfreedemataccount",
+    "type": "kyccompleteddeeplink"
+   },
+   {
+    "link": "/banner/portfolioexternalbanner.svg",
+    "type": "portfolioexternalbanner"
+   },
+   {
+    "link": "/banner/riseportfolioexternalbanner.png",
+    "type": "riseportfolioexternalbanner"
+   },
+   {
+    "link": "https://d2kq2qiht771rt.cloudfront.net/pwm",
+    "type": "host"
+   }
+  ]
+ }
+}

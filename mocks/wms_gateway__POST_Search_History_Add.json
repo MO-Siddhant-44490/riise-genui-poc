@@ -1,0 +1,13 @@
+{
+ "endpoint": "/dev/wms/v2/api/Search/History/Add",
+ "method": "POST",
+ "host": "e74xime5x0.execute-api.ap-south-1.amazonaws.com",
+ "http_status": 200,
+ "decoded_as": "SearchHistoryResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "data": {
+   "message": "Success"
+  }
+ }
+}

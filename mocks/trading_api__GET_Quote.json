@@ -1,0 +1,231 @@
+{
+ "endpoint": "/TradingApiV2/api/Quote",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "ScripQuote",
+ "source_flow": "debug_dump",
+ "response": {
+  "id": {
+   "scripCode": 8479
+  },
+  "tradeSymbol": "TVSMOTOR",
+  "description": "NSE",
+  "lotSize": 1,
+  "tickSize": 0.10000000149011612,
+  "multiplier": 1,
+  "optionType": "EQ",
+  "valuePlusPercent": 20,
+  "hasDerivatives": true,
+  "hasCash": true,
+  "faceValue": 1,
+  "sipAvailable": true,
+  "mtfAvailable": true,
+  "isSurveillance": true,
+  "shortCode": "18000",
+  "shortCodeDescription": "Scrip is under following surveillance measure:\r\nThe scrip PE is greater than 50 for previous 4 trailing quarters\r\nPlease analyse the risks carefully before proceeding and click on place order to continue.",
+  "expiryFlag": " ",
+  "tag": "Equity",
+  "stockInfo": {
+   "tradeSymbol": "TVSMOTOR",
+   "fullName": "TVS Motor Company Ltd",
+   "logoUrl": "img/58b7edd6cc23.png",
+   "sector": "Automobile",
+   "returns": {
+    "oneWeek": 303,
+    "oneMonth": 227,
+    "threeMonth": 2531,
+    "sixMonth": 5102,
+    "ytd": 25,
+    "oneYear": 9147,
+    "twoYear": 21779,
+    "threeYear": 22216,
+    "fiveYear": 30699,
+    "tenYear": 232558
+   }
+  },
+  "isin": "INE494B01023",
+  "indexCode": 26000,
+  "indexId": "NIFTY 50",
+  "indexName": "Nifty 50",
+  "casEnabled": true,
+  "mtfPercent": 28,
+  "instName": "FUTCOM",
+  "expirySeconds": 1480895999,
+  "hasOptions": true,
+  "maxLotSize": 6,
+  "strikePrice": 139000
+ },
+ "variants": {
+  "scripCode=8479&exchange=0&source=quote": {
+   "id": {
+    "scripCode": 8479
+   },
+   "tradeSymbol": "TVSMOTOR",
+   "description": "NSE",
+   "lotSize": 1,
+   "tickSize": 0.10000000149011612,
+   "multiplier": 1,
+   "optionType": "EQ",
+   "valuePlusPercent": 20,
+   "hasDerivatives": true,
+   "hasCash": true,
+   "faceValue": 1,
+   "sipAvailable": true,
+   "mtfAvailable": true,
+   "isSurveillance": true,
+   "shortCode": "18000",
+   "shortCodeDescription": "Scrip is under following surveillance measure:\r\nThe scrip PE is greater than 50 for previous 4 trailing quarters\r\nPlease analyse the risks carefully before proceeding and click on place order to continue.",
+   "expiryFlag": " ",
+   "tag": "Equity",
+   "stockInfo": {
+    "tradeSymbol": "TVSMOTOR",
+    "fullName": "TVS Motor Company Ltd",
+    "logoUrl": "img/58b7edd6cc23.png",
+    "sector": "Automobile",
+    "returns": {
+     "oneWeek": 303,
+     "oneMonth": 227,
+     "threeMonth": 2531,
+     "sixMonth": 5102,
+     "ytd": 25,
+     "oneYear": 9147,
+     "twoYear": 21779,
+     "threeYear": 22216,
+     "fiveYear": 30699,
+     "tenYear": 232558
+    }
+   },
+   "isin": "INE494B01023",
+   "indexCode": 26000,
+   "indexId": "NIFTY 50",
+   "indexName": "Nifty 50",
+   "casEnabled": true,
+   "mtfPercent": 28
+  },
+  "ScripCode=495213&Exchange=6&source=quote": {
+   "id": {
+    "scripCode": 495213,
+    "exchange": "MCX"
+   },
+   "tradeSymbol": "GOLD",
+   "description": "04 Dec",
+   "lotSize": 1,
+   "tickSize": 1,
+   "multiplier": 100,
+   "optionType": "XX",
+   "instName": "FUTCOM",
+   "valuePlusPercent": 2.5,
+   "expirySeconds": 1480895999,
+   "hasOptions": true,
+   "maxLotSize": 6,
+   "expiryFlag": " ",
+   "tag": "Futures,Commodity"
+  },
+  "ScripCode=560660&Exchange=6&source=quote": {
+   "id": {
+    "scripCode": 560660,
+    "exchange": "MCX"
+   },
+   "tradeSymbol": "GOLD",
+   "description": "27 Nov CE 139000",
+   "lotSize": 1,
+   "tickSize": 0.5,
+   "multiplier": 100,
+   "optionType": "CE",
+   "instName": "OPTFUT",
+   "expirySeconds": 1480291199,
+   "strikePrice": 139000,
+   "hasOptions": true,
+   "maxLotSize": 6,
+   "expiryFlag": " ",
+   "tag": "Options,Commodity"
+  },
+  "ScripCode=1333&Exchange=0&source=quote": {
+   "id": {
+    "scripCode": 1333
+   },
+   "tradeSymbol": "HDFCBANK",
+   "description": "NSE",
+   "lotSize": 1,
+   "tickSize": 0.05000000074505806,
+   "multiplier": 1,
+   "optionType": "EQ",
+   "valuePlusPercent": 20,
+   "hasDerivatives": true,
+   "hasCash": true,
+   "faceValue": 1,
+   "sipAvailable": true,
+   "mtfAvailable": true,
+   "expiryFlag": " ",
+   "tag": "Equity",
+   "stockInfo": {
+    "tradeSymbol": "HDFCBANK",
+    "fullName": "HDFC Bank Ltd",
+    "logoUrl": "img/80edb0d5ef78.png",
+    "sector": "Banks",
+    "returns": {
+     "oneWeek": -67,
+     "oneMonth": -1411,
+     "threeMonth": -332,
+     "sixMonth": -1250,
+     "ytd": -1491,
+     "oneYear": -1253,
+     "twoYear": -159,
+     "threeYear": -956,
+     "fiveYear": 3669,
+     "tenYear": 35331
+    }
+   },
+   "isin": "INE040A01034",
+   "indexCode": 26000,
+   "indexId": "NIFTY 50",
+   "indexName": "Nifty 50",
+   "casEnabled": true,
+   "mtfPercent": 26
+  },
+  "scripCode=1333&exchange=0&source=quote": {
+   "id": {
+    "scripCode": 1333
+   },
+   "tradeSymbol": "HDFCBANK",
+   "description": "NSE",
+   "lotSize": 1,
+   "tickSize": 0.05000000074505806,
+   "multiplier": 1,
+   "optionType": "EQ",
+   "valuePlusPercent": 20,
+   "hasDerivatives": true,
+   "hasCash": true,
+   "faceValue": 1,
+   "sipAvailable": true,
+   "mtfAvailable": true,
+   "expiryFlag": " ",
+   "tag": "Equity",
+   "stockInfo": {
+    "tradeSymbol": "HDFCBANK",
+    "fullName": "HDFC Bank Ltd",
+    "logoUrl": "img/80edb0d5ef78.png",
+    "sector": "Banks",
+    "returns": {
+     "oneWeek": -67,
+     "oneMonth": -1411,
+     "threeMonth": -332,
+     "sixMonth": -1250,
+     "ytd": -1491,
+     "oneYear": -1253,
+     "twoYear": -159,
+     "threeYear": -956,
+     "fiveYear": 3669,
+     "tenYear": 35331
+    }
+   },
+   "isin": "INE040A01034",
+   "indexCode": 26000,
+   "indexId": "NIFTY 50",
+   "indexName": "Nifty 50",
+   "casEnabled": true,
+   "mtfPercent": 26
+  }
+ }
+}

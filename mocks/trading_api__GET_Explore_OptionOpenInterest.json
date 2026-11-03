@@ -1,0 +1,494 @@
+{
+ "endpoint": "/TradingApiV2/api/Explore/OptionOpenInterest",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "OptionOpenInterest",
+ "source_flow": "debug_dump",
+ "response": {
+  "optionList": {
+   "indices": [
+    {
+     "indexCode": 26000,
+     "indexName": "NIFTY 50",
+     "expiry": [
+      {
+       "expirySeconds": 1478183400,
+       "expiryFlag": "W"
+      },
+      {
+       "expirySeconds": 1478701800,
+       "expiryFlag": "W"
+      },
+      {
+       "expirySeconds": 1479393000,
+       "expiryFlag": "W"
+      },
+      {
+       "expirySeconds": 1480602600,
+       "expiryFlag": "W"
+      },
+      {
+       "expirySeconds": 1479911400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1483021800,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1485354600,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1490884200,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1498746600,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1506609000,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1514471400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1530196200,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1545921000,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1561645800,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1577284200,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1593095400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1609425000,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1624545000,
+       "expiryFlag": "M"
+      }
+     ]
+    },
+    {
+     "indexCode": 999901,
+     "indexName": "SENSEX",
+     "exchangeCode": 1,
+     "expiry": [
+      {
+       "expirySeconds": 1478304000,
+       "expiryFlag": "W"
+      },
+      {
+       "expirySeconds": 1478908800,
+       "expiryFlag": "W"
+      },
+      {
+       "expirySeconds": 1479513600,
+       "expiryFlag": "W"
+      },
+      {
+       "expirySeconds": 1480118400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1483142400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1490400000,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1498262400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1506729600,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1514592000,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1530316800,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1546041600,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1561766400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1577491200,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1593216000,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1608940800,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1624665600,
+       "expiryFlag": "M"
+      }
+     ]
+    },
+    {
+     "indexCode": 26009,
+     "indexName": "NIFTY BANK",
+     "expiry": [
+      {
+       "expirySeconds": 1479911400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1483021800,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1485354600,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1490884200,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1498746600,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1506609000,
+       "expiryFlag": "M"
+      }
+     ]
+    },
+    {
+     "indexCode": 26074,
+     "indexName": "NIFTY MID SELECT",
+     "expiry": [
+      {
+       "expirySeconds": 1479911400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1483021800,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1485354600,
+       "expiryFlag": "M"
+      }
+     ]
+    },
+    {
+     "indexCode": 26037,
+     "indexName": "NIFTY FIN SERVICE",
+     "expiry": [
+      {
+       "expirySeconds": 1479911400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1483021800,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1485354600,
+       "expiryFlag": "M"
+      }
+     ]
+    },
+    {
+     "indexCode": 999912,
+     "indexName": "BANKEX",
+     "exchangeCode": 1,
+     "expiry": [
+      {
+       "expirySeconds": 1480118400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1483142400,
+       "expiryFlag": "M"
+      }
+     ]
+    },
+    {
+     "indexCode": 26013,
+     "indexName": "NIFTY NEXT 50",
+     "expiry": [
+      {
+       "expirySeconds": 1479911400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1483021800,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1485354600,
+       "expiryFlag": "M"
+      }
+     ]
+    }
+   ]
+  },
+  "optionOIData": {
+   "spot": {
+    "id": {
+     "scripCode": 26000
+    },
+    "currentPrice": 23053.099609375,
+    "indexSpot": "NIFTY 50"
+   },
+   "expirySeconds": 1478183400,
+   "scrips": [
+    {
+     "strikePrice": 23550,
+     "oi": 3659045,
+     "prevOi": 3659045
+    },
+    {
+     "strikePrice": 23550,
+     "oi": 17030,
+     "prevOi": 17030,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 23500,
+     "oi": 13279760,
+     "prevOi": 13279760
+    },
+    {
+     "strikePrice": 23500,
+     "oi": 532870,
+     "prevOi": 532870,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 23450,
+     "oi": 4240210,
+     "prevOi": 4240210
+    },
+    {
+     "strikePrice": 23450,
+     "oi": 127270,
+     "prevOi": 127270,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 23400,
+     "oi": 10247055,
+     "prevOi": 10247055
+    },
+    {
+     "strikePrice": 23400,
+     "oi": 228085,
+     "prevOi": 228085,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 23350,
+     "oi": 3367325,
+     "prevOi": 3367325
+    },
+    {
+     "strikePrice": 23350,
+     "oi": 82420,
+     "prevOi": 82420,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 23300,
+     "oi": 6733415,
+     "prevOi": 6733415
+    },
+    {
+     "strikePrice": 23300,
+     "oi": 371475,
+     "prevOi": 371475,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 23250,
+     "oi": 3409250,
+     "prevOi": 3409250
+    },
+    {
+     "strikePrice": 23250,
+     "oi": 163800,
+     "prevOi": 163800,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 23200,
+     "oi": 7708480,
+     "prevOi": 7708480
+    },
+    {
+     "strikePrice": 23200,
+     "oi": 852930,
+     "prevOi": 852930,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 23150,
+     "oi": 3675425,
+     "prevOi": 3675425
+    },
+    {
+     "strikePrice": 23150,
+     "oi": 519155,
+     "prevOi": 519155,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 23100,
+     "oi": 6900140,
+     "prevOi": 6900140
+    },
+    {
+     "strikePrice": 23100,
+     "oi": 2748850,
+     "prevOi": 2748850,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 23050,
+     "oi": 3506815,
+     "prevOi": 3506815
+    },
+    {
+     "strikePrice": 23050,
+     "oi": 4384965,
+     "prevOi": 4384965,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 23000,
+     "oi": 7458360,
+     "prevOi": 7458360
+    },
+    {
+     "strikePrice": 23000,
+     "oi": 9308390,
+     "prevOi": 9308390,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 22950,
+     "oi": 1291420,
+     "prevOi": 1291420
+    },
+    {
+     "strikePrice": 22950,
+     "oi": 4603625,
+     "prevOi": 4603625,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 22900,
+     "oi": 2703545,
+     "prevOi": 2703545
+    },
+    {
+     "strikePrice": 22900,
+     "oi": 9321520,
+     "prevOi": 9321520,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 22850,
+     "oi": 617760,
+     "prevOi": 617760
+    },
+    {
+     "strikePrice": 22850,
+     "oi": 4943965,
+     "prevOi": 4943965,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 22800,
+     "oi": 2411175,
+     "prevOi": 2411175
+    },
+    {
+     "strikePrice": 22800,
+     "oi": 10595715,
+     "prevOi": 10595715,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 22750,
+     "oi": 528320,
+     "prevOi": 528320
+    },
+    {
+     "strikePrice": 22750,
+     "oi": 4700930,
+     "prevOi": 4700930,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 22700,
+     "oi": 1867645,
+     "prevOi": 1867645
+    },
+    {
+     "strikePrice": 22700,
+     "oi": 10730980,
+     "prevOi": 10730980,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 22650,
+     "oi": 431145,
+     "prevOi": 431145
+    },
+    {
+     "strikePrice": 22650,
+     "oi": 4657055,
+     "prevOi": 4657055,
+     "optionType": "Put"
+    },
+    {
+     "strikePrice": 22600,
+     "oi": 940615,
+     "prevOi": 940615
+    },
+    {
+     "strikePrice": 22600,
+     "oi": 8510190,
+     "prevOi": 8510190,
+     "optionType": "Put"
+    }
+   ]
+  }
+ }
+}

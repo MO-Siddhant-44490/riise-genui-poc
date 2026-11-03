@@ -1,0 +1,474 @@
+{
+ "endpoint": "/TradingApiV2/api/Quote/Fundamental",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "FundamentalResponseV2",
+ "source_flow": "debug_dump",
+ "response": {
+  "swot": {
+   "strength": {
+    "type": "Strengths",
+    "count": 7,
+    "values": [
+     "Companies with current TTM PE Ratio less than 3 Year, 5 Year and 10 Year PE",
+     "Growth in Net Profit with increasing Profit Margin (QoQ)",
+     "Increasing Revenue every Quarter for the past 4 Quarters",
+     "Company able to generate Net Cash - Improving Net Cash Flow for last 2 years",
+     "Annual Net Profits improving for last 2 years",
+     "Companies with Zero Promoter Pledge",
+     "Decrease in NPA in recent results"
+    ]
+   },
+   "weakness": {
+    "type": "Weakness",
+    "count": 5,
+    "values": [
+     "Inefficient use of shareholder funds - ROE declining in the last 2 years",
+     "Near 52 Week Low",
+     "Weak Momentum: Price below Short, Medium and Long Term Averages",
+     "Increase in Provisions in Recent Results",
+     "RSI indicating price weakness"
+    ]
+   },
+   "opportunity": {
+    "type": "Opportunities",
+    "count": 1,
+    "values": [
+     "Street Favorite: High Analyst Rating with at least 20% upside"
+    ]
+   },
+   "threat": {
+    "type": "Threats"
+   },
+   "other": {
+    "type": "Others"
+   }
+  },
+  "companyInfo": {
+   "companyName": "HDFC Bank Ltd",
+   "boardOfDirectors": {
+    "Executive Director": "Bhavesh Zaveri",
+    "Managing Director & CEO": "Sashidhar Jagdishan",
+    "Director": "Renu S Karnad",
+    "Independent Director": "Umesh Chandra Sarangi"
+   },
+   "background": {
+    "Auditor": "M M Nissim & Co LLP/MSKA & Associates",
+    "Chairman": "Atanu Chakraborty",
+    "Company Name": "HDFC Bank Ltd",
+    "Company Secretary": "Santosh Haldankar",
+    "FaceValue": "1",
+    "Fax": "91-22-24960737",
+    "Incorporation Year": "1994",
+    "MarketLot": "1",
+    "Registered Office": "HDFC Bank House  Senapati BapatMarg Lower Parel Mumbai Maharashtra ",
+    "Registrar": "Datamatics Financial Services ",
+    "Registrar Office": "Plot No B-5 MIDC    ,Part B Cross Lane   ,Marol Andheri(E)    ,Mumbai-400093       ",
+    "Telephone": "<redacted>"
+   }
+  },
+  "shareHoldings": {
+   "pattern": [
+    {
+     "month": "Sep 2026",
+     "details": {
+      "institutional": 83,
+      "fii": 39.400001525878906,
+      "mf": 31.899999618530273,
+      "dii": 43.599998474121094,
+      "public": 17
+     }
+    },
+    {
+     "month": "Jun 2026",
+     "details": {
+      "institutional": 83.80000305175781,
+      "fii": 41.79999923706055,
+      "mf": 30.600000381469727,
+      "dii": 42,
+      "public": 16.299999237060547
+     }
+    },
+    {
+     "month": "Mar 2026",
+     "details": {
+      "institutional": 84.4000015258789,
+      "fii": 44,
+      "mf": 29.5,
+      "dii": 40.400001525878906,
+      "public": 15.600000381469727
+     }
+    },
+    {
+     "month": "Dec 2025",
+     "details": {
+      "institutional": 84.80000305175781,
+      "fii": 47.70000076293945,
+      "mf": 26.700000762939453,
+      "dii": 37.099998474121094,
+      "public": 15.100000381469727
+     }
+    },
+    {
+     "month": "Sep 2025",
+     "details": {
+      "institutional": 84.5999984741211,
+      "fii": 48.400001525878906,
+      "mf": 26,
+      "dii": 36.20000076293945,
+      "public": 15.300000190734863
+     }
+    },
+    {
+     "month": "Jun 2025",
+     "details": {
+      "institutional": 84.80000305175781,
+      "fii": 48.79999923706055,
+      "mf": 25.600000381469727,
+      "dii": 36,
+      "public": 15.199999809265137
+     }
+    }
+   ]
+  },
+  "ratios": {
+   "marketCap": 1097634.125,
+   "dividend": 0.9700000286102295,
+   "peRatio": 18.59000015258789,
+   "pbRatio": 2.509999990463257,
+   "eps": 77.72000122070312,
+   "roe": 13,
+   "faceValue": 1,
+   "bookValue": 39010,
+   "RONWRatio": 17.200000762939453,
+   "ps": 165,
+   "netProfitMargin": 7602600,
+   "currentRatio": 113,
+   "salesGrowthThreeYr": 103,
+   "profitGrowthThreeYr": 106,
+   "salesPerShare": 22650
+  },
+  "financials": {
+   "totalIncome": {},
+   "netProfit": {},
+   "operatingProfit": {},
+   "balanceSheets": {
+    "assets": {},
+    "liabilities": {}
+   },
+   "cashFlow": {
+    "investing": {
+     "yearly": [
+      {
+       "period": "Mar 23",
+       "value": -1997.17
+      },
+      {
+       "period": "Mar 22",
+       "value": -1126.5
+      },
+      {
+       "period": "Mar 21",
+       "value": -1261.99
+      },
+      {
+       "period": "Mar 20",
+       "value": -890.93
+      },
+      {
+       "period": "Mar 19",
+       "value": -1230.77
+      }
+     ]
+    },
+    "operating": {
+     "yearly": [
+      {
+       "period": "Mar 23",
+       "value": 27313.4
+      },
+      {
+       "period": "Mar 22",
+       "value": -14208.7
+      },
+      {
+       "period": "Mar 21",
+       "value": 41494.8
+      },
+      {
+       "period": "Mar 20",
+       "value": -16689.8
+      },
+      {
+       "period": "Mar 19",
+       "value": -56054.7
+      }
+     ]
+    },
+    "financing": {
+     "yearly": [
+      {
+       "period": "Mar 23",
+       "value": 16121.9
+      },
+      {
+       "period": "Mar 22",
+       "value": 48191.8
+      },
+      {
+       "period": "Mar 21",
+       "value": -7381.11
+      },
+      {
+       "period": "Mar 20",
+       "value": 22851.8
+      },
+      {
+       "period": "Mar 19",
+       "value": 15718
+      }
+     ]
+    }
+   }
+  }
+ },
+ "variants": {
+  "symbol=HDFCBANK&sections=Swot": {
+   "swot": {
+    "strength": {
+     "type": "Strengths",
+     "count": 7,
+     "values": [
+      "Companies with current TTM PE Ratio less than 3 Year, 5 Year and 10 Year PE",
+      "Growth in Net Profit with increasing Profit Margin (QoQ)",
+      "Increasing Revenue every Quarter for the past 4 Quarters",
+      "Company able to generate Net Cash - Improving Net Cash Flow for last 2 years",
+      "Annual Net Profits improving for last 2 years",
+      "Companies with Zero Promoter Pledge",
+      "Decrease in NPA in recent results"
+     ]
+    },
+    "weakness": {
+     "type": "Weakness",
+     "count": 5,
+     "values": [
+      "Inefficient use of shareholder funds - ROE declining in the last 2 years",
+      "Near 52 Week Low",
+      "Weak Momentum: Price below Short, Medium and Long Term Averages",
+      "Increase in Provisions in Recent Results",
+      "RSI indicating price weakness"
+     ]
+    },
+    "opportunity": {
+     "type": "Opportunities",
+     "count": 1,
+     "values": [
+      "Street Favorite: High Analyst Rating with at least 20% upside"
+     ]
+    },
+    "threat": {
+     "type": "Threats"
+    },
+    "other": {
+     "type": "Others"
+    }
+   }
+  },
+  "symbol=HDFCBANK&sections=CompanyInfo": {
+   "companyInfo": {
+    "companyName": "HDFC Bank Ltd",
+    "boardOfDirectors": {
+     "Executive Director": "Bhavesh Zaveri",
+     "Managing Director & CEO": "Sashidhar Jagdishan",
+     "Director": "Renu S Karnad",
+     "Independent Director": "Umesh Chandra Sarangi"
+    },
+    "background": {
+     "Auditor": "M M Nissim & Co LLP/MSKA & Associates",
+     "Chairman": "Atanu Chakraborty",
+     "Company Name": "HDFC Bank Ltd",
+     "Company Secretary": "Santosh Haldankar",
+     "FaceValue": "1",
+     "Fax": "91-22-24960737",
+     "Incorporation Year": "1994",
+     "MarketLot": "1",
+     "Registered Office": "HDFC Bank House  Senapati BapatMarg Lower Parel Mumbai Maharashtra ",
+     "Registrar": "Datamatics Financial Services ",
+     "Registrar Office": "Plot No B-5 MIDC    ,Part B Cross Lane   ,Marol Andheri(E)    ,Mumbai-400093       ",
+     "Telephone": "<redacted>"
+    }
+   }
+  },
+  "symbol=HDFCBANK&sections=ShareHoldings": {
+   "shareHoldings": {
+    "pattern": [
+     {
+      "month": "Sep 2026",
+      "details": {
+       "institutional": 83,
+       "fii": 39.400001525878906,
+       "mf": 31.899999618530273,
+       "dii": 43.599998474121094,
+       "public": 17
+      }
+     },
+     {
+      "month": "Jun 2026",
+      "details": {
+       "institutional": 83.80000305175781,
+       "fii": 41.79999923706055,
+       "mf": 30.600000381469727,
+       "dii": 42,
+       "public": 16.299999237060547
+      }
+     },
+     {
+      "month": "Mar 2026",
+      "details": {
+       "institutional": 84.4000015258789,
+       "fii": 44,
+       "mf": 29.5,
+       "dii": 40.400001525878906,
+       "public": 15.600000381469727
+      }
+     },
+     {
+      "month": "Dec 2025",
+      "details": {
+       "institutional": 84.80000305175781,
+       "fii": 47.70000076293945,
+       "mf": 26.700000762939453,
+       "dii": 37.099998474121094,
+       "public": 15.100000381469727
+      }
+     },
+     {
+      "month": "Sep 2025",
+      "details": {
+       "institutional": 84.5999984741211,
+       "fii": 48.400001525878906,
+       "mf": 26,
+       "dii": 36.20000076293945,
+       "public": 15.300000190734863
+      }
+     },
+     {
+      "month": "Jun 2025",
+      "details": {
+       "institutional": 84.80000305175781,
+       "fii": 48.79999923706055,
+       "mf": 25.600000381469727,
+       "dii": 36,
+       "public": 15.199999809265137
+      }
+     }
+    ]
+   }
+  },
+  "symbol=HDFCBANK&sections=Ratios": {
+   "ratios": {
+    "marketCap": 1097634.125,
+    "dividend": 0.9700000286102295,
+    "peRatio": 18.59000015258789,
+    "pbRatio": 2.509999990463257,
+    "eps": 77.72000122070312,
+    "roe": 13,
+    "faceValue": 1,
+    "bookValue": 39010,
+    "RONWRatio": 17.200000762939453,
+    "ps": 165,
+    "netProfitMargin": 7602600,
+    "currentRatio": 113,
+    "salesGrowthThreeYr": 103,
+    "profitGrowthThreeYr": 106,
+    "salesPerShare": 22650
+   }
+  },
+  "symbol=HDFCBANK&sections=Financials": {
+   "financials": {
+    "totalIncome": {},
+    "netProfit": {},
+    "operatingProfit": {},
+    "balanceSheets": {
+     "assets": {},
+     "liabilities": {}
+    },
+    "cashFlow": {
+     "investing": {
+      "yearly": [
+       {
+        "period": "Mar 23",
+        "value": -1997.17
+       },
+       {
+        "period": "Mar 22",
+        "value": -1126.5
+       },
+       {
+        "period": "Mar 21",
+        "value": -1261.99
+       },
+       {
+        "period": "Mar 20",
+        "value": -890.93
+       },
+       {
+        "period": "Mar 19",
+        "value": -1230.77
+       }
+      ]
+     },
+     "operating": {
+      "yearly": [
+       {
+        "period": "Mar 23",
+        "value": 27313.4
+       },
+       {
+        "period": "Mar 22",
+        "value": -14208.7
+       },
+       {
+        "period": "Mar 21",
+        "value": 41494.8
+       },
+       {
+        "period": "Mar 20",
+        "value": -16689.8
+       },
+       {
+        "period": "Mar 19",
+        "value": -56054.7
+       }
+      ]
+     },
+     "financing": {
+      "yearly": [
+       {
+        "period": "Mar 23",
+        "value": 16121.9
+       },
+       {
+        "period": "Mar 22",
+        "value": 48191.8
+       },
+       {
+        "period": "Mar 21",
+        "value": -7381.11
+       },
+       {
+        "period": "Mar 20",
+        "value": 22851.8
+       },
+       {
+        "period": "Mar 19",
+        "value": 15718
+       }
+      ]
+     }
+    }
+   }
+  }
+ }
+}

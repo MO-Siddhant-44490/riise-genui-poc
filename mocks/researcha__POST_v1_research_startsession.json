@@ -1,0 +1,104 @@
+{
+ "endpoint": "/api/v1/research/startsession",
+ "method": "POST",
+ "host": "researcha.dev.motilaloswal.cloud",
+ "http_status": 200,
+ "decoded_as": "SessionStartBaseResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "status": "Success",
+  "code": 200,
+  "message": "Session started successfully",
+  "data": {
+   "session_id": "",
+   "created_at": "2026-11-02T07:51:43.249701+00:00",
+   "user_id": "<redacted>",
+   "user_name": "<redacted>",
+   "title": "Welcome, <redacted>  <redacted>  .!",
+   "subtitle": "Your smart research assistant is ready!",
+   "welcome_message": "👋 Hello, <redacted>  <redacted>  .!\nI am Research Assistant",
+   "welcome_subtitle": "\n**Here's what I can help you with:**\n\n- **Live Equity, F&O and Commodity Calls** -  Buy and sell calls for investment and trading, curated by MO researchers.\n\n- **Research & Analyst Coverage** - In-depth MO analyst reports across 360 plus stocks, sectors and commodities, plus LSEG global consensus across 900+ stocks.\n\n- **Mutual Fund Insights** - Information on mutual fund schemes, performance, and investment-related queries across categories.\n\n- **Smart Screeners** - Run 200 plus techno-fundamental screeners across price, technicals, and fundamentals.\n\n- **Technical Analysis** - Analyse equity and commodity charts using moving averages, RSI, MACD, and more.\n\n- **Market Data** - Live prices, financials, ratios, news and shareholding data across equity and commodities top movers.",
+   "quick_actions": [
+    {
+     "id": "stocks_data_1",
+     "title": "250+ Stocks Data",
+     "type": "chip"
+    },
+    {
+     "id": "stocks_data_2",
+     "title": "250+ Stocks Data",
+     "type": "chip"
+    },
+    {
+     "id": "stocks_data_3",
+     "title": "250+ Stocks Data",
+     "type": "chip"
+    },
+    {
+     "id": "stocks_data_4",
+     "title": "250+ Stocks Data",
+     "type": "chip"
+    },
+    {
+     "id": "stocks_data_5",
+     "title": "250+ Stocks Data",
+     "type": "chip"
+    }
+   ],
+   "popular_topics": [
+    {
+     "id": "topic_1",
+     "title": "Give me research report on JSL",
+     "subtitle": "",
+     "type": "suggestion_card"
+    },
+    {
+     "id": "topic_2",
+     "title": "Give me sector report on Consumer",
+     "subtitle": "",
+     "type": "suggestion_card"
+    },
+    {
+     "id": "topic_3",
+     "title": "Stocks with high return on equity",
+     "subtitle": "",
+     "type": "suggestion_card"
+    },
+    {
+     "id": "4965701",
+     "title": "52 week high stocks on NSE",
+     "type": "suggestion_card"
+    },
+    {
+     "id": "financial_ratios_lt",
+     "title": "Get financial ratios of Larsen & Toubro",
+     "subtitle": "",
+     "type": "suggestion_card"
+    }
+   ],
+   "terms_and_conditions": "https://www.motilaloswal.com/terms-and-conditions",
+   "feedback_options": [
+    {
+     "id": "item_0",
+     "title": "Response is inaccurate"
+    },
+    {
+     "id": "item_1",
+     "title": "Response is out of date"
+    },
+    {
+     "id": "item_2",
+     "title": "Response time is high"
+    },
+    {
+     "id": "item_3",
+     "title": "Response is not helpful"
+    },
+    {
+     "id": "item_4",
+     "title": "Other"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "endpoint": "/userlogin/api/Login/IdentifyUser",
+ "method": "POST",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "IdentifyUserResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "status": "ValidatePanDob",
+  "clientCode": "<redacted>",
+  "userType": "Trading",
+  "clientName": "<redacted>",
+  "loginToken": "<redacted>"
+ }
+}

@@ -1,0 +1,260 @@
+{
+ "endpoint": "/TradingApiV2/api/OptionList",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "OptionListResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "indices": [
+   {
+    "indexCode": 26000,
+    "indexName": "NIFTY 50",
+    "expiry": [
+     {
+      "expirySeconds": 1478183400,
+      "expiryFlag": "W"
+     },
+     {
+      "expirySeconds": 1478701800,
+      "expiryFlag": "W"
+     },
+     {
+      "expirySeconds": 1479393000,
+      "expiryFlag": "W"
+     },
+     {
+      "expirySeconds": 1480602600,
+      "expiryFlag": "W"
+     },
+     {
+      "expirySeconds": 1479911400,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1483021800,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1485354600,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1490884200,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1498746600,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1506609000,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1514471400,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1530196200,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1545921000,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1561645800,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1577284200,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1593095400,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1609425000,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1624545000,
+      "expiryFlag": "M"
+     }
+    ]
+   },
+   {
+    "indexCode": 999901,
+    "indexName": "SENSEX",
+    "exchangeCode": 1,
+    "expiry": [
+     {
+      "expirySeconds": 1478304000,
+      "expiryFlag": "W"
+     },
+     {
+      "expirySeconds": 1478908800,
+      "expiryFlag": "W"
+     },
+     {
+      "expirySeconds": 1479513600,
+      "expiryFlag": "W"
+     },
+     {
+      "expirySeconds": 1480118400,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1483142400,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1490400000,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1498262400,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1506729600,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1514592000,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1530316800,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1546041600,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1561766400,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1577491200,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1593216000,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1608940800,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1624665600,
+      "expiryFlag": "M"
+     }
+    ]
+   },
+   {
+    "indexCode": 26009,
+    "indexName": "NIFTY BANK",
+    "expiry": [
+     {
+      "expirySeconds": 1479911400,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1483021800,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1485354600,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1490884200,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1498746600,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1506609000,
+      "expiryFlag": "M"
+     }
+    ]
+   },
+   {
+    "indexCode": 26074,
+    "indexName": "NIFTY MID SELECT",
+    "expiry": [
+     {
+      "expirySeconds": 1479911400,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1483021800,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1485354600,
+      "expiryFlag": "M"
+     }
+    ]
+   },
+   {
+    "indexCode": 26037,
+    "indexName": "NIFTY FIN SERVICE",
+    "expiry": [
+     {
+      "expirySeconds": 1479911400,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1483021800,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1485354600,
+      "expiryFlag": "M"
+     }
+    ]
+   },
+   {
+    "indexCode": 999912,
+    "indexName": "BANKEX",
+    "exchangeCode": 1,
+    "expiry": [
+     {
+      "expirySeconds": 1480118400,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1483142400,
+      "expiryFlag": "M"
+     }
+    ]
+   },
+   {
+    "indexCode": 26013,
+    "indexName": "NIFTY NEXT 50",
+    "expiry": [
+     {
+      "expirySeconds": 1479911400,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1483021800,
+      "expiryFlag": "M"
+     },
+     {
+      "expirySeconds": 1485354600,
+      "expiryFlag": "M"
+     }
+    ]
+   }
+  ]
+ }
+}

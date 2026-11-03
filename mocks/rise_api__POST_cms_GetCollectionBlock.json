@@ -1,0 +1,68 @@
+{
+ "endpoint": "/usequity/api/cms/GetCollectionBlock",
+ "method": "POST",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "NineCollectionResponseModel",
+ "source_flow": "debug_dump",
+ "response": {
+  "status": true,
+  "data": [
+   {
+    "id": 1,
+    "collectionname": "Money Never Sleeps",
+    "description": "Stocks from round-the-clock industries.",
+    "iconUrl": "img/371dd3a370da.svg"
+   },
+   {
+    "id": 2,
+    "collectionname": "Tech Giants",
+    "description": "Leading tech firms driving innovation globally.",
+    "iconUrl": "img/f7944e757314.svg"
+   },
+   {
+    "id": 3,
+    "collectionname": "Fortune 100",
+    "description": "Top US corporations by revenue.",
+    "iconUrl": "img/fba37a5567d8.svg"
+   },
+   {
+    "id": 4,
+    "collectionname": "NASDAQ 100",
+    "description": "Top non-financial firms on NASDAQ.",
+    "iconUrl": "img/08fb023f65a7.svg"
+   },
+   {
+    "id": 5,
+    "collectionname": "S&P 500",
+    "description": "Top 500 US publicly traded companies.",
+    "iconUrl": "img/34bb40396662.svg"
+   },
+   {
+    "id": 6,
+    "collectionname": "Dividend Aristocrats",
+    "description": "Consistent dividend growth for 25+ years.",
+    "iconUrl": "img/c6f671e6bb9d.svg"
+   },
+   {
+    "id": 7,
+    "collectionname": "US Baskets",
+    "description": "Stocks from a widely held ETF.",
+    "iconUrl": "img/c7e49bd25ca0.svg"
+   },
+   {
+    "id": 8,
+    "collectionname": "Electric Mobility",
+    "description": "Companies in electric vehicle sector.",
+    "iconUrl": "img/e2b6d935ae92.svg"
+   },
+   {
+    "id": 9,
+    "collectionname": "Founder Led",
+    "description": "Companies guided by original founders.",
+    "iconUrl": "img/489d3748a648.svg"
+   }
+  ],
+  "message": "success"
+ }
+}

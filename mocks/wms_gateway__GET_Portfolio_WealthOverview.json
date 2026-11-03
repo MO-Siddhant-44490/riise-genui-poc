@@ -1,0 +1,44 @@
+{
+ "endpoint": "/dev/wms/v2/api/Portfolio/WealthOverview",
+ "method": "GET",
+ "host": "e74xime5x0.execute-api.ap-south-1.amazonaws.com",
+ "http_status": 200,
+ "decoded_as": "WealthOverviewResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "mo": {
+   "title": "MO Wealth",
+   "investedValue": "2518058",
+   "currentValue": "1734849",
+   "dayPnlValue": "-58333",
+   "dayPnlChangePer": -325,
+   "overallChange": "-783209",
+   "overallChangePer": -3110,
+   "deepLinkUrl": "mosl://superapp.com/portfolio?ptab=Motilal Oswal"
+  },
+  "external": {
+   "title": "External Wealth",
+   "deepLinkUrl": "mosl://superapp.com/aaTrackNow",
+   "ctaText": "Track Your Wealth"
+  },
+  "moAssets": {
+   "equity": {
+    "name": "Stocks",
+    "investedValue": "658328",
+    "marketValue": "188563",
+    "daysChange": "-6299",
+    "overallChange": "-469765",
+    "deepLinkUrl": "portfolio/equity"
+   },
+   "mf": {
+    "name": "Mutual Funds",
+    "investedValue": "1859730",
+    "marketValue": "1546286",
+    "daysChange": "-52034",
+    "overallChange": "-313444",
+    "deepLinkUrl": "portfolio/mf",
+    "lastUpdatedTime": "1793601967685"
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "endpoint": "/wms/Transaction/transactionDetails",
+ "method": "POST",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "_Map<String, dynamic>",
+ "source_flow": "debug_dump",
+ "response": {
+  "status": true,
+  "data": {
+   "message": "No data found"
+  },
+  "message": "Success"
+ }
+}

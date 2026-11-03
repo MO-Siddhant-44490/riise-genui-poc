@@ -1,0 +1,17 @@
+{
+ "endpoint": "/news/api/News/GetuserLiveNews",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "LiveNewsDataModel",
+ "source_flow": "debug_dump",
+ "response": {
+  "message": "Success",
+  "statusCode": 200,
+  "data": {
+   "totalcount": 0,
+   "category": "live",
+   "newses": []
+  }
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "endpoint": "/usequity/api/cms/stock/GetSpecificStockSectorData",
+ "method": "POST",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "ExploreMoreUsStockListModel",
+ "source_flow": "debug_dump",
+ "response": {
+  "message": "SUCCESS",
+  "status": true,
+  "data": {
+   "stocklist": [
+    {
+     "symbol": "SPOT",
+     "name": "Spotify Technology SA",
+     "type": "Common Stock",
+     "logo_url": "https://drivewealth.imgix.net/symbols/spot.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "category": "LARGE CAP",
+     "sector": "Communication Services",
+     "ret_one_day": 6.21,
+     "ret_one_year": -26.6,
+     "ret_three_year": 284.58,
+     "ret_five_year": 30.31,
+     "lasttrade": "591.82",
+     "previousclose": 557.24,
+     "close": 0,
+     "market_capitalization": 94369464320.0
+    },
+    {
+     "symbol": "CMCSA",
+     "name": "Comcast Corp.",
+     "type": "Common Stock",
+     "logo_url": "https://drivewealth.imgix.net/symbols/cmcsa_1666585210.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "category": "LARGE CAP",
+     "sector": "Communication Services",
+     "ret_one_day": 3.97,
+     "ret_one_year": -13.16,
+     "ret_three_year": -16.59,
+     "ret_five_year": -39.95,
+     "lasttrade": "23.155",
+     "previousclose": 22.27,
+     "close": 0,
+     "market_capitalization": 115037749248.0
+    },
+    {
+     "symbol": "RCI",
+     "name": "Rogers Communications Inc.",
+     "type": "Common Stock",
+     "logo_url": "https://drivewealth.imgix.net/symbols/rci_1617915595.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "category": "LARGE CAP",
+     "sector": "Communication Services",
+     "ret_one_day": 3.27,
+     "ret_one_year": 38.11,
+     "ret_three_year": -21.14,
+     "ret_five_year": -13.32,
+     "lasttrade": "32.5",
+     "previousclose": 31.47,
+     "close": 0,
+     "market_capitalization": 21114193920.0
+    },
+    {
+     "symbol": "TU",
+     "name": "TELUS Corp",
+     "type": "Common Stock",
+     "logo_url": "https://drivewealth.imgix.net/symbols/tu.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "category": "LARGE CAP",
+     "sector": "Communication Services",
+     "ret_one_day": 2.02,
+     "ret_one_year": -10.39,
+     "ret_three_year": -32.7,
+     "ret_five_year": -34.32,
+     "lasttrade": "8.845",
+     "previousclose": 8.67,
+     "close": 0,
+     "market_capitalization": 21042278400.0
+    },
+    {
+     "symbol": "VOD",
+     "name": "Vodafone Group Public Limited Company",
+     "type": "Common Stock",
+     "logo_url": "https://drivewealth.imgix.net/symbols/vod_1659125209.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "category": "LARGE CAP",
+     "sector": "Communication Services",
+     "ret_one_day": 1.64,
+     "ret_one_year": 87.77,
+     "ret_three_year": 27.19,
+     "ret_five_year": -15.02,
+     "lasttrade": "15.825",
+     "previousclose": 15.57,
+     "close": 0,
+     "market_capitalization": 36253433856.0
+    }
+   ],
+   "sectorlist": [
+    "Communication Services"
+   ],
+   "marketcaplist": [
+    "SMALL CAP",
+    "LARGE CAP",
+    "MEGA CAP",
+    "MID CAP"
+   ]
+  }
+ }
+}

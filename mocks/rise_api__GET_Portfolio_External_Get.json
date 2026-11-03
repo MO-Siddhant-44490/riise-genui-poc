@@ -1,0 +1,49 @@
+{
+ "endpoint": "/wms/v2/api/Portfolio/External/Get",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "ExternalPortfolioDashboardResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "summary": {
+   "investedValue": "5599717",
+   "currentValue": "6109958",
+   "daysChange": "-70909",
+   "daysChangePer": -114,
+   "overallChange": "510241",
+   "overallChangePer": 911,
+   "netWorth": "6109958"
+  },
+  "assets": {
+   "mf": {
+    "name": "Mutual Funds",
+    "investedValue": "5599717",
+    "marketValue": "6109958",
+    "daysChange": "-70909",
+    "overallChange": "510241",
+    "deepLinkUrl": "mosl://superapp.com/portfolio?ptab=External&stab=Mutual%20Funds",
+    "lastUpdatedTime": "1769040000",
+    "iconUrl": "img/14a41e0ef7bf.svg",
+    "dayScrip": [
+     {
+      "type": "Loser",
+      "tradeSymbol": "Motilal Oswal Nifty India Defence Index Fund",
+      "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/pwm/mutualfund/INF247L01CW5.png",
+      "dayPnl": "-35845",
+      "isin": "INF247L01CW5",
+      "dayPnlPerc": -201
+     },
+     {
+      "type": "Gainer",
+      "tradeSymbol": "Motilal Oswal Flexi Cap Fund",
+      "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/pwm/mutualfund/INF247L01502.png",
+      "dayPnl": "-35064",
+      "isin": "INF247L01502",
+      "dayPnlPerc": -79
+     }
+    ]
+   }
+  }
+ }
+}

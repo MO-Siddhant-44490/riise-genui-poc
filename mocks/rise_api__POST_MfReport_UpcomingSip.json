@@ -1,0 +1,18 @@
+{
+ "endpoint": "/transaction/api/MfReport/UpcomingSip",
+ "method": "POST",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "_Map<String, dynamic>",
+ "source_flow": "debug_dump",
+ "response": {
+  "status": true,
+  "statusCode": 200,
+  "data": {
+   "totalAmount": 0,
+   "pendingAmount": 0,
+   "reportTables": []
+  },
+  "message": "success"
+ }
+}

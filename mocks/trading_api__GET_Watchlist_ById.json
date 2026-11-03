@@ -1,0 +1,412 @@
+{
+ "endpoint": "/TradingApiV2/api/Watchlist/ById",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "WatchlistScrips",
+ "source_flow": "debug_dump",
+ "response": {
+  "scrips": [
+   {
+    "id": 53872,
+    "scrip": {
+     "scripCode": 53872,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 23000",
+    "optionType": "CE",
+    "holding": {},
+    "PrevOi": 7458360,
+    "putCallRatio": 1.309999942779541,
+    "expiry": 1478183400,
+    "hasOptionsAvailable": true,
+    "indexCode": 26000,
+    "indexId": "NIFTY 50",
+    "indexName": "Nifty 50",
+    "spotScrip": {
+     "id": {
+      "scripCode": 26000
+     },
+     "currentPrice": 18346,
+     "indexSpot": "NIFTY 50"
+    }
+   },
+   {
+    "id": 53924,
+    "scrip": {
+     "scripCode": 53924,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 23050",
+    "optionType": "CE",
+    "holding": {},
+    "PrevOi": 3506815,
+    "putCallRatio": 1.309999942779541,
+    "expiry": 1478183400,
+    "hasOptionsAvailable": true,
+    "indexCode": 26000,
+    "indexId": "NIFTY 50",
+    "indexName": "Nifty 50",
+    "spotScrip": {
+     "id": {
+      "scripCode": 26000
+     },
+     "currentPrice": 18346,
+     "indexSpot": "NIFTY 50"
+    }
+   },
+   {
+    "id": 53926,
+    "scrip": {
+     "scripCode": 53926,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 23100",
+    "optionType": "CE",
+    "holding": {},
+    "PrevOi": 6900140,
+    "putCallRatio": 1.309999942779541,
+    "expiry": 1478183400,
+    "hasOptionsAvailable": true,
+    "indexCode": 26000,
+    "indexId": "NIFTY 50",
+    "indexName": "Nifty 50",
+    "spotScrip": {
+     "id": {
+      "scripCode": 26000
+     },
+     "currentPrice": 18346,
+     "indexSpot": "NIFTY 50"
+    }
+   },
+   {
+    "id": 53928,
+    "scrip": {
+     "scripCode": 53928,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 23150",
+    "optionType": "CE",
+    "holding": {},
+    "PrevOi": 3675425,
+    "putCallRatio": 1.309999942779541,
+    "expiry": 1478183400,
+    "hasOptionsAvailable": true,
+    "indexCode": 26000,
+    "indexId": "NIFTY 50",
+    "indexName": "Nifty 50",
+    "spotScrip": {
+     "id": {
+      "scripCode": 26000
+     },
+     "currentPrice": 18346,
+     "indexSpot": "NIFTY 50"
+    }
+   },
+   {
+    "id": 53930,
+    "scrip": {
+     "scripCode": 53930,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 23200",
+    "optionType": "CE",
+    "holding": {},
+    "PrevOi": 7708480,
+    "putCallRatio": 1.309999942779541,
+    "expiry": 1478183400,
+    "hasOptionsAvailable": true,
+    "indexCode": 26000,
+    "indexId": "NIFTY 50",
+    "indexName": "Nifty 50",
+    "spotScrip": {
+     "id": {
+      "scripCode": 26000
+     },
+     "currentPrice": 18346,
+     "indexSpot": "NIFTY 50"
+    }
+   },
+   {
+    "id": 53932,
+    "scrip": {
+     "scripCode": 53932,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 23250",
+    "optionType": "CE",
+    "holding": {},
+    "PrevOi": 3409250,
+    "putCallRatio": 1.309999942779541,
+    "expiry": 1478183400,
+    "hasOptionsAvailable": true,
+    "indexCode": 26000,
+    "indexId": "NIFTY 50",
+    "indexName": "Nifty 50",
+    "spotScrip": {
+     "id": {
+      "scripCode": 26000
+     },
+     "currentPrice": 18346,
+     "indexSpot": "NIFTY 50"
+    }
+   },
+   {
+    "id": 53940,
+    "scrip": {
+     "scripCode": 53940,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 23300",
+    "optionType": "CE",
+    "holding": {},
+    "PrevOi": 6733415,
+    "putCallRatio": 1.309999942779541,
+    "expiry": 1478183400,
+    "hasOptionsAvailable": true,
+    "indexCode": 26000,
+    "indexId": "NIFTY 50",
+    "indexName": "Nifty 50",
+    "spotScrip": {
+     "id": {
+      "scripCode": 26000
+     },
+     "currentPrice": 18346,
+     "indexSpot": "NIFTY 50"
+    }
+   },
+   {
+    "id": 53942,
+    "scrip": {
+     "scripCode": 53942,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 23350",
+    "optionType": "CE",
+    "holding": {},
+    "PrevOi": 3367325,
+    "putCallRatio": 1.309999942779541,
+    "expiry": 1478183400,
+    "hasOptionsAvailable": true,
+    "indexCode": 26000,
+    "indexId": "NIFTY 50",
+    "indexName": "Nifty 50",
+    "spotScrip": {
+     "id": {
+      "scripCode": 26000
+     },
+     "currentPrice": 18346,
+     "indexSpot": "NIFTY 50"
+    }
+   },
+   {
+    "id": 53929,
+    "scrip": {
+     "scripCode": 53929,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 23150",
+    "optionType": "PE",
+    "holding": {},
+    "PrevOi": 519155,
+    "putCallRatio": 1.309999942779541,
+    "expiry": 1478183400,
+    "hasOptionsAvailable": true,
+    "indexCode": 26000,
+    "indexId": "NIFTY 50",
+    "indexName": "Nifty 50",
+    "spotScrip": {
+     "id": {
+      "scripCode": 26000
+     },
+     "currentPrice": 18346,
+     "indexSpot": "NIFTY 50"
+    }
+   },
+   {
+    "id": 53927,
+    "scrip": {
+     "scripCode": 53927,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 23100",
+    "optionType": "PE",
+    "holding": {},
+    "PrevOi": 2748850,
+    "putCallRatio": 1.309999942779541,
+    "expiry": 1478183400,
+    "hasOptionsAvailable": true,
+    "indexCode": 26000,
+    "indexId": "NIFTY 50",
+    "indexName": "Nifty 50",
+    "spotScrip": {
+     "id": {
+      "scripCode": 26000
+     },
+     "currentPrice": 18346,
+     "indexSpot": "NIFTY 50"
+    }
+   },
+   {
+    "id": 53925,
+    "scrip": {
+     "scripCode": 53925,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 23050",
+    "optionType": "PE",
+    "holding": {},
+    "PrevOi": 4384965,
+    "putCallRatio": 1.309999942779541,
+    "expiry": 1478183400,
+    "hasOptionsAvailable": true,
+    "indexCode": 26000,
+    "indexId": "NIFTY 50",
+    "indexName": "Nifty 50",
+    "spotScrip": {
+     "id": {
+      "scripCode": 26000
+     },
+     "currentPrice": 18346,
+     "indexSpot": "NIFTY 50"
+    }
+   },
+   {
+    "id": 53923,
+    "scrip": {
+     "scripCode": 53923,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 23000",
+    "optionType": "PE",
+    "holding": {},
+    "PrevOi": 9308390,
+    "putCallRatio": 1.309999942779541,
+    "expiry": 1478183400,
+    "hasOptionsAvailable": true,
+    "indexCode": 26000,
+    "indexId": "NIFTY 50",
+    "indexName": "Nifty 50",
+    "spotScrip": {
+     "id": {
+      "scripCode": 26000
+     },
+     "currentPrice": 18346,
+     "indexSpot": "NIFTY 50"
+    }
+   },
+   {
+    "id": 53871,
+    "scrip": {
+     "scripCode": 53871,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22950",
+    "optionType": "PE",
+    "holding": {},
+    "PrevOi": 4603625,
+    "putCallRatio": 1.309999942779541,
+    "expiry": 1478183400,
+    "hasOptionsAvailable": true,
+    "indexCode": 26000,
+    "indexId": "NIFTY 50",
+    "indexName": "Nifty 50",
+    "spotScrip": {
+     "id": {
+      "scripCode": 26000
+     },
+     "currentPrice": 18346,
+     "indexSpot": "NIFTY 50"
+    }
+   },
+   {
+    "id": 53859,
+    "scrip": {
+     "scripCode": 53859,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22900",
+    "optionType": "PE",
+    "holding": {},
+    "PrevOi": 9321520,
+    "putCallRatio": 1.309999942779541,
+    "expiry": 1478183400,
+    "hasOptionsAvailable": true,
+    "indexCode": 26000,
+    "indexId": "NIFTY 50",
+    "indexName": "Nifty 50",
+    "spotScrip": {
+     "id": {
+      "scripCode": 26000
+     },
+     "currentPrice": 18346,
+     "indexSpot": "NIFTY 50"
+    }
+   },
+   {
+    "id": 53835,
+    "scrip": {
+     "scripCode": 53835,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22850",
+    "optionType": "PE",
+    "holding": {},
+    "PrevOi": 4943965,
+    "putCallRatio": 1.309999942779541,
+    "expiry": 1478183400,
+    "hasOptionsAvailable": true,
+    "indexCode": 26000,
+    "indexId": "NIFTY 50",
+    "indexName": "Nifty 50",
+    "spotScrip": {
+     "id": {
+      "scripCode": 26000
+     },
+     "currentPrice": 18346,
+     "indexSpot": "NIFTY 50"
+    }
+   },
+   {
+    "id": 53795,
+    "scrip": {
+     "scripCode": 53795,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22800",
+    "optionType": "PE",
+    "holding": {},
+    "PrevOi": 10595715,
+    "putCallRatio": 1.309999942779541,
+    "expiry": 1478183400,
+    "hasOptionsAvailable": true,
+    "indexCode": 26000,
+    "indexId": "NIFTY 50",
+    "indexName": "Nifty 50",
+    "spotScrip": {
+     "id": {
+      "scripCode": 26000
+     },
+     "currentPrice": 18346,
+     "indexSpot": "NIFTY 50"
+    }
+   }
+  ]
+ }
+}

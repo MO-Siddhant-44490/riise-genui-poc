@@ -1,0 +1,82 @@
+{
+ "endpoint": "/TradingApiV2/api/Explore/SectionsOrder",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "SectionsOrderResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "sectionsOrder": [
+   "Indices",
+   "RecentlySearched",
+   "TrendingStocksOnMo",
+   "MutualFundsInFocus",
+   "MoExpertPicks",
+   "WealthAtGlance",
+   "RecommendedOfferings",
+   "QuickTools"
+  ],
+  "isTradedOr30DaysDone": true
+ },
+ "variants": {
+  "segment=Home": {
+   "sectionsOrder": [
+    "Indices",
+    "RecentlySearched",
+    "TrendingStocksOnMo",
+    "MutualFundsInFocus",
+    "MoExpertPicks",
+    "WealthAtGlance",
+    "RecommendedOfferings",
+    "QuickTools"
+   ],
+   "isTradedOr30DaysDone": true
+  },
+  "segment=Stocks": {
+   "sectionsOrder": [
+    "Indices",
+    "PortfolioV2",
+    "Position",
+    "MarketMovers",
+    "TrendingStocksOnMo",
+    "ProductsAndTools",
+    "MoExpertPicks",
+    "Ipos",
+    "BestPerformers",
+    "EtfsForYou",
+    "EtfByMo",
+    "Banners",
+    "StartSipInTopCompounders",
+    "Faq"
+   ],
+   "isTradedOr30DaysDone": true
+  },
+  "segment=Fno": {
+   "sectionsOrder": [
+    "Indices",
+    "PositionV2",
+    "OptionList",
+    "TrendingOptions",
+    "OptionsInMomentum",
+    "MoExpertPicks",
+    "TradingTools",
+    "LearnFromMo"
+   ],
+   "isTradedOr30DaysDone": true
+  },
+  "segment=Commodity": {
+   "sectionsOrder": [
+    "indices",
+    "positionV2",
+    "commodityList",
+    "CommodityScrips",
+    "topTradedOptions",
+    "moExpertPicks",
+    "trendingOptions",
+    "lowMarginCommodities",
+    "commodityNews"
+   ],
+   "isTradedOr30DaysDone": true
+  }
+ }
+}

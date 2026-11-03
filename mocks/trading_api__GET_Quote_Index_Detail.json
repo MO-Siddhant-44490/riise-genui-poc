@@ -1,0 +1,112 @@
+{
+ "endpoint": "/TradingApiV2/api/Quote/Index/Detail",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "IndexDetailV4",
+ "source_flow": "debug_dump",
+ "response": {
+  "indexId": "SENSEX",
+  "indexCode": 999901,
+  "exchange": "BSE",
+  "advanceCount": 27,
+  "declineCount": 3,
+  "news": {},
+  "researchIdeas": {},
+  "returns": {
+   "entry": [
+    {
+     "period": "OneYear",
+     "value": -1130
+    },
+    {
+     "period": "OneWeek",
+     "value": 180
+    },
+    {
+     "period": "OneMonth",
+     "value": 360
+    },
+    {
+     "period": "ThreeMonth",
+     "value": -460
+    },
+    {
+     "period": "SixMonth",
+     "value": -320
+    }
+   ]
+  },
+  "lotSize": 30,
+  "tradeSymbol": "BANKNIFTY"
+ },
+ "variants": {
+  "indexId=SENSEX&exchange=1": {
+   "indexId": "SENSEX",
+   "indexCode": 999901,
+   "exchange": "BSE",
+   "advanceCount": 27,
+   "declineCount": 3,
+   "news": {},
+   "researchIdeas": {},
+   "returns": {
+    "entry": [
+     {
+      "period": "OneYear",
+      "value": -1130
+     },
+     {
+      "period": "OneWeek",
+      "value": 180
+     },
+     {
+      "period": "OneMonth",
+      "value": 360
+     },
+     {
+      "period": "ThreeMonth",
+      "value": -460
+     },
+     {
+      "period": "SixMonth",
+      "value": -320
+     }
+    ]
+   }
+  },
+  "indexId=NIFTY%20BANK&exchange=0": {
+   "indexId": "NIFTY BANK",
+   "indexCode": 26009,
+   "advanceCount": 10,
+   "declineCount": 2,
+   "news": {},
+   "researchIdeas": {},
+   "returns": {
+    "entry": [
+     {
+      "period": "OneYear",
+      "value": -540
+     },
+     {
+      "period": "OneWeek",
+      "value": 70
+     },
+     {
+      "period": "OneMonth",
+      "value": 40
+     },
+     {
+      "period": "ThreeMonth",
+      "value": -450
+     },
+     {
+      "period": "SixMonth",
+      "value": -30
+     }
+    ]
+   },
+   "lotSize": 30,
+   "tradeSymbol": "BANKNIFTY"
+  }
+ }
+}

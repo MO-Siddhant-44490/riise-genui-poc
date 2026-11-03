@@ -1,0 +1,12 @@
+{
+ "endpoint": "/userlogin/api/Login/Token",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "TokenResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "accessToken": "<redacted>",
+  "expiresIn": 120
+ }
+}

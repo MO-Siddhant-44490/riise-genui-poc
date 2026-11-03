@@ -1,0 +1,1047 @@
+{
+ "endpoint": "/TradingApiV2/api/Explore/FNO",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "FNODashboardResponseV4",
+ "source_flow": "debug_dump",
+ "response": {
+  "indices": {
+   "index": [
+    {
+     "title": "Sensex",
+     "description": "Expiry on Thursday",
+     "index": {
+      "index": {
+       "indexCode": 999901,
+       "exchange": "BSE"
+      },
+      "indexName": "SENSEX",
+      "hasDerivatives": true,
+      "indexId": "SENSEX"
+     }
+    },
+    {
+     "title": "Nifty Bank",
+     "description": "Expiry on 23 Nov 26",
+     "displayOrder": 1,
+     "index": {
+      "index": {
+       "indexCode": 26009
+      },
+      "indexName": "NIFTY BANK",
+      "hasDerivatives": true,
+      "indexId": "NIFTY BANK"
+     }
+    },
+    {
+     "title": "Nifty 50",
+     "description": "Expiry on Tuesday",
+     "displayOrder": 2,
+     "index": {
+      "index": {
+       "indexCode": 26000
+      },
+      "indexName": "NIFTY 50",
+      "hasDerivatives": true,
+      "indexId": "NIFTY 50"
+     }
+    },
+    {
+     "title": "Nifty Financial Services",
+     "description": "Expiry on 23 Nov 26",
+     "displayOrder": 3,
+     "index": {
+      "index": {
+       "indexCode": 26037
+      },
+      "indexName": "NIFTY FIN SERVICE",
+      "hasDerivatives": true,
+      "indexId": "NIFTY FIN SERVICE"
+     }
+    }
+   ]
+  },
+  "position": {
+   "availableMargin": 50000000
+  },
+  "optionList": {
+   "indices": [
+    {
+     "indexCode": 26000,
+     "indexName": "NIFTY 50",
+     "expiry": [
+      {
+       "expirySeconds": 1478183400,
+       "expiryFlag": "W"
+      },
+      {
+       "expirySeconds": 1478701800,
+       "expiryFlag": "W"
+      },
+      {
+       "expirySeconds": 1479393000,
+       "expiryFlag": "W"
+      },
+      {
+       "expirySeconds": 1480602600,
+       "expiryFlag": "W"
+      },
+      {
+       "expirySeconds": 1479911400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1483021800,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1485354600,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1490884200,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1498746600,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1506609000,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1514471400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1530196200,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1545921000,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1561645800,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1577284200,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1593095400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1609425000,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1624545000,
+       "expiryFlag": "M"
+      }
+     ]
+    },
+    {
+     "indexCode": 999901,
+     "indexName": "SENSEX",
+     "exchangeCode": 1,
+     "expiry": [
+      {
+       "expirySeconds": 1478304000,
+       "expiryFlag": "W"
+      },
+      {
+       "expirySeconds": 1478908800,
+       "expiryFlag": "W"
+      },
+      {
+       "expirySeconds": 1479513600,
+       "expiryFlag": "W"
+      },
+      {
+       "expirySeconds": 1480118400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1483142400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1490400000,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1498262400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1506729600,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1514592000,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1530316800,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1546041600,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1561766400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1577491200,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1593216000,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1608940800,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1624665600,
+       "expiryFlag": "M"
+      }
+     ]
+    },
+    {
+     "indexCode": 26009,
+     "indexName": "NIFTY BANK",
+     "expiry": [
+      {
+       "expirySeconds": 1479911400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1483021800,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1485354600,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1490884200,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1498746600,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1506609000,
+       "expiryFlag": "M"
+      }
+     ]
+    },
+    {
+     "indexCode": 26074,
+     "indexName": "NIFTY MID SELECT",
+     "expiry": [
+      {
+       "expirySeconds": 1479911400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1483021800,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1485354600,
+       "expiryFlag": "M"
+      }
+     ]
+    },
+    {
+     "indexCode": 26037,
+     "indexName": "NIFTY FIN SERVICE",
+     "expiry": [
+      {
+       "expirySeconds": 1479911400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1483021800,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1485354600,
+       "expiryFlag": "M"
+      }
+     ]
+    },
+    {
+     "indexCode": 999912,
+     "indexName": "BANKEX",
+     "exchangeCode": 1,
+     "expiry": [
+      {
+       "expirySeconds": 1480118400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1483142400,
+       "expiryFlag": "M"
+      }
+     ]
+    },
+    {
+     "indexCode": 26013,
+     "indexName": "NIFTY NEXT 50",
+     "expiry": [
+      {
+       "expirySeconds": 1479911400,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1483021800,
+       "expiryFlag": "M"
+      },
+      {
+       "expirySeconds": 1485354600,
+       "expiryFlag": "M"
+      }
+     ]
+    }
+   ]
+  },
+  "trendingOptions": {
+   "data": [
+    {
+     "instrumentName": "NIFTY 50",
+     "instrumentId": "NIFTY",
+     "expiryDate": "2026-11-03",
+     "titleName": "Most Active",
+     "screenType": "most_active_contract",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY 50",
+     "instrumentId": "NIFTY",
+     "expiryDate": "2026-11-03",
+     "titleName": "Long BuildUp",
+     "screenType": "long_build_up",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY 50",
+     "instrumentId": "NIFTY",
+     "expiryDate": "2026-11-03",
+     "titleName": "Short BuildUp",
+     "screenType": "short_build_up",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY 50",
+     "instrumentId": "NIFTY",
+     "expiryDate": "2026-11-03",
+     "titleName": "OI Gainers",
+     "screenType": "oi_gainers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY 50",
+     "instrumentId": "NIFTY",
+     "expiryDate": "2026-11-03",
+     "titleName": "OI Losers",
+     "screenType": "oi_losers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY 50",
+     "instrumentId": "NIFTY",
+     "expiryDate": "2026-11-03",
+     "titleName": "Price Gainers",
+     "screenType": "price_gainers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY 50",
+     "instrumentId": "NIFTY",
+     "expiryDate": "2026-11-03",
+     "titleName": "Price Losers",
+     "screenType": "price_losers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "SENSEX",
+     "instrumentId": "BSX",
+     "expiryDate": "2026-11-05",
+     "titleName": "Most Active",
+     "screenType": "most_active_contract",
+     "isActive": true
+    },
+    {
+     "instrumentName": "SENSEX",
+     "instrumentId": "BSX",
+     "expiryDate": "2026-11-05",
+     "titleName": "Long BuildUp",
+     "screenType": "long_build_up",
+     "isActive": true
+    },
+    {
+     "instrumentName": "SENSEX",
+     "instrumentId": "BSX",
+     "expiryDate": "2026-11-05",
+     "titleName": "Short BuildUp",
+     "screenType": "short_build_up",
+     "isActive": true
+    },
+    {
+     "instrumentName": "SENSEX",
+     "instrumentId": "BSX",
+     "expiryDate": "2026-11-05",
+     "titleName": "OI Gainers",
+     "screenType": "oi_gainers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "SENSEX",
+     "instrumentId": "BSX",
+     "expiryDate": "2026-11-05",
+     "titleName": "OI Losers",
+     "screenType": "oi_losers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "SENSEX",
+     "instrumentId": "BSX",
+     "expiryDate": "2026-11-05",
+     "titleName": "Price Gainers",
+     "screenType": "price_gainers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "SENSEX",
+     "instrumentId": "BSX",
+     "expiryDate": "2026-11-05",
+     "titleName": "Price Losers",
+     "screenType": "price_losers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY BANK",
+     "instrumentId": "BANKNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "Most Active",
+     "screenType": "most_active_contract",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY BANK",
+     "instrumentId": "BANKNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "Long BuildUp",
+     "screenType": "long_build_up",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY BANK",
+     "instrumentId": "BANKNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "Short BuildUp",
+     "screenType": "short_build_up",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY BANK",
+     "instrumentId": "BANKNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "OI Gainers",
+     "screenType": "oi_gainers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY BANK",
+     "instrumentId": "BANKNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "OI Losers",
+     "screenType": "oi_losers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY BANK",
+     "instrumentId": "BANKNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "Price Gainers",
+     "screenType": "price_gainers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY BANK",
+     "instrumentId": "BANKNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "Price Losers",
+     "screenType": "price_losers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "STOCK",
+     "instrumentId": "STOCK",
+     "expiryDate": "2026-11-23",
+     "titleName": "Most Active",
+     "screenType": "most_active_contract",
+     "isActive": true
+    },
+    {
+     "instrumentName": "STOCK",
+     "instrumentId": "STOCK",
+     "expiryDate": "2026-11-23",
+     "titleName": "Long BuildUp",
+     "screenType": "long_build_up",
+     "isActive": true
+    },
+    {
+     "instrumentName": "STOCK",
+     "instrumentId": "STOCK",
+     "expiryDate": "2026-11-23",
+     "titleName": "Short BuildUp",
+     "screenType": "short_build_up",
+     "isActive": true
+    },
+    {
+     "instrumentName": "STOCK",
+     "instrumentId": "STOCK",
+     "expiryDate": "2026-11-23",
+     "titleName": "OI Gainers",
+     "screenType": "oi_gainers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "STOCK",
+     "instrumentId": "STOCK",
+     "expiryDate": "2026-11-23",
+     "titleName": "OI Losers",
+     "screenType": "oi_losers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "STOCK",
+     "instrumentId": "STOCK",
+     "expiryDate": "2026-11-23",
+     "titleName": "Price Gainers",
+     "screenType": "price_gainers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "STOCK",
+     "instrumentId": "STOCK",
+     "expiryDate": "2026-11-23",
+     "titleName": "Price Losers",
+     "screenType": "price_losers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY MID SELECT",
+     "instrumentId": "MIDCPNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "Most Active",
+     "screenType": "most_active_contract",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY MID SELECT",
+     "instrumentId": "MIDCPNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "Long BuildUp",
+     "screenType": "long_build_up",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY MID SELECT",
+     "instrumentId": "MIDCPNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "Short BuildUp",
+     "screenType": "short_build_up",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY MID SELECT",
+     "instrumentId": "MIDCPNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "OI Gainers",
+     "screenType": "oi_gainers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY MID SELECT",
+     "instrumentId": "MIDCPNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "OI Losers",
+     "screenType": "oi_losers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY MID SELECT",
+     "instrumentId": "MIDCPNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "Price Gainers",
+     "screenType": "price_gainers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY MID SELECT",
+     "instrumentId": "MIDCPNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "Price Losers",
+     "screenType": "price_losers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY FIN SERVICE",
+     "instrumentId": "FINNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "Most Active",
+     "screenType": "most_active_contract",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY FIN SERVICE",
+     "instrumentId": "FINNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "Long BuildUp",
+     "screenType": "long_build_up",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY FIN SERVICE",
+     "instrumentId": "FINNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "Short BuildUp",
+     "screenType": "short_build_up",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY FIN SERVICE",
+     "instrumentId": "FINNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "OI Gainers",
+     "screenType": "oi_gainers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY FIN SERVICE",
+     "instrumentId": "FINNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "OI Losers",
+     "screenType": "oi_losers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY FIN SERVICE",
+     "instrumentId": "FINNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "Price Gainers",
+     "screenType": "price_gainers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY FIN SERVICE",
+     "instrumentId": "FINNIFTY",
+     "expiryDate": "2026-11-23",
+     "titleName": "Price Losers",
+     "screenType": "price_losers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "BANKEX",
+     "instrumentId": "BKX",
+     "expiryDate": "2026-11-26",
+     "titleName": "Most Active",
+     "screenType": "most_active_contract",
+     "isActive": true
+    },
+    {
+     "instrumentName": "BANKEX",
+     "instrumentId": "BKX",
+     "expiryDate": "2026-11-26",
+     "titleName": "Long BuildUp",
+     "screenType": "long_build_up",
+     "isActive": true
+    },
+    {
+     "instrumentName": "BANKEX",
+     "instrumentId": "BKX",
+     "expiryDate": "2026-11-26",
+     "titleName": "Short BuildUp",
+     "screenType": "short_build_up",
+     "isActive": true
+    },
+    {
+     "instrumentName": "BANKEX",
+     "instrumentId": "BKX",
+     "expiryDate": "2026-11-26",
+     "titleName": "OI Gainers",
+     "screenType": "oi_gainers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "BANKEX",
+     "instrumentId": "BKX",
+     "expiryDate": "2026-11-26",
+     "titleName": "OI Losers",
+     "screenType": "oi_losers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "BANKEX",
+     "instrumentId": "BKX",
+     "expiryDate": "2026-11-26",
+     "titleName": "Price Gainers",
+     "screenType": "price_gainers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "BANKEX",
+     "instrumentId": "BKX",
+     "expiryDate": "2026-11-26",
+     "titleName": "Price Losers",
+     "screenType": "price_losers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY NEXT 50",
+     "instrumentId": "NIFTYNXT50",
+     "expiryDate": "2026-11-23",
+     "titleName": "Most Active",
+     "screenType": "most_active_contract",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY NEXT 50",
+     "instrumentId": "NIFTYNXT50",
+     "expiryDate": "2026-11-23",
+     "titleName": "Long BuildUp",
+     "screenType": "long_build_up",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY NEXT 50",
+     "instrumentId": "NIFTYNXT50",
+     "expiryDate": "2026-11-23",
+     "titleName": "Short BuildUp",
+     "screenType": "short_build_up",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY NEXT 50",
+     "instrumentId": "NIFTYNXT50",
+     "expiryDate": "2026-11-23",
+     "titleName": "OI Gainers",
+     "screenType": "oi_gainers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY NEXT 50",
+     "instrumentId": "NIFTYNXT50",
+     "expiryDate": "2026-11-23",
+     "titleName": "OI Losers",
+     "screenType": "oi_losers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY NEXT 50",
+     "instrumentId": "NIFTYNXT50",
+     "expiryDate": "2026-11-23",
+     "titleName": "Price Gainers",
+     "screenType": "price_gainers",
+     "isActive": true
+    },
+    {
+     "instrumentName": "NIFTY NEXT 50",
+     "instrumentId": "NIFTYNXT50",
+     "expiryDate": "2026-11-23",
+     "titleName": "Price Losers",
+     "screenType": "price_losers",
+     "isActive": true
+    }
+   ]
+  },
+  "optionsInMomentum": {
+   "entries": [
+    {
+     "scrip": {
+      "scripCode": 53929,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov PE 23150",
+     "indexId": "NIFTY 50",
+     "optionType": "Put",
+     "strikePrice": 2315000,
+     "expirySeconds": 1478183400,
+     "expiryFlag": "W",
+     "perChange": 1312,
+     "isGainer": true,
+     "displayRank": 1
+    },
+    {
+     "scrip": {
+      "scripCode": 53925,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov PE 23050",
+     "indexId": "NIFTY 50",
+     "optionType": "Put",
+     "strikePrice": 2305000,
+     "expirySeconds": 1478183400,
+     "expiryFlag": "W",
+     "perChange": 1164,
+     "isGainer": true,
+     "displayRank": 2
+    },
+    {
+     "scrip": {
+      "scripCode": 53923,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov PE 23000",
+     "indexId": "NIFTY 50",
+     "optionType": "Put",
+     "strikePrice": 2300000,
+     "expirySeconds": 1478183400,
+     "expiryFlag": "W",
+     "perChange": 1163,
+     "isGainer": true,
+     "displayRank": 3
+    },
+    {
+     "scrip": {
+      "scripCode": 53927,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov PE 23100",
+     "indexId": "NIFTY 50",
+     "optionType": "Put",
+     "strikePrice": 2310000,
+     "expirySeconds": 1478183400,
+     "expiryFlag": "W",
+     "perChange": 1159,
+     "isGainer": true,
+     "displayRank": 4
+    },
+    {
+     "scrip": {
+      "scripCode": 1134385,
+      "exchange": "BSE_FO"
+     },
+     "tradeSymbol": "BSX",
+     "description": "BSE 05 Nov PE 73400",
+     "indexId": "SENSEX",
+     "optionType": "Put",
+     "strikePrice": 7340000,
+     "expirySeconds": 1478304000,
+     "expiryFlag": "W",
+     "perChange": 941,
+     "isGainer": true,
+     "displayRank": 5
+    },
+    {
+     "scrip": {
+      "scripCode": 1134193,
+      "exchange": "BSE_FO"
+     },
+     "tradeSymbol": "BSX",
+     "description": "BSE 05 Nov PE 74000",
+     "indexId": "SENSEX",
+     "optionType": "Put",
+     "strikePrice": 7400000,
+     "expirySeconds": 1478304000,
+     "expiryFlag": "W",
+     "perChange": 905,
+     "isGainer": true,
+     "displayRank": 6
+    },
+    {
+     "scrip": {
+      "scripCode": 1134323,
+      "exchange": "BSE_FO"
+     },
+     "tradeSymbol": "BSX",
+     "description": "BSE 05 Nov PE 73700",
+     "indexId": "SENSEX",
+     "optionType": "Put",
+     "strikePrice": 7370000,
+     "expirySeconds": 1478304000,
+     "expiryFlag": "W",
+     "perChange": 892,
+     "isGainer": true,
+     "displayRank": 7
+    },
+    {
+     "scrip": {
+      "scripCode": 1134430,
+      "exchange": "BSE_FO"
+     },
+     "tradeSymbol": "BSX",
+     "description": "BSE 05 Nov PE 73800",
+     "indexId": "SENSEX",
+     "optionType": "Put",
+     "strikePrice": 7380000,
+     "expirySeconds": 1478304000,
+     "expiryFlag": "W",
+     "perChange": 877,
+     "isGainer": true,
+     "displayRank": 8
+    },
+    {
+     "scrip": {
+      "scripCode": 62134,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "BANKNIFTY",
+     "description": "NSE 23 Nov PE 54000",
+     "indexId": "NIFTY BANK",
+     "optionType": "Put",
+     "strikePrice": 5400000,
+     "expirySeconds": 1479911400,
+     "expiryFlag": "M",
+     "perChange": 487,
+     "isGainer": true,
+     "displayRank": 9
+    },
+    {
+     "scrip": {
+      "scripCode": 62152,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "BANKNIFTY",
+     "description": "NSE 23 Nov PE 54800",
+     "indexId": "NIFTY BANK",
+     "optionType": "Put",
+     "strikePrice": 5480000,
+     "expirySeconds": 1479911400,
+     "expiryFlag": "M",
+     "perChange": 450,
+     "isGainer": true,
+     "displayRank": 10
+    },
+    {
+     "scrip": {
+      "scripCode": 62146,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "BANKNIFTY",
+     "description": "NSE 23 Nov PE 54500",
+     "indexId": "NIFTY BANK",
+     "optionType": "Put",
+     "strikePrice": 5450000,
+     "expirySeconds": 1479911400,
+     "expiryFlag": "M",
+     "perChange": 447,
+     "isGainer": true,
+     "displayRank": 11
+    },
+    {
+     "scrip": {
+      "scripCode": 62132,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "BANKNIFTY",
+     "description": "NSE 23 Nov PE 53900",
+     "indexId": "NIFTY BANK",
+     "optionType": "Put",
+     "strikePrice": 5390000,
+     "expirySeconds": 1479911400,
+     "expiryFlag": "M",
+     "perChange": 436,
+     "isGainer": true,
+     "displayRank": 12
+    }
+   ],
+   "timeframes": [
+    {
+     "label": "5 Min",
+     "displayOrder": 1
+    },
+    {
+     "value": "Min15",
+     "label": "15 Min",
+     "displayOrder": 2
+    },
+    {
+     "value": "Min30",
+     "label": "30 Min",
+     "displayOrder": 3
+    },
+    {
+     "value": "Hour1",
+     "label": "1 Hour",
+     "displayOrder": 4
+    },
+    {
+     "value": "Day1",
+     "label": "1 Day",
+     "displayOrder": 5
+    }
+   ]
+  },
+  "learnFromMo": {
+   "entry": [
+    {
+     "title": "Explore Fno Homepage",
+     "contentUrl": "https://www.youtube.com/watch?v=WudZcmnAhNE&list=PL4yxZDLRngMCOMDU0Q8I5ac-7f6Q47tdH",
+     "displayOrder": 1,
+     "updatedOnDate": "1788254924"
+    },
+    {
+     "title": "How to place an F&O Order on RIISE by Motilal Oswal",
+     "contentUrl": "https://www.youtube.com/watch?v=sNL8WFbLrEk&list=PL4yxZDLRngMCOMDU0Q8I5ac-7f6Q47tdH&index=2",
+     "displayOrder": 2,
+     "updatedOnDate": "1788254924"
+    }
+   ]
+  },
+  "tradingTools": {
+   "entry": [
+    {
+     "toolId": "INDEX_VIEW",
+     "title": "Index View",
+     "iconUrl": "img/58f8e0d72760.svg",
+     "url": "mosl://superapp.com/fnomodule?tab=IndexView",
+     "displayOrder": 1
+    },
+    {
+     "toolId": "STRATX",
+     "title": "StratX",
+     "iconUrl": "img/8cf6f8e2a9f5.svg",
+     "url": "mosl://superapp.com/stratxDashboard",
+     "displayOrder": 2
+    },
+    {
+     "toolId": "OPTION_OI",
+     "title": "Option OI Analytics",
+     "iconUrl": "img/86b91edf4d20.svg",
+     "url": "mosl://superapp.com/fnomodule?tab=OptionOiAnalytics",
+     "displayOrder": 3
+    },
+    {
+     "toolId": "FII_DII",
+     "title": "FII/DII Activity",
+     "iconUrl": "img/29a41e950b75.svg",
+     "url": "mosl://superapp.com/fnomodule?tab=FiiDiiActivity",
+     "displayOrder": 4
+    }
+   ]
+  },
+  "moExpertPicks": {
+   "IsMarketOpen": true,
+   "viewCount": 291
+  }
+ }
+}

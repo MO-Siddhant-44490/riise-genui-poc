@@ -1,0 +1,69 @@
+{
+ "endpoint": "/usequity/api/cms/stock/GetStockListSectors",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "ExploreMoreUsStockSectorModel",
+ "source_flow": "debug_dump",
+ "response": {
+  "message": "SUCCESS",
+  "status": true,
+  "data": {
+   "sectorlist": [
+    {
+     "id": 1,
+     "sector": "Healthcare",
+     "description": "Leading healthcare companies."
+    },
+    {
+     "id": 2,
+     "sector": "Communication Services",
+     "description": "Stocks in communication services."
+    },
+    {
+     "id": 3,
+     "sector": "Real Estate",
+     "description": "Companies in real estate (development, management, investment)"
+    },
+    {
+     "id": 4,
+     "sector": "Energy",
+     "description": "Top energy companies (oil, gas, renewable)."
+    },
+    {
+     "id": 5,
+     "sector": "Technology",
+     "description": "Stocks in the tech sector."
+    },
+    {
+     "id": 6,
+     "sector": "ETF",
+     "description": "Track a basket of assets like stocks, bonds, or commodities, traded like stocks."
+    },
+    {
+     "id": 34,
+     "sector": "All Stocks",
+     "description": "View all companies listed on the exchange."
+    }
+   ],
+   "dayyearfilterList": [
+    {
+     "filter": "OneDay",
+     "isdefault": true
+    },
+    {
+     "filter": "OneYear",
+     "isdefault": false
+    },
+    {
+     "filter": "ThreeYear",
+     "isdefault": false
+    },
+    {
+     "filter": "FiveYear",
+     "isdefault": false
+    }
+   ]
+  }
+ }
+}

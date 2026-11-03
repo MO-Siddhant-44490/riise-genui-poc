@@ -1,0 +1,47 @@
+{
+ "endpoint": "/TradingApiV2/api/Quote/OptionChain/Settings",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "OptionChainSettings",
+ "source_flow": "debug_dump",
+ "response": {
+  "settings": [
+   {
+    "settingKey": "HideIlliquidContracts",
+    "displayName": "Hide Illiquid Contracts",
+    "defaultValue": true,
+    "displayOrder": 1
+   },
+   {
+    "settingKey": "ShowIntrinsicValue",
+    "displayName": "Show Intrinsic Value",
+    "defaultValue": true,
+    "displayOrder": 2
+   },
+   {
+    "settingKey": "ShowTimeValue",
+    "displayName": "Show Time Value",
+    "displayOrder": 3
+   },
+   {
+    "settingKey": "ShowProbabilityITM",
+    "displayName": "Probability of Profit",
+    "defaultValue": true,
+    "displayOrder": 4
+   },
+   {
+    "settingKey": "ShowBreakevenPrice",
+    "displayName": "Show Breakeven Price",
+    "defaultValue": true,
+    "displayOrder": 5
+   },
+   {
+    "settingKey": "ShowSpotDistance",
+    "displayName": "Show Spot Distance",
+    "defaultValue": true,
+    "displayOrder": 6
+   }
+  ]
+ }
+}

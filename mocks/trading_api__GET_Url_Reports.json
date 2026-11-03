@@ -1,0 +1,12 @@
+{
+ "endpoint": "/TradingApiV2/api/Url/Reports",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "Urls.UrlResponse",
+ "source_flow": "16_trades",
+ "response": {
+  "url": "https://uattrade.motilaloswaluat.com/risereport/Reports?<redacted>&theme=dark",
+  "token": "<redacted>"
+ }
+}

@@ -1,0 +1,151 @@
+{
+ "endpoint": "/master/v2/api/MFComparison/fundetails",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "FundDetailsResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "data": {
+   "FundDetails": [
+    {
+     "Id": 24078,
+     "SchemeName": "Motilal Oswal Midcap Fund Regular-Growth",
+     "IsinCode": "INF247L01411",
+     "AmcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/9054-motilal-oswal-3__BASE__.png",
+     "InvestorDoubleMonth": 4300,
+     "Returns": {
+      "Date": 1777939200,
+      "OneMonth": 964,
+      "ThreeMonth": -279,
+      "SixMonth": -1172,
+      "NineMonth": -1117,
+      "OneYear": -502,
+      "TwoYear": 508,
+      "ThreeYear": 2070,
+      "FourYear": 1907,
+      "FiveYear": 2277,
+      "SevenYear": 2039,
+      "TenYear": 1668,
+      "AnnualizedReturns": 1987
+     },
+     "ReturnsComparison": {
+      "CategoryAvg": 1324,
+      "FundReturns": 1987,
+      "CategoryRank": 10,
+      "Bmkreturn1Year": 963,
+      "Bmkreturn3Year": 2134,
+      "Bmkreturn5Year": 1847,
+      "Rank1Year": 62,
+      "Rank3Year": 33,
+      "Rank5Year": 1
+     },
+     "FundBasics": {
+      "FundAge": 12,
+      "FundAum": 3573497,
+      "TotalAmcAum": 12482588,
+      "Date": -2208988800
+     },
+     "FundOverview": {
+      "MinSipInvestment": 50000,
+      "MinLumsumInvestment": 500,
+      "ExpenseRatio": 154,
+      "ExitLoad": 100
+     },
+     "FundManagement": {
+      "Description": "The scheme seeks to achieve long term capital appreciation by investing in quality mid-cap companies having long-term competitive advantages and potential for growth.",
+      "Managers": [
+       {
+        "Name": "Niket Shah",
+        "Education": "Mr. Shah is a MBA in Finance",
+        "Experience": "Prior to joining Motilal Oswal AMC, he was associated with Motilal Oswal Securities Limited as Head of Midcaps Research from February 2013 to March 2018, Edelweiss Securities Ltd. as Research Analyst - Midcaps from March 2010 to January 2013 and Religare Capital Markets Ltd. as Associate Research Analyst - Midcaps from June 2008 to March 2010."
+       },
+       {
+        "Name": "Ankush Sood",
+        "Education": "Mr. Sood is a B.Tech, MBA (Tech)",
+        "Experience": "He has prior experience prominently in Institutional Sales Trading Function.\r He has been associated with Motilal Oswal Financial Services Limited wherein he was primarily responsible for Servicing Domestic & Foreign Institutional Clients."
+       },
+       {
+        "Name": "Rakesh Shetty",
+        "Education": "Mr. Shetty has done B.Com",
+        "Experience": "Prior to joining Motilal Oswal Mutual Fund, he has worked with Company engaged in Capital Market Business\r wherein he was in charge of equity and debt ETFs, customized indices\r and has also been part of product development."
+       }
+      ]
+     },
+     "NavDetails": [],
+     "Risklevel": "Principal at very high risk",
+     "Category": "Equity",
+     "SubCategory": " Mid Cap",
+     "Ratings": "4",
+     "InceptionDateTime": 1393200000
+    },
+    {
+     "Id": 2334,
+     "SchemeName": "HSBC Midcap Fund-IDCW",
+     "IsinCode": "INF917K01247",
+     "AmcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/308-hsbc-2__BASE__.png",
+     "InvestorDoubleMonth": 6500,
+     "Returns": {
+      "Date": 1777939200,
+      "OneMonth": 1588,
+      "ThreeMonth": 801,
+      "SixMonth": 723,
+      "NineMonth": 1081,
+      "OneYear": 2124,
+      "TwoYear": 1293,
+      "ThreeYear": 2704,
+      "FourYear": 2154,
+      "FiveYear": 1920,
+      "SevenYear": 1839,
+      "TenYear": 1755,
+      "AnnualizedReturns": 1884
+     },
+     "ReturnsComparison": {
+      "CategoryAvg": 0,
+      "FundReturns": 1884,
+      "CategoryRank": 6,
+      "Bmkreturn1Year": 0,
+      "Bmkreturn3Year": 0,
+      "Bmkreturn5Year": 0,
+      "Rank1Year": 2,
+      "Rank3Year": 1,
+      "Rank5Year": 12
+     },
+     "FundBasics": {
+      "FundAge": 22,
+      "FundAum": 1134183,
+      "TotalAmcAum": 12250019,
+      "Date": -2208988800
+     },
+     "FundOverview": {
+      "MinSipInvestment": 50000,
+      "MinLumsumInvestment": 5000,
+      "ExpenseRatio": 342,
+      "ExitLoad": 0
+     },
+     "FundManagement": {
+      "Description": "The scheme seeks to generate long-term capital growth from an actively managed portfolio of equity and equity related securities of predominantly mid cap companies.",
+      "Managers": [
+       {
+        "Name": "Cheenu Gupta",
+        "Education": "Ms. Gupta is CFA Charter holder (USA), PGDBM (Finance) & B.E. (I.T)",
+        "Experience": "Prior to joining HSBC Mutual Fund, she has worked with L&T Mutual Fund, Canara Robeco Mutual Fund, Tata AIA Life Insurance Company as Fund Manager, ING Investment Management as Senior Research Analyst and UTI AMC Ltd. as Research Analyst."
+       },
+       {
+        "Name": "Vihang Naik",
+        "Education": "Mr. Naik is a CFA & BMS.",
+        "Experience": "Prior to joining HSBC Mutual Fund, he was associated with L&T Mutual Fund, MF Global, Motilal Oswal Securities and SBICAP Securities."
+       }
+      ]
+     },
+     "NavDetails": [],
+     "Risklevel": "Principal at very high risk",
+     "Category": "Equity",
+     "SubCategory": " Mid Cap",
+     "Ratings": "3",
+     "InceptionDateTime": 1092009600
+    }
+   ]
+  }
+ }
+}

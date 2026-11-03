@@ -1,0 +1,55 @@
+{
+ "endpoint": "/transaction/v2/api/Mf/ActionCenter",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "MfActionCenterModel",
+ "source_flow": "debug_dump",
+ "response": {
+  "data": {
+   "cards": [
+    {
+     "kind": 3,
+     "cardId": "60",
+     "displayOrder": 1,
+     "isSeen": false,
+     "timestamp": 1793251371,
+     "title": "Not Sure Which Funds To Pick?",
+     "deeplink": "mosl://superapp.com/mfCart/guidedsip",
+     "lightImageUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/promotions/start_sip.webp",
+     "darkImageUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/dark/promotions/start_sip.webp",
+     "logoUrl": "",
+     "isCompleted": false,
+     "dataSource": "function",
+     "source": "SPOTLIGHT",
+     "nfo": null,
+     "detailCase": 0
+    },
+    {
+     "kind": 6,
+     "cardId": "",
+     "displayOrder": 2,
+     "isSeen": false,
+     "timestamp": 0,
+     "title": "",
+     "deeplink": "",
+     "lightImageUrl": "",
+     "darkImageUrl": "",
+     "logoUrl": "",
+     "isCompleted": false,
+     "dataSource": "frontend",
+     "source": "ALERTS",
+     "nfo": null,
+     "detailCase": 0
+    }
+   ],
+   "isInvested": false,
+   "sectionOrder": [
+    "SPOTLIGHT",
+    "HOLDING_SUMMARY",
+    "ALERTS",
+    "PENDING_ACTIONS"
+   ]
+  }
+ }
+}

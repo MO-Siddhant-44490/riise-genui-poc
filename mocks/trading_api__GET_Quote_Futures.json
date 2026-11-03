@@ -1,0 +1,72 @@
+{
+ "endpoint": "/TradingApiV2/api/Quote/Futures",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "QuoteFuturesResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "tradeSymbol": "GOLD",
+  "exchange": "MCX",
+  "expiries": [
+   {
+    "expirySeconds": 1480895999,
+    "scripCode": 495213
+   },
+   {
+    "expirySeconds": 1486339199,
+    "scripCode": 559933
+   },
+   {
+    "expirySeconds": 1491436799,
+    "scripCode": 569424
+   },
+   {
+    "expirySeconds": 1496620799,
+    "scripCode": 575691
+   },
+   {
+    "expirySeconds": 1501977599,
+    "scripCode": 582365
+   }
+  ],
+  "spreadScrips": [
+   {
+    "scripCode": 132243718,
+    "expiryDate1": 1480895999,
+    "expiryDate2": 1480895999,
+    "spreadScripCode": "132243718"
+   },
+   {
+    "scripCode": 132243720,
+    "expiryDate1": 1480895999,
+    "expiryDate2": 1480895999,
+    "spreadScripCode": "132243720"
+   },
+   {
+    "scripCode": 132243721,
+    "expiryDate1": 1480895999,
+    "expiryDate2": 1480895999,
+    "spreadScripCode": "132243721"
+   },
+   {
+    "scripCode": 132243722,
+    "expiryDate1": 1480895999,
+    "expiryDate2": 1480895999,
+    "spreadScripCode": "132243722"
+   },
+   {
+    "scripCode": 132243723,
+    "expiryDate1": 1486339199,
+    "expiryDate2": 1486339199,
+    "spreadScripCode": "132243723"
+   },
+   {
+    "scripCode": 132243724,
+    "expiryDate1": 1491436799,
+    "expiryDate2": 1491436799,
+    "spreadScripCode": "132243724"
+   }
+  ]
+ }
+}

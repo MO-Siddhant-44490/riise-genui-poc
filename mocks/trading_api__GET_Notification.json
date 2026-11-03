@@ -1,0 +1,66 @@
+{
+ "endpoint": "/TradingApiV2/api/Notification",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "NotificationResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "entry": [
+   {
+    "id": 62351,
+    "category": "MutualFunds",
+    "message": "Lumpsum Payment Failed\n\nDear <redacted>  <redacted>  .,\n\nYou payment for Navi Large And Midcap Fund - Regular Plan Growth on 19/02/2025 for Rs 100 has failed.",
+    "entryDate": 1739965163
+   },
+   {
+    "id": 62347,
+    "category": "MutualFunds",
+    "message": "SIP Payment Failed\n\nDear <redacted>  <redacted>  .,\n\nYour SIP transaction for Navi Large And Midcap Fund - Regular Plan Growth on 19/02/2025 for ₹ 102 has failed.",
+    "entryDate": 1739964285
+   },
+   {
+    "id": 62335,
+    "category": "MutualFunds",
+    "message": "SIP Payment Failed\n\nDear <redacted>  <redacted>  .,\n\nYour SIP transaction for Nippon India Small Cap Fund - Growth Plan - Growth Option on 19/02/2025 for ₹ 100 has failed.",
+    "entryDate": 1739962470
+   },
+   {
+    "id": 62332,
+    "category": "MutualFunds",
+    "message": "SIP Payment Failed\n\nDear <redacted>  <redacted>  .,\n\nYour SIP transaction for Navi Large And Midcap Fund - Regular Plan Growth on 19/02/2025 for ₹ 100 has failed.",
+    "entryDate": 1739962321
+   },
+   {
+    "id": 50277,
+    "category": "MutualFunds",
+    "message": "SIP Payment Failed\n\nDear <redacted>  <redacted>,\n\nYour SIP transaction for Icici Prudential Infrastructure Fund - Growth on 05/09/2024 for ₹ 100 has failed.",
+    "entryDate": 1725513176
+   },
+   {
+    "id": 48282,
+    "category": "MutualFunds",
+    "message": "Lumpsum Payment Failed\n\nDear <redacted>  <redacted>,\n\nYou payment for Franklin India Smaller Companies Fund-Growth on 24/07/2024 for Rs 50000 has failed.",
+    "entryDate": 1721812144
+   },
+   {
+    "id": 48255,
+    "category": "MutualFunds",
+    "message": "Lumpsum Payment Failed\n\nDear <redacted>  <redacted>,\n\nYou payment for Navi Large And Midcap Fund - Regular Plan Growth on 24/07/2024 for Rs 50000 has failed.",
+    "entryDate": 1721805544
+   },
+   {
+    "id": 48251,
+    "category": "MutualFunds",
+    "message": "SIP Payment Failed\n\nDear <redacted>  <redacted>,\n\nYour SIP transaction for Navi Large And Midcap Fund - Regular Plan Growth on 24/07/2024 for ₹ 500 has failed.",
+    "entryDate": 1721805002
+   },
+   {
+    "id": 48248,
+    "category": "MutualFunds",
+    "message": "SIP Payment Failed\n\nDear <redacted>  <redacted>,\n\nYour SIP transaction for Navi Large And Midcap Fund - Regular Plan Growth on 24/07/2024 for ₹ 20 has failed.",
+    "entryDate": 1721804942
+   }
+  ]
+ }
+}

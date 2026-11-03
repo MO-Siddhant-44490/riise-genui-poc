@@ -1,0 +1,14 @@
+{
+ "endpoint": "/TradingApiV2/api/User/SaveSettings",
+ "method": "POST",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "json",
+ "source_flow": "05_search_quote_order",
+ "response": {
+  "error": {
+   "errorCode": "200",
+   "errorMessage": "Object reference not set to an instance of an object."
+  }
+ }
+}

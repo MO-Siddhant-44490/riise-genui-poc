@@ -1,0 +1,9 @@
+{
+ "endpoint": "/TradingApiV2/api/StockSip/GetUserInvestedInfo",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "StockSipUserInvestedInfo",
+ "source_flow": "debug_dump",
+ "response": {}
+}

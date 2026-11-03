@@ -1,0 +1,13 @@
+{
+ "endpoint": "/dev/wms/v2/api/StockAnalysis/PortfolioInsightsFlagCounts",
+ "method": "GET",
+ "host": "e74xime5x0.execute-api.ap-south-1.amazonaws.com",
+ "http_status": 200,
+ "decoded_as": "PortfolioInsightCount",
+ "source_flow": "debug_dump",
+ "response": {},
+ "variants": {
+  "assetType=1&type=0": {},
+  "assetType=0&type=0": {}
+ }
+}

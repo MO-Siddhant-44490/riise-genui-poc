@@ -1,0 +1,315 @@
+{
+ "endpoint": "/cmsapi/v2/api/Explore/Home",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "HomeDashboardResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "wealthAtGlance": {
+   "item": [
+    {
+     "assetId": 1,
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset-icons/lottie/Stocks.lottie",
+     "label": "Stocks",
+     "deeplinkUrl": "mosl://superapp.com/stocks",
+     "details": {
+      "nudge2": {
+       "content": "My Current Value",
+       "value": "188563",
+       "change": "-6299",
+       "percent": -323,
+       "deeplinkUrl": "mosl://superapp.com/portfolio?ptab=Motilal%20Oswal&stab=Stocks"
+      }
+     }
+    },
+    {
+     "assetId": 2,
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset-icons/lottie/F&O.lottie",
+     "label": "F&O",
+     "deeplinkUrl": "mosl://superapp.com/fno",
+     "details": {
+      "nudge2": {
+       "content": "Overall MTM",
+       "deeplinkUrl": "mosl://superapp.com/trade?tab=position"
+      }
+     }
+    },
+    {
+     "assetId": 3,
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset-icons/lottie/Commodity.lottie",
+     "label": "Commodity",
+     "deeplinkUrl": "mosl://superapp.com/commodity",
+     "details": {
+      "nudge2": {
+       "content": "Overall MTM",
+       "deeplinkUrl": "mosl://superapp.com/trade?tab=position"
+      }
+     }
+    },
+    {
+     "assetId": 4,
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset-icons/lottie/MF.lottie",
+     "label": "Mutual Funds",
+     "deeplinkUrl": "mosl://superapp.com/mflanding",
+     "details": {
+      "nudge2": {
+       "content": "My Current Value",
+       "value": "1546286",
+       "change": "-313444",
+       "percent": -1685,
+       "deeplinkUrl": "mosl://superapp.com/portfolio?ptab=Motilal%20Oswal&stab=Mutual%20Funds"
+      }
+     }
+    },
+    {
+     "assetId": 5,
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset-icons/lottie/Research.lottie",
+     "label": "Research",
+     "displayType": "Tile",
+     "deeplinkUrl": "mosl://superapp.com/research",
+     "details": {}
+    },
+    {
+     "assetId": 6,
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset-icons/lottie/US_Stocks.lottie",
+     "label": "US Stocks",
+     "displayType": "Tile",
+     "deeplinkUrl": "mosl://superapp.com/stockLandingPage",
+     "details": {}
+    },
+    {
+     "assetId": 7,
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset-icons/lottie/Stratx.lottie",
+     "label": "StratX",
+     "displayType": "Tile",
+     "deeplinkUrl": "mosl://superapp.com/stratxDashboard",
+     "details": {
+      "nudge2": {
+       "content": "Booked Earnings"
+      }
+     }
+    },
+    {
+     "assetId": 8,
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset-icons/TGS.lottie",
+     "label": "TGS",
+     "displayType": "Tile",
+     "deeplinkUrl": "mosl://superapp.com/tgs",
+     "details": {}
+    },
+    {
+     "assetId": 9,
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset-icons/lottie/Bonds.lottie",
+     "label": "Bonds",
+     "displayType": "Tile",
+     "deeplinkUrl": "mosl://superapp.com/bonds",
+     "details": {}
+    },
+    {
+     "assetId": 10,
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset-icons/lottie/Insurance.lottie",
+     "label": "Insurance",
+     "displayType": "Tile",
+     "deeplinkUrl": "mosl://superapp.com/Insurance",
+     "details": {}
+    },
+    {
+     "assetId": 11,
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset-icons/lottie/IAP.lottie",
+     "label": "IAP",
+     "displayType": "Tile",
+     "deeplinkUrl": "mosl://superapp.com/iap",
+     "details": {}
+    },
+    {
+     "assetId": 13,
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset-icons/PMS.svg",
+     "label": "PMS",
+     "displayType": "Tile",
+     "deeplinkUrl": "mosl://superapp.com/pmsLandingPage",
+     "details": {}
+    },
+    {
+     "assetId": 14,
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset-icons/AIF.svg",
+     "label": "AIF",
+     "displayType": "Tile",
+     "deeplinkUrl": "mosl://superapp.com/aifLandingPage",
+     "details": {}
+    },
+    {
+     "assetId": 15,
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset-icons/IMP.svg",
+     "label": "IMP",
+     "displayType": "Tile",
+     "deeplinkUrl": "mosl://superapp.com/imp",
+     "details": {}
+    }
+   ]
+  },
+  "recommendedOfferings": {
+   "name": "Recommended Offerings",
+   "item": [
+    {
+     "assetId": 1,
+     "iconUrl": "https://ds3r3q41hebrx.cloudfront.net/SuperAppCMS/light/enablers/Research  Ideas.svg",
+     "label": "Research Ideas",
+     "deeplinkUrl": "mosl://superapp.com/researchProduct/researchideas?category=equity|fundamental|moinvestmentideas",
+     "details": {}
+    },
+    {
+     "assetId": 2,
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/enablers/Basket  For You.svg",
+     "label": "Basketonomix",
+     "deeplinkUrl": "mosl://superapp.com/stockBasket",
+     "details": {}
+    },
+    {
+     "assetId": 3,
+     "iconUrl": "img/19ba0fc33f2b.svg",
+     "label": "MTF",
+     "deeplinkUrl": "mosl://superapp.com/exploremtfpage",
+     "details": {}
+    },
+    {
+     "assetId": 4,
+     "iconUrl": "https://ds3r3q41hebrx.cloudfront.net/SuperAppCMS/light/enablers/Margin Pledge.svg",
+     "label": "Margin Pledge",
+     "deeplinkUrl": "mosl://superapp.com/marginPledge",
+     "details": {}
+    },
+    {
+     "assetId": 5,
+     "iconUrl": "img/887ee14b9b1a.svg",
+     "label": "IPO",
+     "deeplinkUrl": "mosl://superapp.com/ipo_homepage",
+     "details": {}
+    },
+    {
+     "assetId": 6,
+     "iconUrl": "img/48bbf3cc193b.svg",
+     "label": "OFS/OTB",
+     "deeplinkUrl": "mosl://superapp.com/ofsBuyPack",
+     "details": {}
+    }
+   ]
+  },
+  "quickTools": {
+   "name": "Quick Tools",
+   "item": [
+    {
+     "assetId": 3,
+     "iconUrl": "https://ds3r3q41hebrx.cloudfront.net/SuperAppCMS/light/tools/P&L Summary.svg",
+     "label": "P&L Summary",
+     "deeplinkUrl": "mosl://superapp.com/pnlSummaryPage",
+     "details": {}
+    },
+    {
+     "assetId": 4,
+     "iconUrl": "https://ds3r3q41hebrx.cloudfront.net/SuperAppCMS/light/tools/Basket Order.svg",
+     "label": "Basket Order",
+     "deeplinkUrl": "mosl://superapp.com/trade?tab=order&orderBookNavigation=bulkBasket",
+     "details": {}
+    },
+    {
+     "assetId": 5,
+     "iconUrl": "https://ds3r3q41hebrx.cloudfront.net/SuperAppCMS/light/tools/Stock SIP.svg",
+     "label": "Stock SIP",
+     "deeplinkUrl": "mosl://superapp.com/researchProduct/stockSip",
+     "details": {}
+    },
+    {
+     "assetId": 6,
+     "iconUrl": "img/8b07e0812cc6.svg",
+     "label": "Alerts",
+     "deeplinkUrl": "mosl://superapp.com/webpage/webview?pageTitle=Alert&title=Alert&isBottomBarRequired=true",
+     "details": {}
+    },
+    {
+     "assetId": 7,
+     "iconUrl": "https://ds3r3q41hebrx.cloudfront.net/SuperAppCMS/light/tools/Add Funds.svg",
+     "label": "Add Funds",
+     "deeplinkUrl": "mosl://superapp.com/fundscreen",
+     "details": {}
+    },
+    {
+     "assetId": 14,
+     "iconUrl": "img/cf63f406cfdd.svg",
+     "label": "Charts",
+     "deeplinkUrl": "mosl://superapp.com/getquote/charts?isIDX=true&indexName=NIFTY%2050&eCode=0&tradeSymbol=NIFTY%2050",
+     "details": {}
+    }
+   ]
+  },
+  "banner": {
+   "entry": [
+    {
+     "title": "Portfolio Analytics",
+     "imageUrl": "img/a07646423576.svg",
+     "redirectionType": "InAppDeeplink",
+     "redirectionLink": "mosl://superapp.com/portfolioanalysis?assets=stocks&type=external",
+     "mapToAssets": "MutualFund"
+    }
+   ]
+  },
+  "actionCenter": {
+   "summary": {
+    "sections": [
+     {
+      "sectionId": "alerts",
+      "label": "Alerts for you",
+      "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/action-center/alerts.svg",
+      "totalCount": 1,
+      "pendingCount": 1
+     },
+     {
+      "sectionId": "news",
+      "label": "News Articles for you",
+      "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/action-center/news.svg"
+     },
+     {
+      "sectionId": "spotlight",
+      "label": "Spotlights for you",
+      "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/action-center/spotlight.svg",
+      "totalCount": 1,
+      "pendingCount": 1
+     },
+     {
+      "sectionId": "actions",
+      "label": "Pending Actions for you",
+      "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/action-center/actions.svg"
+     }
+    ]
+   },
+   "cards": [
+    {
+     "alert": {
+      "alertId": 48212,
+      "nudge": "SIP due in 1 days",
+      "nudgeColor": "yellow",
+      "title": "1 Upcoming Stock SIP",
+      "logoURL": "img/e3e35f24defc.svg",
+      "bodyContent": "Maintain sufficient balance and Ensure your SIP continues seamlessly and stay on track.",
+      "valueHeading": "Amount",
+      "value1": 2307510,
+      "ctaText": "View All",
+      "deeplinkUrl": "mosl://superapp.com/trade/stockSip",
+      "timestamp": "1772668800",
+      "section": "alerts"
+     }
+    },
+    {
+     "spotlight": {
+      "spotlightId": 60,
+      "promo": {
+       "lightImageUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/promotions/start_sip.webp",
+       "darkImageUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/dark/promotions/start_sip.webp",
+       "deepLinkUrl": "mosl://superapp.com/mfCart/guidedsip"
+      }
+     }
+    }
+   ]
+  }
+ }
+}

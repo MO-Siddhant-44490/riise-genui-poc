@@ -1,0 +1,22 @@
+{
+ "endpoint": "/TradingApiV2/api/TradingReport/OrderReport",
+ "method": "POST",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "OrderReportResponseV4",
+ "source_flow": "debug_dump",
+ "response": {
+  "stats": {},
+  "LastUpdateTime": 1478093587
+ },
+ "variants": {
+  "type=ORDERS&status=All": {
+   "stats": {},
+   "LastUpdateTime": 1478093587
+  },
+  "type=GTD&status=All": {
+   "stats": {},
+   "LastUpdateTime": 1478093019
+  }
+ }
+}

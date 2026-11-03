@@ -1,0 +1,16 @@
+{
+ "endpoint": "/transaction/api/MfReport/ActiveSIP",
+ "method": "POST",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "ActiveSIPModel",
+ "source_flow": "debug_dump",
+ "response": {
+  "message": "Success",
+  "status": true,
+  "data": {
+   "autopayStatus": "",
+   "activeSip": []
+  }
+ }
+}

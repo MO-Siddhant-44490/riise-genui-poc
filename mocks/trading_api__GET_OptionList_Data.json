@@ -1,0 +1,660 @@
+{
+ "endpoint": "/TradingApiV2/api/OptionList/Data",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "WatchlistScrips",
+ "source_flow": "debug_dump",
+ "response": {
+  "scrips": [
+   {
+    "id": 53636,
+    "scrip": {
+     "scripCode": 53636,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 22200",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   },
+   {
+    "id": 53656,
+    "scrip": {
+     "scripCode": 53656,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 22250",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   },
+   {
+    "id": 53662,
+    "scrip": {
+     "scripCode": 53662,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 22300",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   },
+   {
+    "id": 53664,
+    "scrip": {
+     "scripCode": 53664,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 22350",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   },
+   {
+    "id": 53668,
+    "scrip": {
+     "scripCode": 53668,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 22400",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   },
+   {
+    "id": 53680,
+    "scrip": {
+     "scripCode": 53680,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 22450",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   },
+   {
+    "id": 53682,
+    "scrip": {
+     "scripCode": 53682,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 22500",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   },
+   {
+    "id": 53702,
+    "scrip": {
+     "scripCode": 53702,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 22550",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   },
+   {
+    "id": 53720,
+    "scrip": {
+     "scripCode": 53720,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 22600",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   },
+   {
+    "id": 53750,
+    "scrip": {
+     "scripCode": 53750,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 22650",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true
+   },
+   {
+    "id": 53782,
+    "scrip": {
+     "scripCode": 53782,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 22700",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53792,
+    "scrip": {
+     "scripCode": 53792,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 22750",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53794,
+    "scrip": {
+     "scripCode": 53794,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 22800",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53796,
+    "scrip": {
+     "scripCode": 53796,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 22850",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53836,
+    "scrip": {
+     "scripCode": 53836,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 22900",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53860,
+    "scrip": {
+     "scripCode": 53860,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 22950",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53872,
+    "scrip": {
+     "scripCode": 53872,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 23000",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53924,
+    "scrip": {
+     "scripCode": 53924,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 23050",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53926,
+    "scrip": {
+     "scripCode": 53926,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 23100",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53928,
+    "scrip": {
+     "scripCode": 53928,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 23150",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53930,
+    "scrip": {
+     "scripCode": 53930,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 23200",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53932,
+    "scrip": {
+     "scripCode": 53932,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 23250",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53940,
+    "scrip": {
+     "scripCode": 53940,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 23300",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53942,
+    "scrip": {
+     "scripCode": 53942,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 23350",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 54046,
+    "scrip": {
+     "scripCode": 54046,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov CE 23400",
+    "optionType": "CE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53518,
+    "scrip": {
+     "scripCode": 53518,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 21900",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53524,
+    "scrip": {
+     "scripCode": 53524,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 21950",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53542,
+    "scrip": {
+     "scripCode": 53542,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22000",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53558,
+    "scrip": {
+     "scripCode": 53558,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22050",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53576,
+    "scrip": {
+     "scripCode": 53576,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22100",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53635,
+    "scrip": {
+     "scripCode": 53635,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22150",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53655,
+    "scrip": {
+     "scripCode": 53655,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22200",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53661,
+    "scrip": {
+     "scripCode": 53661,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22250",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53663,
+    "scrip": {
+     "scripCode": 53663,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22300",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53667,
+    "scrip": {
+     "scripCode": 53667,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22350",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53679,
+    "scrip": {
+     "scripCode": 53679,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22400",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53681,
+    "scrip": {
+     "scripCode": 53681,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22450",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53701,
+    "scrip": {
+     "scripCode": 53701,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22500",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53719,
+    "scrip": {
+     "scripCode": 53719,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22550",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53749,
+    "scrip": {
+     "scripCode": 53749,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22600",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "OTM"
+   },
+   {
+    "id": 53781,
+    "scrip": {
+     "scripCode": 53781,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22650",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true
+   },
+   {
+    "id": 53791,
+    "scrip": {
+     "scripCode": 53791,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22700",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   },
+   {
+    "id": 53793,
+    "scrip": {
+     "scripCode": 53793,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22750",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   },
+   {
+    "id": 53795,
+    "scrip": {
+     "scripCode": 53795,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22800",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   },
+   {
+    "id": 53835,
+    "scrip": {
+     "scripCode": 53835,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22850",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   },
+   {
+    "id": 53859,
+    "scrip": {
+     "scripCode": 53859,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22900",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   },
+   {
+    "id": 53871,
+    "scrip": {
+     "scripCode": 53871,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 22950",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   },
+   {
+    "id": 53923,
+    "scrip": {
+     "scripCode": 53923,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 23000",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   },
+   {
+    "id": 53925,
+    "scrip": {
+     "scripCode": 53925,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 23050",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   },
+   {
+    "id": 53927,
+    "scrip": {
+     "scripCode": 53927,
+     "exchange": "NSE_FO"
+    },
+    "tradingSymbol": "NIFTY",
+    "description": "03 Nov PE 23100",
+    "optionType": "PE",
+    "holding": {},
+    "hasOptionsAvailable": true,
+    "moneyness": "ITM"
+   }
+  ]
+ }
+}

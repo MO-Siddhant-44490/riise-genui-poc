@@ -1,0 +1,26 @@
+{
+ "endpoint": "/TradingApiV2/api/User/SaveFcmToken",
+ "method": "POST",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "json",
+ "source_flow": "01_login",
+ "response": {
+  "data": {
+   "typeUrl": "type.motilaloswal.com/Base.MessageResponse",
+   "value": [
+    10,
+    7,
+    83,
+    117,
+    99,
+    99,
+    101,
+    115,
+    115
+   ]
+  },
+  "error": null,
+  "dataOrErrorCase": 1
+ }
+}

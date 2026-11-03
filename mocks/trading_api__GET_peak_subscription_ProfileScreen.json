@@ -1,0 +1,59 @@
+{
+ "endpoint": "/TradingApiV2/api/peak/subscription/ProfileScreen",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "ProfileScreenResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "subscribed": true,
+  "profileDetails": {
+   "planType": "SIGNATURE",
+   "startDate": "1790188200",
+   "endDate": "1805740200",
+   "orderQuota": 500,
+   "autoRenewalSourceLabel": "This plan has been discontinued",
+   "renewalDate": "1805740200",
+   "requiredRenewalAmount": 11800,
+   "lowFundsCopy": {
+    "message": "Your Signature Plan renews soon. Add funds to keep it active.",
+    "ctaText": "Add Funds",
+    "ctaDeepLink": "mosl://superapp.com/fundscreenamount?amount=0"
+   },
+   "autoRenewOffCopy": {
+    "message": "Set your auto-renew to keep your Signature Plan active without interruption.",
+    "subMessage": "Maintain cash margin of ₹11,800 (incl. GST)",
+    "ctaText": "Auto-Renew",
+    "ctaDeepLink": "riise://peak/autorenewal?enabled=true"
+   },
+   "renewEarlyCopy": {
+    "message": "Renew your plan in advance and stay uninterrupted.",
+    "ctaText": "Renew Early",
+    "ctaDeepLink": "riise://peak/renew-early"
+   },
+   "renewEarlyConfirmDialog": {
+    "title": "Confirm Advance Renewal",
+    "message": "₹11,800 (incl. GST) will be debited now. Your current plan remains active till expiry; the new plan activates only after it.",
+    "confirmCtaText": "Confirm & Pay ₹11,800"
+   }
+  },
+  "autoRenewalOffSheet": {
+   "heading": "Wait! Don't miss out.",
+   "tiles": [
+    {
+     "label": "Brokerage",
+     "value": "₹0",
+     "description": "For 500 Option Order Across all Motilal Oswal."
+    },
+    {
+     "label": "Validity",
+     "value": "6",
+     "description": "Months"
+    }
+   ],
+   "encouragementLine": "This plan has been discontinued",
+   "proceedCtaText": "Proceed to cancel",
+   "keepCtaText": "Auto-Renew"
+  }
+ }
+}

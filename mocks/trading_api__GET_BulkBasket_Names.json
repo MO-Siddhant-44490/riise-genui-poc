@@ -1,0 +1,25 @@
+{
+ "endpoint": "/TradingApiV2/api/BulkBasket/Names",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "AllBulkBasketInfo",
+ "source_flow": "debug_dump",
+ "response": {
+  "baskets": [
+   {
+    "id": 8479,
+    "name": "signle order",
+    "orderCount": 20,
+    "createdDate": 1739818844,
+    "modifiedDate": 1790340091
+   },
+   {
+    "id": 10588,
+    "name": "guest user test",
+    "createdDate": 1784719671,
+    "modifiedDate": 1784719671
+   }
+  ]
+ }
+}

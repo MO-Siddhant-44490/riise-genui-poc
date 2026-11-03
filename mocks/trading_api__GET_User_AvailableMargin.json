@@ -1,0 +1,16 @@
+{
+ "endpoint": "/TradingApiV2/api/User/AvailableMargin",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "AvailableMargins",
+ "source_flow": "debug_dump",
+ "response": {
+  "overall": "5000000000",
+  "cash": "5000000000",
+  "fno": "5000000000",
+  "currency": "5000000000",
+  "commodity": "5000000000",
+  "optionBuy": "5000000000"
+ }
+}

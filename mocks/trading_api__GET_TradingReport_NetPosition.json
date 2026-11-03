@@ -1,0 +1,12 @@
+{
+ "endpoint": "/TradingApiV2/api/TradingReport/NetPosition",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "PositionResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "lastUpdateTime": 1478092996,
+  "stats": {}
+ }
+}

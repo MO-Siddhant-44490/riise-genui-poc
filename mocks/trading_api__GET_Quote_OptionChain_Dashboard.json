@@ -1,0 +1,6433 @@
+{
+ "endpoint": "/TradingApiV2/api/Quote/OptionChain/Dashboard",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "OptionChainDashboard",
+ "source_flow": "debug_dump",
+ "response": {
+  "symbol": "BSX",
+  "exchange": "BSE_FO",
+  "spot": {
+   "id": {
+    "scripCode": 999901,
+    "exchange": "BSE"
+   },
+   "currentPrice": 74459.53125,
+   "indexSpot": "SENSEX"
+  },
+  "expiry": [
+   {
+    "expirySeconds": 1478304000,
+    "expiryFlag": "W"
+   },
+   {
+    "expirySeconds": 1478908800,
+    "expiryFlag": "W"
+   },
+   {
+    "expirySeconds": 1479513600,
+    "expiryFlag": "W"
+   },
+   {
+    "expirySeconds": 1480118400,
+    "expiryFlag": "M"
+   },
+   {
+    "expirySeconds": 1483142400,
+    "expiryFlag": "M"
+   },
+   {
+    "expirySeconds": 1490400000,
+    "expiryFlag": "M"
+   },
+   {
+    "expirySeconds": 1498262400,
+    "expiryFlag": "M"
+   },
+   {
+    "expirySeconds": 1506729600,
+    "expiryFlag": "M"
+   },
+   {
+    "expirySeconds": 1514592000,
+    "expiryFlag": "M"
+   },
+   {
+    "expirySeconds": 1530316800,
+    "expiryFlag": "M"
+   },
+   {
+    "expirySeconds": 1546041600,
+    "expiryFlag": "M"
+   },
+   {
+    "expirySeconds": 1561766400,
+    "expiryFlag": "M"
+   },
+   {
+    "expirySeconds": 1577491200,
+    "expiryFlag": "M"
+   },
+   {
+    "expirySeconds": 1593216000,
+    "expiryFlag": "M"
+   },
+   {
+    "expirySeconds": 1608940800,
+    "expiryFlag": "M"
+   },
+   {
+    "expirySeconds": 1624665600,
+    "expiryFlag": "M"
+   }
+  ],
+  "data": {
+   "symbol": "BSX",
+   "exchange": "BSE_FO",
+   "expirySeconds": 1478304000,
+   "scrips": [
+    {
+     "strikePrice": 79400,
+     "callScripCode": 1134307,
+     "putScripCode": 1134380
+    },
+    {
+     "strikePrice": 79300,
+     "callScripCode": 1134391,
+     "putScripCode": 1134281
+    },
+    {
+     "strikePrice": 79200,
+     "callScripCode": 1134291,
+     "putScripCode": 1134363
+    },
+    {
+     "strikePrice": 79100,
+     "callScripCode": 1134372,
+     "putScripCode": 1134444
+    },
+    {
+     "strikePrice": 79000,
+     "callScripCode": 1134266,
+     "putScripCode": 1134342
+    },
+    {
+     "strikePrice": 78900,
+     "callScripCode": 1134412,
+     "putScripCode": 1134486
+    },
+    {
+     "strikePrice": 78800,
+     "callScripCode": 1134493,
+     "putScripCode": 1134218
+    },
+    {
+     "strikePrice": 78700,
+     "callScripCode": 1134387,
+     "putScripCode": 1134460
+    },
+    {
+     "strikePrice": 78600,
+     "callScripCode": 1134472,
+     "putScripCode": 1134196
+    },
+    {
+     "strikePrice": 78500,
+     "callScripCode": 1134209,
+     "putScripCode": 1134442
+    },
+    {
+     "strikePrice": 78400,
+     "callScripCode": 1134452,
+     "putScripCode": 1134155
+    },
+    {
+     "strikePrice": 78300,
+     "callScripCode": 1134175,
+     "putScripCode": 1134260
+    },
+    {
+     "strikePrice": 78200,
+     "callScripCode": 1134431,
+     "putScripCode": 1134499
+    },
+    {
+     "strikePrice": 78100,
+     "callScripCode": 1134511,
+     "putScripCode": 1134235
+    },
+    {
+     "strikePrice": 78000,
+     "callScripCode": 1134253,
+     "putScripCode": 1134482
+    },
+    {
+     "strikePrice": 77900,
+     "callScripCode": 1134203,
+     "putScripCode": 1134284
+    },
+    {
+     "strikePrice": 77800,
+     "callScripCode": 1134294,
+     "putScripCode": 1134367
+    },
+    {
+     "strikePrice": 77700,
+     "callScripCode": 1134376,
+     "putScripCode": 1134256
+    },
+    {
+     "strikePrice": 77600,
+     "callScripCode": 1134270,
+     "putScripCode": 1134345
+    },
+    {
+     "strikePrice": 77500,
+     "callScripCode": 1134353,
+     "putScripCode": 1134428
+    },
+    {
+     "strikePrice": 77400,
+     "callScripCode": 1134243,
+     "putScripCode": 1134319
+    },
+    {
+     "strikePrice": 77300,
+     "callScripCode": 1134330,
+     "putScripCode": 1134402
+    },
+    {
+     "strikePrice": 77200,
+     "callScripCode": 1134419,
+     "putScripCode": 1134299
+    },
+    {
+     "strikePrice": 77100,
+     "callScripCode": 1134306,
+     "putScripCode": 1134379
+    },
+    {
+     "strikePrice": 77000,
+     "callScripCode": 1134390,
+     "putScripCode": 1134464
+    },
+    {
+     "strikePrice": 76900,
+     "callScripCode": 1134183,
+     "putScripCode": 1134423
+    },
+    {
+     "strikePrice": 76800,
+     "callScripCode": 1134434,
+     "putScripCode": 1134505
+    },
+    {
+     "strikePrice": 76700,
+     "callScripCode": 1134514,
+     "putScripCode": 1134240
+    },
+    {
+     "strikePrice": 76600,
+     "callScripCode": 1134410,
+     "putScripCode": 1134485
+    },
+    {
+     "strikePrice": 76500,
+     "callScripCode": 1134492,
+     "putScripCode": 1134217
+    },
+    {
+     "strikePrice": 76400,
+     "callScripCode": 1134228,
+     "putScripCode": 1134459
+    },
+    {
+     "strikePrice": 76300,
+     "callScripCode": 1134470,
+     "putScripCode": 1134195
+    },
+    {
+     "strikePrice": 76200,
+     "callScripCode": 1134208,
+     "putScripCode": 1134287
+    },
+    {
+     "strikePrice": 76100,
+     "callScripCode": 1134451,
+     "putScripCode": 1134151
+    },
+    {
+     "strikePrice": 76000,
+     "callScripCode": 1134173,
+     "putScripCode": 1134259
+    },
+    {
+     "strikePrice": 75900,
+     "callScripCode": 1134335,
+     "putScripCode": 1134407
+    },
+    {
+     "strikePrice": 75800,
+     "callScripCode": 1134223,
+     "putScripCode": 1134303
+    },
+    {
+     "strikePrice": 75700,
+     "callScripCode": 1134312,
+     "putScripCode": 1134386
+    },
+    {
+     "strikePrice": 75600,
+     "callScripCode": 1134394,
+     "putScripCode": 1134283
+    },
+    {
+     "strikePrice": 75500,
+     "callScripCode": 1134293,
+     "putScripCode": 1134366
+    },
+    {
+     "strikePrice": 75400,
+     "callScripCode": 1134374,
+     "putScripCode": 1134449
+    },
+    {
+     "strikePrice": 75300,
+     "callScripCode": 1134269,
+     "putScripCode": 1134344
+    },
+    {
+     "strikePrice": 75200,
+     "callScripCode": 1134352,
+     "putScripCode": 1134427
+    },
+    {
+     "strikePrice": 75100,
+     "callScripCode": 1134242,
+     "putScripCode": 1134317
+    },
+    {
+     "strikePrice": 75000,
+     "callScripCode": 1134329,
+     "putScripCode": 1134401
+    },
+    {
+     "strikePrice": 74900,
+     "callScripCode": 1134477,
+     "putScripCode": 1134201
+    },
+    {
+     "strikePrice": 74800,
+     "callScripCode": 1134212,
+     "putScripCode": 1134443
+    },
+    {
+     "strikePrice": 74700,
+     "callScripCode": 1134455,
+     "putScripCode": 1134163
+    },
+    {
+     "strikePrice": 74600,
+     "callScripCode": 1134180,
+     "putScripCode": 1134265
+    },
+    {
+     "strikePrice": 74500,
+     "callScripCode": 1134433,
+     "putScripCode": 1134504
+    },
+    {
+     "strikePrice": 74400,
+     "callScripCode": 1134513,
+     "putScripCode": 1134239
+    },
+    {
+     "strikePrice": 74300,
+     "callScripCode": 1134408,
+     "putScripCode": 1134484
+    },
+    {
+     "strikePrice": 74200,
+     "callScripCode": 1134491,
+     "putScripCode": 1134216
+    },
+    {
+     "strikePrice": 74100,
+     "callScripCode": 1134227,
+     "putScripCode": 1134458
+    },
+    {
+     "strikePrice": 74000,
+     "callScripCode": 1134468,
+     "putScripCode": 1134193
+    },
+    {
+     "strikePrice": 73900,
+     "callScripCode": 1134275,
+     "putScripCode": 1134348
+    },
+    {
+     "strikePrice": 73800,
+     "callScripCode": 1134356,
+     "putScripCode": 1134430
+    },
+    {
+     "strikePrice": 73700,
+     "callScripCode": 1134247,
+     "putScripCode": 1134323
+    },
+    {
+     "strikePrice": 73600,
+     "callScripCode": 1134334,
+     "putScripCode": 1134406
+    },
+    {
+     "strikePrice": 73500,
+     "callScripCode": 1134422,
+     "putScripCode": 1134302
+    },
+    {
+     "strikePrice": 73400,
+     "callScripCode": 1134309,
+     "putScripCode": 1134385
+    },
+    {
+     "strikePrice": 73300,
+     "callScripCode": 1134393,
+     "putScripCode": 1134282
+    },
+    {
+     "strikePrice": 73200,
+     "callScripCode": 1134292,
+     "putScripCode": 1134365
+    },
+    {
+     "strikePrice": 73100,
+     "callScripCode": 1134373,
+     "putScripCode": 1134447
+    },
+    {
+     "strikePrice": 73000,
+     "callScripCode": 1134268,
+     "putScripCode": 1134343
+    },
+    {
+     "strikePrice": 72900,
+     "callScripCode": 1134416,
+     "putScripCode": 1134488
+    },
+    {
+     "strikePrice": 72800,
+     "callScripCode": 1134496,
+     "putScripCode": 1134221
+    },
+    {
+     "strikePrice": 72700,
+     "callScripCode": 1134231,
+     "putScripCode": 1134462
+    },
+    {
+     "strikePrice": 72600,
+     "callScripCode": 1134476,
+     "putScripCode": 1134200
+    },
+    {
+     "strikePrice": 72500,
+     "callScripCode": 1134211,
+     "putScripCode": 1134290
+    },
+    {
+     "strikePrice": 72400,
+     "callScripCode": 1134454,
+     "putScripCode": 1134162
+    },
+    {
+     "strikePrice": 72300,
+     "callScripCode": 1134179,
+     "putScripCode": 1134264
+    },
+    {
+     "strikePrice": 72200,
+     "callScripCode": 1134432,
+     "putScripCode": 1134502
+    },
+    {
+     "strikePrice": 72100,
+     "callScripCode": 1134512,
+     "putScripCode": 1134238
+    },
+    {
+     "strikePrice": 72000,
+     "callScripCode": 1134254,
+     "putScripCode": 1134483
+    },
+    {
+     "strikePrice": 71900,
+     "callScripCode": 1134395,
+     "putScripCode": 1134285
+    },
+    {
+     "strikePrice": 71800,
+     "callScripCode": 1134296,
+     "putScripCode": 1134368
+    },
+    {
+     "strikePrice": 71700,
+     "callScripCode": 1134377,
+     "putScripCode": 1134450
+    },
+    {
+     "strikePrice": 71600,
+     "callScripCode": 1134274,
+     "putScripCode": 1134347
+    },
+    {
+     "strikePrice": 71500,
+     "callScripCode": 1134355,
+     "putScripCode": 1134429
+    },
+    {
+     "strikePrice": 71400,
+     "callScripCode": 1134246,
+     "putScripCode": 1134321
+    },
+    {
+     "strikePrice": 71300,
+     "callScripCode": 1134333,
+     "putScripCode": 1134405
+    },
+    {
+     "strikePrice": 71200,
+     "callScripCode": 1134421,
+     "putScripCode": 1134301
+    },
+    {
+     "strikePrice": 71100,
+     "callScripCode": 1134308,
+     "putScripCode": 1134382
+    },
+    {
+     "strikePrice": 71000,
+     "callScripCode": 1134392,
+     "putScripCode": 1134466
+    },
+    {
+     "strikePrice": 70900,
+     "callScripCode": 1134185,
+     "putScripCode": 1134267
+    },
+    {
+     "strikePrice": 70800,
+     "callScripCode": 1134436,
+     "putScripCode": 1134506
+    },
+    {
+     "strikePrice": 70700,
+     "callScripCode": 1134516,
+     "putScripCode": 1134241
+    },
+    {
+     "strikePrice": 70600,
+     "callScripCode": 1134415,
+     "putScripCode": 1134487
+    },
+    {
+     "strikePrice": 70500,
+     "callScripCode": 1134495,
+     "putScripCode": 1134219
+    },
+    {
+     "strikePrice": 70400,
+     "callScripCode": 1134230,
+     "putScripCode": 1134461
+    },
+    {
+     "strikePrice": 70300,
+     "callScripCode": 1134475,
+     "putScripCode": 1134199
+    },
+    {
+     "strikePrice": 70200,
+     "callScripCode": 1134210,
+     "putScripCode": 1134289
+    },
+    {
+     "strikePrice": 70100,
+     "callScripCode": 1134453,
+     "putScripCode": 1134159
+    },
+    {
+     "strikePrice": 70000,
+     "callScripCode": 1134176,
+     "putScripCode": 1134263
+    },
+    {
+     "strikePrice": 69900,
+     "callScripCode": 1134262,
+     "putScripCode": 1134341
+    },
+    {
+     "strikePrice": 69800,
+     "callScripCode": 1134501,
+     "putScripCode": 1134226
+    },
+    {
+     "strikePrice": 69700,
+     "callScripCode": 1134237,
+     "putScripCode": 1134316
+    },
+    {
+     "strikePrice": 69600,
+     "callScripCode": 1134327,
+     "putScripCode": 1134205
+    },
+    {
+     "strikePrice": 69500,
+     "callScripCode": 1134215,
+     "putScripCode": 1134298
+    }
+   ],
+   "greeks": {
+    "1134307": {
+     "prevOi": 620,
+     "iv": 25.16602325439453,
+     "delta": 0.008299999870359898,
+     "theta": -4.75,
+     "vega": 1.5607999563217163,
+     "analysis": "LongBuildUp"
+    },
+    "1134380": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134391": {
+     "prevOi": 15880,
+     "iv": 24.911945343017578,
+     "delta": 0.008999999612569809,
+     "theta": -5.150000095367432,
+     "vega": 1.6777000427246094,
+     "analysis": "LongBuildUp"
+    },
+    "1134281": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134291": {
+     "prevOi": 1560,
+     "iv": 24.607561111450195,
+     "delta": 0.009700000286102295,
+     "theta": -5.5,
+     "vega": 1.784600019454956,
+     "analysis": "LongBuildUp"
+    },
+    "1134363": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134372": {
+     "prevOi": 3960,
+     "iv": 24.20629119873047,
+     "delta": 0.010099999606609344,
+     "theta": -5.699999809265137,
+     "vega": 1.8594000339508057,
+     "analysis": "LongBuildUp"
+    },
+    "1134444": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134266": {
+     "prevOi": 313180,
+     "iv": 23.822633743286133,
+     "delta": 0.010700000450015068,
+     "theta": -5.949999809265137,
+     "vega": 1.9474999904632568,
+     "analysis": "LongBuildUp"
+    },
+    "1134342": {
+     "prevOi": 320,
+     "iv": 80.32624816894531,
+     "delta": -0.7418000102043152,
+     "theta": -288.8360900878906,
+     "vega": 22.300199508666992,
+     "gamma": 9.999999747378752e-05,
+     "isLiquidated": true
+    },
+    "1134412": {
+     "prevOi": 4100,
+     "iv": 23.549930572509766,
+     "delta": 0.011599999852478504,
+     "theta": -6.449999809265137,
+     "vega": 2.0933001041412354,
+     "analysis": "LongBuildUp"
+    },
+    "1134486": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134493": {
+     "prevOi": 1520,
+     "iv": 23.118337631225586,
+     "delta": 0.01209999993443489,
+     "theta": -6.650000095367432,
+     "vega": 2.1749000549316406,
+     "analysis": "LongBuildUp"
+    },
+    "1134218": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134387": {
+     "prevOi": 5000,
+     "iv": 22.767118453979492,
+     "delta": 0.013000000268220901,
+     "theta": -7.050000190734863,
+     "vega": 2.3032000064849854,
+     "analysis": "LongBuildUp"
+    },
+    "1134460": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134472": {
+     "prevOi": 3080,
+     "iv": 22.502288818359375,
+     "delta": 0.0142000000923872,
+     "theta": -7.699999809265137,
+     "vega": 2.4883999824523926,
+     "analysis": "LongBuildUp"
+    },
+    "1134196": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134209": {
+     "prevOi": 141620,
+     "iv": 22.17317008972168,
+     "delta": 0.015300000086426735,
+     "theta": -8.25,
+     "vega": 2.654099941253662,
+     "analysis": "LongBuildUp"
+    },
+    "1134442": {
+     "prevOi": 160,
+     "iv": 75.0868148803711,
+     "delta": -0.7281000018119812,
+     "theta": -277.160888671875,
+     "vega": 22.892200469970703,
+     "gamma": 9.999999747378752e-05,
+     "isLiquidated": true
+    },
+    "1134452": {
+     "prevOi": 8760,
+     "iv": 21.78904914855957,
+     "delta": 0.016300000250339508,
+     "theta": -8.699999809265137,
+     "vega": 2.8015999794006348,
+     "analysis": "LongBuildUp"
+    },
+    "1134155": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134175": {
+     "prevOi": 9640,
+     "iv": 21.441221237182617,
+     "delta": 0.017500000074505806,
+     "theta": -9.300000190734863,
+     "vega": 2.984299898147583,
+     "analysis": "LongBuildUp"
+    },
+    "1134260": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134431": {
+     "prevOi": 6940,
+     "iv": 21.168001174926758,
+     "delta": 0.019200000911951065,
+     "theta": -10.199999809265137,
+     "vega": 3.232300043106079,
+     "analysis": "LongBuildUp"
+    },
+    "1134499": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134511": {
+     "prevOi": 15280,
+     "iv": 20.864818572998047,
+     "delta": 0.020999999716877937,
+     "theta": -11.056699752807617,
+     "vega": 3.4825000762939453,
+     "analysis": "LongBuildUp"
+    },
+    "1134235": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134253": {
+     "prevOi": 376420,
+     "iv": 20.561281204223633,
+     "delta": 0.023000000044703484,
+     "theta": -11.753299713134766,
+     "vega": 3.75570011138916,
+     "analysis": "LongBuildUp"
+    },
+    "1134482": {
+     "prevOi": 14480,
+     "iv": 33.06193161010742,
+     "delta": -0.890999972820282,
+     "theta": -67.41719818115234,
+     "vega": 12.887900352478027,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "LongUnwinding"
+    },
+    "1134203": {
+     "prevOi": 9140,
+     "iv": 20.24182891845703,
+     "delta": 0.025100000202655792,
+     "theta": -12.45479965209961,
+     "vega": 4.041999816894531,
+     "analysis": "LongBuildUp"
+    },
+    "1134284": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134294": {
+     "prevOi": 33780,
+     "iv": 19.906389236450195,
+     "delta": 0.027300000190734863,
+     "theta": -13.158499717712402,
+     "vega": 4.341800212860107,
+     "analysis": "LongBuildUp"
+    },
+    "1134367": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134376": {
+     "prevOi": 46780,
+     "iv": 19.671772003173828,
+     "delta": 0.030500000342726707,
+     "theta": -14.254799842834473,
+     "vega": 4.75570011138916,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "LongBuildUp"
+    },
+    "1134256": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134270": {
+     "prevOi": 49640,
+     "iv": 19.413352966308594,
+     "delta": 0.033900000154972076,
+     "theta": -15.356200218200684,
+     "vega": 5.187600135803223,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "LongBuildUp"
+    },
+    "1134345": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134353": {
+     "prevOi": 212900,
+     "iv": 19.08708381652832,
+     "delta": 0.03709999844431877,
+     "theta": -16.292499542236328,
+     "vega": 5.595900058746338,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "LongBuildUp"
+    },
+    "1134428": {
+     "prevOi": 3040,
+     "iv": 22.708717346191406,
+     "delta": -0.9327999949455261,
+     "theta": -31.644800186157227,
+     "vega": 8.973299980163574,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortBuildUp"
+    },
+    "1134243": {
+     "prevOi": 100420,
+     "iv": 18.793987274169922,
+     "delta": 0.041099999099969864,
+     "theta": -17.426700592041016,
+     "vega": 6.074999809265137,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "LongBuildUp"
+    },
+    "1134319": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134330": {
+     "prevOi": 56280,
+     "iv": 18.56713104248047,
+     "delta": 0.04610000178217888,
+     "theta": -18.914100646972656,
+     "vega": 6.666399955749512,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "LongBuildUp"
+    },
+    "1134402": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134419": {
+     "prevOi": 37360,
+     "iv": 18.343225479125977,
+     "delta": 0.05180000141263008,
+     "theta": -20.527299880981445,
+     "vega": 7.314300060272217,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "LongBuildUp"
+    },
+    "1134299": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134306": {
+     "prevOi": 29220,
+     "iv": 18.12104034423828,
+     "delta": 0.05820000171661377,
+     "theta": -22.266399383544922,
+     "vega": 8.020500183105469,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "LongBuildUp"
+    },
+    "1134379": {
+     "delta": -1,
+     "isLiquidated": true
+    },
+    "1134390": {
+     "prevOi": 559540,
+     "iv": 17.870302200317383,
+     "delta": 0.06509999930858612,
+     "theta": -23.995800018310547,
+     "vega": 8.753899574279785,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "LongBuildUp"
+    },
+    "1134464": {
+     "prevOi": 17840,
+     "iv": 21.593137741088867,
+     "delta": -0.8942999839782715,
+     "theta": -29.270000457763672,
+     "vega": 12.608699798583984,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortBuildUp"
+    },
+    "1134183": {
+     "prevOi": 97420,
+     "iv": 17.7778377532959,
+     "delta": 0.07460000365972519,
+     "theta": -26.595600128173828,
+     "vega": 9.730400085449219,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "LongBuildUp"
+    },
+    "1134423": {
+     "iv": 18.25563621520996,
+     "delta": -0.9197999835014343,
+     "theta": -28.914499282836914,
+     "vega": 10.273599624633789,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "LongBuildUp"
+    },
+    "1134434": {
+     "prevOi": 102260,
+     "iv": 17.559267044067383,
+     "delta": 0.08380000293254852,
+     "theta": -28.73509979248047,
+     "vega": 10.626700401306152,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "LongBuildUp"
+    },
+    "1134505": {
+     "iv": 17.49034309387207,
+     "delta": -0.9169999957084656,
+     "theta": -28.39389991760254,
+     "vega": 10.546199798583984,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "LongBuildUp"
+    },
+    "1134514": {
+     "prevOi": 78460,
+     "iv": 17.43914031982422,
+     "delta": 0.09539999812841415,
+     "theta": -31.49530029296875,
+     "vega": 11.700900077819824,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "LongBuildUp"
+    },
+    "1134240": {
+     "iv": 16.71724510192871,
+     "delta": -0.9139000177383423,
+     "theta": -27.84939956665039,
+     "vega": 10.840200424194336,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "LongBuildUp"
+    },
+    "1134410": {
+     "prevOi": 100700,
+     "iv": 17.25508689880371,
+     "delta": 0.10750000178813934,
+     "theta": -34.05659866333008,
+     "vega": 12.761799812316895,
+     "gamma": 0.00019999999494757503,
+     "analysis": "LongBuildUp"
+    },
+    "1134485": {
+     "prevOi": 100,
+     "iv": 24.89530372619629,
+     "delta": -0.8033000230789185,
+     "theta": -75.46289825439453,
+     "vega": 19.12420082092285,
+     "gamma": 0.00019999999494757503,
+     "analysis": "ShortBuildUp"
+    },
+    "1134492": {
+     "prevOi": 351740,
+     "iv": 17.214139938354492,
+     "delta": 0.12300000339746475,
+     "theta": -37.48699951171875,
+     "vega": 14.040399551391602,
+     "gamma": 0.00019999999494757503,
+     "analysis": "LongBuildUp"
+    },
+    "1134217": {
+     "prevOi": 1380,
+     "iv": 19.981639862060547,
+     "delta": -0.8406999707221985,
+     "theta": -52.4807014465332,
+     "vega": 16.741100311279297,
+     "gamma": 0.00019999999494757503,
+     "analysis": "ShortBuildUp"
+    },
+    "1134228": {
+     "prevOi": 95780,
+     "iv": 17.131370544433594,
+     "delta": 0.13940000534057617,
+     "theta": -40.79869842529297,
+     "vega": 15.313300132751465,
+     "gamma": 0.00019999999494757503,
+     "analysis": "LongBuildUp"
+    },
+    "1134459": {
+     "iv": 16.054758071899414,
+     "delta": -0.8762999773025513,
+     "theta": -22.270000457763672,
+     "vega": 14.101200103759766,
+     "gamma": 0.00019999999494757503,
+     "analysis": "LongBuildUp"
+    },
+    "1134470": {
+     "prevOi": 57300,
+     "iv": 17.04006004333496,
+     "delta": 0.1573999971151352,
+     "theta": -44.13119888305664,
+     "vega": 16.607900619506836,
+     "gamma": 0.00019999999494757503,
+     "analysis": "LongBuildUp"
+    },
+    "1134195": {
+     "iv": 20.48813819885254,
+     "delta": -0.7975999712944031,
+     "theta": -62.905799865722656,
+     "vega": 19.45400047302246,
+     "gamma": 0.00019999999494757503,
+     "analysis": "LongBuildUp"
+    },
+    "1134208": {
+     "prevOi": 150400,
+     "iv": 17.008100509643555,
+     "delta": 0.17790000140666962,
+     "theta": -47.81529998779297,
+     "vega": 17.973600387573242,
+     "gamma": 0.00019999999494757503,
+     "analysis": "LongBuildUp"
+    },
+    "1134287": {
+     "iv": 21.493003845214844,
+     "delta": -0.7663999795913696,
+     "theta": -72.01200103759766,
+     "vega": 21.13479995727539,
+     "gamma": 0.00019999999494757503,
+     "analysis": "LongBuildUp"
+    },
+    "1134451": {
+     "prevOi": 78480,
+     "iv": 16.941682815551758,
+     "delta": 0.1996999979019165,
+     "theta": -51.29290008544922,
+     "vega": 19.299999237060547,
+     "gamma": 0.00019999999494757503,
+     "analysis": "LongBuildUp"
+    },
+    "1134151": {
+     "prevOi": 1480,
+     "iv": 17.468353271484375,
+     "delta": -0.7929999828338623,
+     "theta": -54.1416015625,
+     "vega": 19.7189998626709,
+     "gamma": 0.00019999999494757503,
+     "analysis": "ShortBuildUp"
+    },
+    "1134173": {
+     "prevOi": 450380,
+     "iv": 16.821863174438477,
+     "delta": 0.2224999964237213,
+     "theta": -54.41400146484375,
+     "vega": 20.56290054321289,
+     "gamma": 0.0003000000142492354,
+     "analysis": "LongBuildUp"
+    },
+    "1134259": {
+     "prevOi": 22360,
+     "iv": 19.584915161132812,
+     "delta": -0.7433000206947327,
+     "theta": -69.0385971069336,
+     "vega": 22.231800079345703,
+     "gamma": 0.00019999999494757503,
+     "analysis": "ShortBuildUp"
+    },
+    "1134335": {
+     "prevOi": 83220,
+     "iv": 16.835111618041992,
+     "delta": 0.24889999628067017,
+     "theta": -58.11819839477539,
+     "vega": 21.873199462890625,
+     "gamma": 0.0003000000142492354,
+     "analysis": "LongBuildUp"
+    },
+    "1134407": {
+     "prevOi": 1680,
+     "iv": 20.227703094482422,
+     "delta": -0.7128000259399414,
+     "theta": -75.6863021850586,
+     "vega": 23.511999130249023,
+     "gamma": 0.00019999999494757503,
+     "analysis": "ShortBuildUp"
+    },
+    "1134223": {
+     "prevOi": 84180,
+     "iv": 16.768136978149414,
+     "delta": 0.2757999897003174,
+     "theta": -61.206199645996094,
+     "vega": 23.05660057067871,
+     "gamma": 0.0003000000142492354,
+     "analysis": "LongBuildUp"
+    },
+    "1134303": {
+     "prevOi": 2440,
+     "iv": 20.09252166748047,
+     "delta": -0.689300000667572,
+     "theta": -78.06430053710938,
+     "vega": 24.364299774169922,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortBuildUp"
+    },
+    "1134312": {
+     "prevOi": 104400,
+     "iv": 16.68351173400879,
+     "delta": 0.3041999936103821,
+     "theta": -63.957401275634766,
+     "vega": 24.14080047607422,
+     "gamma": 0.0003000000142492354,
+     "analysis": "LongBuildUp"
+    },
+    "1134386": {
+     "prevOi": 2900,
+     "iv": 19.705669403076172,
+     "delta": -0.6668000221252441,
+     "theta": -78.95439910888672,
+     "vega": 25.082700729370117,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortBuildUp"
+    },
+    "1134394": {
+     "prevOi": 88900,
+     "iv": 16.763601303100586,
+     "delta": 0.3357999920845032,
+     "theta": -67.21089935302734,
+     "vega": 25.15959930419922,
+     "gamma": 0.0003000000142492354,
+     "analysis": "LongBuildUp"
+    },
+    "1134283": {
+     "prevOi": 3980,
+     "iv": 19.471925735473633,
+     "delta": -0.6416000127792358,
+     "theta": -80.33380126953125,
+     "vega": 25.77359962463379,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortBuildUp"
+    },
+    "1134293": {
+     "prevOi": 262820,
+     "iv": 16.745481491088867,
+     "delta": 0.3675000071525574,
+     "theta": -69.58999633789062,
+     "vega": 25.99340057373047,
+     "gamma": 0.0003000000142492354,
+     "analysis": "LongBuildUp"
+    },
+    "1134366": {
+     "prevOi": 22440,
+     "iv": 19.790029525756836,
+     "delta": -0.6116999983787537,
+     "theta": -83.98760223388672,
+     "vega": 26.439300537109375,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortBuildUp"
+    },
+    "1134374": {
+     "prevOi": 77800,
+     "iv": 16.75574493408203,
+     "delta": 0.4004000127315521,
+     "theta": -71.66739654541016,
+     "vega": 26.664199829101562,
+     "gamma": 0.0003000000142492354,
+     "analysis": "LongBuildUp"
+    },
+    "1134449": {
+     "prevOi": 6600,
+     "iv": 19.26723861694336,
+     "delta": -0.5860000252723694,
+     "theta": -83.30750274658203,
+     "vega": 26.8843994140625,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortBuildUp"
+    },
+    "1134269": {
+     "prevOi": 69000,
+     "iv": 16.68415641784668,
+     "delta": 0.43369999527931213,
+     "theta": -72.8855972290039,
+     "vega": 27.14550018310547,
+     "gamma": 0.0003000000142492354,
+     "analysis": "LongBuildUp"
+    },
+    "1134344": {
+     "prevOi": 8240,
+     "iv": 19.421030044555664,
+     "delta": -0.5561000108718872,
+     "theta": -85.34719848632812,
+     "vega": 27.253799438476562,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortBuildUp"
+    },
+    "1134352": {
+     "prevOi": 126260,
+     "iv": 16.503671646118164,
+     "delta": 0.4675999879837036,
+     "theta": -73.10420227050781,
+     "vega": 27.435400009155273,
+     "gamma": 0.0003000000142492354,
+     "analysis": "LongBuildUp"
+    },
+    "1134427": {
+     "prevOi": 12400,
+     "iv": 19.286609649658203,
+     "delta": -0.5267999768257141,
+     "theta": -85.6176986694336,
+     "vega": 27.464099884033203,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortBuildUp"
+    },
+    "1134242": {
+     "prevOi": 119040,
+     "iv": 16.57543182373047,
+     "delta": 0.5026000142097473,
+     "theta": -73.91629791259766,
+     "vega": 27.52560043334961,
+     "gamma": 0.0003000000142492354,
+     "analysis": "LongBuildUp"
+    },
+    "1134317": {
+     "prevOi": 9960,
+     "iv": 19.426794052124023,
+     "delta": -0.4968000054359436,
+     "theta": -86.64949798583984,
+     "vega": 27.525299072265625,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortBuildUp"
+    },
+    "1134329": {
+     "prevOi": 419420,
+     "iv": 16.646114349365234,
+     "delta": 0.5372999906539917,
+     "theta": -74.15850067138672,
+     "vega": 27.405899047851562,
+     "gamma": 0.0003000000142492354,
+     "analysis": "LongBuildUp"
+    },
+    "1134401": {
+     "prevOi": 83900,
+     "iv": 19.34400749206543,
+     "delta": -0.46700000762939453,
+     "theta": -86.20169830322266,
+     "vega": 27.431900024414062,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortBuildUp"
+    },
+    "1134477": {
+     "prevOi": 96020,
+     "iv": 16.664005279541016,
+     "delta": 0.5716999769210815,
+     "theta": -73.60469818115234,
+     "vega": 27.080900192260742,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortCovering"
+    },
+    "1134201": {
+     "prevOi": 26960,
+     "iv": 19.536720275878906,
+     "delta": -0.43779999017715454,
+     "theta": -86.50479888916016,
+     "vega": 27.191200256347656,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortBuildUp"
+    },
+    "1134212": {
+     "prevOi": 134640,
+     "iv": 16.470558166503906,
+     "delta": 0.6067000031471252,
+     "theta": -71.54090118408203,
+     "vega": 26.535400390625,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortCovering"
+    },
+    "1134443": {
+     "prevOi": 67120,
+     "iv": 19.28675079345703,
+     "delta": -0.4075999855995178,
+     "theta": -84.34380340576172,
+     "vega": 26.78510093688965,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortBuildUp"
+    },
+    "1134455": {
+     "prevOi": 203280,
+     "iv": 16.645090103149414,
+     "delta": 0.6388999819755554,
+     "theta": -70.62989807128906,
+     "vega": 25.840499877929688,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortCovering"
+    },
+    "1134163": {
+     "prevOi": 133000,
+     "iv": 19.491220474243164,
+     "delta": -0.3797999918460846,
+     "theta": -83.783203125,
+     "vega": 26.26689910888672,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortBuildUp"
+    },
+    "1134180": {
+     "prevOi": 216060,
+     "iv": 17.43887710571289,
+     "delta": 0.6640999913215637,
+     "theta": -72.20210266113281,
+     "vega": 25.164100646972656,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortCovering"
+    },
+    "1134265": {
+     "prevOi": 164380,
+     "iv": 19.700891494750977,
+     "delta": -0.3531000018119812,
+     "theta": -82.84249877929688,
+     "vega": 25.638599395751953,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortBuildUp"
+    },
+    "1134433": {
+     "prevOi": 327020,
+     "iv": 17.10969352722168,
+     "delta": 0.6973000168800354,
+     "theta": -68.06099700927734,
+     "vega": 24.086000442504883,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortCovering"
+    },
+    "1134504": {
+     "prevOi": 351200,
+     "iv": 19.674510955810547,
+     "delta": -0.32580000162124634,
+     "theta": -80.40989685058594,
+     "vega": 24.857999801635742,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortBuildUp"
+    },
+    "1134513": {
+     "prevOi": 163840,
+     "iv": 16.851198196411133,
+     "delta": 0.7293999791145325,
+     "theta": -63.80500030517578,
+     "vega": 22.837499618530273,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortCovering"
+    },
+    "1134239": {
+     "prevOi": 184360,
+     "iv": 19.690406799316406,
+     "delta": -0.2996000051498413,
+     "theta": -77.80999755859375,
+     "vega": 23.97719955444336,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortBuildUp"
+    },
+    "1134408": {
+     "prevOi": 159420,
+     "iv": 16.426380157470703,
+     "delta": 0.7628999948501587,
+     "theta": -58.30289840698242,
+     "vega": 21.308300018310547,
+     "gamma": 0.0003000000142492354,
+     "analysis": "ShortCovering"
+    },
+    "1134484": {
+     "prevOi": 282760,
+     "iv": 19.976404190063477,
+     "delta": -0.27709999680519104,
+     "theta": -76.2291030883789,
+     "vega": 23.109899520874023,
+     "gamma": 0.00019999999494757503,
+     "analysis": "ShortBuildUp"
+    },
+    "1134491": {
+     "prevOi": 183840,
+     "iv": 17.81829261779785,
+     "delta": 0.7713000178337097,
+     "theta": -61.91830062866211,
+     "vega": 20.8843994140625,
+     "gamma": 0.00019999999494757503,
+     "analysis": "ShortCovering"
+    },
+    "1134216": {
+     "prevOi": 333620,
+     "iv": 19.98508644104004,
+     "delta": -0.2531999945640564,
+     "theta": -73.01370239257812,
+     "vega": 22.073699951171875,
+     "gamma": 0.00019999999494757503,
+     "analysis": "ShortBuildUp"
+    },
+    "1134227": {
+     "prevOi": 122720,
+     "iv": 17.38199806213379,
+     "delta": 0.8011999726295471,
+     "theta": -55.9197998046875,
+     "vega": 19.248899459838867,
+     "gamma": 0.00019999999494757503,
+     "analysis": "ShortCovering"
+    },
+    "1134458": {
+     "prevOi": 241220,
+     "iv": 20.16008758544922,
+     "delta": -0.2321999967098236,
+     "theta": -70.41829681396484,
+     "vega": 21.062700271606445,
+     "gamma": 0.00019999999494757503,
+     "analysis": "LongUnwinding"
+    },
+    "1134468": {
+     "prevOi": 197500,
+     "iv": 17.782114028930664,
+     "delta": 0.8184999823570251,
+     "theta": -54.17340087890625,
+     "vega": 18.198299407958984,
+     "gamma": 0.00019999999494757503,
+     "analysis": "ShortCovering"
+    },
+    "1134193": {
+     "prevOi": 638560,
+     "iv": 20.283823013305664,
+     "delta": -0.211899995803833,
+     "theta": -67.38860321044922,
+     "vega": 19.993099212646484,
+     "gamma": 0.00019999999494757503,
+     "analysis": "ShortBuildUp"
+    },
+    "1134275": {
+     "prevOi": 27640,
+     "iv": 17.47041893005371,
+     "delta": 0.8436999917030334,
+     "theta": -48.5525016784668,
+     "vega": 16.53070068359375,
+     "gamma": 0.00019999999494757503,
+     "analysis": "ShortCovering"
+    },
+    "1134348": {
+     "prevOi": 211840,
+     "iv": 20.547266006469727,
+     "delta": -0.19449999928474426,
+     "theta": -64.9655990600586,
+     "vega": 18.996400833129883,
+     "gamma": 0.00019999999494757503,
+     "analysis": "ShortBuildUp"
+    },
+    "1134356": {
+     "prevOi": 36840,
+     "iv": 17.811506271362305,
+     "delta": 0.8585000038146973,
+     "theta": -46.39860153198242,
+     "vega": 15.469799995422363,
+     "gamma": 0.00019999999494757503,
+     "analysis": "ShortCovering"
+    },
+    "1134430": {
+     "prevOi": 223400,
+     "iv": 20.622114181518555,
+     "delta": -0.17630000412464142,
+     "theta": -61.455501556396484,
+     "vega": 17.86829948425293,
+     "gamma": 0.00019999999494757503,
+     "analysis": "ShortBuildUp"
+    },
+    "1134247": {
+     "prevOi": 29560,
+     "iv": 11.87207317352295,
+     "delta": 0.9580000042915344,
+     "theta": -13.051199913024902,
+     "vega": 6.184800148010254,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortCovering"
+    },
+    "1134323": {
+     "prevOi": 140420,
+     "iv": 20.866056442260742,
+     "delta": -0.16120000183582306,
+     "theta": -58.79029846191406,
+     "vega": 16.867799758911133,
+     "gamma": 0.00019999999494757503,
+     "analysis": "ShortBuildUp"
+    },
+    "1134334": {
+     "prevOi": 21800,
+     "delta": 1,
+     "analysis": "ShortCovering"
+    },
+    "1134406": {
+     "prevOi": 184160,
+     "iv": 20.975351333618164,
+     "delta": -0.14569999277591705,
+     "theta": -55.38090133666992,
+     "vega": 15.777600288391113,
+     "gamma": 0.00019999999494757503,
+     "analysis": "ShortBuildUp"
+    },
+    "1134422": {
+     "prevOi": 98420,
+     "iv": 17.76789665222168,
+     "delta": 0.9075000286102295,
+     "theta": -34.52880096435547,
+     "vega": 11.434700012207031,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortCovering"
+    },
+    "1134302": {
+     "prevOi": 454720,
+     "iv": 21.233829498291016,
+     "delta": -0.1331000030040741,
+     "theta": -52.77389907836914,
+     "vega": 14.831899642944336,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortBuildUp"
+    },
+    "1134309": {
+     "prevOi": 17540,
+     "delta": 1,
+     "analysis": "ShortCovering"
+    },
+    "1134385": {
+     "prevOi": 126560,
+     "iv": 21.420801162719727,
+     "delta": -0.12070000171661377,
+     "theta": -49.810699462890625,
+     "vega": 13.855999946594238,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortBuildUp"
+    },
+    "1134393": {
+     "prevOi": 22640,
+     "iv": 32.622291564941406,
+     "delta": 0.7947999835014343,
+     "theta": -105.3855972290039,
+     "vega": 19.61280059814453,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortCovering"
+    },
+    "1134282": {
+     "prevOi": 168520,
+     "iv": 21.782381057739258,
+     "delta": -0.11110000312328339,
+     "theta": -47.81209945678711,
+     "vega": 13.06779956817627,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortBuildUp"
+    },
+    "1134292": {
+     "prevOi": 16500,
+     "iv": 31.802345275878906,
+     "delta": 0.8133999705314636,
+     "theta": -97.1626968383789,
+     "vega": 18.516000747680664,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortCovering"
+    },
+    "1134365": {
+     "prevOi": 143920,
+     "iv": 21.935319900512695,
+     "delta": -0.10029999911785126,
+     "theta": -44.77239990234375,
+     "vega": 12.133500099182129,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortBuildUp"
+    },
+    "1134373": {
+     "prevOi": 15620,
+     "iv": 32.691978454589844,
+     "delta": 0.8192999958992004,
+     "theta": -97.9094009399414,
+     "vega": 18.15130043029785,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortCovering"
+    },
+    "1134447": {
+     "prevOi": 92680,
+     "iv": 22.15738296508789,
+     "delta": -0.09099999815225601,
+     "theta": -42.167598724365234,
+     "vega": 11.299400329589844,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortBuildUp"
+    },
+    "1134268": {
+     "prevOi": 102100,
+     "delta": 1,
+     "analysis": "ShortCovering"
+    },
+    "1134343": {
+     "prevOi": 632400,
+     "iv": 22.391427993774414,
+     "delta": -0.08269999921321869,
+     "theta": -39.7047004699707,
+     "vega": 10.516400337219238,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortBuildUp"
+    },
+    "1134416": {
+     "prevOi": 18300,
+     "iv": 32.982364654541016,
+     "delta": 0.8402000069618225,
+     "theta": -91.4291000366211,
+     "vega": 16.77630043029785,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortCovering"
+    },
+    "1134488": {
+     "prevOi": 140160,
+     "iv": 22.657379150390625,
+     "delta": -0.07540000230073929,
+     "theta": -37.48529815673828,
+     "vega": 9.80270004272461,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortBuildUp"
+    },
+    "1134496": {
+     "prevOi": 15080,
+     "delta": 1,
+     "analysis": "ShortCovering"
+    },
+    "1134221": {
+     "prevOi": 117960,
+     "iv": 22.914283752441406,
+     "delta": -0.06859999895095825,
+     "theta": -35.30830001831055,
+     "vega": 9.121299743652344,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortBuildUp"
+    },
+    "1134231": {
+     "prevOi": 12400,
+     "iv": 34.614933013916016,
+     "delta": 0.8499000072479248,
+     "theta": -92.04129791259766,
+     "vega": 16.09429931640625,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortCovering"
+    },
+    "1134462": {
+     "prevOi": 103620,
+     "iv": 23.18978500366211,
+     "delta": -0.06260000169277191,
+     "theta": -33.30870056152344,
+     "vega": 8.495499610900879,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortBuildUp"
+    },
+    "1134476": {
+     "prevOi": 8080,
+     "iv": 37.29059600830078,
+     "delta": 0.8424000144004822,
+     "theta": -102.23149871826172,
+     "vega": 16.625200271606445,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortCovering"
+    },
+    "1134200": {
+     "prevOi": 83400,
+     "iv": 23.481473922729492,
+     "delta": -0.05719999969005585,
+     "theta": -31.470300674438477,
+     "vega": 7.921299934387207,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortBuildUp"
+    },
+    "1134211": {
+     "prevOi": 20120,
+     "delta": 1,
+     "analysis": "ShortCovering"
+    },
+    "1134290": {
+     "prevOi": 461660,
+     "iv": 23.771434783935547,
+     "delta": -0.052400000393390656,
+     "theta": -29.708599090576172,
+     "vega": 7.381700038909912,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortBuildUp"
+    },
+    "1134454": {
+     "prevOi": 5580,
+     "iv": 38.78216552734375,
+     "delta": 0.8518000245094299,
+     "theta": -102.04340362548828,
+     "vega": 15.956199645996094,
+     "gamma": 9.999999747378752e-05
+    },
+    "1134162": {
+     "prevOi": 103740,
+     "iv": 23.998817443847656,
+     "delta": -0.04749999940395355,
+     "theta": -27.765600204467773,
+     "vega": 6.827600002288818,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortBuildUp"
+    },
+    "1134179": {
+     "prevOi": 3120,
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134264": {
+     "prevOi": 137980,
+     "iv": 24.335098266601562,
+     "delta": -0.043699998408555984,
+     "theta": -26.36989974975586,
+     "vega": 6.392099857330322,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "LongUnwinding"
+    },
+    "1134432": {
+     "prevOi": 1520,
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134502": {
+     "prevOi": 132640,
+     "iv": 24.667001724243164,
+     "delta": -0.040300000458955765,
+     "theta": -25.02589988708496,
+     "vega": 5.9822998046875,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "LongUnwinding"
+    },
+    "1134512": {
+     "prevOi": 1680,
+     "iv": 50.36626434326172,
+     "delta": 0.8167999982833862,
+     "theta": -151.1708984375,
+     "vega": 18.306100845336914,
+     "gamma": 9.999999747378752e-05
+    },
+    "1134238": {
+     "prevOi": 57160,
+     "iv": 24.798622131347656,
+     "delta": -0.035999998450279236,
+     "theta": -22.983299255371094,
+     "vega": 5.458899974822998,
+     "analysis": "ShortBuildUp"
+    },
+    "1134254": {
+     "prevOi": 15580,
+     "iv": 42.17137145996094,
+     "delta": 0.8657000064849854,
+     "theta": -103.76419830322266,
+     "vega": 14.92770004272461,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortCovering"
+    },
+    "1134483": {
+     "prevOi": 586460,
+     "iv": 25.272966384887695,
+     "delta": -0.03400000184774399,
+     "theta": -22.32430076599121,
+     "vega": 5.203800201416016,
+     "analysis": "ShortBuildUp"
+    },
+    "1134395": {
+     "prevOi": 2100,
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134285": {
+     "prevOi": 286560,
+     "iv": 25.58778953552246,
+     "delta": -0.031300000846385956,
+     "theta": -21.122900009155273,
+     "vega": 4.861400127410889,
+     "analysis": "LongUnwinding"
+    },
+    "1134296": {
+     "prevOi": 1360,
+     "iv": 52.6246337890625,
+     "delta": 0.8295999765396118,
+     "theta": -150.88180541992188,
+     "vega": 17.484899520874023,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortCovering"
+    },
+    "1134368": {
+     "prevOi": 88940,
+     "iv": 25.844600677490234,
+     "delta": -0.028599999845027924,
+     "theta": -19.75,
+     "vega": 4.506199836730957,
+     "analysis": "ShortBuildUp"
+    },
+    "1134377": {
+     "prevOi": 1200,
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134450": {
+     "prevOi": 44460,
+     "iv": 26.09342384338379,
+     "delta": -0.026000000536441803,
+     "theta": -17.950000762939453,
+     "vega": 4.17110013961792,
+     "analysis": "ShortBuildUp"
+    },
+    "1134274": {
+     "prevOi": 1840,
+     "iv": 54.43377685546875,
+     "delta": 0.8360999822616577,
+     "theta": -152.22970581054688,
+     "vega": 17.056100845336914,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortCovering"
+    },
+    "1134347": {
+     "prevOi": 128820,
+     "iv": 26.5412654876709,
+     "delta": -0.02459999918937683,
+     "theta": -17.100000381469727,
+     "vega": 3.9735000133514404,
+     "analysis": "LongUnwinding"
+    },
+    "1134355": {
+     "prevOi": 8340,
+     "iv": 50.62215042114258,
+     "delta": 0.8596000075340271,
+     "theta": -127.99829864501953,
+     "vega": 15.388199806213379,
+     "gamma": 9.999999747378752e-05,
+     "analysis": "ShortCovering"
+    },
+    "1134429": {
+     "prevOi": 333120,
+     "iv": 27.02607536315918,
+     "delta": -0.023399999365210533,
+     "theta": -16.450000762939453,
+     "vega": 3.808799982070923,
+     "analysis": "ShortBuildUp"
+    },
+    "1134246": {
+     "prevOi": 2140,
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134321": {
+     "prevOi": 49240,
+     "iv": 27.248065948486328,
+     "delta": -0.021199999377131462,
+     "theta": -14.899999618530273,
+     "vega": 3.5155999660491943,
+     "analysis": "LongUnwinding"
+    },
+    "1134333": {
+     "prevOi": 860,
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134405": {
+     "prevOi": 69780,
+     "iv": 27.57756805419922,
+     "delta": -0.019700000062584877,
+     "theta": -13.850000381469727,
+     "vega": 3.2973999977111816,
+     "analysis": "LongUnwinding"
+    },
+    "1134421": {
+     "prevOi": 700,
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134301": {
+     "prevOi": 100080,
+     "iv": 27.992116928100586,
+     "delta": -0.01860000006854534,
+     "theta": -13.149999618530273,
+     "vega": 3.134700059890747,
+     "analysis": "LongUnwinding"
+    },
+    "1134308": {
+     "prevOi": 260,
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134382": {
+     "prevOi": 55840,
+     "iv": 28.305849075317383,
+     "delta": -0.01720000058412552,
+     "theta": -12.199999809265137,
+     "vega": 2.936000108718872,
+     "analysis": "LongUnwinding"
+    },
+    "1134392": {
+     "prevOi": 3260,
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134466": {
+     "prevOi": 637860,
+     "iv": 28.682048797607422,
+     "delta": -0.016100000590085983,
+     "theta": -11.5,
+     "vega": 2.7780001163482666,
+     "analysis": "LongUnwinding"
+    },
+    "1134185": {
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134267": {
+     "prevOi": 31900,
+     "iv": 29.01997184753418,
+     "delta": -0.014999999664723873,
+     "theta": -10.75,
+     "vega": 2.6142001152038574,
+     "analysis": "ShortBuildUp"
+    },
+    "1134436": {
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134506": {
+     "prevOi": 26440,
+     "iv": 29.375242233276367,
+     "delta": -0.014000000432133675,
+     "theta": -10.100000381469727,
+     "vega": 2.468100070953369,
+     "analysis": "ShortBuildUp"
+    },
+    "1134516": {
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134241": {
+     "prevOi": 38620,
+     "iv": 29.90079689025879,
+     "delta": -0.01360000018030405,
+     "theta": -9.899999618530273,
+     "vega": 2.3968000411987305,
+     "analysis": "ShortBuildUp"
+    },
+    "1134415": {
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134487": {
+     "prevOi": 25320,
+     "iv": 30.291778564453125,
+     "delta": -0.012799999676644802,
+     "theta": -9.399999618530273,
+     "vega": 2.2792000770568848,
+     "analysis": "ShortBuildUp"
+    },
+    "1134495": {
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134219": {
+     "prevOi": 243940,
+     "iv": 30.574413299560547,
+     "delta": -0.011800000444054604,
+     "theta": -8.699999809265137,
+     "vega": 2.1303000450134277,
+     "analysis": "ShortBuildUp"
+    },
+    "1134230": {
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134461": {
+     "prevOi": 23240,
+     "iv": 30.978042602539062,
+     "delta": -0.01119999960064888,
+     "theta": -8.300000190734863,
+     "vega": 2.0322000980377197,
+     "analysis": "ShortBuildUp"
+    },
+    "1134475": {
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134199": {
+     "prevOi": 38720,
+     "iv": 31.471294403076172,
+     "delta": -0.01080000028014183,
+     "theta": -8.100000381469727,
+     "vega": 1.968999981880188,
+     "analysis": "ShortBuildUp"
+    },
+    "1134210": {
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134289": {
+     "prevOi": 43160,
+     "iv": 31.71876335144043,
+     "delta": -0.009999999776482582,
+     "theta": -7.449999809265137,
+     "vega": 1.8322999477386475,
+     "analysis": "ShortBuildUp"
+    },
+    "1134453": {
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134159": {
+     "prevOi": 31100,
+     "iv": 32.221839904785156,
+     "delta": -0.009600000455975533,
+     "theta": -7.300000190734863,
+     "vega": 1.7806999683380127,
+     "analysis": "ShortBuildUp"
+    },
+    "1134176": {
+     "prevOi": 2320,
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134263": {
+     "prevOi": 786240,
+     "iv": 32.54505157470703,
+     "delta": -0.008999999612569809,
+     "theta": -6.849999904632568,
+     "vega": 1.679900050163269,
+     "analysis": "LongUnwinding"
+    },
+    "1134262": {
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134341": {
+     "prevOi": 57900,
+     "iv": 32.816429138183594,
+     "delta": -0.00839999970048666,
+     "theta": -6.349999904632568,
+     "vega": 1.5714000463485718,
+     "analysis": "LongUnwinding"
+    },
+    "1134501": {
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134226": {
+     "prevOi": 33860,
+     "iv": 33.09518051147461,
+     "delta": -0.007799999788403511,
+     "theta": -5.900000095367432,
+     "vega": 1.472000002861023,
+     "analysis": "ShortBuildUp"
+    },
+    "1134237": {
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134316": {
+     "prevOi": 19100,
+     "iv": 33.632965087890625,
+     "delta": -0.007600000128149986,
+     "theta": -5.849999904632568,
+     "vega": 1.4430999755859375,
+     "analysis": "ShortBuildUp"
+    },
+    "1134327": {
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134205": {
+     "prevOi": 8660,
+     "iv": 34.13399887084961,
+     "delta": -0.007400000002235174,
+     "theta": -5.75,
+     "vega": 1.406499981880188,
+     "analysis": "ShortBuildUp"
+    },
+    "1134215": {
+     "prevOi": 80,
+     "delta": 1,
+     "isLiquidated": true
+    },
+    "1134298": {
+     "prevOi": 198860,
+     "iv": 34.632118225097656,
+     "delta": -0.007199999876320362,
+     "theta": -5.650000095367432,
+     "vega": 1.3707000017166138,
+     "analysis": "LongUnwinding"
+    }
+   },
+   "pcrOi": 1.19,
+   "indiaVix": {
+    "indexId": "INDIA VIX",
+    "ltp": 15.3,
+    "change": 0.18,
+    "perChange": 1.19
+   },
+   "futureScrip": {
+    "scripCode": 1100929,
+    "expirySeconds": 1480118400,
+    "lotSize": 20
+   }
+  },
+  "chartScrip": {
+   "scripCode": 999901,
+   "exchange": "BSE"
+  }
+ },
+ "variants": {
+  "exchange=1&indexId=SENSEX&top=50": {
+   "symbol": "BSX",
+   "exchange": "BSE_FO",
+   "spot": {
+    "id": {
+     "scripCode": 999901,
+     "exchange": "BSE"
+    },
+    "currentPrice": 74459.53125,
+    "indexSpot": "SENSEX"
+   },
+   "expiry": [
+    {
+     "expirySeconds": 1478304000,
+     "expiryFlag": "W"
+    },
+    {
+     "expirySeconds": 1478908800,
+     "expiryFlag": "W"
+    },
+    {
+     "expirySeconds": 1479513600,
+     "expiryFlag": "W"
+    },
+    {
+     "expirySeconds": 1480118400,
+     "expiryFlag": "M"
+    },
+    {
+     "expirySeconds": 1483142400,
+     "expiryFlag": "M"
+    },
+    {
+     "expirySeconds": 1490400000,
+     "expiryFlag": "M"
+    },
+    {
+     "expirySeconds": 1498262400,
+     "expiryFlag": "M"
+    },
+    {
+     "expirySeconds": 1506729600,
+     "expiryFlag": "M"
+    },
+    {
+     "expirySeconds": 1514592000,
+     "expiryFlag": "M"
+    },
+    {
+     "expirySeconds": 1530316800,
+     "expiryFlag": "M"
+    },
+    {
+     "expirySeconds": 1546041600,
+     "expiryFlag": "M"
+    },
+    {
+     "expirySeconds": 1561766400,
+     "expiryFlag": "M"
+    },
+    {
+     "expirySeconds": 1577491200,
+     "expiryFlag": "M"
+    },
+    {
+     "expirySeconds": 1593216000,
+     "expiryFlag": "M"
+    },
+    {
+     "expirySeconds": 1608940800,
+     "expiryFlag": "M"
+    },
+    {
+     "expirySeconds": 1624665600,
+     "expiryFlag": "M"
+    }
+   ],
+   "data": {
+    "symbol": "BSX",
+    "exchange": "BSE_FO",
+    "expirySeconds": 1478304000,
+    "scrips": [
+     {
+      "strikePrice": 79400,
+      "callScripCode": 1134307,
+      "putScripCode": 1134380
+     },
+     {
+      "strikePrice": 79300,
+      "callScripCode": 1134391,
+      "putScripCode": 1134281
+     },
+     {
+      "strikePrice": 79200,
+      "callScripCode": 1134291,
+      "putScripCode": 1134363
+     },
+     {
+      "strikePrice": 79100,
+      "callScripCode": 1134372,
+      "putScripCode": 1134444
+     },
+     {
+      "strikePrice": 79000,
+      "callScripCode": 1134266,
+      "putScripCode": 1134342
+     },
+     {
+      "strikePrice": 78900,
+      "callScripCode": 1134412,
+      "putScripCode": 1134486
+     },
+     {
+      "strikePrice": 78800,
+      "callScripCode": 1134493,
+      "putScripCode": 1134218
+     },
+     {
+      "strikePrice": 78700,
+      "callScripCode": 1134387,
+      "putScripCode": 1134460
+     },
+     {
+      "strikePrice": 78600,
+      "callScripCode": 1134472,
+      "putScripCode": 1134196
+     },
+     {
+      "strikePrice": 78500,
+      "callScripCode": 1134209,
+      "putScripCode": 1134442
+     },
+     {
+      "strikePrice": 78400,
+      "callScripCode": 1134452,
+      "putScripCode": 1134155
+     },
+     {
+      "strikePrice": 78300,
+      "callScripCode": 1134175,
+      "putScripCode": 1134260
+     },
+     {
+      "strikePrice": 78200,
+      "callScripCode": 1134431,
+      "putScripCode": 1134499
+     },
+     {
+      "strikePrice": 78100,
+      "callScripCode": 1134511,
+      "putScripCode": 1134235
+     },
+     {
+      "strikePrice": 78000,
+      "callScripCode": 1134253,
+      "putScripCode": 1134482
+     },
+     {
+      "strikePrice": 77900,
+      "callScripCode": 1134203,
+      "putScripCode": 1134284
+     },
+     {
+      "strikePrice": 77800,
+      "callScripCode": 1134294,
+      "putScripCode": 1134367
+     },
+     {
+      "strikePrice": 77700,
+      "callScripCode": 1134376,
+      "putScripCode": 1134256
+     },
+     {
+      "strikePrice": 77600,
+      "callScripCode": 1134270,
+      "putScripCode": 1134345
+     },
+     {
+      "strikePrice": 77500,
+      "callScripCode": 1134353,
+      "putScripCode": 1134428
+     },
+     {
+      "strikePrice": 77400,
+      "callScripCode": 1134243,
+      "putScripCode": 1134319
+     },
+     {
+      "strikePrice": 77300,
+      "callScripCode": 1134330,
+      "putScripCode": 1134402
+     },
+     {
+      "strikePrice": 77200,
+      "callScripCode": 1134419,
+      "putScripCode": 1134299
+     },
+     {
+      "strikePrice": 77100,
+      "callScripCode": 1134306,
+      "putScripCode": 1134379
+     },
+     {
+      "strikePrice": 77000,
+      "callScripCode": 1134390,
+      "putScripCode": 1134464
+     },
+     {
+      "strikePrice": 76900,
+      "callScripCode": 1134183,
+      "putScripCode": 1134423
+     },
+     {
+      "strikePrice": 76800,
+      "callScripCode": 1134434,
+      "putScripCode": 1134505
+     },
+     {
+      "strikePrice": 76700,
+      "callScripCode": 1134514,
+      "putScripCode": 1134240
+     },
+     {
+      "strikePrice": 76600,
+      "callScripCode": 1134410,
+      "putScripCode": 1134485
+     },
+     {
+      "strikePrice": 76500,
+      "callScripCode": 1134492,
+      "putScripCode": 1134217
+     },
+     {
+      "strikePrice": 76400,
+      "callScripCode": 1134228,
+      "putScripCode": 1134459
+     },
+     {
+      "strikePrice": 76300,
+      "callScripCode": 1134470,
+      "putScripCode": 1134195
+     },
+     {
+      "strikePrice": 76200,
+      "callScripCode": 1134208,
+      "putScripCode": 1134287
+     },
+     {
+      "strikePrice": 76100,
+      "callScripCode": 1134451,
+      "putScripCode": 1134151
+     },
+     {
+      "strikePrice": 76000,
+      "callScripCode": 1134173,
+      "putScripCode": 1134259
+     },
+     {
+      "strikePrice": 75900,
+      "callScripCode": 1134335,
+      "putScripCode": 1134407
+     },
+     {
+      "strikePrice": 75800,
+      "callScripCode": 1134223,
+      "putScripCode": 1134303
+     },
+     {
+      "strikePrice": 75700,
+      "callScripCode": 1134312,
+      "putScripCode": 1134386
+     },
+     {
+      "strikePrice": 75600,
+      "callScripCode": 1134394,
+      "putScripCode": 1134283
+     },
+     {
+      "strikePrice": 75500,
+      "callScripCode": 1134293,
+      "putScripCode": 1134366
+     },
+     {
+      "strikePrice": 75400,
+      "callScripCode": 1134374,
+      "putScripCode": 1134449
+     },
+     {
+      "strikePrice": 75300,
+      "callScripCode": 1134269,
+      "putScripCode": 1134344
+     },
+     {
+      "strikePrice": 75200,
+      "callScripCode": 1134352,
+      "putScripCode": 1134427
+     },
+     {
+      "strikePrice": 75100,
+      "callScripCode": 1134242,
+      "putScripCode": 1134317
+     },
+     {
+      "strikePrice": 75000,
+      "callScripCode": 1134329,
+      "putScripCode": 1134401
+     },
+     {
+      "strikePrice": 74900,
+      "callScripCode": 1134477,
+      "putScripCode": 1134201
+     },
+     {
+      "strikePrice": 74800,
+      "callScripCode": 1134212,
+      "putScripCode": 1134443
+     },
+     {
+      "strikePrice": 74700,
+      "callScripCode": 1134455,
+      "putScripCode": 1134163
+     },
+     {
+      "strikePrice": 74600,
+      "callScripCode": 1134180,
+      "putScripCode": 1134265
+     },
+     {
+      "strikePrice": 74500,
+      "callScripCode": 1134433,
+      "putScripCode": 1134504
+     },
+     {
+      "strikePrice": 74400,
+      "callScripCode": 1134513,
+      "putScripCode": 1134239
+     },
+     {
+      "strikePrice": 74300,
+      "callScripCode": 1134408,
+      "putScripCode": 1134484
+     },
+     {
+      "strikePrice": 74200,
+      "callScripCode": 1134491,
+      "putScripCode": 1134216
+     },
+     {
+      "strikePrice": 74100,
+      "callScripCode": 1134227,
+      "putScripCode": 1134458
+     },
+     {
+      "strikePrice": 74000,
+      "callScripCode": 1134468,
+      "putScripCode": 1134193
+     },
+     {
+      "strikePrice": 73900,
+      "callScripCode": 1134275,
+      "putScripCode": 1134348
+     },
+     {
+      "strikePrice": 73800,
+      "callScripCode": 1134356,
+      "putScripCode": 1134430
+     },
+     {
+      "strikePrice": 73700,
+      "callScripCode": 1134247,
+      "putScripCode": 1134323
+     },
+     {
+      "strikePrice": 73600,
+      "callScripCode": 1134334,
+      "putScripCode": 1134406
+     },
+     {
+      "strikePrice": 73500,
+      "callScripCode": 1134422,
+      "putScripCode": 1134302
+     },
+     {
+      "strikePrice": 73400,
+      "callScripCode": 1134309,
+      "putScripCode": 1134385
+     },
+     {
+      "strikePrice": 73300,
+      "callScripCode": 1134393,
+      "putScripCode": 1134282
+     },
+     {
+      "strikePrice": 73200,
+      "callScripCode": 1134292,
+      "putScripCode": 1134365
+     },
+     {
+      "strikePrice": 73100,
+      "callScripCode": 1134373,
+      "putScripCode": 1134447
+     },
+     {
+      "strikePrice": 73000,
+      "callScripCode": 1134268,
+      "putScripCode": 1134343
+     },
+     {
+      "strikePrice": 72900,
+      "callScripCode": 1134416,
+      "putScripCode": 1134488
+     },
+     {
+      "strikePrice": 72800,
+      "callScripCode": 1134496,
+      "putScripCode": 1134221
+     },
+     {
+      "strikePrice": 72700,
+      "callScripCode": 1134231,
+      "putScripCode": 1134462
+     },
+     {
+      "strikePrice": 72600,
+      "callScripCode": 1134476,
+      "putScripCode": 1134200
+     },
+     {
+      "strikePrice": 72500,
+      "callScripCode": 1134211,
+      "putScripCode": 1134290
+     },
+     {
+      "strikePrice": 72400,
+      "callScripCode": 1134454,
+      "putScripCode": 1134162
+     },
+     {
+      "strikePrice": 72300,
+      "callScripCode": 1134179,
+      "putScripCode": 1134264
+     },
+     {
+      "strikePrice": 72200,
+      "callScripCode": 1134432,
+      "putScripCode": 1134502
+     },
+     {
+      "strikePrice": 72100,
+      "callScripCode": 1134512,
+      "putScripCode": 1134238
+     },
+     {
+      "strikePrice": 72000,
+      "callScripCode": 1134254,
+      "putScripCode": 1134483
+     },
+     {
+      "strikePrice": 71900,
+      "callScripCode": 1134395,
+      "putScripCode": 1134285
+     },
+     {
+      "strikePrice": 71800,
+      "callScripCode": 1134296,
+      "putScripCode": 1134368
+     },
+     {
+      "strikePrice": 71700,
+      "callScripCode": 1134377,
+      "putScripCode": 1134450
+     },
+     {
+      "strikePrice": 71600,
+      "callScripCode": 1134274,
+      "putScripCode": 1134347
+     },
+     {
+      "strikePrice": 71500,
+      "callScripCode": 1134355,
+      "putScripCode": 1134429
+     },
+     {
+      "strikePrice": 71400,
+      "callScripCode": 1134246,
+      "putScripCode": 1134321
+     },
+     {
+      "strikePrice": 71300,
+      "callScripCode": 1134333,
+      "putScripCode": 1134405
+     },
+     {
+      "strikePrice": 71200,
+      "callScripCode": 1134421,
+      "putScripCode": 1134301
+     },
+     {
+      "strikePrice": 71100,
+      "callScripCode": 1134308,
+      "putScripCode": 1134382
+     },
+     {
+      "strikePrice": 71000,
+      "callScripCode": 1134392,
+      "putScripCode": 1134466
+     },
+     {
+      "strikePrice": 70900,
+      "callScripCode": 1134185,
+      "putScripCode": 1134267
+     },
+     {
+      "strikePrice": 70800,
+      "callScripCode": 1134436,
+      "putScripCode": 1134506
+     },
+     {
+      "strikePrice": 70700,
+      "callScripCode": 1134516,
+      "putScripCode": 1134241
+     },
+     {
+      "strikePrice": 70600,
+      "callScripCode": 1134415,
+      "putScripCode": 1134487
+     },
+     {
+      "strikePrice": 70500,
+      "callScripCode": 1134495,
+      "putScripCode": 1134219
+     },
+     {
+      "strikePrice": 70400,
+      "callScripCode": 1134230,
+      "putScripCode": 1134461
+     },
+     {
+      "strikePrice": 70300,
+      "callScripCode": 1134475,
+      "putScripCode": 1134199
+     },
+     {
+      "strikePrice": 70200,
+      "callScripCode": 1134210,
+      "putScripCode": 1134289
+     },
+     {
+      "strikePrice": 70100,
+      "callScripCode": 1134453,
+      "putScripCode": 1134159
+     },
+     {
+      "strikePrice": 70000,
+      "callScripCode": 1134176,
+      "putScripCode": 1134263
+     },
+     {
+      "strikePrice": 69900,
+      "callScripCode": 1134262,
+      "putScripCode": 1134341
+     },
+     {
+      "strikePrice": 69800,
+      "callScripCode": 1134501,
+      "putScripCode": 1134226
+     },
+     {
+      "strikePrice": 69700,
+      "callScripCode": 1134237,
+      "putScripCode": 1134316
+     },
+     {
+      "strikePrice": 69600,
+      "callScripCode": 1134327,
+      "putScripCode": 1134205
+     },
+     {
+      "strikePrice": 69500,
+      "callScripCode": 1134215,
+      "putScripCode": 1134298
+     }
+    ],
+    "greeks": {
+     "1134307": {
+      "prevOi": 620,
+      "iv": 25.16602325439453,
+      "delta": 0.008299999870359898,
+      "theta": -4.75,
+      "vega": 1.5607999563217163,
+      "analysis": "LongBuildUp"
+     },
+     "1134380": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134391": {
+      "prevOi": 15880,
+      "iv": 24.911945343017578,
+      "delta": 0.008999999612569809,
+      "theta": -5.150000095367432,
+      "vega": 1.6777000427246094,
+      "analysis": "LongBuildUp"
+     },
+     "1134281": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134291": {
+      "prevOi": 1560,
+      "iv": 24.607561111450195,
+      "delta": 0.009700000286102295,
+      "theta": -5.5,
+      "vega": 1.784600019454956,
+      "analysis": "LongBuildUp"
+     },
+     "1134363": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134372": {
+      "prevOi": 3960,
+      "iv": 24.20629119873047,
+      "delta": 0.010099999606609344,
+      "theta": -5.699999809265137,
+      "vega": 1.8594000339508057,
+      "analysis": "LongBuildUp"
+     },
+     "1134444": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134266": {
+      "prevOi": 313180,
+      "iv": 23.822633743286133,
+      "delta": 0.010700000450015068,
+      "theta": -5.949999809265137,
+      "vega": 1.9474999904632568,
+      "analysis": "LongBuildUp"
+     },
+     "1134342": {
+      "prevOi": 320,
+      "iv": 80.32624816894531,
+      "delta": -0.7418000102043152,
+      "theta": -288.8360900878906,
+      "vega": 22.300199508666992,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "1134412": {
+      "prevOi": 4100,
+      "iv": 23.549930572509766,
+      "delta": 0.011599999852478504,
+      "theta": -6.449999809265137,
+      "vega": 2.0933001041412354,
+      "analysis": "LongBuildUp"
+     },
+     "1134486": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134493": {
+      "prevOi": 1520,
+      "iv": 23.118337631225586,
+      "delta": 0.01209999993443489,
+      "theta": -6.650000095367432,
+      "vega": 2.1749000549316406,
+      "analysis": "LongBuildUp"
+     },
+     "1134218": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134387": {
+      "prevOi": 5000,
+      "iv": 22.767118453979492,
+      "delta": 0.013000000268220901,
+      "theta": -7.050000190734863,
+      "vega": 2.3032000064849854,
+      "analysis": "LongBuildUp"
+     },
+     "1134460": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134472": {
+      "prevOi": 3080,
+      "iv": 22.502288818359375,
+      "delta": 0.0142000000923872,
+      "theta": -7.699999809265137,
+      "vega": 2.4883999824523926,
+      "analysis": "LongBuildUp"
+     },
+     "1134196": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134209": {
+      "prevOi": 141620,
+      "iv": 22.17317008972168,
+      "delta": 0.015300000086426735,
+      "theta": -8.25,
+      "vega": 2.654099941253662,
+      "analysis": "LongBuildUp"
+     },
+     "1134442": {
+      "prevOi": 160,
+      "iv": 75.0868148803711,
+      "delta": -0.7281000018119812,
+      "theta": -277.160888671875,
+      "vega": 22.892200469970703,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "1134452": {
+      "prevOi": 8760,
+      "iv": 21.78904914855957,
+      "delta": 0.016300000250339508,
+      "theta": -8.699999809265137,
+      "vega": 2.8015999794006348,
+      "analysis": "LongBuildUp"
+     },
+     "1134155": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134175": {
+      "prevOi": 9640,
+      "iv": 21.441221237182617,
+      "delta": 0.017500000074505806,
+      "theta": -9.300000190734863,
+      "vega": 2.984299898147583,
+      "analysis": "LongBuildUp"
+     },
+     "1134260": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134431": {
+      "prevOi": 6940,
+      "iv": 21.168001174926758,
+      "delta": 0.019200000911951065,
+      "theta": -10.199999809265137,
+      "vega": 3.232300043106079,
+      "analysis": "LongBuildUp"
+     },
+     "1134499": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134511": {
+      "prevOi": 15280,
+      "iv": 20.864818572998047,
+      "delta": 0.020999999716877937,
+      "theta": -11.056699752807617,
+      "vega": 3.4825000762939453,
+      "analysis": "LongBuildUp"
+     },
+     "1134235": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134253": {
+      "prevOi": 376420,
+      "iv": 20.561281204223633,
+      "delta": 0.023000000044703484,
+      "theta": -11.753299713134766,
+      "vega": 3.75570011138916,
+      "analysis": "LongBuildUp"
+     },
+     "1134482": {
+      "prevOi": 14480,
+      "iv": 33.06193161010742,
+      "delta": -0.890999972820282,
+      "theta": -67.41719818115234,
+      "vega": 12.887900352478027,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongUnwinding"
+     },
+     "1134203": {
+      "prevOi": 9140,
+      "iv": 20.24182891845703,
+      "delta": 0.025100000202655792,
+      "theta": -12.45479965209961,
+      "vega": 4.041999816894531,
+      "analysis": "LongBuildUp"
+     },
+     "1134284": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134294": {
+      "prevOi": 33780,
+      "iv": 19.906389236450195,
+      "delta": 0.027300000190734863,
+      "theta": -13.158499717712402,
+      "vega": 4.341800212860107,
+      "analysis": "LongBuildUp"
+     },
+     "1134367": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134376": {
+      "prevOi": 46780,
+      "iv": 19.671772003173828,
+      "delta": 0.030500000342726707,
+      "theta": -14.254799842834473,
+      "vega": 4.75570011138916,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "1134256": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134270": {
+      "prevOi": 49640,
+      "iv": 19.413352966308594,
+      "delta": 0.033900000154972076,
+      "theta": -15.356200218200684,
+      "vega": 5.187600135803223,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "1134345": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134353": {
+      "prevOi": 212900,
+      "iv": 19.08708381652832,
+      "delta": 0.03709999844431877,
+      "theta": -16.292499542236328,
+      "vega": 5.595900058746338,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "1134428": {
+      "prevOi": 3040,
+      "iv": 22.708717346191406,
+      "delta": -0.9327999949455261,
+      "theta": -31.644800186157227,
+      "vega": 8.973299980163574,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "1134243": {
+      "prevOi": 100420,
+      "iv": 18.793987274169922,
+      "delta": 0.041099999099969864,
+      "theta": -17.426700592041016,
+      "vega": 6.074999809265137,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "1134319": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134330": {
+      "prevOi": 56280,
+      "iv": 18.56713104248047,
+      "delta": 0.04610000178217888,
+      "theta": -18.914100646972656,
+      "vega": 6.666399955749512,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "1134402": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134419": {
+      "prevOi": 37360,
+      "iv": 18.343225479125977,
+      "delta": 0.05180000141263008,
+      "theta": -20.527299880981445,
+      "vega": 7.314300060272217,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "1134299": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134306": {
+      "prevOi": 29220,
+      "iv": 18.12104034423828,
+      "delta": 0.05820000171661377,
+      "theta": -22.266399383544922,
+      "vega": 8.020500183105469,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "1134379": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "1134390": {
+      "prevOi": 559540,
+      "iv": 17.870302200317383,
+      "delta": 0.06509999930858612,
+      "theta": -23.995800018310547,
+      "vega": 8.753899574279785,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "1134464": {
+      "prevOi": 17840,
+      "iv": 21.593137741088867,
+      "delta": -0.8942999839782715,
+      "theta": -29.270000457763672,
+      "vega": 12.608699798583984,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "1134183": {
+      "prevOi": 97420,
+      "iv": 17.7778377532959,
+      "delta": 0.07460000365972519,
+      "theta": -26.595600128173828,
+      "vega": 9.730400085449219,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "1134423": {
+      "iv": 18.25563621520996,
+      "delta": -0.9197999835014343,
+      "theta": -28.914499282836914,
+      "vega": 10.273599624633789,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "1134434": {
+      "prevOi": 102260,
+      "iv": 17.559267044067383,
+      "delta": 0.08380000293254852,
+      "theta": -28.73509979248047,
+      "vega": 10.626700401306152,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "1134505": {
+      "iv": 17.49034309387207,
+      "delta": -0.9169999957084656,
+      "theta": -28.39389991760254,
+      "vega": 10.546199798583984,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "1134514": {
+      "prevOi": 78460,
+      "iv": 17.43914031982422,
+      "delta": 0.09539999812841415,
+      "theta": -31.49530029296875,
+      "vega": 11.700900077819824,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "1134240": {
+      "iv": 16.71724510192871,
+      "delta": -0.9139000177383423,
+      "theta": -27.84939956665039,
+      "vega": 10.840200424194336,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "1134410": {
+      "prevOi": 100700,
+      "iv": 17.25508689880371,
+      "delta": 0.10750000178813934,
+      "theta": -34.05659866333008,
+      "vega": 12.761799812316895,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "1134485": {
+      "prevOi": 100,
+      "iv": 24.89530372619629,
+      "delta": -0.8033000230789185,
+      "theta": -75.46289825439453,
+      "vega": 19.12420082092285,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "1134492": {
+      "prevOi": 351740,
+      "iv": 17.214139938354492,
+      "delta": 0.12300000339746475,
+      "theta": -37.48699951171875,
+      "vega": 14.040399551391602,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "1134217": {
+      "prevOi": 1380,
+      "iv": 19.981639862060547,
+      "delta": -0.8406999707221985,
+      "theta": -52.4807014465332,
+      "vega": 16.741100311279297,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "1134228": {
+      "prevOi": 95780,
+      "iv": 17.131370544433594,
+      "delta": 0.13940000534057617,
+      "theta": -40.79869842529297,
+      "vega": 15.313300132751465,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "1134459": {
+      "iv": 16.054758071899414,
+      "delta": -0.8762999773025513,
+      "theta": -22.270000457763672,
+      "vega": 14.101200103759766,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "1134470": {
+      "prevOi": 57300,
+      "iv": 17.04006004333496,
+      "delta": 0.1573999971151352,
+      "theta": -44.13119888305664,
+      "vega": 16.607900619506836,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "1134195": {
+      "iv": 20.48813819885254,
+      "delta": -0.7975999712944031,
+      "theta": -62.905799865722656,
+      "vega": 19.45400047302246,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "1134208": {
+      "prevOi": 150400,
+      "iv": 17.008100509643555,
+      "delta": 0.17790000140666962,
+      "theta": -47.81529998779297,
+      "vega": 17.973600387573242,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "1134287": {
+      "iv": 21.493003845214844,
+      "delta": -0.7663999795913696,
+      "theta": -72.01200103759766,
+      "vega": 21.13479995727539,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "1134451": {
+      "prevOi": 78480,
+      "iv": 16.941682815551758,
+      "delta": 0.1996999979019165,
+      "theta": -51.29290008544922,
+      "vega": 19.299999237060547,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "1134151": {
+      "prevOi": 1480,
+      "iv": 17.468353271484375,
+      "delta": -0.7929999828338623,
+      "theta": -54.1416015625,
+      "vega": 19.7189998626709,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "1134173": {
+      "prevOi": 450380,
+      "iv": 16.821863174438477,
+      "delta": 0.2224999964237213,
+      "theta": -54.41400146484375,
+      "vega": 20.56290054321289,
+      "gamma": 0.0003000000142492354,
+      "analysis": "LongBuildUp"
+     },
+     "1134259": {
+      "prevOi": 22360,
+      "iv": 19.584915161132812,
+      "delta": -0.7433000206947327,
+      "theta": -69.0385971069336,
+      "vega": 22.231800079345703,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "1134335": {
+      "prevOi": 83220,
+      "iv": 16.835111618041992,
+      "delta": 0.24889999628067017,
+      "theta": -58.11819839477539,
+      "vega": 21.873199462890625,
+      "gamma": 0.0003000000142492354,
+      "analysis": "LongBuildUp"
+     },
+     "1134407": {
+      "prevOi": 1680,
+      "iv": 20.227703094482422,
+      "delta": -0.7128000259399414,
+      "theta": -75.6863021850586,
+      "vega": 23.511999130249023,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "1134223": {
+      "prevOi": 84180,
+      "iv": 16.768136978149414,
+      "delta": 0.2757999897003174,
+      "theta": -61.206199645996094,
+      "vega": 23.05660057067871,
+      "gamma": 0.0003000000142492354,
+      "analysis": "LongBuildUp"
+     },
+     "1134303": {
+      "prevOi": 2440,
+      "iv": 20.09252166748047,
+      "delta": -0.689300000667572,
+      "theta": -78.06430053710938,
+      "vega": 24.364299774169922,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortBuildUp"
+     },
+     "1134312": {
+      "prevOi": 104400,
+      "iv": 16.68351173400879,
+      "delta": 0.3041999936103821,
+      "theta": -63.957401275634766,
+      "vega": 24.14080047607422,
+      "gamma": 0.0003000000142492354,
+      "analysis": "LongBuildUp"
+     },
+     "1134386": {
+      "prevOi": 2900,
+      "iv": 19.705669403076172,
+      "delta": -0.6668000221252441,
+      "theta": -78.95439910888672,
+      "vega": 25.082700729370117,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortBuildUp"
+     },
+     "1134394": {
+      "prevOi": 88900,
+      "iv": 16.763601303100586,
+      "delta": 0.3357999920845032,
+      "theta": -67.21089935302734,
+      "vega": 25.15959930419922,
+      "gamma": 0.0003000000142492354,
+      "analysis": "LongBuildUp"
+     },
+     "1134283": {
+      "prevOi": 3980,
+      "iv": 19.471925735473633,
+      "delta": -0.6416000127792358,
+      "theta": -80.33380126953125,
+      "vega": 25.77359962463379,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortBuildUp"
+     },
+     "1134293": {
+      "prevOi": 262820,
+      "iv": 16.745481491088867,
+      "delta": 0.3675000071525574,
+      "theta": -69.58999633789062,
+      "vega": 25.99340057373047,
+      "gamma": 0.0003000000142492354,
+      "analysis": "LongBuildUp"
+     },
+     "1134366": {
+      "prevOi": 22440,
+      "iv": 19.790029525756836,
+      "delta": -0.6116999983787537,
+      "theta": -83.98760223388672,
+      "vega": 26.439300537109375,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortBuildUp"
+     },
+     "1134374": {
+      "prevOi": 77800,
+      "iv": 16.75574493408203,
+      "delta": 0.4004000127315521,
+      "theta": -71.66739654541016,
+      "vega": 26.664199829101562,
+      "gamma": 0.0003000000142492354,
+      "analysis": "LongBuildUp"
+     },
+     "1134449": {
+      "prevOi": 6600,
+      "iv": 19.26723861694336,
+      "delta": -0.5860000252723694,
+      "theta": -83.30750274658203,
+      "vega": 26.8843994140625,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortBuildUp"
+     },
+     "1134269": {
+      "prevOi": 69000,
+      "iv": 16.68415641784668,
+      "delta": 0.43369999527931213,
+      "theta": -72.8855972290039,
+      "vega": 27.14550018310547,
+      "gamma": 0.0003000000142492354,
+      "analysis": "LongBuildUp"
+     },
+     "1134344": {
+      "prevOi": 8240,
+      "iv": 19.421030044555664,
+      "delta": -0.5561000108718872,
+      "theta": -85.34719848632812,
+      "vega": 27.253799438476562,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortBuildUp"
+     },
+     "1134352": {
+      "prevOi": 126260,
+      "iv": 16.503671646118164,
+      "delta": 0.4675999879837036,
+      "theta": -73.10420227050781,
+      "vega": 27.435400009155273,
+      "gamma": 0.0003000000142492354,
+      "analysis": "LongBuildUp"
+     },
+     "1134427": {
+      "prevOi": 12400,
+      "iv": 19.286609649658203,
+      "delta": -0.5267999768257141,
+      "theta": -85.6176986694336,
+      "vega": 27.464099884033203,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortBuildUp"
+     },
+     "1134242": {
+      "prevOi": 119040,
+      "iv": 16.57543182373047,
+      "delta": 0.5026000142097473,
+      "theta": -73.91629791259766,
+      "vega": 27.52560043334961,
+      "gamma": 0.0003000000142492354,
+      "analysis": "LongBuildUp"
+     },
+     "1134317": {
+      "prevOi": 9960,
+      "iv": 19.426794052124023,
+      "delta": -0.4968000054359436,
+      "theta": -86.64949798583984,
+      "vega": 27.525299072265625,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortBuildUp"
+     },
+     "1134329": {
+      "prevOi": 419420,
+      "iv": 16.646114349365234,
+      "delta": 0.5372999906539917,
+      "theta": -74.15850067138672,
+      "vega": 27.405899047851562,
+      "gamma": 0.0003000000142492354,
+      "analysis": "LongBuildUp"
+     },
+     "1134401": {
+      "prevOi": 83900,
+      "iv": 19.34400749206543,
+      "delta": -0.46700000762939453,
+      "theta": -86.20169830322266,
+      "vega": 27.431900024414062,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortBuildUp"
+     },
+     "1134477": {
+      "prevOi": 96020,
+      "iv": 16.664005279541016,
+      "delta": 0.5716999769210815,
+      "theta": -73.60469818115234,
+      "vega": 27.080900192260742,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortCovering"
+     },
+     "1134201": {
+      "prevOi": 26960,
+      "iv": 19.536720275878906,
+      "delta": -0.43779999017715454,
+      "theta": -86.50479888916016,
+      "vega": 27.191200256347656,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortBuildUp"
+     },
+     "1134212": {
+      "prevOi": 134640,
+      "iv": 16.470558166503906,
+      "delta": 0.6067000031471252,
+      "theta": -71.54090118408203,
+      "vega": 26.535400390625,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortCovering"
+     },
+     "1134443": {
+      "prevOi": 67120,
+      "iv": 19.28675079345703,
+      "delta": -0.4075999855995178,
+      "theta": -84.34380340576172,
+      "vega": 26.78510093688965,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortBuildUp"
+     },
+     "1134455": {
+      "prevOi": 203280,
+      "iv": 16.645090103149414,
+      "delta": 0.6388999819755554,
+      "theta": -70.62989807128906,
+      "vega": 25.840499877929688,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortCovering"
+     },
+     "1134163": {
+      "prevOi": 133000,
+      "iv": 19.491220474243164,
+      "delta": -0.3797999918460846,
+      "theta": -83.783203125,
+      "vega": 26.26689910888672,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortBuildUp"
+     },
+     "1134180": {
+      "prevOi": 216060,
+      "iv": 17.43887710571289,
+      "delta": 0.6640999913215637,
+      "theta": -72.20210266113281,
+      "vega": 25.164100646972656,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortCovering"
+     },
+     "1134265": {
+      "prevOi": 164380,
+      "iv": 19.700891494750977,
+      "delta": -0.3531000018119812,
+      "theta": -82.84249877929688,
+      "vega": 25.638599395751953,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortBuildUp"
+     },
+     "1134433": {
+      "prevOi": 327020,
+      "iv": 17.10969352722168,
+      "delta": 0.6973000168800354,
+      "theta": -68.06099700927734,
+      "vega": 24.086000442504883,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortCovering"
+     },
+     "1134504": {
+      "prevOi": 351200,
+      "iv": 19.674510955810547,
+      "delta": -0.32580000162124634,
+      "theta": -80.40989685058594,
+      "vega": 24.857999801635742,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortBuildUp"
+     },
+     "1134513": {
+      "prevOi": 163840,
+      "iv": 16.851198196411133,
+      "delta": 0.7293999791145325,
+      "theta": -63.80500030517578,
+      "vega": 22.837499618530273,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortCovering"
+     },
+     "1134239": {
+      "prevOi": 184360,
+      "iv": 19.690406799316406,
+      "delta": -0.2996000051498413,
+      "theta": -77.80999755859375,
+      "vega": 23.97719955444336,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortBuildUp"
+     },
+     "1134408": {
+      "prevOi": 159420,
+      "iv": 16.426380157470703,
+      "delta": 0.7628999948501587,
+      "theta": -58.30289840698242,
+      "vega": 21.308300018310547,
+      "gamma": 0.0003000000142492354,
+      "analysis": "ShortCovering"
+     },
+     "1134484": {
+      "prevOi": 282760,
+      "iv": 19.976404190063477,
+      "delta": -0.27709999680519104,
+      "theta": -76.2291030883789,
+      "vega": 23.109899520874023,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "1134491": {
+      "prevOi": 183840,
+      "iv": 17.81829261779785,
+      "delta": 0.7713000178337097,
+      "theta": -61.91830062866211,
+      "vega": 20.8843994140625,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortCovering"
+     },
+     "1134216": {
+      "prevOi": 333620,
+      "iv": 19.98508644104004,
+      "delta": -0.2531999945640564,
+      "theta": -73.01370239257812,
+      "vega": 22.073699951171875,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "1134227": {
+      "prevOi": 122720,
+      "iv": 17.38199806213379,
+      "delta": 0.8011999726295471,
+      "theta": -55.9197998046875,
+      "vega": 19.248899459838867,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortCovering"
+     },
+     "1134458": {
+      "prevOi": 241220,
+      "iv": 20.16008758544922,
+      "delta": -0.2321999967098236,
+      "theta": -70.41829681396484,
+      "vega": 21.062700271606445,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongUnwinding"
+     },
+     "1134468": {
+      "prevOi": 197500,
+      "iv": 17.782114028930664,
+      "delta": 0.8184999823570251,
+      "theta": -54.17340087890625,
+      "vega": 18.198299407958984,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortCovering"
+     },
+     "1134193": {
+      "prevOi": 638560,
+      "iv": 20.283823013305664,
+      "delta": -0.211899995803833,
+      "theta": -67.38860321044922,
+      "vega": 19.993099212646484,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "1134275": {
+      "prevOi": 27640,
+      "iv": 17.47041893005371,
+      "delta": 0.8436999917030334,
+      "theta": -48.5525016784668,
+      "vega": 16.53070068359375,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortCovering"
+     },
+     "1134348": {
+      "prevOi": 211840,
+      "iv": 20.547266006469727,
+      "delta": -0.19449999928474426,
+      "theta": -64.9655990600586,
+      "vega": 18.996400833129883,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "1134356": {
+      "prevOi": 36840,
+      "iv": 17.811506271362305,
+      "delta": 0.8585000038146973,
+      "theta": -46.39860153198242,
+      "vega": 15.469799995422363,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortCovering"
+     },
+     "1134430": {
+      "prevOi": 223400,
+      "iv": 20.622114181518555,
+      "delta": -0.17630000412464142,
+      "theta": -61.455501556396484,
+      "vega": 17.86829948425293,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "1134247": {
+      "prevOi": 29560,
+      "iv": 11.87207317352295,
+      "delta": 0.9580000042915344,
+      "theta": -13.051199913024902,
+      "vega": 6.184800148010254,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortCovering"
+     },
+     "1134323": {
+      "prevOi": 140420,
+      "iv": 20.866056442260742,
+      "delta": -0.16120000183582306,
+      "theta": -58.79029846191406,
+      "vega": 16.867799758911133,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "1134334": {
+      "prevOi": 21800,
+      "delta": 1,
+      "analysis": "ShortCovering"
+     },
+     "1134406": {
+      "prevOi": 184160,
+      "iv": 20.975351333618164,
+      "delta": -0.14569999277591705,
+      "theta": -55.38090133666992,
+      "vega": 15.777600288391113,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "1134422": {
+      "prevOi": 98420,
+      "iv": 17.76789665222168,
+      "delta": 0.9075000286102295,
+      "theta": -34.52880096435547,
+      "vega": 11.434700012207031,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortCovering"
+     },
+     "1134302": {
+      "prevOi": 454720,
+      "iv": 21.233829498291016,
+      "delta": -0.1331000030040741,
+      "theta": -52.77389907836914,
+      "vega": 14.831899642944336,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "1134309": {
+      "prevOi": 17540,
+      "delta": 1,
+      "analysis": "ShortCovering"
+     },
+     "1134385": {
+      "prevOi": 126560,
+      "iv": 21.420801162719727,
+      "delta": -0.12070000171661377,
+      "theta": -49.810699462890625,
+      "vega": 13.855999946594238,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "1134393": {
+      "prevOi": 22640,
+      "iv": 32.622291564941406,
+      "delta": 0.7947999835014343,
+      "theta": -105.3855972290039,
+      "vega": 19.61280059814453,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortCovering"
+     },
+     "1134282": {
+      "prevOi": 168520,
+      "iv": 21.782381057739258,
+      "delta": -0.11110000312328339,
+      "theta": -47.81209945678711,
+      "vega": 13.06779956817627,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "1134292": {
+      "prevOi": 16500,
+      "iv": 31.802345275878906,
+      "delta": 0.8133999705314636,
+      "theta": -97.1626968383789,
+      "vega": 18.516000747680664,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortCovering"
+     },
+     "1134365": {
+      "prevOi": 143920,
+      "iv": 21.935319900512695,
+      "delta": -0.10029999911785126,
+      "theta": -44.77239990234375,
+      "vega": 12.133500099182129,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "1134373": {
+      "prevOi": 15620,
+      "iv": 32.691978454589844,
+      "delta": 0.8192999958992004,
+      "theta": -97.9094009399414,
+      "vega": 18.15130043029785,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortCovering"
+     },
+     "1134447": {
+      "prevOi": 92680,
+      "iv": 22.15738296508789,
+      "delta": -0.09099999815225601,
+      "theta": -42.167598724365234,
+      "vega": 11.299400329589844,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "1134268": {
+      "prevOi": 102100,
+      "delta": 1,
+      "analysis": "ShortCovering"
+     },
+     "1134343": {
+      "prevOi": 632400,
+      "iv": 22.391427993774414,
+      "delta": -0.08269999921321869,
+      "theta": -39.7047004699707,
+      "vega": 10.516400337219238,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "1134416": {
+      "prevOi": 18300,
+      "iv": 32.982364654541016,
+      "delta": 0.8402000069618225,
+      "theta": -91.4291000366211,
+      "vega": 16.77630043029785,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortCovering"
+     },
+     "1134488": {
+      "prevOi": 140160,
+      "iv": 22.657379150390625,
+      "delta": -0.07540000230073929,
+      "theta": -37.48529815673828,
+      "vega": 9.80270004272461,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "1134496": {
+      "prevOi": 15080,
+      "delta": 1,
+      "analysis": "ShortCovering"
+     },
+     "1134221": {
+      "prevOi": 117960,
+      "iv": 22.914283752441406,
+      "delta": -0.06859999895095825,
+      "theta": -35.30830001831055,
+      "vega": 9.121299743652344,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "1134231": {
+      "prevOi": 12400,
+      "iv": 34.614933013916016,
+      "delta": 0.8499000072479248,
+      "theta": -92.04129791259766,
+      "vega": 16.09429931640625,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortCovering"
+     },
+     "1134462": {
+      "prevOi": 103620,
+      "iv": 23.18978500366211,
+      "delta": -0.06260000169277191,
+      "theta": -33.30870056152344,
+      "vega": 8.495499610900879,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "1134476": {
+      "prevOi": 8080,
+      "iv": 37.29059600830078,
+      "delta": 0.8424000144004822,
+      "theta": -102.23149871826172,
+      "vega": 16.625200271606445,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortCovering"
+     },
+     "1134200": {
+      "prevOi": 83400,
+      "iv": 23.481473922729492,
+      "delta": -0.05719999969005585,
+      "theta": -31.470300674438477,
+      "vega": 7.921299934387207,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "1134211": {
+      "prevOi": 20120,
+      "delta": 1,
+      "analysis": "ShortCovering"
+     },
+     "1134290": {
+      "prevOi": 461660,
+      "iv": 23.771434783935547,
+      "delta": -0.052400000393390656,
+      "theta": -29.708599090576172,
+      "vega": 7.381700038909912,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "1134454": {
+      "prevOi": 5580,
+      "iv": 38.78216552734375,
+      "delta": 0.8518000245094299,
+      "theta": -102.04340362548828,
+      "vega": 15.956199645996094,
+      "gamma": 9.999999747378752e-05
+     },
+     "1134162": {
+      "prevOi": 103740,
+      "iv": 23.998817443847656,
+      "delta": -0.04749999940395355,
+      "theta": -27.765600204467773,
+      "vega": 6.827600002288818,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "1134179": {
+      "prevOi": 3120,
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134264": {
+      "prevOi": 137980,
+      "iv": 24.335098266601562,
+      "delta": -0.043699998408555984,
+      "theta": -26.36989974975586,
+      "vega": 6.392099857330322,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongUnwinding"
+     },
+     "1134432": {
+      "prevOi": 1520,
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134502": {
+      "prevOi": 132640,
+      "iv": 24.667001724243164,
+      "delta": -0.040300000458955765,
+      "theta": -25.02589988708496,
+      "vega": 5.9822998046875,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongUnwinding"
+     },
+     "1134512": {
+      "prevOi": 1680,
+      "iv": 50.36626434326172,
+      "delta": 0.8167999982833862,
+      "theta": -151.1708984375,
+      "vega": 18.306100845336914,
+      "gamma": 9.999999747378752e-05
+     },
+     "1134238": {
+      "prevOi": 57160,
+      "iv": 24.798622131347656,
+      "delta": -0.035999998450279236,
+      "theta": -22.983299255371094,
+      "vega": 5.458899974822998,
+      "analysis": "ShortBuildUp"
+     },
+     "1134254": {
+      "prevOi": 15580,
+      "iv": 42.17137145996094,
+      "delta": 0.8657000064849854,
+      "theta": -103.76419830322266,
+      "vega": 14.92770004272461,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortCovering"
+     },
+     "1134483": {
+      "prevOi": 586460,
+      "iv": 25.272966384887695,
+      "delta": -0.03400000184774399,
+      "theta": -22.32430076599121,
+      "vega": 5.203800201416016,
+      "analysis": "ShortBuildUp"
+     },
+     "1134395": {
+      "prevOi": 2100,
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134285": {
+      "prevOi": 286560,
+      "iv": 25.58778953552246,
+      "delta": -0.031300000846385956,
+      "theta": -21.122900009155273,
+      "vega": 4.861400127410889,
+      "analysis": "LongUnwinding"
+     },
+     "1134296": {
+      "prevOi": 1360,
+      "iv": 52.6246337890625,
+      "delta": 0.8295999765396118,
+      "theta": -150.88180541992188,
+      "vega": 17.484899520874023,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortCovering"
+     },
+     "1134368": {
+      "prevOi": 88940,
+      "iv": 25.844600677490234,
+      "delta": -0.028599999845027924,
+      "theta": -19.75,
+      "vega": 4.506199836730957,
+      "analysis": "ShortBuildUp"
+     },
+     "1134377": {
+      "prevOi": 1200,
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134450": {
+      "prevOi": 44460,
+      "iv": 26.09342384338379,
+      "delta": -0.026000000536441803,
+      "theta": -17.950000762939453,
+      "vega": 4.17110013961792,
+      "analysis": "ShortBuildUp"
+     },
+     "1134274": {
+      "prevOi": 1840,
+      "iv": 54.43377685546875,
+      "delta": 0.8360999822616577,
+      "theta": -152.22970581054688,
+      "vega": 17.056100845336914,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortCovering"
+     },
+     "1134347": {
+      "prevOi": 128820,
+      "iv": 26.5412654876709,
+      "delta": -0.02459999918937683,
+      "theta": -17.100000381469727,
+      "vega": 3.9735000133514404,
+      "analysis": "LongUnwinding"
+     },
+     "1134355": {
+      "prevOi": 8340,
+      "iv": 50.62215042114258,
+      "delta": 0.8596000075340271,
+      "theta": -127.99829864501953,
+      "vega": 15.388199806213379,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortCovering"
+     },
+     "1134429": {
+      "prevOi": 333120,
+      "iv": 27.02607536315918,
+      "delta": -0.023399999365210533,
+      "theta": -16.450000762939453,
+      "vega": 3.808799982070923,
+      "analysis": "ShortBuildUp"
+     },
+     "1134246": {
+      "prevOi": 2140,
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134321": {
+      "prevOi": 49240,
+      "iv": 27.248065948486328,
+      "delta": -0.021199999377131462,
+      "theta": -14.899999618530273,
+      "vega": 3.5155999660491943,
+      "analysis": "LongUnwinding"
+     },
+     "1134333": {
+      "prevOi": 860,
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134405": {
+      "prevOi": 69780,
+      "iv": 27.57756805419922,
+      "delta": -0.019700000062584877,
+      "theta": -13.850000381469727,
+      "vega": 3.2973999977111816,
+      "analysis": "LongUnwinding"
+     },
+     "1134421": {
+      "prevOi": 700,
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134301": {
+      "prevOi": 100080,
+      "iv": 27.992116928100586,
+      "delta": -0.01860000006854534,
+      "theta": -13.149999618530273,
+      "vega": 3.134700059890747,
+      "analysis": "LongUnwinding"
+     },
+     "1134308": {
+      "prevOi": 260,
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134382": {
+      "prevOi": 55840,
+      "iv": 28.305849075317383,
+      "delta": -0.01720000058412552,
+      "theta": -12.199999809265137,
+      "vega": 2.936000108718872,
+      "analysis": "LongUnwinding"
+     },
+     "1134392": {
+      "prevOi": 3260,
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134466": {
+      "prevOi": 637860,
+      "iv": 28.682048797607422,
+      "delta": -0.016100000590085983,
+      "theta": -11.5,
+      "vega": 2.7780001163482666,
+      "analysis": "LongUnwinding"
+     },
+     "1134185": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134267": {
+      "prevOi": 31900,
+      "iv": 29.01997184753418,
+      "delta": -0.014999999664723873,
+      "theta": -10.75,
+      "vega": 2.6142001152038574,
+      "analysis": "ShortBuildUp"
+     },
+     "1134436": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134506": {
+      "prevOi": 26440,
+      "iv": 29.375242233276367,
+      "delta": -0.014000000432133675,
+      "theta": -10.100000381469727,
+      "vega": 2.468100070953369,
+      "analysis": "ShortBuildUp"
+     },
+     "1134516": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134241": {
+      "prevOi": 38620,
+      "iv": 29.90079689025879,
+      "delta": -0.01360000018030405,
+      "theta": -9.899999618530273,
+      "vega": 2.3968000411987305,
+      "analysis": "ShortBuildUp"
+     },
+     "1134415": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134487": {
+      "prevOi": 25320,
+      "iv": 30.291778564453125,
+      "delta": -0.012799999676644802,
+      "theta": -9.399999618530273,
+      "vega": 2.2792000770568848,
+      "analysis": "ShortBuildUp"
+     },
+     "1134495": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134219": {
+      "prevOi": 243940,
+      "iv": 30.574413299560547,
+      "delta": -0.011800000444054604,
+      "theta": -8.699999809265137,
+      "vega": 2.1303000450134277,
+      "analysis": "ShortBuildUp"
+     },
+     "1134230": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134461": {
+      "prevOi": 23240,
+      "iv": 30.978042602539062,
+      "delta": -0.01119999960064888,
+      "theta": -8.300000190734863,
+      "vega": 2.0322000980377197,
+      "analysis": "ShortBuildUp"
+     },
+     "1134475": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134199": {
+      "prevOi": 38720,
+      "iv": 31.471294403076172,
+      "delta": -0.01080000028014183,
+      "theta": -8.100000381469727,
+      "vega": 1.968999981880188,
+      "analysis": "ShortBuildUp"
+     },
+     "1134210": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134289": {
+      "prevOi": 43160,
+      "iv": 31.71876335144043,
+      "delta": -0.009999999776482582,
+      "theta": -7.449999809265137,
+      "vega": 1.8322999477386475,
+      "analysis": "ShortBuildUp"
+     },
+     "1134453": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134159": {
+      "prevOi": 31100,
+      "iv": 32.221839904785156,
+      "delta": -0.009600000455975533,
+      "theta": -7.300000190734863,
+      "vega": 1.7806999683380127,
+      "analysis": "ShortBuildUp"
+     },
+     "1134176": {
+      "prevOi": 2320,
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134263": {
+      "prevOi": 786240,
+      "iv": 32.54505157470703,
+      "delta": -0.008999999612569809,
+      "theta": -6.849999904632568,
+      "vega": 1.679900050163269,
+      "analysis": "LongUnwinding"
+     },
+     "1134262": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134341": {
+      "prevOi": 57900,
+      "iv": 32.816429138183594,
+      "delta": -0.00839999970048666,
+      "theta": -6.349999904632568,
+      "vega": 1.5714000463485718,
+      "analysis": "LongUnwinding"
+     },
+     "1134501": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134226": {
+      "prevOi": 33860,
+      "iv": 33.09518051147461,
+      "delta": -0.007799999788403511,
+      "theta": -5.900000095367432,
+      "vega": 1.472000002861023,
+      "analysis": "ShortBuildUp"
+     },
+     "1134237": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134316": {
+      "prevOi": 19100,
+      "iv": 33.632965087890625,
+      "delta": -0.007600000128149986,
+      "theta": -5.849999904632568,
+      "vega": 1.4430999755859375,
+      "analysis": "ShortBuildUp"
+     },
+     "1134327": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134205": {
+      "prevOi": 8660,
+      "iv": 34.13399887084961,
+      "delta": -0.007400000002235174,
+      "theta": -5.75,
+      "vega": 1.406499981880188,
+      "analysis": "ShortBuildUp"
+     },
+     "1134215": {
+      "prevOi": 80,
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "1134298": {
+      "prevOi": 198860,
+      "iv": 34.632118225097656,
+      "delta": -0.007199999876320362,
+      "theta": -5.650000095367432,
+      "vega": 1.3707000017166138,
+      "analysis": "LongUnwinding"
+     }
+    },
+    "pcrOi": 1.19,
+    "indiaVix": {
+     "indexId": "INDIA VIX",
+     "ltp": 15.3,
+     "change": 0.18,
+     "perChange": 1.19
+    },
+    "futureScrip": {
+     "scripCode": 1100929,
+     "expirySeconds": 1480118400,
+     "lotSize": 20
+    }
+   },
+   "chartScrip": {
+    "scripCode": 999901,
+    "exchange": "BSE"
+   }
+  },
+  "exchange=0&indexId=NIFTY%20BANK&top=50": {
+   "symbol": "BANKNIFTY",
+   "exchange": "NSE_FO",
+   "spot": {
+    "id": {
+     "scripCode": 26009
+    },
+    "currentPrice": 54686.94921875,
+    "indexSpot": "NIFTY BANK"
+   },
+   "expiry": [
+    {
+     "expirySeconds": 1479911400,
+     "expiryFlag": "M"
+    },
+    {
+     "expirySeconds": 1483021800,
+     "expiryFlag": "M"
+    },
+    {
+     "expirySeconds": 1485354600,
+     "expiryFlag": "M"
+    },
+    {
+     "expirySeconds": 1490884200,
+     "expiryFlag": "M"
+    },
+    {
+     "expirySeconds": 1498746600,
+     "expiryFlag": "M"
+    },
+    {
+     "expirySeconds": 1506609000,
+     "expiryFlag": "M"
+    }
+   ],
+   "data": {
+    "symbol": "BANKNIFTY",
+    "exchange": "NSE_FO",
+    "expirySeconds": 1479911400,
+    "scrips": [
+     {
+      "strikePrice": 59600,
+      "callScripCode": 62293,
+      "putScripCode": 62294
+     },
+     {
+      "strikePrice": 59500,
+      "callScripCode": 62291,
+      "putScripCode": 62292
+     },
+     {
+      "strikePrice": 59400,
+      "callScripCode": 62289,
+      "putScripCode": 62290
+     },
+     {
+      "strikePrice": 59300,
+      "callScripCode": 62285,
+      "putScripCode": 62286
+     },
+     {
+      "strikePrice": 59200,
+      "callScripCode": 62281,
+      "putScripCode": 62282
+     },
+     {
+      "strikePrice": 59100,
+      "callScripCode": 62277,
+      "putScripCode": 62278
+     },
+     {
+      "strikePrice": 59000,
+      "callScripCode": 62275,
+      "putScripCode": 62276
+     },
+     {
+      "strikePrice": 58900,
+      "callScripCode": 62273,
+      "putScripCode": 62274
+     },
+     {
+      "strikePrice": 58800,
+      "callScripCode": 62271,
+      "putScripCode": 62272
+     },
+     {
+      "strikePrice": 58700,
+      "callScripCode": 62269,
+      "putScripCode": 62270
+     },
+     {
+      "strikePrice": 58600,
+      "callScripCode": 62267,
+      "putScripCode": 62268
+     },
+     {
+      "strikePrice": 58500,
+      "callScripCode": 62265,
+      "putScripCode": 62266
+     },
+     {
+      "strikePrice": 58400,
+      "callScripCode": 62254,
+      "putScripCode": 62263
+     },
+     {
+      "strikePrice": 58300,
+      "callScripCode": 62252,
+      "putScripCode": 62253
+     },
+     {
+      "strikePrice": 58200,
+      "callScripCode": 62250,
+      "putScripCode": 62251
+     },
+     {
+      "strikePrice": 58100,
+      "callScripCode": 62244,
+      "putScripCode": 62249
+     },
+     {
+      "strikePrice": 58000,
+      "callScripCode": 62240,
+      "putScripCode": 62243
+     },
+     {
+      "strikePrice": 57900,
+      "callScripCode": 62233,
+      "putScripCode": 62239
+     },
+     {
+      "strikePrice": 57800,
+      "callScripCode": 62231,
+      "putScripCode": 62232
+     },
+     {
+      "strikePrice": 57700,
+      "callScripCode": 62224,
+      "putScripCode": 62225
+     },
+     {
+      "strikePrice": 57600,
+      "callScripCode": 62219,
+      "putScripCode": 62223
+     },
+     {
+      "strikePrice": 57500,
+      "callScripCode": 62217,
+      "putScripCode": 62218
+     },
+     {
+      "strikePrice": 57400,
+      "callScripCode": 62215,
+      "putScripCode": 62216
+     },
+     {
+      "strikePrice": 57300,
+      "callScripCode": 62213,
+      "putScripCode": 62214
+     },
+     {
+      "strikePrice": 57200,
+      "callScripCode": 62211,
+      "putScripCode": 62212
+     },
+     {
+      "strikePrice": 57100,
+      "callScripCode": 62209,
+      "putScripCode": 62210
+     },
+     {
+      "strikePrice": 57000,
+      "callScripCode": 62207,
+      "putScripCode": 62208
+     },
+     {
+      "strikePrice": 56900,
+      "callScripCode": 62205,
+      "putScripCode": 62206
+     },
+     {
+      "strikePrice": 56800,
+      "callScripCode": 62203,
+      "putScripCode": 62204
+     },
+     {
+      "strikePrice": 56700,
+      "callScripCode": 62201,
+      "putScripCode": 62202
+     },
+     {
+      "strikePrice": 56600,
+      "callScripCode": 62199,
+      "putScripCode": 62200
+     },
+     {
+      "strikePrice": 56500,
+      "callScripCode": 62193,
+      "putScripCode": 62194
+     },
+     {
+      "strikePrice": 56400,
+      "callScripCode": 62191,
+      "putScripCode": 62192
+     },
+     {
+      "strikePrice": 56300,
+      "callScripCode": 62189,
+      "putScripCode": 62190
+     },
+     {
+      "strikePrice": 56200,
+      "callScripCode": 62187,
+      "putScripCode": 62188
+     },
+     {
+      "strikePrice": 56100,
+      "callScripCode": 62185,
+      "putScripCode": 62186
+     },
+     {
+      "strikePrice": 56000,
+      "callScripCode": 62183,
+      "putScripCode": 62184
+     },
+     {
+      "strikePrice": 55900,
+      "callScripCode": 62181,
+      "putScripCode": 62182
+     },
+     {
+      "strikePrice": 55800,
+      "callScripCode": 62177,
+      "putScripCode": 62178
+     },
+     {
+      "strikePrice": 55700,
+      "callScripCode": 62174,
+      "putScripCode": 62175
+     },
+     {
+      "strikePrice": 55600,
+      "callScripCode": 62169,
+      "putScripCode": 62173
+     },
+     {
+      "strikePrice": 55500,
+      "callScripCode": 62165,
+      "putScripCode": 62167
+     },
+     {
+      "strikePrice": 55400,
+      "callScripCode": 62163,
+      "putScripCode": 62164
+     },
+     {
+      "strikePrice": 55300,
+      "callScripCode": 62161,
+      "putScripCode": 62162
+     },
+     {
+      "strikePrice": 55200,
+      "callScripCode": 62159,
+      "putScripCode": 62160
+     },
+     {
+      "strikePrice": 55100,
+      "callScripCode": 62157,
+      "putScripCode": 62158
+     },
+     {
+      "strikePrice": 55000,
+      "callScripCode": 62155,
+      "putScripCode": 62156
+     },
+     {
+      "strikePrice": 54900,
+      "callScripCode": 62153,
+      "putScripCode": 62154
+     },
+     {
+      "strikePrice": 54800,
+      "callScripCode": 62151,
+      "putScripCode": 62152
+     },
+     {
+      "strikePrice": 54700,
+      "callScripCode": 62149,
+      "putScripCode": 62150
+     },
+     {
+      "strikePrice": 54600,
+      "callScripCode": 62147,
+      "putScripCode": 62148
+     },
+     {
+      "strikePrice": 54500,
+      "callScripCode": 62145,
+      "putScripCode": 62146
+     },
+     {
+      "strikePrice": 54400,
+      "callScripCode": 62143,
+      "putScripCode": 62144
+     },
+     {
+      "strikePrice": 54300,
+      "callScripCode": 62141,
+      "putScripCode": 62142
+     },
+     {
+      "strikePrice": 54200,
+      "callScripCode": 62139,
+      "putScripCode": 62140
+     },
+     {
+      "strikePrice": 54100,
+      "callScripCode": 62137,
+      "putScripCode": 62138
+     },
+     {
+      "strikePrice": 54000,
+      "callScripCode": 62133,
+      "putScripCode": 62134
+     },
+     {
+      "strikePrice": 53900,
+      "callScripCode": 62131,
+      "putScripCode": 62132
+     },
+     {
+      "strikePrice": 53800,
+      "callScripCode": 62123,
+      "putScripCode": 62124
+     },
+     {
+      "strikePrice": 53700,
+      "callScripCode": 62115,
+      "putScripCode": 62116
+     },
+     {
+      "strikePrice": 53600,
+      "callScripCode": 62113,
+      "putScripCode": 62114
+     },
+     {
+      "strikePrice": 53500,
+      "callScripCode": 62111,
+      "putScripCode": 62112
+     },
+     {
+      "strikePrice": 53400,
+      "callScripCode": 62108,
+      "putScripCode": 62109
+     },
+     {
+      "strikePrice": 53300,
+      "callScripCode": 62104,
+      "putScripCode": 62105
+     },
+     {
+      "strikePrice": 53200,
+      "callScripCode": 62102,
+      "putScripCode": 62103
+     },
+     {
+      "strikePrice": 53100,
+      "callScripCode": 62099,
+      "putScripCode": 62100
+     },
+     {
+      "strikePrice": 53000,
+      "callScripCode": 62097,
+      "putScripCode": 62098
+     },
+     {
+      "strikePrice": 52900,
+      "callScripCode": 62095,
+      "putScripCode": 62096
+     },
+     {
+      "strikePrice": 52800,
+      "callScripCode": 62093,
+      "putScripCode": 62094
+     },
+     {
+      "strikePrice": 52700,
+      "callScripCode": 62091,
+      "putScripCode": 62092
+     },
+     {
+      "strikePrice": 52600,
+      "callScripCode": 62089,
+      "putScripCode": 62090
+     },
+     {
+      "strikePrice": 52500,
+      "callScripCode": 62087,
+      "putScripCode": 62088
+     },
+     {
+      "strikePrice": 52400,
+      "callScripCode": 62085,
+      "putScripCode": 62086
+     },
+     {
+      "strikePrice": 52300,
+      "callScripCode": 62083,
+      "putScripCode": 62084
+     },
+     {
+      "strikePrice": 52200,
+      "callScripCode": 62081,
+      "putScripCode": 62082
+     },
+     {
+      "strikePrice": 52100,
+      "callScripCode": 62079,
+      "putScripCode": 62080
+     },
+     {
+      "strikePrice": 52000,
+      "callScripCode": 62077,
+      "putScripCode": 62078
+     },
+     {
+      "strikePrice": 51900,
+      "callScripCode": 62075,
+      "putScripCode": 62076
+     },
+     {
+      "strikePrice": 51800,
+      "callScripCode": 62073,
+      "putScripCode": 62074
+     },
+     {
+      "strikePrice": 51700,
+      "callScripCode": 62071,
+      "putScripCode": 62072
+     },
+     {
+      "strikePrice": 51600,
+      "callScripCode": 62065,
+      "putScripCode": 62067
+     },
+     {
+      "strikePrice": 51500,
+      "callScripCode": 62061,
+      "putScripCode": 62064
+     },
+     {
+      "strikePrice": 51400,
+      "callScripCode": 62057,
+      "putScripCode": 62060
+     },
+     {
+      "strikePrice": 51300,
+      "callScripCode": 62050,
+      "putScripCode": 62051
+     },
+     {
+      "strikePrice": 51200,
+      "callScripCode": 62048,
+      "putScripCode": 62049
+     },
+     {
+      "strikePrice": 51100,
+      "callScripCode": 62041,
+      "putScripCode": 62042
+     },
+     {
+      "strikePrice": 51000,
+      "callScripCode": 62035,
+      "putScripCode": 62040
+     },
+     {
+      "strikePrice": 50900,
+      "callScripCode": 62033,
+      "putScripCode": 62034
+     },
+     {
+      "strikePrice": 50800,
+      "callScripCode": 62031,
+      "putScripCode": 62032
+     },
+     {
+      "strikePrice": 50700,
+      "callScripCode": 62029,
+      "putScripCode": 62030
+     },
+     {
+      "strikePrice": 50600,
+      "callScripCode": 62025,
+      "putScripCode": 62028
+     },
+     {
+      "strikePrice": 50500,
+      "callScripCode": 62021,
+      "putScripCode": 62024
+     },
+     {
+      "strikePrice": 50400,
+      "callScripCode": 62019,
+      "putScripCode": 62020
+     },
+     {
+      "strikePrice": 50300,
+      "callScripCode": 62017,
+      "putScripCode": 62018
+     },
+     {
+      "strikePrice": 50200,
+      "callScripCode": 62015,
+      "putScripCode": 62016
+     },
+     {
+      "strikePrice": 50100,
+      "callScripCode": 62013,
+      "putScripCode": 62014
+     },
+     {
+      "strikePrice": 50000,
+      "callScripCode": 62011,
+      "putScripCode": 62012
+     },
+     {
+      "strikePrice": 49900,
+      "callScripCode": 62005,
+      "putScripCode": 62010
+     },
+     {
+      "strikePrice": 49800,
+      "callScripCode": 62001,
+      "putScripCode": 62004
+     },
+     {
+      "strikePrice": 49700,
+      "callScripCode": 61998,
+      "putScripCode": 61999
+     }
+    ],
+    "greeks": {
+     "62293": {
+      "prevOi": 10470,
+      "iv": 15.811058044433594,
+      "delta": 0.01510000042617321,
+      "theta": -1.4764000177383423,
+      "vega": 4.987100124359131,
+      "analysis": "LongBuildUp"
+     },
+     "62294": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "62291": {
+      "prevOi": 103740,
+      "iv": 15.729700088500977,
+      "delta": 0.01640000008046627,
+      "theta": -1.5805000066757202,
+      "vega": 5.354300022125244,
+      "analysis": "LongBuildUp"
+     },
+     "62292": {
+      "prevOi": 7200,
+      "iv": 29.109169006347656,
+      "delta": -0.8705999851226807,
+      "theta": -17.87350082397461,
+      "vega": 27.681400299072266,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62289": {
+      "isLiquidated": true
+     },
+     "62290": {
+      "delta": -1,
+      "isLiquidated": true
+     },
+     "62285": {
+      "prevOi": 4860,
+      "iv": 15.461377143859863,
+      "delta": 0.01860000006854534,
+      "theta": -1.7396999597549438,
+      "vega": 5.986299991607666,
+      "analysis": "LongBuildUp"
+     },
+     "62286": {
+      "prevOi": 210,
+      "iv": 28.24667739868164,
+      "delta": -0.8677999973297119,
+      "theta": -17.575899124145508,
+      "vega": 28.08880043029785,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62281": {
+      "prevOi": 10320,
+      "iv": 15.267263412475586,
+      "delta": 0.019500000402331352,
+      "theta": -1.7854000329971313,
+      "vega": 6.227399826049805,
+      "analysis": "LongBuildUp"
+     },
+     "62282": {
+      "iv": 27.812179565429688,
+      "delta": -0.8664000034332275,
+      "theta": -17.424299240112305,
+      "vega": 28.300899505615234,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62277": {
+      "isLiquidated": true
+     },
+     "62278": {
+      "prevOi": 120,
+      "iv": 27.375442504882812,
+      "delta": -0.8648999929428101,
+      "theta": -17.270599365234375,
+      "vega": 28.51889991760254,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62275": {
+      "prevOi": 454800,
+      "iv": 15.06387996673584,
+      "delta": 0.02280000038444996,
+      "theta": -2.018899917602539,
+      "vega": 7.108099937438965,
+      "analysis": "LongBuildUp"
+     },
+     "62276": {
+      "prevOi": 199860,
+      "iv": 26.93640899658203,
+      "delta": -0.8633000254631042,
+      "theta": -17.114900588989258,
+      "vega": 28.743099212646484,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongUnwinding"
+     },
+     "62273": {
+      "isLiquidated": true
+     },
+     "62274": {
+      "iv": 26.495018005371094,
+      "delta": -0.8616999983787537,
+      "theta": -16.957000732421875,
+      "vega": 28.973800659179688,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62271": {
+      "isLiquidated": true
+     },
+     "62272": {
+      "iv": 26.051206588745117,
+      "delta": -0.8600999712944031,
+      "theta": -16.79680061340332,
+      "vega": 29.211200714111328,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62269": {
+      "isLiquidated": true
+     },
+     "62270": {
+      "iv": 25.60490608215332,
+      "delta": -0.858299970626831,
+      "theta": -16.634300231933594,
+      "vega": 29.455799102783203,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62267": {
+      "isLiquidated": true
+     },
+     "62268": {
+      "iv": 25.23164939880371,
+      "delta": -0.8557999730110168,
+      "theta": -2.25,
+      "vega": 29.81450080871582,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62265": {
+      "prevOi": 236040,
+      "iv": 14.462637901306152,
+      "delta": 0.032999999821186066,
+      "theta": -2.6594998836517334,
+      "vega": 9.6673002243042,
+      "analysis": "LongBuildUp"
+     },
+     "62266": {
+      "prevOi": 69150,
+      "iv": 24.704553604125977,
+      "delta": -0.8547000288963318,
+      "theta": -16.301700592041016,
+      "vega": 29.96769905090332,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongUnwinding"
+     },
+     "62254": {
+      "isLiquidated": true
+     },
+     "62263": {
+      "prevOi": 990,
+      "iv": 24.250347137451172,
+      "delta": -0.8526999950408936,
+      "theta": -16.131500244140625,
+      "vega": 30.23579978942871,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62252": {
+      "prevOi": 16050,
+      "iv": 14.29470157623291,
+      "delta": 0.03920000046491623,
+      "theta": -3.0427000522613525,
+      "vega": 11.117600440979004,
+      "analysis": "LongBuildUp"
+     },
+     "62253": {
+      "iv": 23.793338775634766,
+      "delta": -0.8507000207901001,
+      "theta": -15.958399772644043,
+      "vega": 30.512500762939453,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62250": {
+      "prevOi": 70740,
+      "iv": 14.209607124328613,
+      "delta": 0.04259999841451645,
+      "theta": -3.2509000301361084,
+      "vega": 11.909500122070312,
+      "analysis": "LongBuildUp"
+     },
+     "62251": {
+      "iv": 23.33344268798828,
+      "delta": -0.8485999703407288,
+      "theta": -15.782400131225586,
+      "vega": 30.79840087890625,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongUnwinding"
+     },
+     "62244": {
+      "prevOi": 63570,
+      "iv": 14.26589584350586,
+      "delta": 0.04809999838471413,
+      "theta": -3.6222000122070312,
+      "vega": 13.117500305175781,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62249": {
+      "iv": 22.870559692382812,
+      "delta": -0.8464000225067139,
+      "theta": -15.603300094604492,
+      "vega": 31.093900680541992,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62240": {
+      "prevOi": 1608570,
+      "iv": 14.032827377319336,
+      "delta": 0.05040000006556511,
+      "theta": -3.697499990463257,
+      "vega": 13.623000144958496,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62243": {
+      "prevOi": 1350180,
+      "iv": 22.404586791992188,
+      "delta": -0.8440999984741211,
+      "theta": -15.420900344848633,
+      "vega": 31.399499893188477,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongUnwinding"
+     },
+     "62233": {
+      "prevOi": 59790,
+      "iv": 14.04049301147461,
+      "delta": 0.0560000017285347,
+      "theta": -4.049699783325195,
+      "vega": 14.81779956817627,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62239": {
+      "iv": 21.935415267944336,
+      "delta": -0.84170001745224,
+      "theta": -15.235099792480469,
+      "vega": 31.71579933166504,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62231": {
+      "prevOi": 51270,
+      "iv": 14.00044059753418,
+      "delta": 0.061500001698732376,
+      "theta": -4.366600036621094,
+      "vega": 15.94260025024414,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62232": {
+      "iv": 21.46292495727539,
+      "delta": -0.8392000198364258,
+      "theta": -15.045700073242188,
+      "vega": 32.043399810791016,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62224": {
+      "prevOi": 39210,
+      "iv": 13.981170654296875,
+      "delta": 0.06769999861717224,
+      "theta": -4.726500034332275,
+      "vega": 17.18280029296875,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62225": {
+      "iv": 20.98699188232422,
+      "delta": -0.8366000056266785,
+      "theta": -14.852399826049805,
+      "vega": 32.38309860229492,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62219": {
+      "prevOi": 54330,
+      "iv": 13.970585823059082,
+      "delta": 0.07460000365972519,
+      "theta": -5.116600036621094,
+      "vega": 18.5049991607666,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62223": {
+      "iv": 20.507474899291992,
+      "delta": -0.8338000178337097,
+      "theta": -14.655200004577637,
+      "vega": 32.73550033569336,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62217": {
+      "prevOi": 454980,
+      "iv": 13.91395378112793,
+      "delta": 0.08129999786615372,
+      "theta": -5.465400218963623,
+      "vega": 19.752399444580078,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortCovering"
+     },
+     "62218": {
+      "prevOi": 132210,
+      "iv": 20.024229049682617,
+      "delta": -0.8309999704360962,
+      "theta": -14.453700065612793,
+      "vega": 33.10150146484375,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62215": {
+      "prevOi": 64950,
+      "iv": 13.977933883666992,
+      "delta": 0.09040000289678574,
+      "theta": -5.993599891662598,
+      "vega": 21.393199920654297,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62216": {
+      "prevOi": 750,
+      "iv": 19.537092208862305,
+      "delta": -0.8278999924659729,
+      "theta": -14.247699737548828,
+      "vega": 33.4818000793457,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62213": {
+      "prevOi": 88080,
+      "iv": 13.928227424621582,
+      "delta": 0.09839999675750732,
+      "theta": -6.386899948120117,
+      "vega": 22.762500762939453,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62214": {
+      "prevOi": 4410,
+      "iv": 19.0458927154541,
+      "delta": -0.8246999979019165,
+      "theta": -14.03689956665039,
+      "vega": 33.877498626708984,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62211": {
+      "prevOi": 108720,
+      "iv": 13.904678344726562,
+      "delta": 0.10729999840259552,
+      "theta": -6.832200050354004,
+      "vega": 24.250699996948242,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62212": {
+      "prevOi": 1350,
+      "iv": 18.55043601989746,
+      "delta": -0.8213000297546387,
+      "theta": -13.821000099182129,
+      "vega": 34.28950119018555,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62209": {
+      "prevOi": 52800,
+      "iv": 13.97951889038086,
+      "delta": 0.11860000342130661,
+      "theta": -7.436100006103516,
+      "vega": 26.04450035095215,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62210": {
+      "prevOi": 1050,
+      "iv": 18.050519943237305,
+      "delta": -0.8177000284194946,
+      "theta": -13.599699974060059,
+      "vega": 34.71900177001953,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62207": {
+      "prevOi": 1794480,
+      "iv": 13.933627128601074,
+      "delta": 0.12849999964237213,
+      "theta": -7.880199909210205,
+      "vega": 27.543800354003906,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62208": {
+      "prevOi": 629490,
+      "iv": 17.54591178894043,
+      "delta": -0.8138999938964844,
+      "theta": -13.372599601745605,
+      "vega": 35.167301177978516,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongUnwinding"
+     },
+     "62205": {
+      "prevOi": 54720,
+      "iv": 13.932053565979004,
+      "delta": 0.13979999721050262,
+      "theta": -8.402000427246094,
+      "vega": 29.18670082092285,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62206": {
+      "prevOi": 2370,
+      "iv": 17.03636360168457,
+      "delta": -0.8098999857902527,
+      "theta": -13.139300346374512,
+      "vega": 35.63570022583008,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62203": {
+      "prevOi": 62790,
+      "iv": 13.928366661071777,
+      "delta": 0.1517000049352646,
+      "theta": -8.931900024414062,
+      "vega": 30.84119987487793,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62204": {
+      "prevOi": 4860,
+      "iv": 16.521595001220703,
+      "delta": -0.8055999875068665,
+      "theta": -12.899299621582031,
+      "vega": 36.125701904296875,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongUnwinding"
+     },
+     "62201": {
+      "prevOi": 59760,
+      "iv": 13.992934226989746,
+      "delta": 0.1656000018119812,
+      "theta": -9.57450008392334,
+      "vega": 32.6609001159668,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62202": {
+      "prevOi": 5070,
+      "iv": 16.001298904418945,
+      "delta": -0.8009999990463257,
+      "theta": -12.652099609375,
+      "vega": 36.63890075683594,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62199": {
+      "prevOi": 80250,
+      "iv": 14.024641036987305,
+      "delta": 0.17949999868869781,
+      "theta": -10.173999786376953,
+      "vega": 34.390899658203125,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62200": {
+      "prevOi": 15870,
+      "iv": 15.475128173828125,
+      "delta": -0.7961000204086304,
+      "theta": -12.397100448608398,
+      "vega": 37.17729949951172,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongUnwinding"
+     },
+     "62193": {
+      "prevOi": 376020,
+      "iv": 14.072070121765137,
+      "delta": 0.19439999759197235,
+      "theta": -10.800800323486328,
+      "vega": 36.13090133666992,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62194": {
+      "prevOi": 109620,
+      "iv": 14.942695617675781,
+      "delta": -0.7908999919891357,
+      "theta": -12.133700370788574,
+      "vega": 37.742801666259766,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62191": {
+      "prevOi": 54900,
+      "iv": 14.112855911254883,
+      "delta": 0.20990000665187836,
+      "theta": -11.417200088500977,
+      "vega": 37.82160186767578,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62192": {
+      "prevOi": 4710,
+      "iv": 14.403562545776367,
+      "delta": -0.7851999998092651,
+      "theta": -11.861200332641602,
+      "vega": 38.33769989013672,
+      "gamma": 0.00019999999494757503
+     },
+     "62189": {
+      "prevOi": 69720,
+      "iv": 14.082801818847656,
+      "delta": 0.2248000055551529,
+      "theta": -11.921899795532227,
+      "vega": 39.3484992980957,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62190": {
+      "prevOi": 10290,
+      "iv": 13.857230186462402,
+      "delta": -0.7791000008583069,
+      "theta": -11.57859992980957,
+      "vega": 38.964500427246094,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongUnwinding"
+     },
+     "62187": {
+      "prevOi": 72480,
+      "iv": 14.183823585510254,
+      "delta": 0.24250000715255737,
+      "theta": -12.618300437927246,
+      "vega": 41.03730010986328,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62188": {
+      "prevOi": 9870,
+      "iv": 13.303125381469727,
+      "delta": -0.7724000215530396,
+      "theta": -11.285099983215332,
+      "vega": 39.6260986328125,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62185": {
+      "prevOi": 67980,
+      "iv": 14.222564697265625,
+      "delta": 0.2597000002861023,
+      "theta": -13.208499908447266,
+      "vega": 42.555301666259766,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortCovering"
+     },
+     "62186": {
+      "prevOi": 7500,
+      "iv": 12.740586280822754,
+      "delta": -0.7652000188827515,
+      "theta": -10.979399681091309,
+      "vega": 40.32550048828125,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62183": {
+      "prevOi": 1061250,
+      "iv": 14.28724479675293,
+      "delta": 0.2777999937534332,
+      "theta": -13.821599960327148,
+      "vega": 44.024600982666016,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62184": {
+      "prevOi": 531630,
+      "iv": 14.230567932128906,
+      "delta": -0.7229999899864197,
+      "theta": -13.73799991607666,
+      "vega": 43.96009826660156,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongUnwinding"
+     },
+     "62181": {
+      "prevOi": 41340,
+      "iv": 14.344654083251953,
+      "delta": 0.2962999939918518,
+      "theta": -14.403800010681152,
+      "vega": 45.390201568603516,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62182": {
+      "prevOi": 9480,
+      "iv": 13.58594036102295,
+      "delta": -0.7145000100135803,
+      "theta": -13.295700073242188,
+      "vega": 44.60319900512695,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongUnwinding"
+     },
+     "62177": {
+      "prevOi": 57150,
+      "iv": 14.395618438720703,
+      "delta": 0.31520000100135803,
+      "theta": -14.95300006866455,
+      "vega": 46.647300720214844,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62178": {
+      "prevOi": 40680,
+      "iv": 14.318384170532227,
+      "delta": -0.6858000159263611,
+      "theta": -14.842399597167969,
+      "vega": 46.58470153808594,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62174": {
+      "prevOi": 48060,
+      "iv": 14.449260711669922,
+      "delta": 0.3345000147819519,
+      "theta": -15.478799819946289,
+      "vega": 47.79669952392578,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62175": {
+      "prevOi": 16860,
+      "iv": 13.711960792541504,
+      "delta": -0.6744999885559082,
+      "theta": -14.435799598693848,
+      "vega": 47.2776985168457,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongUnwinding"
+     },
+     "62169": {
+      "prevOi": 43800,
+      "iv": 14.568195343017578,
+      "delta": 0.3546999990940094,
+      "theta": -16.064199447631836,
+      "vega": 48.86199951171875,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62173": {
+      "prevOi": 11070,
+      "iv": 14.299560546875,
+      "delta": -0.6481000185012817,
+      "theta": -15.691900253295898,
+      "vega": 48.72159957885742,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62165": {
+      "prevOi": 662310,
+      "iv": 14.661869049072266,
+      "delta": 0.3749000132083893,
+      "theta": -16.578100204467773,
+      "vega": 49.777400970458984,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62167": {
+      "prevOi": 484860,
+      "iv": 14.490777969360352,
+      "delta": -0.6266999840736389,
+      "theta": -16.345199584960938,
+      "vega": 49.71070098876953,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62163": {
+      "prevOi": 62610,
+      "iv": 14.673176765441895,
+      "delta": 0.3946000039577484,
+      "theta": -16.943099975585938,
+      "vega": 50.53329849243164,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62164": {
+      "prevOi": 23100,
+      "iv": 14.301460266113281,
+      "delta": -0.6083999872207642,
+      "theta": -16.444700241088867,
+      "vega": 50.42570114135742,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62161": {
+      "prevOi": 64080,
+      "iv": 14.708757400512695,
+      "delta": 0.4147000014781952,
+      "theta": -17.302200317382812,
+      "vega": 51.169898986816406,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62162": {
+      "prevOi": 42930,
+      "iv": 14.697660446166992,
+      "delta": -0.5853999853134155,
+      "theta": -17.287599563598633,
+      "vega": 51.16780090332031,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62159": {
+      "prevOi": 80520,
+      "iv": 14.791563034057617,
+      "delta": 0.4352000057697296,
+      "theta": -17.681499481201172,
+      "vega": 51.67959976196289,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62160": {
+      "prevOi": 46980,
+      "iv": 14.871445655822754,
+      "delta": -0.5644000172615051,
+      "theta": -17.78529930114746,
+      "vega": 51.6885986328125,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62157": {
+      "prevOi": 110850,
+      "iv": 14.929953575134277,
+      "delta": 0.45590001344680786,
+      "theta": -18.087299346923828,
+      "vega": 52.05189895629883,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62158": {
+      "prevOi": 96120,
+      "iv": 14.76904582977295,
+      "delta": -0.5447999835014343,
+      "theta": -17.881000518798828,
+      "vega": 52.042701721191406,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62155": {
+      "prevOi": 1143630,
+      "iv": 15.051709175109863,
+      "delta": 0.4763000011444092,
+      "theta": -18.424100875854492,
+      "vega": 52.280399322509766,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62156": {
+      "prevOi": 1126080,
+      "iv": 14.845537185668945,
+      "delta": -0.5242000222206116,
+      "theta": -18.162700653076172,
+      "vega": 52.27619934082031,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62153": {
+      "prevOi": 123840,
+      "iv": 15.151010513305664,
+      "delta": 0.4964999854564667,
+      "theta": -18.68470001220703,
+      "vega": 52.37080001831055,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62154": {
+      "prevOi": 124800,
+      "iv": 14.995736122131348,
+      "delta": -0.5037000179290771,
+      "theta": -18.489599227905273,
+      "vega": 52.370601654052734,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62151": {
+      "prevOi": 146490,
+      "iv": 15.09666919708252,
+      "delta": 0.5163999795913696,
+      "theta": -18.705900192260742,
+      "vega": 52.328399658203125,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62152": {
+      "prevOi": 107400,
+      "iv": 15.08261775970459,
+      "delta": -0.483599990606308,
+      "theta": -18.68829917907715,
+      "vega": 52.328399658203125,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62149": {
+      "prevOi": 133170,
+      "iv": 15.28372859954834,
+      "delta": 0.5361999869346619,
+      "theta": -18.980899810791016,
+      "vega": 52.157100677490234,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62150": {
+      "prevOi": 113340,
+      "iv": 15.17849063873291,
+      "delta": -0.4636000096797943,
+      "theta": -18.850099563598633,
+      "vega": 52.15530014038086,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62147": {
+      "prevOi": 83970,
+      "iv": 15.403555870056152,
+      "delta": 0.5555999875068665,
+      "theta": -19.12420082092285,
+      "vega": 51.86289978027344,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62148": {
+      "prevOi": 94860,
+      "iv": 15.207015037536621,
+      "delta": -0.4438000023365021,
+      "theta": -18.880300521850586,
+      "vega": 51.85319900512695,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62145": {
+      "prevOi": 386280,
+      "iv": 15.428730010986328,
+      "delta": 0.574999988079071,
+      "theta": -19.103099822998047,
+      "vega": 51.44419860839844,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62146": {
+      "prevOi": 519630,
+      "iv": 15.290780067443848,
+      "delta": -0.4244000017642975,
+      "theta": -18.931699752807617,
+      "vega": 51.43080139160156,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62143": {
+      "prevOi": 50490,
+      "iv": 15.307147979736328,
+      "delta": 0.5949000120162964,
+      "theta": -18.852500915527344,
+      "vega": 50.88249969482422,
+      "gamma": 0.00019999999494757503
+     },
+     "62144": {
+      "prevOi": 102810,
+      "iv": 15.378888130187988,
+      "delta": -0.40540000796318054,
+      "theta": -18.941999435424805,
+      "vega": 50.89400100708008,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62141": {
+      "prevOi": 51300,
+      "iv": 15.614655494689941,
+      "delta": 0.6122999787330627,
+      "theta": -19.091999053955078,
+      "vega": 50.28390121459961,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62142": {
+      "prevOi": 95940,
+      "iv": 15.495244979858398,
+      "delta": -0.3869999945163727,
+      "theta": -18.94230079650879,
+      "vega": 50.25640106201172,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62139": {
+      "prevOi": 63060,
+      "iv": 15.539193153381348,
+      "delta": 0.6315000057220459,
+      "theta": -18.8080997467041,
+      "vega": 49.500301361083984,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongUnwinding"
+     },
+     "62140": {
+      "prevOi": 107610,
+      "iv": 15.576436042785645,
+      "delta": -0.3686999976634979,
+      "theta": -18.855100631713867,
+      "vega": 49.51219940185547,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62137": {
+      "prevOi": 38520,
+      "iv": 15.63332462310791,
+      "delta": 0.6492000222206116,
+      "theta": -18.694799423217773,
+      "vega": 48.66460037231445,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortCovering"
+     },
+     "62138": {
+      "prevOi": 75900,
+      "iv": 15.68551254272461,
+      "delta": -0.35120001435279846,
+      "theta": -18.76129913330078,
+      "vega": 48.68600082397461,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62133": {
+      "prevOi": 407730,
+      "iv": 15.901716232299805,
+      "delta": 0.664900004863739,
+      "theta": -18.766000747680664,
+      "vega": 47.833499908447266,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62134": {
+      "prevOi": 791370,
+      "iv": 15.765453338623047,
+      "delta": -0.33390000462532043,
+      "theta": -18.590599060058594,
+      "vega": 47.76499938964844,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62131": {
+      "prevOi": 37200,
+      "iv": 16.679779052734375,
+      "delta": 0.6751000285148621,
+      "theta": -19.46579933166504,
+      "vega": 47.24369812011719,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62132": {
+      "prevOi": 90930,
+      "iv": 15.901145935058594,
+      "delta": -0.3176000118255615,
+      "theta": -18.454500198364258,
+      "vega": 46.800201416015625,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62123": {
+      "prevOi": 34290,
+      "iv": 16.37776756286621,
+      "delta": 0.694599986076355,
+      "theta": -18.732900619506836,
+      "vega": 46.013099670410156,
+      "gamma": 0.00019999999494757503,
+      "analysis": "LongBuildUp"
+     },
+     "62124": {
+      "prevOi": 107070,
+      "iv": 15.990449905395508,
+      "delta": -0.30149999260902405,
+      "theta": -18.22319984436035,
+      "vega": 45.74440002441406,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62115": {
+      "prevOi": 14130,
+      "iv": 16.98918342590332,
+      "delta": 0.7045999765396118,
+      "theta": -19.16819953918457,
+      "vega": 45.32749938964844,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortCovering"
+     },
+     "62116": {
+      "prevOi": 61050,
+      "iv": 16.151155471801758,
+      "delta": -0.2865999937057495,
+      "theta": -18.05430030822754,
+      "vega": 44.68769836425781,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62113": {
+      "prevOi": 12690,
+      "iv": 16.517480850219727,
+      "delta": 0.7253000140190125,
+      "theta": -18.13450050354004,
+      "vega": 43.779598236083984,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortCovering"
+     },
+     "62114": {
+      "prevOi": 53370,
+      "iv": 16.310848236083984,
+      "delta": -0.27230000495910645,
+      "theta": -17.855899810791016,
+      "vega": 43.59320068359375,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62111": {
+      "prevOi": 73290,
+      "iv": 16.29824447631836,
+      "delta": 0.743399977684021,
+      "theta": -17.396400451660156,
+      "vega": 42.29199981689453,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortCovering"
+     },
+     "62112": {
+      "prevOi": 437310,
+      "iv": 16.364850997924805,
+      "delta": -0.2574000060558319,
+      "theta": -17.487499237060547,
+      "vega": 42.36109924316406,
+      "gamma": 0.00019999999494757503,
+      "analysis": "ShortBuildUp"
+     },
+     "62108": {
+      "prevOi": 3660,
+      "iv": 22.679140090942383,
+      "delta": 0.6976000070571899,
+      "theta": -25.534799575805664,
+      "vega": 45.811100006103516,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62109": {
+      "prevOi": 31680,
+      "iv": 16.45225715637207,
+      "delta": -0.2433999925851822,
+      "theta": -17.1387996673584,
+      "vega": 41.122501373291016,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62104": {
+      "prevOi": 2040,
+      "iv": 17.291385650634766,
+      "delta": 0.7608000040054321,
+      "theta": -17.81559944152832,
+      "vega": 40.739601135253906,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62105": {
+      "prevOi": 29190,
+      "iv": 16.61761474609375,
+      "delta": -0.23090000450611115,
+      "theta": -16.876300811767578,
+      "vega": 39.95029830932617,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62102": {
+      "prevOi": 5820,
+      "iv": 18.692996978759766,
+      "delta": 0.7581999897956848,
+      "theta": -19.26919937133789,
+      "vega": 40.972900390625,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortCovering"
+     },
+     "62103": {
+      "prevOi": 37020,
+      "iv": 16.705690383911133,
+      "delta": -0.21799999475479126,
+      "theta": -16.486600875854492,
+      "vega": 38.66699981689453,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62099": {
+      "prevOi": 1440,
+      "iv": 23.114032745361328,
+      "delta": 0.7290999889373779,
+      "theta": -24.850799560546875,
+      "vega": 43.477901458740234,
+      "gamma": 9.999999747378752e-05
+     },
+     "62100": {
+      "prevOi": 21990,
+      "iv": 16.726024627685547,
+      "delta": -0.20469999313354492,
+      "theta": -15.982399940490723,
+      "vega": 37.26940155029297,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62097": {
+      "prevOi": 87150,
+      "iv": 17.411828994750977,
+      "delta": 0.7993000149726868,
+      "theta": -16.41790008544922,
+      "vega": 36.83250045776367,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortCovering"
+     },
+     "62098": {
+      "prevOi": 437400,
+      "iv": 16.886531829833984,
+      "delta": -0.19380000233650208,
+      "theta": -15.663100242614746,
+      "vega": 36.06230163574219,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62095": {
+      "prevOi": 720,
+      "iv": 16.919330596923828,
+      "delta": 0.8183000087738037,
+      "theta": -15.147100448608398,
+      "vega": 34.65700149536133,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62096": {
+      "prevOi": 29460,
+      "iv": 16.984107971191406,
+      "delta": -0.1826000064611435,
+      "theta": -15.241100311279297,
+      "vega": 34.761199951171875,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62093": {
+      "prevOi": 10590,
+      "iv": 17.72191047668457,
+      "delta": 0.819599986076355,
+      "theta": -15.741299629211426,
+      "vega": 34.49449920654297,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62094": {
+      "prevOi": 35970,
+      "iv": 17.153364181518555,
+      "delta": -0.1729000061750412,
+      "theta": -14.913299560546875,
+      "vega": 33.581298828125,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62091": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "62092": {
+      "prevOi": 33390,
+      "iv": 17.174850463867188,
+      "delta": -0.16169999539852142,
+      "theta": -14.361499786376953,
+      "vega": 32.16019821166992,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62089": {
+      "iv": 16.093338012695312,
+      "delta": 0.8644000291824341,
+      "theta": -12.175000190734863,
+      "vega": 28.587799072265625,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62090": {
+      "prevOi": 15120,
+      "iv": 17.338706970214844,
+      "delta": -0.15289999544620514,
+      "theta": -14.012100219726562,
+      "vega": 30.99650001525879,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62087": {
+      "prevOi": 5310,
+      "iv": 19.56245994567871,
+      "delta": 0.829800009727478,
+      "theta": -16.681900024414062,
+      "vega": 33.247798919677734,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongBuildUp"
+     },
+     "62088": {
+      "prevOi": 316110,
+      "iv": 17.482702255249023,
+      "delta": -0.14419999718666077,
+      "theta": -13.629500389099121,
+      "vega": 29.817100524902344,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62085": {
+      "prevOi": 210,
+      "iv": 21.976858139038086,
+      "delta": 0.8133000135421753,
+      "theta": -19.606000900268555,
+      "vega": 35.240501403808594,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62086": {
+      "prevOi": 23160,
+      "iv": 17.56563377380371,
+      "delta": -0.13529999554157257,
+      "theta": -13.154399871826172,
+      "vega": 28.543699264526367,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongUnwinding"
+     },
+     "62083": {
+      "iv": 18.930774688720703,
+      "delta": 0.8571000099182129,
+      "theta": -14.567399978637695,
+      "vega": 29.625699996948242,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62084": {
+      "prevOi": 16800,
+      "iv": 17.7816162109375,
+      "delta": -0.12849999964237213,
+      "theta": -12.874300003051758,
+      "vega": 27.54599952697754,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62081": {
+      "iv": 18.75284767150879,
+      "delta": 0.8686000108718872,
+      "theta": -13.705499649047852,
+      "vega": 27.982999801635742,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62082": {
+      "prevOi": 33990,
+      "iv": 17.661725997924805,
+      "delta": -0.11779999732971191,
+      "theta": -12.100600242614746,
+      "vega": 25.918899536132812,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62079": {
+      "iv": 25.810176849365234,
+      "delta": 0.8047999739646912,
+      "theta": -23.394100189208984,
+      "vega": 36.21269989013672,
+      "gamma": 9.999999747378752e-05
+     },
+     "62080": {
+      "prevOi": 16350,
+      "iv": 18.018299102783203,
+      "delta": -0.1136000007390976,
+      "theta": -12.028499603271484,
+      "vega": 25.255599975585938,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62077": {
+      "prevOi": 42390,
+      "iv": 21.447912216186523,
+      "delta": 0.8553000092506409,
+      "theta": -16.464799880981445,
+      "vega": 29.878299713134766,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortCovering"
+     },
+     "62078": {
+      "prevOi": 468390,
+      "iv": 18.12541389465332,
+      "delta": -0.10660000145435333,
+      "theta": -11.593000411987305,
+      "vega": 24.128599166870117,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62075": {
+      "iv": 25.960615158081055,
+      "delta": 0.8202000260353088,
+      "theta": -22.445199966430664,
+      "vega": 34.42539978027344,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62076": {
+      "prevOi": 19860,
+      "iv": 18.16977882385254,
+      "delta": -0.09920000284910202,
+      "theta": -11.070899963378906,
+      "vega": 22.904300689697266,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62073": {
+      "iv": 24.532108306884766,
+      "delta": 0.8410000205039978,
+      "theta": -19.773500442504883,
+      "vega": 31.810400009155273,
+      "gamma": 9.999999747378752e-05
+     },
+     "62074": {
+      "prevOi": 58890,
+      "iv": 18.419517517089844,
+      "delta": -0.09459999948740005,
+      "theta": -10.850099563598633,
+      "vega": 22.122499465942383,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62071": {
+      "prevOi": 60,
+      "iv": 14.2965669631958,
+      "delta": 0.9588000178337097,
+      "theta": -4.791100025177002,
+      "vega": 11.598699569702148,
+      "isLiquidated": true
+     },
+     "62072": {
+      "prevOi": 33900,
+      "iv": 18.548444747924805,
+      "delta": -0.08889999985694885,
+      "theta": -10.460200309753418,
+      "vega": 21.12929916381836,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongUnwinding"
+     },
+     "62065": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "62067": {
+      "prevOi": 14400,
+      "iv": 18.610076904296875,
+      "delta": -0.0828000009059906,
+      "theta": -9.981900215148926,
+      "vega": 20.033199310302734,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62061": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "62064": {
+      "prevOi": 229110,
+      "iv": 18.747350692749023,
+      "delta": -0.0778999999165535,
+      "theta": -9.617799758911133,
+      "vega": 19.1205997467041,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62057": {
+      "iv": 27.299720764160156,
+      "delta": 0.8465999960899353,
+      "theta": -21.385400772094727,
+      "vega": 31.072500228881836,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62060": {
+      "prevOi": 12210,
+      "iv": 18.882856369018555,
+      "delta": -0.07320000231266022,
+      "theta": -9.258600234985352,
+      "vega": 18.236400604248047,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "ShortBuildUp"
+     },
+     "62050": {
+      "iv": 27.56599998474121,
+      "delta": 0.8513000011444092,
+      "theta": -21.163299560546875,
+      "vega": 30.43269920349121,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62051": {
+      "prevOi": 21750,
+      "iv": 19.04642105102539,
+      "delta": -0.0689999982714653,
+      "theta": -8.945199966430664,
+      "vega": 17.43899917602539,
+      "gamma": 9.999999747378752e-05,
+      "analysis": "LongUnwinding"
+     },
+     "62048": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "62049": {
+      "prevOi": 20700,
+      "iv": 18.851991653442383,
+      "delta": -0.0617000013589859,
+      "theta": -8.164199829101562,
+      "vega": 15.977499961853027,
+      "analysis": "LongUnwinding"
+     },
+     "62041": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "62042": {
+      "prevOi": 20490,
+      "iv": 19.441394805908203,
+      "delta": -0.06210000067949295,
+      "theta": -8.428899765014648,
+      "vega": 16.063199996948242,
+      "analysis": "LongUnwinding"
+     },
+     "62035": {
+      "prevOi": 51450,
+      "iv": 18.22709083557129,
+      "delta": 0.9537000060081482,
+      "theta": -6.403600215911865,
+      "vega": 12.737600326538086,
+      "analysis": "ShortCovering"
+     },
+     "62040": {
+      "prevOi": 397920,
+      "iv": 19.612754821777344,
+      "delta": -0.05869999900460243,
+      "theta": -8.145899772644043,
+      "vega": 15.367500305175781,
+      "analysis": "LongUnwinding"
+     },
+     "62033": {
+      "iv": 25.870790481567383,
+      "delta": 0.890999972820282,
+      "theta": -16.266000747680664,
+      "vega": 24.520999908447266,
+      "gamma": 9.999999747378752e-05,
+      "isLiquidated": true
+     },
+     "62034": {
+      "prevOi": 10470,
+      "iv": 19.3912353515625,
+      "delta": -0.052000001072883606,
+      "theta": -7.3734002113342285,
+      "vega": 13.976300239562988,
+      "analysis": "ShortBuildUp"
+     },
+     "62031": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "62032": {
+      "prevOi": 27270,
+      "iv": 19.870716094970703,
+      "delta": -0.05169999971985817,
+      "theta": -7.495500087738037,
+      "vega": 13.906000137329102,
+      "analysis": "LongUnwinding"
+     },
+     "62029": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "62030": {
+      "prevOi": 12000,
+      "iv": 19.429729461669922,
+      "delta": -0.04390000179409981,
+      "theta": -6.497200012207031,
+      "vega": 12.208100318908691,
+      "analysis": "LongUnwinding"
+     },
+     "62025": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "62028": {
+      "prevOi": 18390,
+      "iv": 20.173433303833008,
+      "delta": -0.045899998396635056,
+      "theta": -6.935999870300293,
+      "vega": 12.638899803161621,
+      "analysis": "LongUnwinding"
+     },
+     "62021": {
+      "iv": 24.444671630859375,
+      "delta": 0.9243000149726868,
+      "theta": -11.947999954223633,
+      "vega": 18.715499877929688,
+      "isLiquidated": true
+     },
+     "62024": {
+      "prevOi": 147240,
+      "iv": 20.394412994384766,
+      "delta": -0.043699998408555984,
+      "theta": -6.7505998611450195,
+      "vega": 12.162799835205078,
+      "analysis": "ShortBuildUp"
+     },
+     "62019": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "62020": {
+      "prevOi": 2610,
+      "iv": 20.4146785736084,
+      "delta": -0.040300000458955765,
+      "theta": -6.339000225067139,
+      "vega": 11.374899864196777,
+      "analysis": "ShortBuildUp"
+     },
+     "62017": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "62018": {
+      "prevOi": 11400,
+      "iv": 20.574865341186523,
+      "delta": -0.03799999877810478,
+      "theta": -6.099599838256836,
+      "vega": 10.847800254821777,
+      "analysis": "ShortBuildUp"
+     },
+     "62015": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "62016": {
+      "prevOi": 4230,
+      "iv": 20.656827926635742,
+      "delta": -0.03530000150203705,
+      "theta": -5.782400131225586,
+      "vega": 10.220800399780273,
+      "analysis": "ShortBuildUp"
+     },
+     "62013": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "62014": {
+      "prevOi": 9090,
+      "iv": 21.278911590576172,
+      "delta": -0.03629999980330467,
+      "theta": -6.059999942779541,
+      "vega": 10.451399803161621,
+      "analysis": "ShortBuildUp"
+     },
+     "62011": {
+      "prevOi": 101340,
+      "delta": 1,
+      "analysis": "LongBuildUp"
+     },
+     "62012": {
+      "prevOi": 353010,
+      "iv": 21.478593826293945,
+      "delta": -0.03449999913573265,
+      "theta": -5.876200199127197,
+      "vega": 10.035200119018555,
+      "analysis": "ShortBuildUp"
+     },
+     "62005": {
+      "iv": 39.75382995605469,
+      "delta": 0.8500999808311462,
+      "theta": -30.111000061035156,
+      "vega": 30.592599868774414,
+      "isLiquidated": true
+     },
+     "62010": {
+      "prevOi": 25380,
+      "iv": 21.662574768066406,
+      "delta": -0.03280000016093254,
+      "theta": -5.681300163269043,
+      "vega": 9.61359977722168,
+      "analysis": "ShortBuildUp"
+     },
+     "62001": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "62004": {
+      "iv": 21.1940975189209,
+      "delta": -0.027400000020861626,
+      "theta": -4.83620023727417,
+      "vega": 8.287099838256836,
+      "analysis": "ShortBuildUp"
+     },
+     "61998": {
+      "delta": 1,
+      "isLiquidated": true
+     },
+     "61999": {
+      "prevOi": 1710,
+      "iv": 21.409278869628906,
+      "delta": -0.026200000196695328,
+      "theta": -4.698400020599365,
+      "vega": 7.968999862670898,
+      "analysis": "ShortBuildUp"
+     }
+    },
+    "pcrOi": 0.95,
+    "indiaVix": {
+     "indexId": "INDIA VIX",
+     "ltp": 15.3,
+     "change": 0.18,
+     "perChange": 1.19
+    },
+    "futureScrip": {
+     "scripCode": 61466,
+     "expirySeconds": 1479911400,
+     "lotSize": 30
+    },
+    "maxPain": 55500
+   },
+   "chartScrip": {
+    "scripCode": 26009
+   }
+  }
+ }
+}

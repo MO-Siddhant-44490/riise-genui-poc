@@ -1,0 +1,194 @@
+{
+ "endpoint": "/master/v2/api/MFComparison/knowthisfund",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "KnowMoreFundDetailsModel",
+ "source_flow": "debug_dump",
+ "response": {
+  "data": {
+   "Funds": [
+    {
+     "Isin": "INF247L01411",
+     "Equity": {
+      "Percent": 8634,
+      "MarketCap": [
+       {
+        "Name": "Mid Cap",
+        "Value": 28429380000000,
+        "Percent": 8404
+       },
+       {
+        "Name": "Large Cap",
+        "Value": 8043200000000,
+        "Percent": 1596
+       },
+       {
+        "Name": "Small Cap",
+        "Value": 6347920000000,
+        "Percent": 0
+       }
+      ],
+      "TopSectors": [
+       {
+        "Name": "Technology",
+        "Asset": "EQUITY",
+        "AssetValue": 0,
+        "AssetPercent": 2110
+       },
+       {
+        "Name": "Automobile",
+        "Asset": "EQUITY",
+        "AssetValue": 0,
+        "AssetPercent": 1518
+       }
+      ]
+     },
+     "DeptAndOthers": {
+      "Percent": 1366,
+      "SectorAllocation": [
+       {
+        "Name": "Net Receivables",
+        "AssetValue": 3609970000,
+        "AssetPercent": 728
+       },
+       {
+        "Name": "CBLO",
+        "AssetValue": 3166729000,
+        "AssetPercent": 638
+       }
+      ],
+      "CreditRatings": []
+     },
+     "TopHoldings": [
+      {
+       "Name": "Others",
+       "CompanyAssetValue": 6776699000,
+       "CompanyAssetPercent": 1366
+      },
+      {
+       "Name": "Tube Investments Of India",
+       "CompanyAssetValue": 4921095000,
+       "CompanyAssetPercent": 992
+      },
+      {
+       "Name": "Zomato",
+       "CompanyAssetValue": 3677450000,
+       "CompanyAssetPercent": 741
+      },
+      {
+       "Name": "KPIT Technologies",
+       "CompanyAssetValue": 3269400000,
+       "CompanyAssetPercent": 659
+      },
+      {
+       "Name": "Persistent Systems",
+       "CompanyAssetValue": 3257183000,
+       "CompanyAssetPercent": 657
+      }
+     ],
+     "TechnicalParameters": {
+      "StandardDeviation": 7398,
+      "Beta": -1550,
+      "SharpeRatio": 207047,
+      "SortinoRatio": 9911,
+      "Alpha": 9640
+     }
+    },
+    {
+     "Isin": "INF917K01247",
+     "Equity": {
+      "Percent": 9860,
+      "MarketCap": [
+       {
+        "Name": "Mid Cap",
+        "Value": 85190307653000,
+        "Percent": 6723
+       },
+       {
+        "Name": "Small Cap",
+        "Value": 36235825015400,
+        "Percent": 1256
+       },
+       {
+        "Name": "Large Cap",
+        "Value": 26964243042500,
+        "Percent": 2021
+       }
+      ],
+      "TopSectors": [
+       {
+        "Name": "Healthcare",
+        "Asset": "EQUITY",
+        "AssetValue": 0,
+        "AssetPercent": 1498
+       },
+       {
+        "Name": "Financial",
+        "Asset": "EQUITY",
+        "AssetValue": 0,
+        "AssetPercent": 1277
+       },
+       {
+        "Name": "Services",
+        "Asset": "EQUITY",
+        "AssetValue": 0,
+        "AssetPercent": 925
+       }
+      ]
+     },
+     "DeptAndOthers": {
+      "Percent": 140,
+      "SectorAllocation": [
+       {
+        "Name": "Repo",
+        "AssetValue": 1058141108,
+        "AssetPercent": 141
+       },
+       {
+        "Name": "Net Payables",
+        "AssetValue": 2226047,
+        "AssetPercent": -1
+       }
+      ],
+      "CreditRatings": []
+     },
+     "TopHoldings": [
+      {
+       "Name": "Ratnamani Metals & Tubes",
+       "CompanyAssetValue": 2417304964,
+       "CompanyAssetPercent": 321
+      },
+      {
+       "Name": "Sundaram Finance",
+       "CompanyAssetValue": 1940712480,
+       "CompanyAssetPercent": 258
+      },
+      {
+       "Name": "Abbott India",
+       "CompanyAssetValue": 1889925405,
+       "CompanyAssetPercent": 251
+      },
+      {
+       "Name": "Bosch",
+       "CompanyAssetValue": 1832883315,
+       "CompanyAssetPercent": 244
+      },
+      {
+       "Name": "Emami",
+       "CompanyAssetValue": 1827150286,
+       "CompanyAssetPercent": 243
+      }
+     ],
+     "TechnicalParameters": {
+      "StandardDeviation": 10080,
+      "Beta": 36593,
+      "SharpeRatio": 199413,
+      "SortinoRatio": 11707,
+      "Alpha": 10243
+     }
+    }
+   ]
+  }
+ }
+}

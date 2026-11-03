@@ -1,0 +1,27 @@
+{
+ "endpoint": "/TradingApiV2/api/userprofile",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "UserProfileDataV4",
+ "source_flow": "debug_dump",
+ "response": {
+  "personal": {
+   "mobileNo": "<redacted>",
+   "emailId": "<redacted>",
+   "dateOfBirth": "<redacted>",
+   "panNumber": "<redacted>",
+   "gender": "M",
+   "occupation": "PVS",
+   "pictureUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/ProfilePic/2/<redacted>_12d37669-f4bc-42f6-8cd8-3766a2f23f96.jpg"
+  },
+  "trading": {
+   "status": true,
+   "dpId": "<redacted>",
+   "branchCode": "STAFF",
+   "familyCode": "<redacted>",
+   "segment": "EQT",
+   "depositoryName": "CDSL"
+  }
+ }
+}

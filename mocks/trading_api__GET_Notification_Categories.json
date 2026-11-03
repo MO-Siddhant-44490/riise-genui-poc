@@ -1,0 +1,42 @@
+{
+ "endpoint": "/TradingApiV2/api/Notification/Categories",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "NotificationCategories",
+ "source_flow": "debug_dump",
+ "response": {
+  "entry": [
+   {
+    "name": "Mutual Funds",
+    "subCategory": [
+     "Mutual Funds"
+    ]
+   },
+   {
+    "name": "Investment Products",
+    "subCategory": [
+     "Investment Products for Notifications"
+    ]
+   },
+   {
+    "name": "US Stocks",
+    "subCategory": [
+     "US Stocks"
+    ]
+   },
+   {
+    "name": "IPO",
+    "subCategory": [
+     "IPO"
+    ]
+   },
+   {
+    "name": "Insurance",
+    "subCategory": [
+     "Insurance"
+    ]
+   }
+  ]
+ }
+}

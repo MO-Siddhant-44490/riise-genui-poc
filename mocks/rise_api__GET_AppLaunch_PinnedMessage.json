@@ -1,0 +1,22 @@
+{
+ "endpoint": "/cmsapi/v2/api/AppLaunch/PinnedMessage",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "PinnedMessagesResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "messages": [
+   {
+    "id": 265,
+    "title": "New Pinned message to test",
+    "subTitle": "subheading message display here continue to view it"
+   },
+   {
+    "id": 266,
+    "title": "Message no 2 to be pinned",
+    "subTitle": "Message no 2 to be pinned Message no 2 to be pinned Message no 2 to be pinned"
+   }
+  ]
+ }
+}

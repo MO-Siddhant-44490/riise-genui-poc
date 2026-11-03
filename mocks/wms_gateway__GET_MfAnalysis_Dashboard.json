@@ -1,0 +1,627 @@
+{
+ "endpoint": "/dev/wms/v2/api/MfAnalysis/Dashboard",
+ "method": "GET",
+ "host": "e74xime5x0.execute-api.ap-south-1.amazonaws.com",
+ "http_status": 200,
+ "decoded_as": "MfAnalysisDashboardResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "insights": {
+   "insights": [
+    {
+     "type": 1,
+     "title": "AMC Concentration: High",
+     "description": "Immediate AMC diversification maybe required",
+     "nudge": "A sizeable portion of your MF portfolio is managed by <b>(HDFC Mutual Fund & 85.8%)</b>.",
+     "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/PortfolioAnalysis/Mf/amc.svg",
+     "Symbol": "moderate"
+    },
+    {
+     "title": "Scheme Concentration: High",
+     "description": "Immediate scheme diversification required",
+     "nudge": "A sizeable portion of your MF portfolio is invested across a limited number of <b>(1 & 78.50%)</b>",
+     "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/PortfolioAnalysis/Mf/schemes.svg",
+     "Symbol": "moderate"
+    },
+    {
+     "type": 4,
+     "title": "Equity Asset Class Concentration",
+     "description": "Immediate rebalancing needed",
+     "nudge": "Your portfolio is concentrated in <b>Equity asset classes (100.0%)</b>.",
+     "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/PortfolioAnalysis/Mf/assetclass.svg",
+     "Symbol": "moderate"
+    }
+   ]
+  },
+  "portfolioSummary": {
+   "name": "Mutual Funds",
+   "investedValue": "1859730",
+   "marketValue": "1546286",
+   "daysChange": "-52034",
+   "overallChange": "-313444",
+   "deepLinkUrl": "portfolio/mf",
+   "lastUpdatedTime": "1793601967685"
+  },
+  "performanceTrend": {
+   "portfolioGrowth": {
+    "name": "Mutual Funds",
+    "investedValue": "1859730",
+    "marketValue": "1546286",
+    "daysChange": "-52034",
+    "overallChange": "-313444",
+    "deepLinkUrl": "portfolio/mf",
+    "lastUpdatedTime": "1793601967685"
+   },
+   "benchmark": {
+    "benchmarkYear": [
+     {
+      "periodTag": "1M",
+      "periodName": "1 Month"
+     },
+     {
+      "periodTag": "3M",
+      "periodName": "3 Months"
+     },
+     {
+      "periodTag": "6M",
+      "periodName": "6 Months"
+     },
+     {
+      "periodTag": "1Y",
+      "periodName": "1 Year"
+     },
+     {
+      "periodTag": "3Y",
+      "periodName": "3 Years"
+     },
+     {
+      "periodTag": "5Y",
+      "periodName": "5 Years"
+     }
+    ],
+    "benchmarkType": [
+     {
+      "benchmarkTag": "benchmark_1",
+      "benchmarkName": "Nifty 50"
+     },
+     {
+      "benchmarkTag": "benchmark_2",
+      "benchmarkName": "Nifty 200"
+     },
+     {
+      "benchmarkTag": "benchmark_3",
+      "benchmarkName": "Nifty 500"
+     }
+    ]
+   }
+  },
+  "fundPerformance": {
+   "title": "Fund Performance Analysis",
+   "yearlyPerformance": [
+    {
+     "year": 1,
+     "title": "2 Underperforming funds detected",
+     "nudge": "2 of your funds have <b> lagged the benchmark </b> over the <b> last 1 years </b>",
+     "funds": [
+      {
+       "schemeName": "HDFC Silver ETF FoF Regular-Growth",
+       "category": "Commodities",
+       "subCategory": " Silver",
+       "isinCode": "INF179KC1DV5",
+       "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+       "fundAum": "4112",
+       "rank": "19",
+       "returns": 14650,
+       "totalCount": "22"
+      },
+      {
+       "schemeName": "HDFC Small Cap Fund Regular-Growth",
+       "category": "Equity",
+       "subCategory": " Small Cap",
+       "isinCode": "INF179KA1RZ8",
+       "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+       "fundAum": "33724",
+       "rank": "42",
+       "returns": 711,
+       "totalCount": "49"
+      },
+      {
+       "schemeName": "Kotak Midcap Fund Regular-Growth",
+       "category": "Equity",
+       "subCategory": " Mid Cap",
+       "isinCode": "INF174K01DS9",
+       "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/218-kotak-4__BASE__.png",
+       "fundAum": "55675",
+       "rank": "6",
+       "returns": 1415,
+       "totalCount": "62",
+       "performanceType": "Outperform"
+      },
+      {
+       "schemeName": "Navi Flexi Cap Fund Regular-Growth",
+       "category": "Equity",
+       "subCategory": " Flexi Cap",
+       "isinCode": "INF959L01EE9",
+       "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8927-navi-2__BASE__.png",
+       "fundAum": "232",
+       "rank": "9",
+       "returns": 951,
+       "totalCount": "100",
+       "performanceType": "Outperform"
+      }
+     ],
+     "riskType": 1
+    },
+    {
+     "year": 2,
+     "title": "1 Underperforming funds detected",
+     "nudge": "1 of your funds have <b> lagged the benchmark </b> over the <b> last 2 years </b>",
+     "funds": [
+      {
+       "schemeName": "Kotak Midcap Fund Regular-Growth",
+       "category": "Equity",
+       "subCategory": " Mid Cap",
+       "isinCode": "INF174K01DS9",
+       "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/218-kotak-4__BASE__.png",
+       "fundAum": "55675",
+       "rank": "6",
+       "returns": 1227,
+       "totalCount": "51",
+       "performanceType": "Outperform"
+      },
+      {
+       "schemeName": "Quant Small Cap Fund-Growth",
+       "category": "Equity",
+       "subCategory": " Small Cap",
+       "isinCode": "INF966L01AA0",
+       "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/11-quant-143__BASE__.png",
+       "fundAum": "25820",
+       "rank": "40",
+       "returns": 184,
+       "totalCount": "44"
+      }
+     ],
+     "riskType": 1
+    },
+    {
+     "year": 3,
+     "title": "3 Underperforming funds detected",
+     "nudge": "3 of your funds have <b> lagged the benchmark </b> over the <b> last 3 years </b>",
+     "funds": [
+      {
+       "schemeName": "HDFC Small Cap Fund Regular-Growth",
+       "category": "Equity",
+       "subCategory": " Small Cap",
+       "isinCode": "INF179KA1RZ8",
+       "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+       "fundAum": "33724",
+       "rank": "29",
+       "returns": 1634,
+       "totalCount": "34"
+      },
+      {
+       "schemeName": "Navi Flexi Cap Fund Regular-Growth",
+       "category": "Equity",
+       "subCategory": " Flexi Cap",
+       "isinCode": "INF959L01EE9",
+       "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8927-navi-2__BASE__.png",
+       "fundAum": "232",
+       "rank": "58",
+       "returns": 1290,
+       "totalCount": "73"
+      },
+      {
+       "schemeName": "Navi Large & Midcap Fund-Growth",
+       "category": "Equity",
+       "subCategory": " Large & MidCap",
+       "isinCode": "INF959L01CK0",
+       "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8927-navi-2__BASE__.png",
+       "fundAum": "267",
+       "rank": "42",
+       "returns": 1203,
+       "totalCount": "43"
+      }
+     ],
+     "riskType": 1
+    }
+   ],
+   "deeplinkUrl": "mosl://superapp.com/collectionshare?id=15&collectionname=MostPopularFund&subassettype=MF&collectiontype=COLLECTIONTILES"
+  },
+  "diversification": {
+   "title": "Low overlap between schemes",
+   "nudge": "Your schemes <b>Kotak Mid Cap Reg-G</b> and <b>Nippon India Multi Cap-G</b> have good diversification with <b>22.25</b>% overlap.",
+   "details": [
+    {
+     "schemeName1": "Kotak Mid Cap Reg-G",
+     "schemeName2": "Nippon India Multi Cap-G",
+     "scheme1Return": 2177,
+     "scheme2Return": 2009,
+     "scheme1Isin": "INF174K01DS9",
+     "scheme2Isin": "INF204K01489",
+     "scheme1Yr": "3 Year",
+     "scheme2Yr": "3 Year",
+     "scheme1LogoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/218-kotak-4__BASE__.png",
+     "scheme2LogoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/24-nippon-india-3__BASE__.png",
+     "overlapIntensity": "Low Overlap",
+     "overlapPecentage": 2225,
+     "message": "Switch to <b>Kotak Midcap Fund Regular-Growth</b> for lower expense ratio and better category rank"
+    },
+    {
+     "schemeName1": "Nippon India Multi Cap-G",
+     "schemeName2": "Quant Small Cap-G",
+     "scheme1Return": 2009,
+     "scheme2Return": 2056,
+     "scheme1Isin": "INF204K01489",
+     "scheme2Isin": "INF966L01AA0",
+     "scheme1Yr": "3 Year",
+     "scheme2Yr": "3 Year",
+     "scheme1LogoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/24-nippon-india-3__BASE__.png",
+     "scheme2LogoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/11-quant-143__BASE__.png",
+     "overlapIntensity": "Low Overlap",
+     "overlapPecentage": 1097,
+     "message": "Switch to <b>Quant Small Cap Fund-Growth</b> for lower expense ratio and better category rank"
+    },
+    {
+     "schemeName1": "HDFC Small Cap Reg-G",
+     "schemeName2": "Quant Small Cap-G",
+     "scheme1Return": 1633,
+     "scheme2Return": 2056,
+     "scheme1Isin": "INF179KA1RZ8",
+     "scheme2Isin": "INF966L01AA0",
+     "scheme1Yr": "3 Year",
+     "scheme2Yr": "3 Year",
+     "scheme1LogoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "scheme2LogoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/11-quant-143__BASE__.png",
+     "overlapIntensity": "Low Overlap",
+     "overlapPecentage": 280,
+     "message": "Switch to <b>Quant Small Cap Fund-Growth</b> for lower expense ratio and better category rank"
+    },
+    {
+     "schemeName1": "Kotak Mid Cap Reg-G",
+     "schemeName2": "Quant Small Cap-G",
+     "scheme1Return": 2177,
+     "scheme2Return": 2056,
+     "scheme1Isin": "INF174K01DS9",
+     "scheme2Isin": "INF966L01AA0",
+     "scheme1Yr": "3 Year",
+     "scheme2Yr": "3 Year",
+     "scheme1LogoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/218-kotak-4__BASE__.png",
+     "scheme2LogoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/11-quant-143__BASE__.png",
+     "overlapIntensity": "Low Overlap",
+     "overlapPecentage": 46,
+     "message": "Switch to <b>Kotak Midcap Fund Regular-Growth</b> for lower expense ratio and better category rank"
+    },
+    {
+     "schemeName1": "Kotak Mid Cap Reg-G",
+     "schemeName2": "HDFC Small Cap Reg-G",
+     "scheme1Return": 2177,
+     "scheme2Return": 1633,
+     "scheme1Isin": "INF174K01DS9",
+     "scheme2Isin": "INF179KA1RZ8",
+     "scheme1Yr": "3 Year",
+     "scheme2Yr": "3 Year",
+     "scheme1LogoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/218-kotak-4__BASE__.png",
+     "scheme2LogoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "overlapIntensity": "Low Overlap",
+     "overlapPecentage": 22,
+     "message": "Switch to <b>Kotak Midcap Fund Regular-Growth</b> for lower expense ratio and better category rank"
+    },
+    {
+     "schemeName1": "HDFC Small Cap Reg-G",
+     "schemeName2": "Nippon India Multi Cap-G",
+     "scheme1Return": 1633,
+     "scheme2Return": 2009,
+     "scheme1Isin": "INF179KA1RZ8",
+     "scheme2Isin": "INF204K01489",
+     "scheme1Yr": "3 Year",
+     "scheme2Yr": "3 Year",
+     "scheme1LogoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "scheme2LogoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/24-nippon-india-3__BASE__.png",
+     "overlapIntensity": "Low Overlap",
+     "overlapPecentage": 20,
+     "message": "Switch to <b>Nippon India Multi Cap Fund-Growth</b> for lower expense ratio and better category rank"
+    }
+   ],
+   "intensity": "Low Overlap",
+   "action": "Minimum shared holdings. Diversification is healthy."
+  },
+  "assetclass": {
+   "title": "Equity Asset Class Concentration",
+   "nudge": "Your portfolio is concentrated in <b>Equity asset classes (100.0%)</b>.",
+   "category": "assetclass",
+   "deeplinkUrl": "mosl://superapp.com/mfdebt?id=3&collectionname=LiquidFunds&subassettype=MF&collectiontype=DEBT",
+   "riskType": 1,
+   "entry": [
+    {
+     "label": "Commodities",
+     "marketValue": "1213815",
+     "allocation": 7850,
+     "schemeCount": "1"
+    },
+    {
+     "label": "Equity",
+     "marketValue": "332471",
+     "allocation": 2150,
+     "schemeCount": "6"
+    }
+   ]
+  },
+  "portfolioDetails": {
+   "totalHoldingCount": "7",
+   "items": [
+    {
+     "holding": {
+      "ucid": 4965701,
+      "isin": "INF179KC1DV5",
+      "schemeName": "HDFC Silver ETF FoF Reg-G",
+      "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+      "units": "412303",
+      "investedValue": "1599916",
+      "marketValue": "1213815",
+      "dayChange": "-46367",
+      "dayChangePer": -381,
+      "sip": {
+       "dayChange": "-46367",
+       "dayChangePer": -381,
+       "investedValue": "1599916",
+       "marketValue": "1213815",
+       "units": "412303",
+       "avgNav": "3880"
+      },
+      "avgNav": "3880"
+     },
+     "fundAum": "411231",
+     "rank": "11",
+     "returns": 4339,
+     "totalCount": "15",
+     "category": "Commodities",
+     "subCategory": " Silver",
+     "year": 3
+    },
+    {
+     "holding": {
+      "ucid": 4965701,
+      "isin": "INF179KA1RZ8",
+      "schemeName": "HDFC Small Cap Reg-G",
+      "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+      "units": "8765",
+      "investedValue": "89758",
+      "marketValue": "113361",
+      "dayChange": "-2108",
+      "dayChangePer": -185,
+      "lumpsum": {
+       "dayChange": "-2108",
+       "dayChangePer": -185,
+       "investedValue": "89758",
+       "marketValue": "113361",
+       "units": "8765",
+       "avgNav": "10240"
+      },
+      "avgNav": "10240"
+     },
+     "fundAum": "3372428",
+     "rank": "29",
+     "returns": 1634,
+     "totalCount": "34",
+     "category": "Equity",
+     "subCategory": " Small Cap",
+     "rankStatus": 2,
+     "year": 3
+    },
+    {
+     "holding": {
+      "ucid": 4965701,
+      "isin": "INF174K01DS9",
+      "schemeName": "Kotak Mid Cap Reg-G",
+      "units": "3496",
+      "investedValue": "49996",
+      "marketValue": "46220",
+      "dayChange": "-402",
+      "dayChangePer": -86,
+      "sip": {
+       "dayChange": "-402",
+       "dayChangePer": -86,
+       "investedValue": "49996",
+       "marketValue": "46220",
+       "units": "3496",
+       "avgNav": "14300"
+      },
+      "avgNav": "14300"
+     },
+     "fundAum": "5567598",
+     "rank": "25",
+     "returns": 2178,
+     "totalCount": "49",
+     "category": "Equity",
+     "subCategory": " Mid Cap",
+     "year": 3
+    },
+    {
+     "holding": {
+      "ucid": 4965701,
+      "isin": "INF959L01EE9",
+      "schemeName": "Navi Flexi Cap Reg-G",
+      "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8927-navi-2__BASE__.png",
+      "units": "13",
+      "investedValue": "23",
+      "marketValue": "30",
+      "sip": {
+       "investedValue": "23",
+       "marketValue": "30",
+       "units": "13",
+       "avgNav": "1769"
+      },
+      "avgNav": "1769"
+     },
+     "fundAum": "23210",
+     "rank": "58",
+     "returns": 1290,
+     "totalCount": "73",
+     "category": "Equity",
+     "subCategory": " Flexi Cap",
+     "rankStatus": 2,
+     "year": 3
+    }
+   ]
+  },
+  "mfConcentration": {
+   "title": "Scheme Concentration: High",
+   "nudge": "A sizeable portion of your MF portfolio is invested across a limited number of <b>(1 & 78.50%)</b>",
+   "category": "schemes",
+   "deeplinkUrl": "mosl://superapp.com/collectionshare?id=15&collectionname=MostPopularFund&subassettype=MF&collectiontype=COLLECTIONTILES",
+   "riskType": 1,
+   "entry": [
+    {
+     "label": "HDFC Silver ETF FoF Reg-G",
+     "marketValue": "1213815",
+     "allocation": 7850,
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "schemeCount": "1"
+    },
+    {
+     "label": "Quant Small Cap-G",
+     "marketValue": "152114",
+     "allocation": 984,
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/11-quant-143__BASE__.png",
+     "schemeCount": "1"
+    },
+    {
+     "label": "HDFC Small Cap Reg-G",
+     "marketValue": "113361",
+     "allocation": 733,
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "schemeCount": "1"
+    },
+    {
+     "label": "Others.",
+     "marketValue": "66996",
+     "allocation": 433
+    }
+   ]
+  },
+  "mfEqAllocation": {
+   "title": "Your Portfolio Is Well-Balanced",
+   "nudge": "You've got a healthy mix of Small Cap, Large Cap, Mid Cap. This balance helps you stay resilient across market cycles.",
+   "category": "marketcap",
+   "deeplinkUrl": "mosl://superapp.com/mfequity?id=11&collectionname=Large Cap&subassettype=MF&collectiontype=Equity",
+   "entry": [
+    {
+     "label": "Small Cap",
+     "marketValue": "1400452",
+     "allocation": 9401,
+     "schemeCount": "7"
+    },
+    {
+     "label": "Large Cap",
+     "marketValue": "47059",
+     "allocation": 316,
+     "schemeCount": "5"
+    },
+    {
+     "label": "Mid Cap",
+     "marketValue": "42120",
+     "allocation": 283,
+     "schemeCount": "6"
+    }
+   ]
+  },
+  "portfolioBreakdown": {
+   "title": "Low overlap between schemes",
+   "nudge": "Minimum shared holdings. Diversification is healthy.",
+   "details": [
+    {
+     "scripName": "Reliance Industries Ltd.",
+     "totalOverlapPercentage": 439,
+     "entry": [
+      {
+       "amcName": "Navi Mutual Fund",
+       "schemeName": "Navi Flexi Cap Reg-G",
+       "isin": "INE002A01018",
+       "scrip": "Reliance Industries Ltd.",
+       "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8927-navi-2__BASE__.png",
+       "schemeOverlapPercentage": 561
+      },
+      {
+       "amcName": "Navi Mutual Fund",
+       "schemeName": "Navi Large & Midcap-G",
+       "isin": "INE002A01018",
+       "scrip": "Reliance Industries Ltd.",
+       "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8927-navi-2__BASE__.png",
+       "schemeOverlapPercentage": 439
+      }
+     ],
+     "iconUrl": "img/cce2151cf12e.png"
+    },
+    {
+     "scripName": "HDFC Bank Ltd.",
+     "totalOverlapPercentage": 363,
+     "entry": [
+      {
+       "amcName": "Navi Mutual Fund",
+       "schemeName": "Navi Large & Midcap-G",
+       "isin": "INE040A01034",
+       "scrip": "HDFC Bank Ltd.",
+       "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8927-navi-2__BASE__.png",
+       "schemeOverlapPercentage": 387
+      },
+      {
+       "amcName": "Navi Mutual Fund",
+       "schemeName": "Navi Flexi Cap Reg-G",
+       "isin": "INE040A01034",
+       "scrip": "HDFC Bank Ltd.",
+       "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8927-navi-2__BASE__.png",
+       "schemeOverlapPercentage": 363
+      }
+     ],
+     "iconUrl": "img/80edb0d5ef78.png"
+    },
+    {
+     "scripName": "ICICI Bank Ltd.",
+     "totalOverlapPercentage": 339,
+     "entry": [
+      {
+       "amcName": "Navi Mutual Fund",
+       "schemeName": "Navi Flexi Cap Reg-G",
+       "isin": "INE090A01021",
+       "scrip": "ICICI Bank Ltd.",
+       "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8927-navi-2__BASE__.png",
+       "schemeOverlapPercentage": 680
+      },
+      {
+       "amcName": "Navi Mutual Fund",
+       "schemeName": "Navi Large & Midcap-G",
+       "isin": "INE090A01021",
+       "scrip": "ICICI Bank Ltd.",
+       "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8927-navi-2__BASE__.png",
+       "schemeOverlapPercentage": 339
+      }
+     ],
+     "iconUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/ICICIBank_93786457618_5418.png"
+    },
+    {
+     "scripName": "Infosys Ltd.",
+     "totalOverlapPercentage": 290,
+     "entry": [
+      {
+       "amcName": "Navi Mutual Fund",
+       "schemeName": "Navi Flexi Cap Reg-G",
+       "isin": "INE009A01021",
+       "scrip": "Infosys Ltd.",
+       "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8927-navi-2__BASE__.png",
+       "schemeOverlapPercentage": 456
+      },
+      {
+       "amcName": "Navi Mutual Fund",
+       "schemeName": "Navi Large & Midcap-G",
+       "isin": "INE009A01021",
+       "scrip": "Infosys Ltd.",
+       "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8927-navi-2__BASE__.png",
+       "schemeOverlapPercentage": 290
+      }
+     ],
+     "iconUrl": "img/3d3c8eef00e6.png"
+    }
+   ]
+  }
+ }
+}

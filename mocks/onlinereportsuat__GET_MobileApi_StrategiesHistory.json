@@ -1,0 +1,119 @@
+{
+ "endpoint": "/StratX_API/api/MobileApi/StrategiesHistory",
+ "method": "GET",
+ "host": "onlinereportsuat.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "StrategyHistoryResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "history": {
+   "totalInvested": 11100000,
+   "utility": [
+    {
+     "imageUrl": "https://stratx.motilaloswal.com/Alpha Surge.png",
+     "strategyId": "3282",
+     "strategyName": "Alpha Surge",
+     "time": "14:37 PM / 12-MAR-26",
+     "status": "Subscribed",
+     "blockedAmount": 2000000,
+     "multiplier": "2x",
+     "marginType": "Blocked",
+     "reasonType": "-",
+     "reason": "-",
+     "strategyCategoryName": "Premium"
+    },
+    {
+     "imageUrl": "https://stratx.motilaloswal.com/Ascend Wave.png",
+     "strategyId": "2264",
+     "strategyName": "Ascend Wave",
+     "time": "11:48 AM / 16-AUG-25",
+     "status": "Subscribed",
+     "blockedAmount": 600000,
+     "multiplier": "1x",
+     "marginType": "Blocked",
+     "reasonType": "-",
+     "reason": "-",
+     "strategyCategoryName": "Premium"
+    },
+    {
+     "imageUrl": "https://stratx.motilaloswal.com/Ascend Wave.png",
+     "strategyId": "2264",
+     "strategyName": "Ascend Wave",
+     "time": "11:45 AM / 16-AUG-25",
+     "status": "Subscribed",
+     "blockedAmount": 600000,
+     "multiplier": "1x",
+     "marginType": "Blocked",
+     "reasonType": "-",
+     "reason": "-",
+     "strategyCategoryName": "Premium"
+    },
+    {
+     "imageUrl": "https://stratx.motilaloswal.com/Nifty Dynamic Favicon.png",
+     "strategyId": "2022",
+     "strategyName": "Nifty Dynamic",
+     "time": "15:28 PM / 13-AUG-25",
+     "status": "Subscribed",
+     "blockedAmount": 900000,
+     "multiplier": "1x",
+     "marginType": "Blocked",
+     "reasonType": "-",
+     "reason": "-",
+     "strategyCategoryName": "Premium"
+    },
+    {
+     "imageUrl": "https://stratx.motilaloswal.com/Nifty Dynamic Favicon.png",
+     "strategyId": "2022",
+     "strategyName": "Nifty Dynamic",
+     "time": "15:21 PM / 13-AUG-25",
+     "status": "Subscribed",
+     "blockedAmount": 900000,
+     "multiplier": "1x",
+     "marginType": "Blocked",
+     "reasonType": "-",
+     "reason": "-",
+     "strategyCategoryName": "Premium"
+    },
+    {
+     "imageUrl": "img/a0fe9848a627.png",
+     "strategyId": "3",
+     "strategyName": "Goflow Banknifty",
+     "time": "15:17 PM / 13-AUG-25",
+     "status": "Subscribed",
+     "blockedAmount": 2000000,
+     "multiplier": "2x",
+     "marginType": "Blocked",
+     "reasonType": "-",
+     "reason": "-",
+     "strategyCategoryName": "Premium"
+    },
+    {
+     "imageUrl": "https://stratx.motilaloswal.com/Ascend Wave.png",
+     "strategyId": "2264",
+     "strategyName": "Ascend Wave",
+     "time": "15:15 PM / 13-AUG-25",
+     "status": "Subscribed",
+     "blockedAmount": 600000,
+     "multiplier": "1x",
+     "marginType": "Blocked",
+     "reasonType": "-",
+     "reason": "-",
+     "strategyCategoryName": "Premium"
+    },
+    {
+     "imageUrl": "img/5dffa0e570b0.png",
+     "strategyId": "2032",
+     "strategyName": "U-Trade Test",
+     "time": "12:07 PM / 26-JUN-25",
+     "status": "Subscribed",
+     "blockedAmount": 500000,
+     "multiplier": "2x",
+     "marginType": "Blocked",
+     "reasonType": "-",
+     "reason": "-",
+     "strategyCategoryName": "U-Trade MO"
+    }
+   ]
+  }
+ }
+}

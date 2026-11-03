@@ -1,0 +1,190 @@
+{
+ "endpoint": "/TradingApiV2/api/Quote/Scrip/Detail",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "QuoteScripDetails",
+ "source_flow": "debug_dump",
+ "response": {
+  "id": {
+   "scripCode": 495213,
+   "exchange": "MCX"
+  },
+  "tradeSymbol": "GOLD",
+  "description": "04 Dec",
+  "lotSize": 1,
+  "tickSize": 10000,
+  "multiplier": 100,
+  "optionType": "XX",
+  "instName": "FUTCOM",
+  "expirySeconds": 1480895999,
+  "expiryFlag": " ",
+  "lastTradingDate": 1796342400,
+  "spot": {
+   "id": {
+    "scripCode": 495213,
+    "exchange": "MCX"
+   },
+   "currentPrice": 142988
+  },
+  "exchanges": {
+   "tradeSymbol": "GOLD",
+   "scrips": [
+    {
+     "scripCode": 495213,
+     "exchange": "MCX"
+    },
+    {
+     "scripCode": 123424,
+     "exchange": "NSE_CO"
+    }
+   ]
+  },
+  "strikePrice": 13900000,
+  "pcr": 0.6399999856948853,
+  "stockInfo": {
+   "tradeSymbol": "HDFCBANK",
+   "fullName": "HDFC Bank Ltd",
+   "logoUrl": "img/80edb0d5ef78.png",
+   "sector": "Banks",
+   "returns": {
+    "oneWeek": -67,
+    "oneMonth": -1411,
+    "threeMonth": -332,
+    "sixMonth": -1250,
+    "ytd": -1491,
+    "oneYear": -1253,
+    "twoYear": -159,
+    "threeYear": -956,
+    "fiveYear": 3669,
+    "tenYear": 35331
+   }
+  },
+  "faceValue": 1,
+  "marketCap": 109763410,
+  "showCashDetails": true,
+  "noOfShares": 15427700195.3125
+ },
+ "variants": {
+  "ScripCode=495213&Exchange=6": {
+   "id": {
+    "scripCode": 495213,
+    "exchange": "MCX"
+   },
+   "tradeSymbol": "GOLD",
+   "description": "04 Dec",
+   "lotSize": 1,
+   "tickSize": 10000,
+   "multiplier": 100,
+   "optionType": "XX",
+   "instName": "FUTCOM",
+   "expirySeconds": 1480895999,
+   "expiryFlag": " ",
+   "lastTradingDate": 1796342400,
+   "spot": {
+    "id": {
+     "scripCode": 495213,
+     "exchange": "MCX"
+    },
+    "currentPrice": 142988
+   },
+   "exchanges": {
+    "tradeSymbol": "GOLD",
+    "scrips": [
+     {
+      "scripCode": 495213,
+      "exchange": "MCX"
+     },
+     {
+      "scripCode": 123424,
+      "exchange": "NSE_CO"
+     }
+    ]
+   }
+  },
+  "ScripCode=560660&Exchange=6": {
+   "id": {
+    "scripCode": 560660,
+    "exchange": "MCX"
+   },
+   "tradeSymbol": "GOLD",
+   "description": "27 Nov CE 139000",
+   "lotSize": 1,
+   "tickSize": 5000,
+   "multiplier": 100,
+   "optionType": "CE",
+   "instName": "OPTFUT",
+   "expirySeconds": 1480291199,
+   "expiryFlag": " ",
+   "strikePrice": 13900000,
+   "pcr": 0.6399999856948853,
+   "lastTradingDate": 1795737600,
+   "spot": {
+    "id": {
+     "scripCode": 495213,
+     "exchange": "MCX"
+    },
+    "currentPrice": 142988
+   },
+   "exchanges": {
+    "tradeSymbol": "GOLD",
+    "scrips": [
+     {
+      "scripCode": 560660,
+      "exchange": "MCX"
+     },
+     {
+      "scripCode": 132668,
+      "exchange": "NSE_CO"
+     }
+    ]
+   }
+  },
+  "ScripCode=1333&Exchange=0": {
+   "id": {
+    "scripCode": 1333
+   },
+   "tradeSymbol": "HDFCBANK",
+   "description": "NSE",
+   "lotSize": 1,
+   "tickSize": 500,
+   "multiplier": 1,
+   "optionType": "EQ",
+   "stockInfo": {
+    "tradeSymbol": "HDFCBANK",
+    "fullName": "HDFC Bank Ltd",
+    "logoUrl": "img/80edb0d5ef78.png",
+    "sector": "Banks",
+    "returns": {
+     "oneWeek": -67,
+     "oneMonth": -1411,
+     "threeMonth": -332,
+     "sixMonth": -1250,
+     "ytd": -1491,
+     "oneYear": -1253,
+     "twoYear": -159,
+     "threeYear": -956,
+     "fiveYear": 3669,
+     "tenYear": 35331
+    }
+   },
+   "faceValue": 1,
+   "marketCap": 109763410,
+   "showCashDetails": true,
+   "expiryFlag": " ",
+   "exchanges": {
+    "tradeSymbol": "HDFCBANK",
+    "scrips": [
+     {
+      "scripCode": 1333
+     },
+     {
+      "scripCode": 500180,
+      "exchange": "BSE"
+     }
+    ]
+   },
+   "noOfShares": 15427700195.3125
+  }
+ }
+}

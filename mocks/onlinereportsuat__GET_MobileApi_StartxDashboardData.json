@@ -1,0 +1,223 @@
+{
+ "endpoint": "/StratX_API/api/MobileApi/StartxDashboardData",
+ "method": "GET",
+ "host": "onlinereportsuat.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "DashboardResp",
+ "source_flow": "debug_dump",
+ "response": {
+  "isSubscribed": true,
+  "investStrategies": {
+   "videoUrl": "https://www.youtube.com/watch?v=Fzes3KzTZHg&pp=ygUMbW90aWxhbG9zd2Fs",
+   "subscribersCount": 3163
+  },
+  "stratxUrl": "https://stratx.motilaloswal.com",
+  "whyStratx": [
+   {
+    "iconUrl": "img/eee0f975fb86.svg",
+    "description": "Quick & Totally Automated"
+   },
+   {
+    "iconUrl": "img/7074bc8fe469.svg",
+    "description": "Robust Risk Management"
+   },
+   {
+    "iconUrl": "img/ebb8fcfd6eda.svg",
+    "description": "Tested & Certified Strategies"
+   },
+   {
+    "iconUrl": "img/8013cdf1fb7e.svg",
+    "description": "MO Trusted"
+   }
+  ],
+  "howToUse": [
+   {
+    "usage": "Explore the Strategy Marketplace",
+    "iconUrl": "https://stratx.motilaloswal.com/Invest_Steps_Explore.svg",
+    "description": "Discover ready-to-use algo strategies tailored to different trading styles."
+   },
+   {
+    "usage": "Select a Strategy",
+    "iconUrl": "https://stratx.motilaloswal.com/Invest_Steps_Subscribe.svg",
+    "description": "Pick a strategy that aligns with your market view and preferences."
+   },
+   {
+    "usage": "Allocate Capital",
+    "iconUrl": "https://stratx.motilaloswal.com/Allocate_Capital.svg",
+    "description": "Choose your lot multiplier as per your preference."
+   },
+   {
+    "usage": "Deploy the Strategy",
+    "iconUrl": "https://stratx.motilaloswal.com/Deploy_The_Strategy.svg",
+    "description": "Make Live — your strategy will go live from the next trading day."
+   }
+  ],
+  "testimonies": [
+   {
+    "testimonialId": 7,
+    "customerName": "<redacted>",
+    "companyName": "MOFSL",
+    "emailId": "<redacted>",
+    "designation": "Asst. Vice President",
+    "review": "Enhance your knowledge with valuable information & insights to navigate stock market dynamics. At Motilal Oswal, we are building a community of stock-literate individuals through blogs that cover topics such as investor learning, & understanding behavioural biases to help limit loses. Whether a seasoned investor or just starting out, our blogs provide actionable information, tips, & strategies to make informed investment decisions. Help us build a vibrant community of informed investors!",
+    "ratingCount": 5,
+    "priority": 1,
+    "profileImagePath": "https://uattrade.motilaloswaluat.com/images/stratx/Testimonial1.png",
+    "address": "<redacted>",
+    "country": "India",
+    "state": "MH"
+   },
+   {
+    "testimonialId": 8,
+    "customerName": "<redacted>",
+    "companyName": "MOFSL",
+    "emailId": "<redacted>",
+    "designation": "Software Developer",
+    "review": "Enhance your knowledge with valuable information & insights to navigate stock market dynamics. At Motilal Oswal, we are building a community of stock-literate individuals through blogs that cover topics such as investor learning, & understanding behavioural biases to help limit loses. Whether a seasoned investor or just starting out, our blogs provide actionable information, tips, & strategies to make informed investment decisions. Help us build a vibrant community of informed investors!",
+    "ratingCount": 4,
+    "priority": 2,
+    "profileImagePath": "https://uattrade.motilaloswaluat.com/images/stratx/Testimonial2.png",
+    "address": "<redacted>",
+    "country": "India",
+    "state": "MH"
+   },
+   {
+    "testimonialId": 9,
+    "customerName": "<redacted>",
+    "companyName": "MOFSL",
+    "emailId": "<redacted>",
+    "designation": "Software Developer",
+    "review": "Enhance your knowledge with valuable information & insights to navigate stock market dynamics. At Motilal Oswal, we are building a community of stock-literate individuals through blogs that cover topics such as investor learning, & understanding behavioural biases to help limit loses. Whether a seasoned investor or just starting out, our blogs provide actionable information, tips, & strategies to make informed investment decisions. Help us build a vibrant community of informed investors!",
+    "ratingCount": 3,
+    "priority": 3,
+    "profileImagePath": "https://uattrade.motilaloswaluat.com/images/stratx/Testimonial3.png",
+    "address": "<redacted>",
+    "country": "India",
+    "state": "MH"
+   }
+  ],
+  "upcomingWebinars": [
+   {
+    "title": "Monthly Wrap Up",
+    "description": "Monthly Wrap Up",
+    "videoUrl": "https://shorturl.at/3eJBU",
+    "id": 2,
+    "host": "Prathvik Shetty",
+    "eventDateTime": "28-06-2025, 04:00 PM",
+    "productType": "New Product",
+    "iconImage": "https://stratx.motilaloswal.com/Monthly_Wrap_Up_Template.png"
+   },
+   {
+    "title": "What's New On STRATX",
+    "description": "What's New On STRATX",
+    "videoUrl": "https://shorturl.at/3eJBU",
+    "id": 3,
+    "host": "Prathvik Shetty",
+    "eventDateTime": "07-07-2025, 04:00 PM",
+    "productType": "New Product",
+    "iconImage": "https://stratx.motilaloswal.com/Monthly_Wrap_Up_Template.png"
+   },
+   {
+    "title": "Monthly Wrap Up",
+    "description": "Monthly Wrap Up",
+    "videoUrl": "https://shorturl.at/3eJBU",
+    "id": 4,
+    "host": "Prathvik Shetty",
+    "eventDateTime": "15-07-2025, 04:00 PM",
+    "productType": "New Product",
+    "iconImage": "https://stratx.motilaloswal.com/Monthly_Wrap_Up_Template.png"
+   }
+  ],
+  "faq": {
+   "faqList": [
+    {
+     "faqId": 1,
+     "question": "What is Automated Trading?",
+     "answer": "Automated trading is a method of determining the execution, entry, or exit of a financial transaction without human interaction. It is characterized by high speed and can be applied to both manual and automated trading strategies using Automated trading software."
+    },
+    {
+     "faqId": 2,
+     "question": "How does Automated trading work?",
+     "answer": "Automated trading works by using predefined rules and criteria to automatically execute trades based on various factors such as price movements, market indicators, and other quantitative data. These rules are implemented in computer programs that analyse market data and generate buy or sell signals."
+    },
+    {
+     "faqId": 3,
+     "question": "What are the advantages of Automated trading?",
+     "answer": "Some advantages of Automated trading include increased speed of trade execution, no manual intervention required after setup, the ability to execute trades at optimal prices, reduced emotional bias, improved risk management, and the ability to backtest and optimize trading strategies."
+    },
+    {
+     "faqId": 4,
+     "question": "What is StratX?",
+     "answer": "StratX an effective and powerful way to automate your trading.  It’s an innovative solution built for ambitious individuals by seasoned professionals. Our Automated Trading platform is meticulously designed to cater to the needs of ambitious individuals with its offerings of Premium Automateds (Curated from industry experts) & Custom Automateds with tons of features with Entry & Exit parameters\r\nCreate – Analyse - Backtest – Trade."
+    },
+    {
+     "faqId": 5,
+     "question": "What does StratX Automated Trading Offer?",
+     "answer": "StratX offers a Market Place where client has a option to select from Premium Automateds (Curated from industry experts) and Custom Automateds where user can create their own strategies, with our no-code easy-to-use order form, equipped with Robust risk management & tons of features such as Pre-made strategy templates, payoff graph, options chain, Entry & Exit parameters and a lot more."
+    },
+    {
+     "faqId": 6,
+     "question": "Do I need to know coding or programming to start with Automated Trading?",
+     "answer": "No, you don’t need coding or programming knowledge to start Automated Trading. StratX is a no code Automated trading platform."
+    },
+    {
+     "faqId": 7,
+     "question": "Can I deploy my custom Python code on StratX?",
+     "answer": "No, you can’t deploy your custom python code on StratX. But, you have flexibility to create a customized strategy that incorporates multiple buying and selling parameters, such as time and indicators, effortlessly."
+    },
+    {
+     "faqId": 8,
+     "question": "What is the subscription cost of the premium strategies on StratX?",
+     "answer": "Currently there is no subscription cost for Premium Strategies on StratX."
+    },
+    {
+     "faqId": 9,
+     "question": "How quickly can I start Automated Trading using Automateds?",
+     "answer": "You can sign up and open trading account with Motilal Oswal financial services and get started instantly and trade in the live markets."
+    },
+    {
+     "faqId": 10,
+     "question": "If I pause an active strategy what will happen to my open positions in that strategy?",
+     "answer": "Premium Strategy can be paused but the changes will take impact from next trading day and the open positions need to be handled by client or in case of Intraday order system will exit the open positions."
+    },
+    {
+     "faqId": 11,
+     "question": "Can I upgrade/downgrade my subscription plan of any premium strategy?",
+     "answer": "Yes, you can anytime go and modify the multiplier, i.e. change your investment amount in a strategy. The change will take place on the next trading day."
+    },
+    {
+     "faqId": 12,
+     "question": "How can I withdraw my invested funds from an active strategy?",
+     "answer": "You can withdraw your invested funds only after unsubscribing the strategy. Once you unsubscribe your strategy, the funds will be released on EOD post settlement and then you can withdraw."
+    },
+    {
+     "faqId": 15,
+     "question": "Can I see each and every transaction made in a Strategy?",
+     "answer": "Yes every transaction made in a strategy is present in the orders tab, where you can also download a report in the format of csv."
+    },
+    {
+     "faqId": 13,
+     "question": "Where can I see my Strategy/ Strategies Summary?",
+     "answer": "Strategy Summary can be seen from Dashboard. Where consolidated summary for all active strategies with overall gains/losses, open positions, total trades etc can be seen. Also the dashboard provides summary for independent strategies."
+    },
+    {
+     "faqId": 14,
+     "question": "Can I partially withdraw my invested funds from an active strategy?",
+     "answer": "No, you cannot partially withdraw your invested funds from an active strategy. However, in case you decide to decrease multiplier of an active strategy, your blocked margin will be reduced and balance will be released on EOD."
+    }
+   ]
+  },
+  "strategyCategoryName": [
+   "Preapproved",
+   "Premium",
+   "Research Automated",
+   "U-Trade MO"
+  ],
+  "segmentDetails": {
+   "clientCode": "<redacted>",
+   "nservactive": true,
+   "bsedrvactive": true,
+   "mcxcommactive": true
+  }
+ }
+}

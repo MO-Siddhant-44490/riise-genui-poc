@@ -1,0 +1,87 @@
+{
+ "endpoint": "/news/api/News/GetNewsDetailsbyCategory",
+ "method": "POST",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "NewsByCategoryDataModel",
+ "source_flow": "debug_dump",
+ "response": {
+  "status": true,
+  "data": {
+   "count": 1497,
+   "category": "Commodities",
+   "lstNewsbyCategory": [
+    {
+     "id": 34916,
+     "symbol": "",
+     "created_at": "2026-10-22T21:54:03",
+     "category": "Commodities",
+     "title": "India allows import of 6,500 tonnes of silver amid sluggish demand",
+     "slug": "india-allows-import-of-6500-tonnes-of-silver-amid-sluggish-demand",
+     "banner_link": "https://cdn.flipitnews.com/img/flips/2e0fb5cca04fb688c1158187c593856a.webp",
+     "share_asset_link": "https://cdn.flipitnews.com/img/flips/share/btv7zzBipiVqKu3V4sacyDmBNuenJ5Ex.jpeg",
+     "url": "https://flipitnews.com/flips/india-allows-import-of-6500-tonnes-of-silver-amid-sluggish-demand",
+     "content": "India has issued permits to import around 6,500 metric tons of silver over the next six months to meet festive-season demand, despite recent import restrictions and increased duties from 6% to 15%. The move is expected to lower domestic silver premiums, which dropped to 45 cents per ounce, while overall demand remains subdued.",
+     "source_link": "",
+     "sourcename": "Flipitmoney",
+     "updated_at": "2026-10-22T22:00:03",
+     "stockdetails": [],
+     "deeplink": "https://moriseapp.onelink.me/VgB3/flashNewsDetails?newsId=34916&newsCategory=Commodities"
+    },
+    {
+     "id": 34883,
+     "symbol": "",
+     "created_at": "2026-08-31T09:24:02",
+     "category": "Commodities",
+     "title": "Gold steady after 3% fall sparked by Warsh's hawkish comments",
+     "slug": "gold-steady-after-3-fall-sparked-by-warshs-hawkish-comments",
+     "banner_link": "https://cdn.flipitnews.com/img/flips/9118ca981fcd362cf94cfe79b7724cac.webp",
+     "share_asset_link": "https://cdn.flipitnews.com/img/flips/share/bpa6jpTtfULmZDravsiocF8O7JWuU4YL.jpeg",
+     "url": "https://flipitnews.com/flips/gold-steady-after-3-fall-sparked-by-warshs-hawkish-comments",
+     "content": "Gold prices were steady at $4,455.29 per ounce after a more than 3% drop, following Fed Chair Kevin Warsh’s signal that the interest rate hikes may be needed to control inflation. Market odds of a September rate hike rose to 57%. Silver held at $66.34, platinum at $1,822.46, and palladium at $1,424.89.",
+     "source_link": "",
+     "sourcename": "Flipitmoney",
+     "updated_at": "2026-08-31T09:25:11",
+     "stockdetails": [],
+     "deeplink": "https://moriseapp.onelink.me/VgB3/flashNewsDetails?newsId=34883&newsCategory=Commodities"
+    },
+    {
+     "id": 34850,
+     "symbol": "KALYANKJIL,TITAN",
+     "created_at": "2026-05-13T10:46:02",
+     "category": "Commodities",
+     "title": "Indian jewellery stocks drop up to 4% amid gold, silver import changes",
+     "slug": "indian-jewellery-stocks-drop-up-to-4-amid-gold-silver-import-changes",
+     "banner_link": "https://cdn.flipitnews.com/img/flips/8b1b18250a9099c63163987eca44329d.webp",
+     "share_asset_link": "https://cdn.flipitnews.com/img/flips/share/R9pfOhvvmZFGNOh6udYDWyNZPxHv48wb.jpeg",
+     "url": "https://flipitnews.com/flips/indian-jewellery-stocks-drop-up-to-4-amid-gold-silver-import-changes",
+     "content": "The Centre increased import duty on gold, silver, and other precious metals by 10% to 15%. This move makes precious metal imports costlier, weighing on sector sentiment. Kalyan Jewellers declined 4.33%, while Titan Company slipped 0.43%. Domestic bullion prices surged, with gold prices on MCX hitting a 6% upper circuit at Rs 1.62 lakh per 10 grams, and silver prices at Rs 2.95 lakh per kg.",
+     "source_link": "",
+     "sourcename": "Flipitmoney",
+     "updated_at": "2026-05-13T10:47:04",
+     "stockdetails": [],
+     "deeplink": "https://moriseapp.onelink.me/VgB3/flashNewsDetails?newsId=34850&newsCategory=Commodities"
+    },
+    {
+     "id": 34817,
+     "symbol": "",
+     "created_at": "2026-04-24T10:31:02",
+     "category": "Commodities",
+     "title": "Oil surge, Iran war fears drive up gold, silver prices sharply",
+     "slug": "oil-surge-iran-war-fears-drive-up-gold-silver-prices-sharply",
+     "banner_link": "https://cdn.flipitnews.com/img/flips/ffc51691f8bb7a974fdbd1067253da71.webp",
+     "share_asset_link": "https://cdn.flipitnews.com/img/flips/share/gcRv7YpollIfn6g0ARsoxyeFcKhwMH9n.jpeg",
+     "url": "https://flipitnews.com/flips/oil-surge-iran-war-fears-drive-up-gold-silver-prices-sharply",
+     "content": "Gold and silver prices opened sharply lower on the Multi-Commodity Exchange of India on Friday. MCX silver futures fell 1% to Rs 2,39,200 per kg, while gold futures declined 0.4% to Rs 1,51,159 per 10 grams, due to surging oil prices and escalating tensions in the Strait of Hormuz. Globally, spot gold edged up 0.1% to $4,697 per ounce, despite a weekly decline.",
+     "source_link": "",
+     "sourcename": "Flipitmoney",
+     "updated_at": "2026-04-24T10:32:11",
+     "stockdetails": [],
+     "deeplink": "https://moriseapp.onelink.me/VgB3/flashNewsDetails?newsId=34817&newsCategory=Commodities"
+    }
+   ]
+  },
+  "message": "success",
+  "statusCode": "200"
+ }
+}

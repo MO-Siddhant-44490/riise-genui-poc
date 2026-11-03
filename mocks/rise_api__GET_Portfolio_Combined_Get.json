@@ -1,0 +1,237 @@
+{
+ "endpoint": "/wms/v2/api/Portfolio/Combined/Get",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "PortfolioCombinedDashboardResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "summary": {
+   "investedValue": "8117775",
+   "currentValue": "7844807",
+   "daysChange": "-129242",
+   "daysChangePer": -162,
+   "overallChange": "-272968",
+   "overallChangePer": -336,
+   "netWorth": "7844807"
+  },
+  "moAssets": {
+   "equity": {
+    "name": "Stocks",
+    "investedValue": "658328",
+    "marketValue": "188563",
+    "daysChange": "-6299",
+    "overallChange": "-469765",
+    "deepLinkUrl": "mosl://superapp.com/portfolio?ptab=Motilal%20Oswal&stab=Stocks",
+    "iconUrl": "img/c2a482fe9789.svg",
+    "dayScrip": [
+     {
+      "type": "Loser",
+      "scripId": {
+       "scripCode": 532648,
+       "exchange": "BSE"
+      },
+      "tradeSymbol": "Yes Bank Ltd",
+      "logoUrl": "img/f0760a67bb57.png",
+      "dayPnl": "-6300",
+      "isin": "INE528G01035",
+      "dayPnlPerc": -323
+     },
+     {
+      "type": "Gainer",
+      "scripId": {
+       "scripCode": 532712,
+       "exchange": "BSE"
+      },
+      "tradeSymbol": "Reliance Communications Ltd",
+      "logoUrl": "img/02a8dfd511e7.png",
+      "dayPnl": "1",
+      "isin": "INE330H01018",
+      "dayPnlPerc": 98
+     }
+    ]
+   },
+   "mf": {
+    "name": "Mutual Funds",
+    "investedValue": "1859730",
+    "marketValue": "1546286",
+    "daysChange": "-52034",
+    "overallChange": "-313444",
+    "deepLinkUrl": "mosl://superapp.com/portfolio?ptab=Motilal%20Oswal&stab=Mutual%20Funds",
+    "lastUpdatedTime": "1793601967685",
+    "iconUrl": "img/14a41e0ef7bf.svg",
+    "dayScrip": [
+     {
+      "type": "Loser",
+      "tradeSymbol": "HDFC Silver ETF FoF Reg-G",
+      "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+      "dayPnl": "-46367",
+      "isin": "INF179KC1DV5",
+      "dayPnlPerc": -381
+     },
+     {
+      "type": "Gainer",
+      "tradeSymbol": "Navi Flexi Cap Reg-G",
+      "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8927-navi-2__BASE__.png",
+      "isin": "INF959L01EE9"
+     }
+    ]
+   },
+   "nonTradable": {
+    "investedValue": "851119",
+    "marketValue": "851119",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/Assets/nontradable.svg"
+   }
+  },
+  "externalAssets": {
+   "mf": {
+    "name": "Mutual Funds",
+    "investedValue": "5599717",
+    "marketValue": "6109958",
+    "daysChange": "-70909",
+    "overallChange": "510241",
+    "deepLinkUrl": "mosl://superapp.com/portfolio?ptab=External&stab=Mutual%20Funds",
+    "lastUpdatedTime": "1769040000",
+    "iconUrl": "img/14a41e0ef7bf.svg",
+    "dayScrip": [
+     {
+      "type": "Loser",
+      "tradeSymbol": "Motilal Oswal Nifty India Defence Index Fund",
+      "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/pwm/mutualfund/INF247L01CW5.png",
+      "dayPnl": "-35845",
+      "isin": "INF247L01CW5",
+      "dayPnlPerc": -201
+     },
+     {
+      "type": "Gainer",
+      "tradeSymbol": "Motilal Oswal Flexi Cap Fund",
+      "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/pwm/mutualfund/INF247L01502.png",
+      "dayPnl": "-35064",
+      "isin": "INF247L01502",
+      "dayPnlPerc": -79
+     }
+    ]
+   }
+  },
+  "moTopHoldings": {
+   "scrips": [
+    {
+     "id": {
+      "scripCode": 532648,
+      "exchange": "BSE"
+     },
+     "qty": 90,
+     "values": {
+      "invested": "657662",
+      "prevDay": "194760",
+      "market": "188460"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 532712,
+      "exchange": "BSE"
+     },
+     "qty": 1,
+     "values": {
+      "invested": "666",
+      "prevDay": "102",
+      "market": "103"
+     }
+    }
+   ],
+   "total": {
+    "invested": "658328",
+    "prevDay": "194862",
+    "market": "188563"
+   },
+   "remaining": {}
+  },
+  "otherAssetsSummary": {
+   "mtfBorrowing": {
+    "assetName": "MTF Borrowing",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/mtf.svg"
+   },
+   "dividendEarned": {
+    "assetName": "Dividend Earned",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/dividend.svg"
+   }
+  },
+  "tools": [
+   {
+    "title": "Margin Pledge",
+    "deeplink": "mosl://superapp.com/marginPledge",
+    "iconLight": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/pledge.svg",
+    "iconDark": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/pledge.svg"
+   },
+   {
+    "title": "Authorised Sell",
+    "deeplink": "mosl://superapp.com/authoriseSell",
+    "iconLight": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/authorised_sell.svg",
+    "iconDark": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/authorised_sell.svg"
+   },
+   {
+    "title": "Stock SIP",
+    "deeplink": "mosl://superapp.com/researchProduct/stockSip",
+    "iconLight": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/sip.svg",
+    "iconDark": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/sip.svg"
+   },
+   {
+    "title": "Goal Calculator",
+    "deeplink": "mosl://superapp.com/goalbasedcal",
+    "iconLight": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/goal_calculator.svg",
+    "iconDark": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/goal_calculator.svg"
+   },
+   {
+    "title": "P&L Summary",
+    "deeplink": "mosl://superapp.com/pnlSummaryPage",
+    "iconLight": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/pnl_summary.svg",
+    "iconDark": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/pnl_summary.svg"
+   }
+  ],
+  "uninvestedAssets": [
+   {
+    "assetName": "Bonds",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/Assets/bonds.svg",
+    "isEnabled": true,
+    "deeplink": "mosl://superapp.com/bonds"
+   },
+   {
+    "assetName": "US Stocks",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/Assets/usstocks.svg",
+    "isEnabled": true,
+    "deeplink": "mosl://superapp.com/stockLandingPage"
+   },
+   {
+    "assetName": "PMS",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/Assets/pms.svg",
+    "isEnabled": true,
+    "deeplink": "mosl://superapp.com/pmsLandingPage"
+   },
+   {
+    "assetName": "AIF",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/Assets/aif.svg",
+    "isEnabled": true,
+    "deeplink": "mosl://superapp.com/aifLandingPage"
+   },
+   {
+    "assetName": "BTX",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/Assets/btx.svg",
+    "isEnabled": true,
+    "deeplink": "mosl://superapp.com/stockBasket"
+   },
+   {
+    "assetName": "IAP/IMP",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/Assets/iap.svg",
+    "isEnabled": true,
+    "deeplink": "mosl://superapp.com/iap"
+   },
+   {
+    "assetName": "Ledger",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/PortfolioRevamp/Light/Assets/ledger.svg",
+    "isEnabled": true,
+    "deeplink": "mosl://superapp.com/fundscreenamount"
+   }
+  ]
+ }
+}

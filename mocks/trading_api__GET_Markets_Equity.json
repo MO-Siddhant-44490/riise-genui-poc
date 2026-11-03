@@ -1,0 +1,718 @@
+{
+ "endpoint": "/TradingApiV2/api/Markets/Equity",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "MarketEquityResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "scrips": [
+   {
+    "tradeSymbol": "LAURUSLABS",
+    "scripId": {
+     "scripCode": 19234
+    },
+    "tick": {
+     "ltp": 2405.5,
+     "change": 161.5,
+     "perChange": 7.199999809265137
+    },
+    "info": {
+     "volume": 7913297,
+     "value": 18560401408,
+     "mtfPercent": 30
+    },
+    "stockInfo": {
+     "tradeSymbol": "LAURUSLABS",
+     "fullName": "Laurus Labs Ltd",
+     "logoUrl": "img/4ad9769279fe.png",
+     "marketCap": "SmallCap",
+     "sector": "Pharmaceuticals",
+     "returns": {
+      "oneWeek": 337,
+      "oneMonth": -948,
+      "threeMonth": 387,
+      "sixMonth": -334,
+      "ytd": -1068,
+      "oneYear": 1583,
+      "twoYear": -2683,
+      "threeYear": 1318,
+      "fiveYear": 45210
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "TRENT",
+    "scripId": {
+     "scripCode": 1964
+    },
+    "tick": {
+     "ltp": 3017.300048828125,
+     "change": 155.60000610351562,
+     "perChange": 5.440000057220459
+    },
+    "info": {
+     "volume": 4431514,
+     "value": 13436527616,
+     "mtfPercent": 32.35
+    },
+    "stockInfo": {
+     "tradeSymbol": "TRENT",
+     "fullName": "Trent Ltd",
+     "logoUrl": "img/f854c8351736.png",
+     "sector": "Retail",
+     "returns": {
+      "oneWeek": -675,
+      "oneMonth": -125,
+      "threeMonth": 3555,
+      "sixMonth": 7914,
+      "ytd": 83,
+      "oneYear": 14609,
+      "twoYear": 18818,
+      "threeYear": 33971,
+      "fiveYear": 74146,
+      "tenYear": 273627
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "ZYDUSLIFE",
+    "scripId": {
+     "scripCode": 7929
+    },
+    "tick": {
+     "ltp": 1245.5,
+     "change": 61.099998474121094,
+     "perChange": 5.159999847412109
+    },
+    "info": {
+     "volume": 3660709,
+     "value": 4517241856,
+     "mtfPercent": 27.34
+    },
+    "stockInfo": {
+     "tradeSymbol": "ZYDUSLIFE",
+     "fullName": "Zydus Lifesciences Ltd",
+     "logoUrl": "img/6a7fb9cfab85.png",
+     "sector": "Pharmaceuticals",
+     "returns": {
+      "oneWeek": 166,
+      "oneMonth": 653,
+      "threeMonth": 3010,
+      "sixMonth": 1613,
+      "ytd": 883,
+      "oneYear": 6184,
+      "twoYear": 9149,
+      "threeYear": 6011,
+      "fiveYear": 14167,
+      "tenYear": 34785
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "NAVINFLUOR",
+    "scripId": {
+     "scripCode": 14672
+    },
+    "tick": {
+     "ltp": 8680,
+     "change": 419.5,
+     "perChange": 5.079999923706055
+    },
+    "info": {
+     "volume": 389821,
+     "value": 3333519104,
+     "mtfPercent": 31.13
+    },
+    "stockInfo": {
+     "tradeSymbol": "NAVINFLUOR",
+     "fullName": "Navin Fluorine International Ltd",
+     "logoUrl": "img/eb4e1908358e.png",
+     "marketCap": "SmallCap",
+     "sector": "Chemicals",
+     "returns": {
+      "oneWeek": -268,
+      "oneMonth": -1537,
+      "threeMonth": -1103,
+      "sixMonth": -2655,
+      "ytd": -1613,
+      "oneYear": -2134,
+      "twoYear": -1979,
+      "threeYear": 2832,
+      "fiveYear": 42802,
+      "tenYear": 601791
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "POONAWALLA",
+    "scripId": {
+     "scripCode": 11403
+    },
+    "tick": {
+     "ltp": 461.70001220703125,
+     "change": 20.200000762939453,
+     "perChange": 4.579999923706055
+    },
+    "info": {
+     "volume": 13126605,
+     "value": 5959872512,
+     "mtfPercent": 32.5
+    },
+    "stockInfo": {
+     "tradeSymbol": "POONAWALLA",
+     "fullName": "Poonawalla Fincorp Ltd",
+     "logoUrl": "img/c77d60f97d09.png",
+     "marketCap": "MidCap",
+     "sector": "Finance",
+     "returns": {
+      "oneWeek": -58,
+      "oneMonth": 462,
+      "threeMonth": 3735,
+      "sixMonth": 1033,
+      "ytd": 961,
+      "oneYear": 6439,
+      "twoYear": 9108,
+      "threeYear": 71858,
+      "fiveYear": 38667,
+      "tenYear": 64032
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "INDIGO",
+    "scripId": {
+     "scripCode": 11195
+    },
+    "tick": {
+     "ltp": 4877.60009765625,
+     "change": 202.60000610351562,
+     "perChange": 4.329999923706055
+    },
+    "info": {
+     "volume": 1647772,
+     "value": 7944139264,
+     "mtfPercent": 30.44
+    },
+    "stockInfo": {
+     "tradeSymbol": "INDIGO",
+     "fullName": "Interglobe Aviation Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/InterglobeAviat_28069694232_33159.png",
+     "sector": "Air Transport Service",
+     "returns": {
+      "oneWeek": 950,
+      "oneMonth": 732,
+      "threeMonth": 2391,
+      "sixMonth": 2542,
+      "ytd": 647,
+      "oneYear": 5308,
+      "twoYear": 4613,
+      "threeYear": 8866,
+      "fiveYear": 17002
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "WIPRO",
+    "scripId": {
+     "scripCode": 3787
+    },
+    "tick": {
+     "ltp": 198.30999755859375,
+     "change": 8.210000038146973,
+     "perChange": 4.320000171661377
+    },
+    "info": {
+     "volume": 28869751,
+     "value": 5652408320,
+     "mtfPercent": 27.58
+    },
+    "stockInfo": {
+     "tradeSymbol": "WIPRO",
+     "fullName": "Wipro Ltd",
+     "logoUrl": "img/10fd37bba474.png",
+     "sector": "IT - Software",
+     "returns": {
+      "oneWeek": 198,
+      "oneMonth": 564,
+      "threeMonth": 2540,
+      "sixMonth": 1732,
+      "ytd": 109,
+      "oneYear": 1920,
+      "twoYear": -1340,
+      "threeYear": 1335,
+      "fiveYear": 7455,
+      "tenYear": 12953
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "COFORGE",
+    "scripId": {
+     "scripCode": 11543
+    },
+    "tick": {
+     "ltp": 2045,
+     "change": 83,
+     "perChange": 4.230000019073486
+    },
+    "info": {
+     "volume": 6125295,
+     "value": 12487700480,
+     "mtfPercent": 33.05
+    },
+    "stockInfo": {
+     "tradeSymbol": "COFORGE",
+     "fullName": "Coforge Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/CoforgeLtd_47640546_24978.png",
+     "marketCap": "MidCap",
+     "sector": "IT - Software",
+     "returns": {
+      "oneWeek": 178,
+      "oneMonth": 477,
+      "threeMonth": 2446,
+      "sixMonth": 2880,
+      "ytd": 281,
+      "oneYear": 4744,
+      "twoYear": 3665,
+      "threeYear": 15479,
+      "fiveYear": 38135,
+      "tenYear": 152034
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "INDIACEM",
+    "scripId": {
+     "scripCode": 1515
+    },
+    "tick": {
+     "ltp": 312.1000061035156,
+     "change": 11.850000381469727,
+     "perChange": 3.950000047683716
+    },
+    "info": {
+     "volume": 2236463,
+     "value": 691424896,
+     "mtfPercent": 31.13
+    },
+    "stockInfo": {
+     "tradeSymbol": "INDIACEM",
+     "fullName": "India Cements Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/IndiaCements_<redacted>_270.png",
+     "marketCap": "SmallCap",
+     "sector": "Cement",
+     "returns": {
+      "oneWeek": -948,
+      "oneMonth": -1190,
+      "threeMonth": 874,
+      "sixMonth": 839,
+      "ytd": -1051,
+      "oneYear": 2412,
+      "twoYear": 555,
+      "threeYear": 3648,
+      "fiveYear": 19620,
+      "tenYear": 35058
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "TEAMLEASE",
+    "scripId": {
+     "scripCode": 12716
+    },
+    "tick": {
+     "ltp": 1080.4000244140625,
+     "change": 40.79999923706055,
+     "perChange": 3.9200000762939453
+    },
+    "info": {
+     "volume": 29958,
+     "value": 32188672,
+     "mtfPercent": 28.44
+    },
+    "stockInfo": {
+     "tradeSymbol": "TEAMLEASE",
+     "fullName": "Team Lease Services Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/TeamLeaseServ_51614750130_24915.png",
+     "marketCap": "SmallCap",
+     "sector": "Miscellaneous",
+     "returns": {
+      "oneWeek": -53,
+      "oneMonth": -974,
+      "threeMonth": 2430,
+      "sixMonth": 2241,
+      "ytd": -956,
+      "oneYear": 2380,
+      "twoYear": -3328,
+      "threeYear": -903,
+      "fiveYear": 740
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "PPLPHARMA",
+    "scripId": {
+     "scripCode": 11571
+    },
+    "tick": {
+     "ltp": 238.91000366210938,
+     "change": 8.130000114440918,
+     "perChange": 3.5199999809265137
+    },
+    "info": {
+     "volume": 26855814,
+     "value": 6342806016,
+     "mtfPercent": 32.13
+    },
+    "stockInfo": {
+     "tradeSymbol": "PPLPHARMA",
+     "fullName": "Piramal Pharma Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/PiramalPharmaLtd_79555676_76066.png",
+     "marketCap": "SmallCap",
+     "sector": "Pharmaceuticals",
+     "returns": {
+      "oneWeek": -179,
+      "oneMonth": -363,
+      "threeMonth": 2862,
+      "sixMonth": 3735,
+      "ytd": 72,
+      "oneYear": 4247
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "INFY",
+    "scripId": {
+     "scripCode": 1594
+    },
+    "tick": {
+     "ltp": 1185,
+     "change": 38.5,
+     "perChange": 3.359999895095825
+    },
+    "info": {
+     "volume": 13030713,
+     "value": 15307960320,
+     "mtfPercent": 29.32
+    },
+    "stockInfo": {
+     "tradeSymbol": "INFY",
+     "fullName": "Infosys Ltd",
+     "logoUrl": "img/3d3c8eef00e6.png",
+     "sector": "IT - Software",
+     "returns": {
+      "oneWeek": 185,
+      "oneMonth": 1009,
+      "threeMonth": 2023,
+      "sixMonth": 2112,
+      "ytd": 876,
+      "oneYear": 748,
+      "twoYear": -162,
+      "threeYear": 3263,
+      "fiveYear": 12351,
+      "tenYear": 27689
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "WELSPUNLIV",
+    "scripId": {
+     "scripCode": 11253
+    },
+    "tick": {
+     "ltp": 219.0800018310547,
+     "change": 6.909999847412109,
+     "perChange": 3.259999990463257
+    },
+    "info": {
+     "volume": 27968274,
+     "value": 6153859584,
+     "mtfPercent": 35.63
+    },
+    "stockInfo": {
+     "tradeSymbol": "WELSPUNLIV",
+     "fullName": "Welspun Living Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/WelspunIndia_79459474600_2227.png",
+     "marketCap": "SmallCap",
+     "sector": "Textiles",
+     "returns": {
+      "oneWeek": 157,
+      "oneMonth": 86,
+      "threeMonth": 287,
+      "sixMonth": 3284,
+      "ytd": 457,
+      "oneYear": 11527,
+      "twoYear": 2342,
+      "threeYear": 12104,
+      "fiveYear": 17466,
+      "tenYear": 157731
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "ABCAPITAL",
+    "scripId": {
+     "scripCode": 21614
+    },
+    "tick": {
+     "ltp": 369.45001220703125,
+     "change": 11.100000381469727,
+     "perChange": 3.0999999046325684
+    },
+    "info": {
+     "volume": 8842364,
+     "value": 3261417472,
+     "mtfPercent": 30.71
+    },
+    "stockInfo": {
+     "tradeSymbol": "ABCAPITAL",
+     "fullName": "Aditya Birla Capital Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/AdityaBirlaCapitalLtd_956643460_40903.png",
+     "marketCap": "MidCap",
+     "sector": "Finance",
+     "returns": {
+      "oneWeek": 588,
+      "oneMonth": 177,
+      "threeMonth": 421,
+      "sixMonth": -396,
+      "ytd": 732,
+      "oneYear": 2226,
+      "twoYear": 4807,
+      "threeYear": 9767,
+      "fiveYear": 11772
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "APOLLOHOSP",
+    "scripId": {
+     "scripCode": 157
+    },
+    "tick": {
+     "ltp": 8448,
+     "change": 248,
+     "perChange": 3.0199999809265137
+    },
+    "info": {
+     "volume": 372156,
+     "value": 3093271296,
+     "mtfPercent": 26.5
+    },
+    "stockInfo": {
+     "tradeSymbol": "APOLLOHOSP",
+     "fullName": "Apollo Hospitals Enterprise Ltd",
+     "logoUrl": "img/7a38aa65cba1.png",
+     "sector": "Healthcare",
+     "returns": {
+      "oneWeek": -150,
+      "oneMonth": 835,
+      "threeMonth": 2071,
+      "sixMonth": 2433,
+      "ytd": 843,
+      "oneYear": 4429,
+      "twoYear": 3931,
+      "threeYear": 12765,
+      "fiveYear": 38298,
+      "tenYear": 56665
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "KPRMILL",
+    "scripId": {
+     "scripCode": 14912
+    },
+    "tick": {
+     "ltp": 1114.5999755859375,
+     "change": 31.899999618530273,
+     "perChange": 2.950000047683716
+    },
+    "info": {
+     "volume": 1001131,
+     "value": 1109543424,
+     "mtfPercent": 33.63
+    },
+    "stockInfo": {
+     "tradeSymbol": "KPRMILL",
+     "fullName": "K P R Mill Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/KPRMillLtd_54061287020_28009.png",
+     "marketCap": "SmallCap",
+     "sector": "Readymade Garments/ Apparells",
+     "returns": {
+      "oneWeek": 418,
+      "oneMonth": 263,
+      "threeMonth": -176,
+      "sixMonth": 2237,
+      "ytd": -362,
+      "oneYear": 4640,
+      "twoYear": 1300,
+      "threeYear": 32419,
+      "fiveYear": 64221,
+      "tenYear": 603098
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "DEEPAKNTR",
+    "scripId": {
+     "scripCode": 19943
+    },
+    "tick": {
+     "ltp": 1519.4000244140625,
+     "change": 43,
+     "perChange": 2.9100000858306885
+    },
+    "info": {
+     "volume": 4806470,
+     "value": 7415470080,
+     "mtfPercent": 29.56
+    },
+    "stockInfo": {
+     "tradeSymbol": "DEEPAKNTR",
+     "fullName": "Deepak Nitrite Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/DeepakNitrite_13794654982_136.png",
+     "marketCap": "MidCap",
+     "sector": "Chemicals",
+     "returns": {
+      "oneWeek": -125,
+      "oneMonth": -964,
+      "threeMonth": 345,
+      "sixMonth": 808,
+      "ytd": -1058,
+      "oneYear": 2181,
+      "twoYear": -584,
+      "threeYear": 11844,
+      "fiveYear": 89396,
+      "tenYear": 715262
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "PERSISTENT",
+    "scripId": {
+     "scripCode": 18365
+    },
+    "tick": {
+     "ltp": 6048,
+     "change": 168,
+     "perChange": 2.859999895095825
+    },
+    "info": {
+     "volume": 1108361,
+     "value": 6653247488,
+     "mtfPercent": 31.67
+    },
+    "stockInfo": {
+     "tradeSymbol": "PERSISTENT",
+     "fullName": "Persistent Systems Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/PersistentSys_70071143_18286.png",
+     "marketCap": "MidCap",
+     "sector": "IT - Software",
+     "returns": {
+      "oneWeek": -97,
+      "oneMonth": 1636,
+      "threeMonth": 3695,
+      "sixMonth": 7520,
+      "ytd": 1689,
+      "oneYear": 7676,
+      "twoYear": 10208,
+      "threeYear": 40300,
+      "fiveYear": 122686,
+      "tenYear": 171086
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "PGHL",
+    "scripId": {
+     "scripCode": 940
+    },
+    "tick": {
+     "ltp": 5670.5,
+     "change": 157,
+     "perChange": 2.8499999046325684
+    },
+    "info": {
+     "volume": 13619,
+     "value": 76229080,
+     "mtfPercent": 27.45
+    },
+    "stockInfo": {
+     "tradeSymbol": "PGHL",
+     "fullName": "Procter & Gamble Health Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/Merck_27828837646_149.png",
+     "marketCap": "SmallCap",
+     "sector": "Pharmaceuticals",
+     "returns": {
+      "oneWeek": -74,
+      "oneMonth": 207,
+      "threeMonth": 79,
+      "sixMonth": -342,
+      "ytd": 344,
+      "oneYear": 923,
+      "twoYear": 175,
+      "threeYear": -2838,
+      "fiveYear": 5730,
+      "tenYear": 83401
+     }
+    },
+    "activityCount": {}
+   },
+   {
+    "tradeSymbol": "PIDILITIND",
+    "scripId": {
+     "scripCode": 2664
+    },
+    "tick": {
+     "ltp": 1461.5999755859375,
+     "change": 39.599998474121094,
+     "perChange": 2.7799999713897705
+    },
+    "info": {
+     "volume": 796221,
+     "value": 1147680896,
+     "mtfPercent": 26.5
+    },
+    "stockInfo": {
+     "tradeSymbol": "PIDILITIND",
+     "fullName": "Pidilite Industries Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/PidiliteInds_52533147491_3219.png",
+     "sector": "Chemicals",
+     "returns": {
+      "oneWeek": -59,
+      "oneMonth": -619,
+      "threeMonth": 495,
+      "sixMonth": -216,
+      "ytd": -531,
+      "oneYear": 947,
+      "twoYear": 487,
+      "threeYear": 4775,
+      "fiveYear": 12820,
+      "tenYear": 82594
+     }
+    },
+    "activityCount": {}
+   }
+  ],
+  "totalCount": 20
+ }
+}

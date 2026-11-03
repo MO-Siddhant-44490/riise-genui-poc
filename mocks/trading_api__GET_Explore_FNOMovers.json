@@ -1,0 +1,322 @@
+{
+ "endpoint": "/TradingApiV2/api/Explore/FNOMovers",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "FnoMoversDataV4",
+ "source_flow": "debug_dump",
+ "response": {
+  "index": [
+   {
+    "scrip": {
+     "scripCode": 53940,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "NIFTY",
+    "description": "NSE 03 Nov CE 23300",
+    "expiryFlag": "W",
+    "ltp": 4735,
+    "perChange": 9446,
+    "volume": 10075137,
+    "volumeChange": 19591,
+    "openInterest": 25164165,
+    "oiDifference": 18793840
+   },
+   {
+    "scrip": {
+     "scripCode": 53941,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "NIFTY",
+    "description": "NSE 03 Nov PE 23300",
+    "expiryFlag": "W",
+    "ltp": 14925,
+    "perChange": -5002,
+    "volume": 8403218,
+    "volumeChange": 424053,
+    "openInterest": 9666670,
+    "oiDifference": 9295195
+   },
+   {
+    "scrip": {
+     "scripCode": 53942,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "NIFTY",
+    "description": "NSE 03 Nov CE 23350",
+    "expiryFlag": "W",
+    "ltp": 3505,
+    "perChange": 10086,
+    "volume": 6741654,
+    "volumeChange": 26019,
+    "openInterest": 16047395,
+    "oiDifference": 12873055
+   },
+   {
+    "scrip": {
+     "scripCode": 54046,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "NIFTY",
+    "description": "NSE 03 Nov CE 23400",
+    "expiryFlag": "W",
+    "ltp": 2380,
+    "perChange": 9588,
+    "volume": 6554891,
+    "volumeChange": 15749,
+    "openInterest": 18040035,
+    "oiDifference": 8612890
+   },
+   {
+    "scrip": {
+     "scripCode": 53931,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "NIFTY",
+    "description": "NSE 03 Nov PE 23200",
+    "expiryFlag": "W",
+    "ltp": 8665,
+    "perChange": -6055,
+    "volume": 6417703,
+    "volumeChange": 79569,
+    "openInterest": 17405440,
+    "oiDifference": 16553225
+   }
+  ]
+ },
+ "variants": {
+  "type=options&screenType=most_active_contract&expiryDate=2026-11-03&instType=NIFTY&top=5": {
+   "index": [
+    {
+     "scrip": {
+      "scripCode": 53940,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov CE 23300",
+     "expiryFlag": "W",
+     "ltp": 4735,
+     "perChange": 9446,
+     "volume": 10075137,
+     "volumeChange": 19591,
+     "openInterest": 25164165,
+     "oiDifference": 18793840
+    },
+    {
+     "scrip": {
+      "scripCode": 53941,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov PE 23300",
+     "expiryFlag": "W",
+     "ltp": 14925,
+     "perChange": -5002,
+     "volume": 8403218,
+     "volumeChange": 424053,
+     "openInterest": 9666670,
+     "oiDifference": 9295195
+    },
+    {
+     "scrip": {
+      "scripCode": 53942,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov CE 23350",
+     "expiryFlag": "W",
+     "ltp": 3505,
+     "perChange": 10086,
+     "volume": 6741654,
+     "volumeChange": 26019,
+     "openInterest": 16047395,
+     "oiDifference": 12873055
+    },
+    {
+     "scrip": {
+      "scripCode": 54046,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov CE 23400",
+     "expiryFlag": "W",
+     "ltp": 2380,
+     "perChange": 9588,
+     "volume": 6554891,
+     "volumeChange": 15749,
+     "openInterest": 18040035,
+     "oiDifference": 8612890
+    },
+    {
+     "scrip": {
+      "scripCode": 53931,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov PE 23200",
+     "expiryFlag": "W",
+     "ltp": 8665,
+     "perChange": -6055,
+     "volume": 6417703,
+     "volumeChange": 79569,
+     "openInterest": 17405440,
+     "oiDifference": 16553225
+    }
+   ]
+  },
+  "type=options&screenType=most_active_contract&expiryDate=2026-11-03&instType=NIFTY": {
+   "index": [
+    {
+     "scrip": {
+      "scripCode": 53940,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov CE 23300",
+     "expiryFlag": "W",
+     "ltp": 4735,
+     "perChange": 9446,
+     "volume": 10075137,
+     "volumeChange": 19591,
+     "openInterest": 25164165,
+     "oiDifference": 18793840
+    },
+    {
+     "scrip": {
+      "scripCode": 53941,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov PE 23300",
+     "expiryFlag": "W",
+     "ltp": 14925,
+     "perChange": -5002,
+     "volume": 8403218,
+     "volumeChange": 424053,
+     "openInterest": 9666670,
+     "oiDifference": 9295195
+    },
+    {
+     "scrip": {
+      "scripCode": 53942,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov CE 23350",
+     "expiryFlag": "W",
+     "ltp": 3505,
+     "perChange": 10086,
+     "volume": 6741654,
+     "volumeChange": 26019,
+     "openInterest": 16047395,
+     "oiDifference": 12873055
+    },
+    {
+     "scrip": {
+      "scripCode": 54046,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov CE 23400",
+     "expiryFlag": "W",
+     "ltp": 2380,
+     "perChange": 9588,
+     "volume": 6554891,
+     "volumeChange": 15749,
+     "openInterest": 18040035,
+     "oiDifference": 8612890
+    },
+    {
+     "scrip": {
+      "scripCode": 53931,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov PE 23200",
+     "expiryFlag": "W",
+     "ltp": 8665,
+     "perChange": -6055,
+     "volume": 6417703,
+     "volumeChange": 79569,
+     "openInterest": 17405440,
+     "oiDifference": 16553225
+    },
+    {
+     "scrip": {
+      "scripCode": 54052,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov CE 23500",
+     "expiryFlag": "W",
+     "ltp": 1180,
+     "perChange": 7744,
+     "volume": 5930665,
+     "volumeChange": 13354,
+     "openInterest": 17233385,
+     "oiDifference": 4427605
+    },
+    {
+     "scrip": {
+      "scripCode": 53939,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov PE 23250",
+     "expiryFlag": "W",
+     "ltp": 11350,
+     "perChange": -5579,
+     "volume": 5496260,
+     "volumeChange": 421516,
+     "openInterest": 9614085,
+     "oiDifference": 9450610
+    },
+    {
+     "scrip": {
+      "scripCode": 53932,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov CE 23250",
+     "expiryFlag": "W",
+     "ltp": 6665,
+     "perChange": 9748,
+     "volume": 4701173,
+     "volumeChange": 8378,
+     "openInterest": 12633790,
+     "oiDifference": 9345440
+    },
+    {
+     "scrip": {
+      "scripCode": 53923,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov PE 23000",
+     "expiryFlag": "W",
+     "ltp": 2665,
+     "perChange": -7445,
+     "volume": 4015356,
+     "volumeChange": -4229,
+     "openInterest": 17071015,
+     "oiDifference": 7953790
+    },
+    {
+     "scrip": {
+      "scripCode": 53927,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "NIFTY",
+     "description": "NSE 03 Nov PE 23100",
+     "expiryFlag": "W",
+     "ltp": 4855,
+     "perChange": -6860,
+     "volume": 3670866,
+     "volumeChange": 2055,
+     "openInterest": 9827415,
+     "oiDifference": 7102095
+    }
+   ]
+  }
+ }
+}

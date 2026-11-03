@@ -1,0 +1,132 @@
+{
+ "endpoint": "/master/v2/api/MF/Basket/GetList",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "MfBasketListModel",
+ "source_flow": "debug_dump",
+ "response": {
+  "data": {
+   "Entry": [
+    {
+     "Id": 1,
+     "Name": "Secure Heaven",
+     "Logo": "img/061a74f590d1.svg",
+     "FundCount": 5,
+     "Description": "Designed to protect and preserve your wealth with minimal risk.",
+     "EquityPercentage": 8100,
+     "DebtPercentage": 1400,
+     "CashPercentage": 0,
+     "Risk": "Very Conservative",
+     "ThreeYearReturns": 564,
+     "FiveYearReturn": 0,
+     "IconUrl": [
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/339-edelweiss-1__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/319-invesco-3__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/218-kotak-4__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/339-edelweiss-1__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/298-bandhan-3__BASE__.png"
+     ],
+     "RiskLevel": "Low",
+     "MinSip": 2500
+    },
+    {
+     "Id": 2,
+     "Name": "Stable Growth",
+     "Logo": "img/2b207fd6bfcd.svg",
+     "FundCount": 7,
+     "Description": "For investors seeking steady growth with controlled risk.",
+     "EquityPercentage": 2100,
+     "DebtPercentage": 6300,
+     "CashPercentage": 1200,
+     "Risk": "Conservative",
+     "ThreeYearReturns": 394,
+     "FiveYearReturn": 0,
+     "IconUrl": [
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/218-kotak-4__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/298-bandhan-3__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/181-dsp-1__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/14-icici-prudential-2__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/319-invesco-3__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/339-edelweiss-1__BASE__.png"
+     ],
+     "RiskLevel": "Low",
+     "MinSip": 3400
+    },
+    {
+     "Id": 3,
+     "Name": "Balanced Basket",
+     "Logo": "img/bd385722a80c.svg",
+     "FundCount": 8,
+     "Description": "A well-balanced basket blending stability.",
+     "EquityPercentage": 4500,
+     "DebtPercentage": 3900,
+     "CashPercentage": 1100,
+     "Risk": "Moderate",
+     "ThreeYearReturns": 186,
+     "FiveYearReturn": 0,
+     "IconUrl": [
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/311-uti-1__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/14-icici-prudential-2__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/14-icici-prudential-2__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/319-invesco-3__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/319-invesco-3__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/218-kotak-4__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/9054-motilal-oswal-3__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/10157-ppfas-2__BASE__.png"
+     ],
+     "RiskLevel": "Medium",
+     "MinSip": 6700
+    },
+    {
+     "Id": 5,
+     "Name": "Defensive Edge",
+     "Logo": "img/73c525545540.svg",
+     "FundCount": 7,
+     "Description": "Ideal for investors who prioritize preservation while aiming for gradual wealth creation.",
+     "EquityPercentage": 0,
+     "DebtPercentage": 7600,
+     "CashPercentage": 2400,
+     "Risk": "Conservative",
+     "ThreeYearReturns": 89,
+     "FiveYearReturn": 0,
+     "IconUrl": [
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/14-icici-prudential-2__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/218-kotak-4__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/298-bandhan-3__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/14-icici-prudential-2__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/181-dsp-1__BASE__.png"
+     ],
+     "RiskLevel": "Low",
+     "MinSip": 2500
+    },
+    {
+     "Id": 4,
+     "Name": "Wealth Accelerator",
+     "Logo": "img/73c525545540.svg",
+     "FundCount": 6,
+     "Description": "Built for investors chasing high growth with higher conviction.",
+     "EquityPercentage": 9300,
+     "DebtPercentage": 200,
+     "CashPercentage": 200,
+     "Risk": "Aggressive",
+     "ThreeYearReturns": -99,
+     "FiveYearReturn": 8187,
+     "IconUrl": [
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/319-invesco-3__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/9054-motilal-oswal-3__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/311-uti-1__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/218-kotak-4__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/10157-ppfas-2__BASE__.png",
+      "https://www.valueresearchonline.com/content-assets/images/amc-logo/14-icici-prudential-2__BASE__.png"
+     ],
+     "RiskLevel": "High",
+     "MinSip": 5600
+    }
+   ]
+  }
+ }
+}

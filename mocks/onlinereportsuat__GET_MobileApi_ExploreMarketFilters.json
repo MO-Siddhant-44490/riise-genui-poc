@@ -1,0 +1,142 @@
+{
+ "endpoint": "/StratX_API/api/MobileApi/ExploreMarketFilters",
+ "method": "GET",
+ "host": "onlinereportsuat.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "ExploreFilterResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "filters": [
+   {
+    "filterName": "Strategies",
+    "filterType": "Checkbox",
+    "filterItems": [
+     {
+      "priority": -4,
+      "filterKey": " All Strategies",
+      "filterValue": "0",
+      "defaultSelected": true
+     },
+     {
+      "priority": -4,
+      "filterKey": "Favourite",
+      "filterValue": "1"
+     }
+    ]
+   },
+   {
+    "filterName": "Risk Type",
+    "filterType": "Checkbox",
+    "filterItems": [
+     {
+      "priority": -3,
+      "filterKey": "All Types",
+      "filterValue": "0",
+      "defaultSelected": true
+     },
+     {
+      "priority": 1,
+      "filterKey": "High",
+      "filterValue": "1"
+     },
+     {
+      "priority": 2,
+      "filterKey": "Medium",
+      "filterValue": "2"
+     },
+     {
+      "priority": 3,
+      "filterKey": "Low",
+      "filterValue": "3"
+     }
+    ]
+   },
+   {
+    "filterName": "Execution Days",
+    "filterType": "Checkbox",
+    "filterItems": [
+     {
+      "priority": -2,
+      "filterKey": "All Days",
+      "filterValue": "0",
+      "defaultSelected": true
+     },
+     {
+      "priority": 1,
+      "filterKey": "Mon",
+      "filterValue": "1"
+     },
+     {
+      "priority": 2,
+      "filterKey": "Tue",
+      "filterValue": "2"
+     },
+     {
+      "priority": 3,
+      "filterKey": "Wed",
+      "filterValue": "3"
+     },
+     {
+      "priority": 4,
+      "filterKey": "Thu",
+      "filterValue": "4"
+     },
+     {
+      "priority": 5,
+      "filterKey": "Fri",
+      "filterValue": "5"
+     }
+    ]
+   },
+   {
+    "filterName": "Investment Amount",
+    "filterType": "Radio",
+    "filterItems": [
+     {
+      "priority": -1,
+      "filterKey": "Any",
+      "filterValue": "0",
+      "defaultSelected": true
+     },
+     {
+      "priority": 2,
+      "filterKey": "Under ₹ 5,00,000",
+      "filterValue": "1"
+     },
+     {
+      "priority": 3,
+      "filterKey": "Under ₹ 10,00,000",
+      "filterValue": "2"
+     },
+     {
+      "priority": 4,
+      "filterKey": "More than ₹ 10,00,000",
+      "filterValue": "3"
+     }
+    ]
+   },
+   {
+    "filterName": "Strategy Type",
+    "filterType": "Checkbox",
+    "filterItems": [
+     {
+      "priority": 3,
+      "filterKey": "All",
+      "filterValue": "0",
+      "defaultSelected": true
+     },
+     {
+      "priority": 4,
+      "filterKey": "Intraday",
+      "filterValue": "1"
+     },
+     {
+      "priority": 5,
+      "filterKey": "Positional",
+      "filterValue": "2"
+     }
+    ]
+   }
+  ]
+ }
+}

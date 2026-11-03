@@ -1,0 +1,33 @@
+{
+ "endpoint": "/cmsapi/v2/api/Research/CallDetails",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "ResearchCallDetailsResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "liveCalls": [
+   {
+    "callId": 231667,
+    "scrip": {
+     "scripCode": 8479
+    },
+    "symbol": "TVSMOTOR",
+    "displayName": "NSE",
+    "companyName": "TVS Motor Company Ltd",
+    "logoUrl": "img/58b7edd6cc23.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "388940",
+    "targetPrice": "447000",
+    "stopLoss": "359500",
+    "publishedAt": 1784866568,
+    "potentialReturnPct": "655",
+    "returnPct": "786",
+    "isHighPotential": true,
+    "lotSize": 1,
+    "ltp": "419520"
+   }
+  ]
+ }
+}

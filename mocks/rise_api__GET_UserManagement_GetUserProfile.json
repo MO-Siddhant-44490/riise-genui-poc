@@ -1,0 +1,165 @@
+{
+ "endpoint": "/user/api/UserManagement/GetUserProfile",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "ProfileDataModel",
+ "source_flow": "debug_dump",
+ "response": {
+  "message": "Success",
+  "status": true,
+  "data": {
+   "usermasterid": "366601",
+   "userid": "",
+   "_name": "<redacted>  <redacted>  .",
+   "ucc": "<redacted>",
+   "pannumber": "<redacted>",
+   "martialstatus": "",
+   "email": "<redacted>",
+   "mobile_number": "<redacted>",
+   "gender": "",
+   "educationalqualification": "",
+   "kyc_status": "2",
+   "client_id": "<redacted>",
+   "usequityclientid": "<redacted>",
+   "usaccountno": "<redacted>",
+   "usaccountid": "fb529b5e-e1d4-4c9c-8287-abd3642b7dc3.1721825271207",
+   "demat_acc_number": "",
+   "dp_id": "",
+   "dp_name": "",
+   "poa": "",
+   "membership_plan": "",
+   "family_code": "",
+   "usequityidexists": true,
+   "otpkycdate": "0001-01-01T00:00:00",
+   "minkyckycdate": "0001-01-01T00:00:00",
+   "fullkycdate": "0001-01-01T00:00:00",
+   "usequityaccountcreationdate": "2024-07-24T18:17:55.936114",
+   "accountclosurestatus": 0,
+   "bankaccount": [],
+   "nominee": [],
+   "additionalDetails": {
+    "id": 0,
+    "annual_income": "",
+    "investment_experience": "",
+    "is_pep": ""
+   },
+   "customermenuaccess": [
+    {
+     "product": "indian_stock",
+     "access": "I",
+     "isactive": true
+    },
+    {
+     "product": "ipo",
+     "access": "I",
+     "isactive": true
+    },
+    {
+     "product": "iap",
+     "access": "I",
+     "isactive": true
+    },
+    {
+     "product": "futures",
+     "access": "I",
+     "isactive": true
+    },
+    {
+     "product": "options",
+     "access": "I",
+     "isactive": true
+    },
+    {
+     "product": "currency",
+     "access": "I",
+     "isactive": true
+    },
+    {
+     "product": "commodity",
+     "access": "I",
+     "isactive": true
+    },
+    {
+     "product": "mf",
+     "access": "I",
+     "isactive": true
+    },
+    {
+     "product": "nfo",
+     "access": "I",
+     "isactive": true
+    },
+    {
+     "product": "us_stocks",
+     "access": "I",
+     "isactive": true
+    },
+    {
+     "product": "insurance",
+     "access": "R",
+     "isactive": true
+    },
+    {
+     "product": "edumo",
+     "access": "R",
+     "isactive": true
+    },
+    {
+     "product": "super_star",
+     "access": "I",
+     "isactive": true
+    },
+    {
+     "product": "fd",
+     "access": "I",
+     "isactive": true
+    },
+    {
+     "product": "bonds",
+     "access": "I",
+     "isactive": true
+    },
+    {
+     "product": "small_case",
+     "access": "I",
+     "isactive": true
+    },
+    {
+     "product": "teji_mandi",
+     "access": "I",
+     "isactive": true
+    },
+    {
+     "product": "refer_and_earn",
+     "access": "E",
+     "isactive": true
+    },
+    {
+     "product": "sgb",
+     "access": "I",
+     "isactive": true
+    },
+    {
+     "product": "power_cart",
+     "access": "I",
+     "isactive": true
+    },
+    {
+     "product": "stratX",
+     "access": "I",
+     "isactive": true
+    }
+   ],
+   "dormantflag": "NO",
+   "clienttype": "STF",
+   "isactive": null,
+   "familymembers": "",
+   "isfamilyhead": false,
+   "per_trade_status": "",
+   "isExternalTrack": true,
+   "segmentflag": false,
+   "mfClientType": "STF"
+  }
+ }
+}

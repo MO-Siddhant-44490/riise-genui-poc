@@ -1,0 +1,259 @@
+{
+ "endpoint": "/user/api/RiseTwoPointZero/GetMoreMenu",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "_Map<String, dynamic>",
+ "source_flow": "debug_dump",
+ "response": {
+  "message": "SUCCESS",
+  "status": true,
+  "data": [
+   {
+    "submenuname": "AllProduct",
+    "submenudisplayname": "All Products",
+    "submenusequence": 1,
+    "assistantAccess": true,
+    "allsubmenus": [
+     {
+      "menuname": "Stocks",
+      "menusequence": 1,
+      "logourllight": "",
+      "iconUrl": "img/f706205b32af.svg",
+      "isactive": true,
+      "redirectiontype": "InAppDeepLink",
+      "redirectionlink": "mosl://superapp.com/stocks",
+      "iosredirectionlink": "mosl://superapp.com/stocks",
+      "menudisplayname": "Stocks",
+      "isfullkycpopup": false,
+      "disabledicon": "https://d2kq2qiht771rt.cloudfront.net/icons/logos/2.0/disabled/Stocks.svg"
+     },
+     {
+      "menuname": "MTF",
+      "menusequence": 2,
+      "logourllight": "",
+      "iconUrl": "img/f706205b32af.svg",
+      "isactive": true,
+      "redirectiontype": "InAppDeepLink",
+      "redirectionlink": "mosl://superapp.com/exploremtfpage",
+      "iosredirectionlink": "mosl://superapp.com/stocks",
+      "menudisplayname": "MTF",
+      "isfullkycpopup": false,
+      "disabledicon": "https://d2kq2qiht771rt.cloudfront.net/icons/logos/2.0/disabled/Stocks.svg"
+     },
+     {
+      "menuname": "IPO",
+      "menusequence": 3,
+      "logourllight": "",
+      "iconUrl": "img/853096afe893.svg",
+      "isactive": true,
+      "redirectiontype": "InAppDeepLink",
+      "redirectionlink": "mosl://superapp.com/ipo_homepage",
+      "iosredirectionlink": "mosl://superapp.com/ipo_homepage",
+      "menudisplayname": "IPO",
+      "isfullkycpopup": true,
+      "disabledicon": "https://d2kq2qiht771rt.cloudfront.net/icons/logos/2.0/disabled/IPO.svg"
+     },
+     {
+      "menuname": "IAP",
+      "menusequence": 4,
+      "logourllight": "",
+      "iconUrl": "img/f976080000f2.svg",
+      "isactive": true,
+      "redirectiontype": "InAppDeepLink",
+      "redirectionlink": "mosl://superapp.com/iap",
+      "iosredirectionlink": "mosl://superapp.com/iap",
+      "menudisplayname": "IAP",
+      "isfullkycpopup": true,
+      "disabledicon": "https://d2kq2qiht771rt.cloudfront.net/icons/logos/2.0/disabled/IAP.svg"
+     },
+     {
+      "menuname": "Mutual Funds",
+      "menusequence": 5,
+      "logourllight": "",
+      "iconUrl": "img/d5f206fb6586.svg",
+      "isactive": true,
+      "redirectiontype": "InAppDeepLink",
+      "redirectionlink": "mosl://superapp.com/mflanding",
+      "iosredirectionlink": "mosl://superapp.com/mflanding",
+      "menudisplayname": "Mutual Funds",
+      "isfullkycpopup": false,
+      "disabledicon": "https://d2kq2qiht771rt.cloudfront.net/icons/logos/2.0/disabled/MutualFund.svg"
+     },
+     {
+      "menuname": "IMP",
+      "menusequence": 6,
+      "logourllight": "",
+      "iconUrl": "img/39a89fa9ea45.svg",
+      "isactive": true,
+      "redirectiontype": "InAppDeepLink",
+      "redirectionlink": "mosl://superapp.com/imp",
+      "iosredirectionlink": "mosl://superapp.com/imp",
+      "menudisplayname": "IMP",
+      "isfullkycpopup": false,
+      "disabledicon": ""
+     },
+     {
+      "menuname": "PMS",
+      "menusequence": 7,
+      "logourllight": "",
+      "iconUrl": "img/77cd90f7a9fc.svg",
+      "isactive": true,
+      "redirectiontype": "InAppDeepLink",
+      "redirectionlink": "mosl://superapp.com/pmsLandingPage",
+      "iosredirectionlink": "mosl://superapp.com/pmsLandingPage",
+      "menudisplayname": "PMS",
+      "isfullkycpopup": false,
+      "disabledicon": "https://d2kq2qiht771rt.cloudfront.net/icons/logos/2.0/disabled/FixedDeposit.svg"
+     },
+     {
+      "menuname": "AIF",
+      "menusequence": 8,
+      "logourllight": "",
+      "iconUrl": "img/37e2515be6ef.svg",
+      "isactive": true,
+      "redirectiontype": "InAppDeepLink",
+      "redirectionlink": "mosl://superapp.com/aifLandingPage",
+      "iosredirectionlink": "mosl://superapp.com/aifLandingPage",
+      "menudisplayname": "AIF",
+      "isfullkycpopup": false,
+      "disabledicon": "https://d2kq2qiht771rt.cloudfront.net/icons/logos/2.0/disabled/IPO.svg"
+     },
+     {
+      "menuname": "Insurance",
+      "menusequence": 9,
+      "logourllight": "",
+      "iconUrl": "img/fd9ec667e566.svg",
+      "isactive": true,
+      "redirectiontype": "InAppDeepLink",
+      "redirectionlink": "mosl://superapp.com/Insurance",
+      "iosredirectionlink": "https://stgmo.evervent.in/",
+      "menudisplayname": "Insurance",
+      "isfullkycpopup": false,
+      "disabledicon": "https://d2kq2qiht771rt.cloudfront.net/icons/logos/2.0/disabled/Insurance.svg"
+     },
+     {
+      "menuname": "Bonds",
+      "menusequence": 10,
+      "logourllight": "",
+      "iconUrl": "img/a676398e7cda.svg",
+      "isactive": true,
+      "redirectiontype": "InAppDeepLink",
+      "redirectionlink": "mosl://superapp.com/bonds",
+      "iosredirectionlink": "mosl://superapp.com/bonds",
+      "menudisplayname": "Bonds",
+      "isfullkycpopup": false,
+      "disabledicon": "https://d2kq2qiht771rt.cloudfront.net/icons/logos/2.0/disabled/Bonds.svg"
+     },
+     {
+      "menuname": "US Stocks",
+      "menusequence": 11,
+      "logourllight": "",
+      "iconUrl": "img/c6cf579e7c04.svg",
+      "isactive": true,
+      "redirectiontype": "InAppDeepLink",
+      "redirectionlink": "mosl://superapp.com/stockLandingPage",
+      "iosredirectionlink": "mosl://superapp.com/stockLandingPage",
+      "menudisplayname": "US Stocks",
+      "isfullkycpopup": false,
+      "disabledicon": "https://d2kq2qiht771rt.cloudfront.net/icons/logos/2.0/disabled/USStocks.svg"
+     },
+     {
+      "menuname": "OFS/Buyback",
+      "menusequence": 12,
+      "logourllight": "",
+      "iconUrl": "img/3dfab97ffd2e.svg",
+      "isactive": true,
+      "redirectiontype": "InAppDeepLink",
+      "redirectionlink": "mosl://superapp.com/ofsBuyPack?name=OFS/BuyBack",
+      "iosredirectionlink": "mosl://superapp.com/ofsBuyPack?name=OFS/BuyBack",
+      "menudisplayname": "OFS/Buy Back",
+      "isfullkycpopup": false,
+      "disabledicon": "https://d2kq2qiht771rt.cloudfront.net/icons/logos/2.0/disabled/OFS.svg"
+     }
+    ]
+   },
+   {
+    "submenuname": "Other/Features",
+    "submenudisplayname": "All Features",
+    "submenusequence": 2,
+    "assistantAccess": true,
+    "allsubmenus": [
+     {
+      "menuname": "P&L Summary",
+      "menusequence": 1,
+      "logourllight": "",
+      "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/PnL%20Summary.svg",
+      "isactive": true,
+      "redirectiontype": "InAppDeepLink",
+      "redirectionlink": "mosl://superapp.com/pnlSummaryPage",
+      "iosredirectionlink": "mosl://superapp.com/pnlSummaryPage",
+      "menudisplayname": "P&L Summary",
+      "isfullkycpopup": false,
+      "disabledicon": ""
+     },
+     {
+      "menuname": "Add Funds / Withdrawals",
+      "menusequence": 2,
+      "logourllight": "",
+      "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/Add%20Funds.svg",
+      "isactive": true,
+      "redirectiontype": "InAppDeepLink",
+      "redirectionlink": "mosl://superapp.com/fundscreen",
+      "iosredirectionlink": "mosl://superapp.com/fundscreen",
+      "menudisplayname": "Add Funds / Withdrawals",
+      "isfullkycpopup": false,
+      "disabledicon": "https://d2kq2qiht771rt.cloudfront.net/icons/logos/2.0/disabled/Withdrawals.svg"
+     },
+     {
+      "menuname": "Bulk Order",
+      "menusequence": 3,
+      "logourllight": "",
+      "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/Basket%20Order.svg",
+      "isactive": true,
+      "redirectiontype": "InAppDeepLink",
+      "redirectionlink": "mosl://superapp.com/trade?tab=order&orderBookNavigation=bulkBasket",
+      "iosredirectionlink": "mosl://superapp.com/trade?tab=order&orderBookNavigation=bulkBasket",
+      "menudisplayname": "Basket Order",
+      "isfullkycpopup": false,
+      "disabledicon": "https://d2kq2qiht771rt.cloudfront.net/darkthemes/basketorder.svg"
+     },
+     {
+      "menuname": "Report",
+      "menusequence": 4,
+      "logourllight": "",
+      "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/Reports.svg",
+      "isactive": true,
+      "redirectiontype": "InAppDeepLink",
+      "redirectionlink": "mosl://superapp.com/reports",
+      "iosredirectionlink": "mosl://superapp.com/reports",
+      "menudisplayname": "Reports",
+      "isfullkycpopup": false,
+      "disabledicon": "https://d2kq2qiht771rt.cloudfront.net/icons/logos/2.0/disabled/Reports.svg"
+     }
+    ]
+   },
+   {
+    "submenuname": "miscellaneous",
+    "submenudisplayname": "",
+    "submenusequence": 3,
+    "assistantAccess": true,
+    "allsubmenus": [
+     {
+      "menuname": "Refer and Earn",
+      "menusequence": 1,
+      "logourllight": "",
+      "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/More/Light/refer.svg",
+      "isactive": true,
+      "redirectiontype": "InAppDeepLink",
+      "redirectionlink": "mosl://superapp.com/referAndEarn",
+      "iosredirectionlink": "mosl://superapp.com/referAndEarn",
+      "menudisplayname": "<!DOCTYPE html><html lang=\"en\">\n<body>\n<p style=\"font-family: 'Lato'\">\n<b><span style=\"font-size:14px;\">Refer &amp; Earn Unlimited Rewards</span></b>\n<span style=\"font-size:9px;\"><br>Invite friends to Riise and keep earning. T&amp;C Apply</span>\n</p>\n</body>\n</html>",
+      "isfullkycpopup": false,
+      "disabledicon": ""
+     }
+    ]
+   }
+  ]
+ }
+}

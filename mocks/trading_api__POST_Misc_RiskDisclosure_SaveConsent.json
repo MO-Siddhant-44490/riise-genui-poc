@@ -1,0 +1,13 @@
+{
+ "endpoint": "/TradingApiV2/api/Misc/RiskDisclosure/SaveConsent",
+ "method": "POST",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "json",
+ "source_flow": "02_home",
+ "response": {
+  "data": {
+   "message": "Success"
+  }
+ }
+}

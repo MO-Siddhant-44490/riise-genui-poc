@@ -1,0 +1,773 @@
+{
+ "endpoint": "/dev/wms/v2/api/Search/Dashboard",
+ "method": "GET",
+ "host": "e74xime5x0.execute-api.ap-south-1.amazonaws.com",
+ "http_status": 200,
+ "decoded_as": "SearchDashboardResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "history": {
+   "stock": [
+    {
+     "id": {
+      "scripCode": 1333
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "HDFC Bank Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/80edb0d5ef78.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1793602505",
+      "price": "69290"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 17388
+     },
+     "tradeSymbol": "ADANIPOWER",
+     "description": "Adani Power Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/81aebc4cf4d5.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1787897086"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 146788,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "TATACONSUM",
+     "description": "23 Nov PE 1250",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "125000",
+     "expiryDate": "1795392000",
+     "lotSize": 550,
+     "searchInfo": {
+      "timestamp": "1787890258"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 500112,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "SBIN",
+     "description": "State Bank of India",
+     "tag": "Equity",
+     "optionType": "A",
+     "logoUrl": "img/a07cdc8c6245.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1787890123",
+      "price": "104200"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 3045
+     },
+     "tradeSymbol": "SBIN",
+     "description": "State Bank of India",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/a07cdc8c6245.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1787890106",
+      "price": "104209"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 11536
+     },
+     "tradeSymbol": "TCS",
+     "description": "Tata Consultancy Services Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/21620e790149.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1784288760",
+      "price": "226900"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 8954
+     },
+     "tradeSymbol": "TTML",
+     "description": "Tata Teleservices (Maharashtra) Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/a87f3c985110.png",
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1784276806",
+      "price": "4035"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 68407,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "ABCAPITAL",
+     "description": "25 Jan 2027 CE 280",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "28000",
+     "expiryDate": "1800835200",
+     "lotSize": 1550,
+     "searchInfo": {
+      "timestamp": "1784107427"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 11703
+     },
+     "tradeSymbol": "ALKEM",
+     "description": "Alkem Laboratories Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/AlkemLab_4180671424_19299.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1781694746",
+      "price": "534750"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 544529,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "APPL",
+     "description": "Aptus Pharma Limited-APPL",
+     "tag": "Equity",
+     "optionType": "MT",
+     "lotSize": 2000,
+     "searchInfo": {
+      "timestamp": "1781694727",
+      "price": "21185"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 2963
+     },
+     "tradeSymbol": "SAIL",
+     "description": "Steel Authority of India Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/SAIL_40802201738_2299.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1778829790",
+      "price": "19660"
+     }
+    }
+   ],
+   "mf": [
+    {
+     "isin": "INF846K018J8",
+     "name": "Axis Silver FoF Regular-Growth",
+     "category": "Commodities",
+     "subCategory": " Silver",
+     "return3Year": 4322,
+     "currentNav": "402101",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8799-axis-2__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 4322,
+     "searchInfo": {
+      "timestamp": "1784701940"
+     },
+     "minSip": "100"
+    }
+   ],
+   "usStock": [
+    {
+     "ticker": "APP",
+     "isin": "US03831W1080",
+     "name": "AppLovin Corp",
+     "category": "LARGE CAP",
+     "sector": "Communication Services",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/app_1618404239.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "37638",
+     "changePer": -363,
+     "searchInfo": {
+      "timestamp": "1784699662",
+      "price": "37638"
+     }
+    },
+    {
+     "ticker": "AAPL",
+     "isin": "US0378331005",
+     "name": "Apple, Inc.",
+     "category": "MEGA CAP",
+     "sector": "Technology",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/aapl_1666583960.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "26388",
+     "changePer": 317,
+     "searchInfo": {
+      "timestamp": "1781694750",
+      "price": "26388"
+     }
+    }
+   ]
+  },
+  "quickLinks": {
+   "entry": [
+    {
+     "asset": "Commodity",
+     "label": "Top Gainers",
+     "deeplink": "mosl://superapp.com/commodityModule?subtab=MCX&category=topgainers",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/Top_Gainers.svg",
+     "tag": "COMMODITY",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/Top_Gainers.svg",
+     "productId": "commodity"
+    },
+    {
+     "asset": "Commodity",
+     "label": "Active by Volume",
+     "deeplink": "mosl://superapp.com/commodityModule?subtab=MCX&category=activebyvolume",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/ActivebyVolume.svg",
+     "tag": "COMMODITY",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/ActivebyVolume.svg",
+     "productId": "commodity"
+    },
+    {
+     "asset": "Commodity",
+     "label": "OI Gainers",
+     "deeplink": "mosl://superapp.com/commodityModule?subtab=MCX&category=oigainers",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/OI_Gainers.svg",
+     "tag": "COMMODITY",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/OI_Gainers.svg",
+     "productId": "commodity"
+    },
+    {
+     "asset": "Commodity",
+     "label": "Research Ideas",
+     "deeplink": "mosl://superapp.com/researchProduct/researchideas?category=commodity|future|intraday",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/Research_Ideas.svg",
+     "tag": "COMMODITY",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/Research_Ideas.svg",
+     "productId": "commodity"
+    },
+    {
+     "asset": "Equity",
+     "label": "IPO",
+     "deeplink": "mosl://superapp.com/ipo_homepage",
+     "logoUrl": "img/853096afe893.svg",
+     "tag": "ALL",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/IPO.svg",
+     "productId": "ipo"
+    },
+    {
+     "asset": "Equity",
+     "label": "Insurance",
+     "deeplink": "mosl://superapp.com/Insurance",
+     "logoUrl": "img/fd9ec667e566.svg",
+     "tag": "ALL",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/Insurance.svg",
+     "productId": "insurance"
+    },
+    {
+     "asset": "Equity",
+     "label": "IAP",
+     "deeplink": "mosl://superapp.com/iap",
+     "logoUrl": "img/f976080000f2.svg",
+     "tag": "ALL",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/IAP.svg",
+     "productId": "iap"
+    },
+    {
+     "asset": "ETF",
+     "label": "Equity ETFs",
+     "deeplink": "mosl://superapp.com/stocksmodule?tab=etf&subtab=equity",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/EquityETFs.svg",
+     "tag": "ETF",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/EquityETFs.svg"
+    },
+    {
+     "asset": "ETF",
+     "label": "Debt ETFs",
+     "deeplink": "mosl://superapp.com/stocksmodule?tab=etf&subtab=debt",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/DebtETFs.svg",
+     "tag": "ETF",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/DebtETFs.svg"
+    },
+    {
+     "asset": "ETF",
+     "label": "Gold ETFs",
+     "deeplink": "mosl://superapp.com/stocksmodule?tab=etf&subtab=gold",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/Gold_ETFs.svg",
+     "tag": "ETF",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/Gold_ETFs.svg"
+    },
+    {
+     "asset": "ETF",
+     "label": "Global ETFs",
+     "deeplink": "mosl://superapp.com/stocksmodule?tab=etf&subtab=global",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/Global_ETFs.svg",
+     "tag": "ETF",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/Global_ETFs.svg"
+    },
+    {
+     "asset": "F&O",
+     "label": "F&O Most active",
+     "deeplink": "mosl://superapp.com/fnomodule?tab=fnoMovers&subtab=nifty50&category=mostactive",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/FnO_Most_active.svg",
+     "tag": "FNO",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/FnO_Most_active.svg",
+     "productId": "futures"
+    },
+    {
+     "asset": "F&O",
+     "label": "F&O OI Gainer",
+     "deeplink": "mosl://superapp.com/fnomodule?tab=fnoMovers&subtab=nifty50&category=oigainers",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/FnO_OI_Gainer.svg",
+     "tag": "FNO",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/FnO_OI_Gainer.svg",
+     "productId": "futures"
+    },
+    {
+     "asset": "F&O",
+     "label": "F&O Long Buildup",
+     "deeplink": "mosl://superapp.com/fnomodule?tab=fnoMovers&subtab=nifty50&category=longbuildup",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/FnO_Long_Buildup.svg",
+     "tag": "FNO",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/FnO_Long_Buildup.svg",
+     "productId": "futures"
+    },
+    {
+     "asset": "F&O",
+     "label": "F&O Research Ideas",
+     "deeplink": "mosl://superapp.com/researchProduct/researchideas?category=fno|option|mostintradayoption",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/FnO_Research_Ideas.svg",
+     "tag": "FNO",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/FnO_Research_Ideas.svg",
+     "productId": "futures"
+    },
+    {
+     "asset": "MF",
+     "label": "Most Popular",
+     "deeplink": "mosl://superapp.com/collection_share?id=15&collectionname=MostPopularFund&subassettype=MF&collectiontype=COLLECTIONTILES",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/MostPopular.svg",
+     "tag": "MUTUALFUND",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/MostPopular.svg",
+     "productId": "mf"
+    },
+    {
+     "asset": "MF",
+     "label": "New Fund Offer",
+     "deeplink": "mosl://superapp.com/mfbannerifnfo?id=24&collectionname=NewFundOfferings&subassettype=MF&collectiontype=COLLECTION",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/New_Fund_Offer.svg",
+     "tag": "MUTUALFUND",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/New_Fund_Offer.svg",
+     "productId": "mf"
+    },
+    {
+     "asset": "MF",
+     "label": "High Returns",
+     "deeplink": "mosl://superapp.com/highReturnScheme?id=31&collectionname=HighReturn&subassettype=MF&collectiontype=COLLECTION",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/High_Return.svg",
+     "tag": "MUTUALFUND",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/High_Return.svg",
+     "productId": "mf"
+    },
+    {
+     "asset": "MF",
+     "label": "SIP with 500",
+     "deeplink": "mosl://superapp.com/sipOfScheme?id=19&collectionname=SIPof500&subassettype=MF&collectiontype=COLLECTION",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/SIPwith500.svg",
+     "tag": "MUTUALFUND",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/SIPwith500.svg",
+     "productId": "mf"
+    },
+    {
+     "asset": "Stocks",
+     "label": "Top Gainers",
+     "deeplink": "mosl://superapp.com/stocksmodule?tab=marketmovers&subtab=topGainers",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/Top_Gainers.svg",
+     "tag": "STOCKS",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/Top_Gainers.svg",
+     "productId": "indian_stock"
+    },
+    {
+     "asset": "Stocks",
+     "label": "52 W High",
+     "deeplink": "mosl://superapp.com/stocksmodule?tab=marketmovers&subtab=52Whigh",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/52WHigh.svg",
+     "tag": "STOCKS",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/52WHigh.svg",
+     "productId": "indian_stock"
+    },
+    {
+     "asset": "Stocks",
+     "label": "Stock SIP",
+     "deeplink": "mosl://superapp.new/stockSipDashboard",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/Stock_SIP.svg",
+     "tag": "STOCKS",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/Stock_SIP.svg",
+     "productId": "indian_stock"
+    },
+    {
+     "asset": "Stocks",
+     "label": "Research Ideas",
+     "deeplink": "mosl://superapp.com/researchProduct/research",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/Research_Ideas.svg",
+     "tag": "STOCKS",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/Research_Ideas.svg",
+     "productId": "indian_stock"
+    },
+    {
+     "asset": "USSTOCKS",
+     "label": "NASDAQ 100",
+     "deeplink": "mosl://superapp.com/usequitycollection?id=3",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/NASDAQ101.svg",
+     "tag": "USSTOCKS",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/NASDAQ101.svg",
+     "productId": "us_stocks"
+    },
+    {
+     "asset": "USSTOCKS",
+     "label": "S&P 500",
+     "deeplink": "mosl://superapp.com/usequitycollection?id=4",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/SnP100.svg",
+     "tag": "USSTOCKS",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/SnP100.svg",
+     "productId": "us_stocks"
+    },
+    {
+     "asset": "USSTOCKS",
+     "label": "Tech Giants",
+     "deeplink": "mosl://superapp.com/usequitycollection?id=1",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/Tech_Giants.svg",
+     "tag": "USSTOCKS",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/Tech_Giants.svg",
+     "productId": "us_stocks"
+    },
+    {
+     "asset": "USSTOCKS",
+     "label": "Fortune 100",
+     "deeplink": "mosl://superapp.com/usequitycollection?id=2",
+     "logoUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/Light/Fortune_102.svg",
+     "tag": "USSTOCKS",
+     "disableIconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/quicklinks/DisabledIcons/Fortune_102.svg",
+     "productId": "us_stocks"
+    }
+   ]
+  },
+  "trending": {
+   "stock": [
+    {
+     "id": {
+      "scripCode": 11536
+     },
+     "tradeSymbol": "TCS",
+     "description": "Tata Consultancy Services Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/21620e790149.png",
+     "hasDerivatives": true,
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 55627,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "BANKNIFTY",
+     "description": "25 Jan 2027 CE 41500",
+     "tag": "Options,Indices",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "4150000",
+     "expiryDate": "1800835200",
+     "lotSize": 30
+    },
+    {
+     "id": {
+      "scripCode": 56739,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "BANKNIFTY",
+     "description": "25 Jan 2027 CE 68600",
+     "tag": "Options,Indices",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "6860000",
+     "expiryDate": "1800835200",
+     "lotSize": 30
+    },
+    {
+     "id": {
+      "scripCode": 859106,
+      "exchange": "BSE_FO"
+     },
+     "tradeSymbol": "BSX",
+     "description": "30 Dec 2027 PE 76000",
+     "tag": "Options,Indices",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "7600000",
+     "expiryDate": "1830124800",
+     "lotSize": 20
+    },
+    {
+     "id": {
+      "scripCode": 114,
+      "exchange": "MCX"
+     },
+     "tradeSymbol": "GOLD",
+     "description": "GOLD 01-Jan-1970",
+     "tag": "Commodity",
+     "hasDerivatives": true,
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 543226,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "BANKBETA",
+     "description": "UTI Mutual Fund-BANKBETA",
+     "tag": "Equity",
+     "optionType": "B",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 20257
+     },
+     "tradeSymbol": "ESILVER",
+     "description": "Edelweiss Silver ETF",
+     "tag": "Equity,ETF",
+     "optionType": "EQ",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 543471,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "SILVER",
+     "description": "Aditya Birla Sun Life Mutual F-SILVER",
+     "tag": "Equity,ETF",
+     "optionType": "E",
+     "hasDerivatives": true,
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 543572,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "SILVERADD",
+     "description": "DSP Mutual Fund-SILVERADD",
+     "tag": "Equity",
+     "optionType": "E",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 11193
+     },
+     "tradeSymbol": "SILVERAXIS",
+     "description": "AXISAMC-SILVERAXIS-SILVERAXIS EQ",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "lotSize": 1
+    },
+    {
+     "id": {
+      "scripCode": 8080
+     },
+     "tradeSymbol": "SILVERBEES",
+     "description": "Nippon India Silver ETF",
+     "tag": "Equity,ETF",
+     "optionType": "EQ",
+     "lotSize": 1
+    }
+   ],
+   "mf": [
+    {
+     "isin": "INF247L01411",
+     "name": "Motilal Oswal Midcap Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Mid Cap",
+     "return3Year": 2070,
+     "currentNav": "912854",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/9054-motilal-oswal-3__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 2070,
+     "minSip": "500",
+     "rating": 4
+    },
+    {
+     "isin": "INF247L01544",
+     "name": "Motilal Oswal ELSS Tax Saver Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " ELSS",
+     "return3Year": 2453,
+     "currentNav": "535954",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/9054-motilal-oswal-3__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 2453,
+     "minSip": "500",
+     "rating": 5
+    },
+    {
+     "isin": "INF174K01DS9",
+     "name": "Kotak Midcap Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Mid Cap",
+     "return3Year": 2177,
+     "currentNav": "1392420",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/218-kotak-4__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 2177,
+     "minSip": "100",
+     "rating": 4
+    },
+    {
+     "isin": "INF204K01HY3",
+     "name": "Nippon India Small Cap Fund-Growth",
+     "category": "Equity",
+     "subCategory": " Small Cap",
+     "return3Year": 2094,
+     "currentNav": "1718910",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/24-nippon-india-3__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 2094,
+     "minSip": "100",
+     "rating": 4
+    },
+    {
+     "isin": "INF879O01019",
+     "name": "Parag Parikh Flexi Cap Fund Regular-Growth",
+     "category": "Equity",
+     "subCategory": " Flexi Cap",
+     "return3Year": 1678,
+     "currentNav": "832226",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/10157-ppfas-2__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1678,
+     "minSip": "1000",
+     "rating": 5
+    },
+    {
+     "isin": "INF179K01830",
+     "name": "HDFC Balanced Advantage Fund Regular-Growth",
+     "category": "Hybrid",
+     "subCategory": " Dynamic Asset Allocation",
+     "return3Year": 1536,
+     "currentNav": "5153040",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 1536,
+     "minSip": "100",
+     "rating": 5
+    }
+   ],
+   "usStock": [
+    {
+     "ticker": "NVDA",
+     "isin": "US67066G1040",
+     "name": "NVIDIA Corporation",
+     "category": "MEGA CAP",
+     "sector": "Technology",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/nvda_1666587773.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "18497",
+     "changePer": 118
+    },
+    {
+     "ticker": "ONDS",
+     "isin": "US68236H2040",
+     "name": "Ondas Inc",
+     "category": "MID CAP",
+     "sector": "Technology",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/dw_default_logo.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "1005",
+     "changePer": 795
+    },
+    {
+     "ticker": "ALIT",
+     "isin": "US01626W1018",
+     "name": "Alight, Inc.",
+     "category": "SMALL CAP",
+     "sector": "Technology",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/alit_1625746069.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "129",
+     "changePer": -77
+    },
+    {
+     "ticker": "PLUG",
+     "isin": "US72919P2020",
+     "name": "Plug Power Inc.",
+     "category": "MID CAP",
+     "sector": "Industrials",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/plug.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "182",
+     "changePer": -370
+    },
+    {
+     "ticker": "RXT",
+     "isin": "US<redacted>",
+     "name": "Rackspace Technology, Inc.",
+     "category": "MICRO CAP",
+     "sector": "Technology",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/rxt.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "42",
+     "changePer": -29
+    },
+    {
+     "ticker": "INTC",
+     "isin": "US4581401001",
+     "name": "Intel Corporation",
+     "category": "MEGA CAP",
+     "sector": "Technology",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/intc_1666586812.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "4618",
+     "changePer": -130
+    }
+   ]
+  },
+  "searchNudge": [
+   "IPO",
+   "US Stocks",
+   "Top Gainers",
+   "Recommendations",
+   "Mutual Funds",
+   "Nifty",
+   "Highest Dividends",
+   "FMCG Stocks",
+   "Textile Stocks",
+   "Automobile Stocks"
+  ],
+  "feedbackUrl": "https://forms.gle/udJNKbCW5jgWkm1R9"
+ }
+}

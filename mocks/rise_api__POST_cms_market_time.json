@@ -1,0 +1,37 @@
+{
+ "endpoint": "/usequity/api/cms/market-time",
+ "method": "POST",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "MarketTimeResponseModel",
+ "source_flow": "debug_dump",
+ "response": {
+  "status": true,
+  "data": {
+   "market_status": "Closed",
+   "opens_at": "02 Nov, 07:00 PM",
+   "closes_at": "03 Nov, 01:30 AM",
+   "indexdata": [
+    {
+     "symbol": "GSPC",
+     "close": 7548.9199,
+     "change_val": -171.4687,
+     "change_per": -2.221
+    },
+    {
+     "symbol": "IXIC",
+     "close": 25304.2656,
+     "change_val": -880.4551,
+     "change_per": -3.3625
+    },
+    {
+     "symbol": "DJI",
+     "close": 51664.0195,
+     "change_val": -678.5405,
+     "change_per": -1.2963
+    }
+   ]
+  },
+  "message": "success"
+ }
+}

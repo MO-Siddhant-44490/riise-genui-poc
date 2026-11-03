@@ -1,0 +1,32 @@
+{
+ "endpoint": "/cmsapi/v2/api/FlashNews/MarketSummary",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "MarketSummaryResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "positive": {
+   "count": 47,
+   "logos": [
+    "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/Nirlon_17109146509_414.png",
+    "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/OneMobikwikSystemsLtd_63812553_68099.png",
+    "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/GalaPrecisionEngineeringLtd_67300353_73975.png",
+    "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/Barbeque-Nation-Hospitality-Ltd_78482688_33202.png"
+   ]
+  },
+  "negative": {
+   "count": 10,
+   "logos": [
+    "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/DigicontentLtd._14005279_74185.png",
+    "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/Barbeque-Nation-Hospitality-Ltd_78482688_33202.png",
+    "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/Paradeep-Phosphates-Ltd_66677477_12375.png",
+    "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/JindalPolyFilm_39494489836_4162.png"
+   ]
+  },
+  "neutral": {
+   "count": 103
+  },
+  "status": "200"
+ }
+}

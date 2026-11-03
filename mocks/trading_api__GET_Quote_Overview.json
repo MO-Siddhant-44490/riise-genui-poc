@@ -1,0 +1,1888 @@
+{
+ "endpoint": "/TradingApiV2/api/Quote/Overview",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "QuoteOverviewResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "researchIdeas": {
+   "entry": [
+    {
+     "callId": 175853,
+     "scrip": {
+      "scripCode": 1333
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "NSE",
+     "callType": "Investment Idea: Bluechip",
+     "recoDate": 1759465469,
+     "recoPrice": 959.25,
+     "targetPrice": 1050,
+     "stopLoss": 864,
+     "viewType": "Single",
+     "logoUrl": "img/80edb0d5ef78.png"
+    }
+   ]
+  },
+  "returns": {
+   "entry": [
+    {
+     "period": "YTD",
+     "value": -1491
+    },
+    {
+     "period": "OneWeek",
+     "value": -67
+    },
+    {
+     "period": "OneMonth",
+     "value": -1411
+    },
+    {
+     "period": "ThreeMonth",
+     "value": -332
+    },
+    {
+     "period": "SixMonth",
+     "value": -1250
+    },
+    {
+     "period": "OneYear",
+     "value": -1253
+    },
+    {
+     "period": "TwoYear",
+     "value": -159
+    },
+    {
+     "period": "FiveYear",
+     "value": 3669
+    },
+    {
+     "period": "TenYear",
+     "value": 35331
+    }
+   ]
+  },
+  "quantScore": {
+   "overallScore": 7,
+   "earnings": {
+    "score": 8,
+    "label": "earnings",
+    "color": "Green"
+   },
+   "fundamentals": {
+    "score": 6,
+    "label": "fundamentals",
+    "color": "Yellow"
+   },
+   "relativeValuation": {
+    "score": 7,
+    "label": "relative_valuation",
+    "color": "Yellow"
+   },
+   "risk": {
+    "score": 10,
+    "label": "risk",
+    "color": "Green"
+   },
+   "priceMomentum": {
+    "score": 1,
+    "label": "price_momentum",
+    "color": "Red"
+   },
+   "pdfLink": "https://app.stockreportsplus.com/SRP_MOFSL/StockReportsPlus_HDFCBANK-IN.pdf?enc=3m273h3n3900163a041j302c3l0a2h34361b0c313338083f2e2j3d0h172b350g1f1m32022f3j1e2m3i2l211h220m0j052i142d0f1a1d2n3b0b2g0106261k133c24070k19101525111g1l2a0i2k28290n1c201i1803123g3e0l1n0937230e0d3k1n0c2d1e0h3i3j2a3a3n003h273m0a301l040a11173j32352m0m2a343n00153b1k3l2h000c2c110m222a1d1k1d2g1l1a1k1l2n1k311k2g152n3m3b1d152n3m3b0b2j"
+  },
+  "ratingV2": {
+   "buy": {
+    "percent": 9500,
+    "recommendedByCount": 38
+   },
+   "sell": {},
+   "hold": {
+    "percent": 500,
+    "recommendedByCount": 2
+   },
+   "targets": {
+    "lpt": 830,
+    "apt": 960,
+    "hpt": 1270
+   },
+   "summary": {
+    "totalAnalysts": 40,
+    "majorityRecommended": "Strong Buy",
+    "count": 38
+   }
+  },
+  "corpActions": {},
+  "similarStocks": {
+   "entry": [
+    {
+     "tradeSymbol": "AUBANK",
+     "id": {
+      "scripCode": 21238
+     },
+     "stockInfo": {
+      "tradeSymbol": "AUBANK",
+      "fullName": "AU Small Finance Bank Ltd",
+      "logoUrl": "img/36b83da9df1c.png",
+      "marketCap": "MidCap",
+      "sector": "Banks",
+      "returns": {
+       "oneWeek": -60,
+       "oneMonth": -2228,
+       "threeMonth": -762,
+       "sixMonth": -1424,
+       "ytd": -2079,
+       "oneYear": -150,
+       "twoYear": -5350,
+       "threeYear": -3659,
+       "fiveYear": 597
+      }
+     },
+     "marketCap": 41671.33984375,
+     "pe": 26.239999771118164,
+     "threeMonthReturn": -7.619999885559082,
+     "pb": 3.56,
+     "dividendYield": 0.16,
+     "oneYearReturn": -1.5,
+     "logoUrl": "img/36b83da9df1c.png",
+     "noOfShares": 751770019.5313
+    },
+    {
+     "tradeSymbol": "AXISBANK",
+     "id": {
+      "scripCode": 5900
+     },
+     "stockInfo": {
+      "tradeSymbol": "AXISBANK",
+      "fullName": "Axis Bank Ltd",
+      "logoUrl": "img/523a554da0bb.png",
+      "sector": "Banks",
+      "returns": {
+       "oneWeek": 2,
+       "oneMonth": -664,
+       "threeMonth": 516,
+       "sixMonth": 1204,
+       "ytd": -330,
+       "oneYear": 2026,
+       "twoYear": 3444,
+       "threeYear": 4751,
+       "fiveYear": 4551,
+       "tenYear": 226151
+      }
+     },
+     "marketCap": 327751.09375,
+     "pe": 13.829999923706055,
+     "threeMonthReturn": 5.159999847412109,
+     "pb": 2.21,
+     "dividendYield": 0.09,
+     "oneYearReturn": 20.26,
+     "logoUrl": "img/523a554da0bb.png",
+     "noOfShares": 3114100036.6211
+    },
+    {
+     "tradeSymbol": "BANDHANBNK",
+     "id": {
+      "scripCode": 2263
+     },
+     "stockInfo": {
+      "tradeSymbol": "BANDHANBNK",
+      "fullName": "Bandhan Bank Ltd",
+      "logoUrl": "img/4c57188eef0d.png",
+      "marketCap": "MidCap",
+      "sector": "Banks",
+      "returns": {
+       "oneWeek": -29,
+       "oneMonth": -1154,
+       "threeMonth": 220,
+       "sixMonth": -311,
+       "ytd": -879,
+       "oneYear": -576,
+       "twoYear": -3058,
+       "threeYear": -3244,
+       "fiveYear": -4656
+      }
+     },
+     "marketCap": 35867.08984375,
+     "pe": 14.119999885559082,
+     "threeMonthReturn": 2.200000047683716,
+     "pb": 1.72,
+     "dividendYield": 0.67,
+     "oneYearReturn": -5.76,
+     "logoUrl": "img/4c57188eef0d.png",
+     "noOfShares": 1611150024.4141
+    },
+    {
+     "tradeSymbol": "BANKBARODA",
+     "id": {
+      "scripCode": 4668
+     },
+     "stockInfo": {
+      "tradeSymbol": "BANKBARODA",
+      "fullName": "Bank of Baroda",
+      "logoUrl": "img/3a32f206b40c.png",
+      "sector": "Banks",
+      "returns": {
+       "oneWeek": 990,
+       "oneMonth": 972,
+       "threeMonth": 3162,
+       "sixMonth": 3593,
+       "ytd": 1014,
+       "oneYear": 5334,
+       "twoYear": 12793,
+       "threeYear": 21206,
+       "fiveYear": 13849,
+       "tenYear": 13695
+      }
+     },
+     "marketCap": 133162.578125,
+     "pe": 7.050000190734863,
+     "threeMonthReturn": 31.6200008392334,
+     "pb": 1.17,
+     "dividendYield": 2.14,
+     "oneYearReturn": 53.34,
+     "logoUrl": "img/3a32f206b40c.png",
+     "noOfShares": 5171350097.6563
+    },
+    {
+     "tradeSymbol": "BANKINDIA",
+     "id": {
+      "scripCode": 4745
+     },
+     "stockInfo": {
+      "tradeSymbol": "BANKINDIA",
+      "fullName": "Bank of India",
+      "logoUrl": "img/74eab48a6dea.png",
+      "marketCap": "MidCap",
+      "sector": "Banks",
+      "returns": {
+       "oneWeek": 229,
+       "oneMonth": 1662,
+       "threeMonth": 3736,
+       "sixMonth": 6649,
+       "ytd": 2260,
+       "oneYear": 7522,
+       "twoYear": 14000,
+       "threeYear": 13275,
+       "fiveYear": 5239,
+       "tenYear": -2471
+      }
+     },
+     "marketCap": 63122.73828125,
+     "pe": 9.859999656677246,
+     "threeMonthReturn": 37.36000061035156,
+     "pb": 1.05,
+     "dividendYield": 1.3,
+     "oneYearReturn": 75.22,
+     "logoUrl": "img/74eab48a6dea.png",
+     "noOfShares": 4552669921.875
+    }
+   ]
+  },
+  "news": {
+   "news": [
+    {
+     "newsId": 2016453,
+     "title": "HDFC BANK LTD.: RS. 717.55 CRORES NSE BLOCK TRADE; FOR ~ 3,633,142 SHARES, AT RS. 1975.00",
+     "newsDateTime": 1754365794,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 2016455,
+     "title": "HDFC BANK LTD.: RS. 107.97 CRORES NSE BLOCK TRADE; FOR ~ 548,286 SHARES, AT RS. 1969.20",
+     "newsDateTime": 1754365775,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 2012777,
+     "title": "HDFC Bank: To Keep 1:1 ADS Conversion Ratio And Increase Bonus Shares' Conversion Ratio. 📈💰",
+     "newsDateTime": 1754050773,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Default"
+    },
+    {
+     "newsId": 2007694,
+     "title": "HDFC BANK: CO RECOMMENDED A DIVIDEND OF RS. 22 PER EQUITY SHARE\n",
+     "newsDateTime": 1745073689,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Result"
+    },
+    {
+     "newsId": 2007681,
+     "title": "HDFC BANK: Q4 SL NET PROFIT 176.2B RUPEES VS 165B (YOY) || Q4 INTEREST EARNED 774.6B RUPEES VS 714B (YOY) || Q4 GNPA 1.33% VS 1.42% (QOQ) || Q4 NNPA 0.43% VS 0.46% (QOQ) || Q4 PROVISIONS AND CONTINGENCIES SEEN AT 31.9B RUPEES VS 31.54B (QOQ)\n",
+     "newsDateTime": 1745073684,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Result"
+    },
+    {
+     "newsId": 2000809,
+     "title": "HDFC Bank Ltd.: Rs. 19.75 Crores NSE Block Trade; for ~ 109,311 Shares, at Rs. 1806.75 (PRE-OPEN)",
+     "newsDateTime": 1744688621,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1984611,
+     "title": "HDFC BANK: CO SAYS SECURITISED/ASSIGNED LOANS 107B RUPEES IN MARCH 2025 QUARTER",
+     "newsDateTime": 1743694506,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Default"
+    },
+    {
+     "newsId": 1984607,
+     "title": "HDFC BANK: CO SAYS AUM-AVERAGE UP 7.3% (YOY) & 2.6% (QOQ) AT 26.95 LK CR || AUM-PERIOD END UP 7.7% (YOY) & 3.3% (QOQ) AT ₹27.74 LK CR || CASA DEPOSITS UP 5.7% (YOY) & 1.4% (QOQ) AT ₹8.29 LK CR",
+     "newsDateTime": 1743694499,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Default"
+    },
+    {
+     "newsId": 1984616,
+     "title": "HDFC BANK: CO SAYS GROSS ADVANCE UP 5.4% (YOY) & 4% (QOQ) AT ₹26.44 LK CR || DEPOSITS-AVERAGE UP 15.8% (YOY) & 3.1% (QOQ) AT ₹25.28 LK CR || DEPOSITS-PERIOD END 14.1% (YOY) & 5.9% (QOQ) AT ₹27.15 LK CR",
+     "newsDateTime": 1743694491,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Default"
+    },
+    {
+     "newsId": 1982141,
+     "title": "HDFC BANK: SEBI ISSUES ADMINISTRATIVE WARNING LETTER TO BANK FOR ALLEGED NON COMPLIANCE WITH CERTAIN REGULATORY GUIDELINES, WHICH ARE APPLICABLE TO CUSTODIANS",
+     "newsDateTime": 1743603856,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Default"
+    },
+    {
+     "newsId": 1968400,
+     "title": "HDFC BANK: HDFC ERGO GENERAL INSURANCE - GETS ADDITIONAL TAX DEMAND OF 7.13B RUPEES",
+     "newsDateTime": 1742826536,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Default"
+    },
+    {
+     "newsId": 1968388,
+     "title": "HDFC BANK: HDFC CAPITAL - INVESTS 13B RUPEES IN TOTAL ENVIRONMENT, WITH A POTENTIAL GDV OF 101B RUPEES - RTRS",
+     "newsDateTime": 1742825917,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Default"
+    },
+    {
+     "newsId": 1965180,
+     "title": "HDFC BANK LTD.: RS. 62.03 CRORES NSE BLOCK TRADE; FOR ~ 351,678 SHARES, AT RS. 1763.70",
+     "newsDateTime": 1742547154,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1960099,
+     "title": "HDFC BANK: BOARD MEETING ON APRIL 19 TO CONSIDER Q4 RESULTS || CO TO RENEW ISSUANCE OF LONG-TERM BONDS AND DEBT INSTRUMENTS",
+     "newsDateTime": 1742296237,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Default"
+    },
+    {
+     "newsId": 1959590,
+     "title": "HDFC BANK LTD.: RS. 86.99 CRORES NSE BLOCK TRADE; FOR ~ 503,436 SHARES, AT RS. 1727.95",
+     "newsDateTime": 1742271556,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1943665,
+     "title": "HDFC Bank Ltd.: Rs. 23.52 Crores NSE Block Trade; for ~ 140,024 Shares, at Rs. 1680.00",
+     "newsDateTime": 1741246825,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1943622,
+     "title": "HDFC Bank Ltd.: Rs. 44.65 Crores NSE Block Trade; for ~ 265,521 Shares, at Rs. 1681.60",
+     "newsDateTime": 1741245080,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1943624,
+     "title": "HDFC Bank Ltd.: Rs. 43.63 Crores NSE Block Trade; for ~ 259,520 Shares, at Rs. 1681.35",
+     "newsDateTime": 1741244827,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1943406,
+     "title": "HDFC BANK LTD.: RS. 178.63 CRORES NSE BLOCK TRADE; FOR ~ 1,053,229 SHARES, AT RS. 1696.00",
+     "newsDateTime": 1741233106,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1943369,
+     "title": "HDFC BANK: BANK LAUNCHES PROJECT HAKK TO SUPPORT IAF VETERANS || BANK HAS ENTERED INTO MOU WITH THE IAF AND CSC ACADEMY TO SET UP 25 SUPPORT CENTRES ACROSS KEY AIR FORCE UNITS IN INDIA - BUSINESSLINE",
+     "newsDateTime": 1741231635,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Default"
+    },
+    {
+     "newsId": 1938094,
+     "title": "HDFC BANK LTD.: RS. 103.34 CRORES NSE BLOCK TRADE; FOR ~ 609,367 SHARES, AT RS. 1695.90",
+     "newsDateTime": 1740991620,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1937971,
+     "title": "HDFC Bank Ltd.: Rs. 43.18 Crores NSE Block Trade; for ~ 253,183 Shares, at Rs. 1705.30",
+     "newsDateTime": 1740984630,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1937970,
+     "title": "HDFC BANK LTD.: RS. 86.56 CRORES NSE BLOCK TRADE; FOR ~ 507,443 SHARES, AT RS. 1705.75",
+     "newsDateTime": 1740983694,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1937917,
+     "title": "HDFC BANK LTD.: RS. 69.59 CRORES NSE BLOCK TRADE; FOR ~ 408,953 SHARES, AT RS. 1701.65",
+     "newsDateTime": 1740981614,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1937912,
+     "title": "HDFC Bank Ltd.: Rs. 15.19 Crores NSE Block Trade; for ~ 88,843 Shares, at Rs. 1709.95",
+     "newsDateTime": 1740979572,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1935539,
+     "title": "HDFC Bank Ltd.: Rs. 31.42 Crores NSE Block Trade; for ~ 181,721 Shares, at Rs. 1729.10",
+     "newsDateTime": 1740735055,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1930168,
+     "title": "HDFC BANK LTD.: RS. 117.77 CRORES NSE BLOCK TRADE; FOR ~ 700,233 SHARES, AT RS. 1681.90",
+     "newsDateTime": 1740477112,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1923711,
+     "title": "HDFC BANK LTD.: RS. 121.00 CRORES NSE BLOCK TRADE; FOR ~ 706,919 SHARES, AT RS. 1711.70",
+     "newsDateTime": 1740023155,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1904168,
+     "title": "HDFC BANK LTD.: RS. 74.65 CRORES NSE BLOCK TRADE; FOR ~ 429,457 SHARES, AT RS. 1738.20",
+     "newsDateTime": 1738742881,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1896331,
+     "title": "HDFC BANK LTD.: RS. 51.00 CRORES NSE BLOCK TRADE; FOR ~ 302,246 SHARES, AT RS. 1687.50",
+     "newsDateTime": 1738224419,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1887332,
+     "title": "HDFC BANK: CO EXPECTS MARGINS TO BOUNCE BACK IN THE NEXT COUPLE OF YEARS AS THE RATE CYCLE CHANGES, WITH A POSSIBLE LAG EFFECT - CONCALL UPDATE",
+     "newsDateTime": 1737602705,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Default"
+    },
+    {
+     "newsId": 1887340,
+     "title": "HDFC BANK: CO EXPECTS TO BRING DOWN THE CREDIT DEPOSIT RATIO OVER A TWO TO THREE-YEAR TIME FRAME, WITH FY25 BEING LESSER THAN THE SYSTEM, FY26 BEING IN LINE WITH THE SYSTEM, AND FY27 BEING FASTER THAN THE SYSTEM - CONCALL UPDATE",
+     "newsDateTime": 1737602595,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Default"
+    },
+    {
+     "newsId": 1887338,
+     "title": "HDFC BANK: CO IS \"ROBUSTLY POSITIONED\" FOR THE FUTURE AND IS GROWING IN A BALANCED MANNER, IN LINE WITH ITS COMMITTED GLIDE PATH ON THE CD RATIO AND ANTICIPATED GROWTH LEVELS - CONCALL UPDATE",
+     "newsDateTime": 1737602548,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Default"
+    },
+    {
+     "newsId": 1886356,
+     "title": "HDFC BANK: CO EXEC SAYS GOAL IS TO MEET PRIORITY SECTOR LENDING TARGETS ORGANICALLY",
+     "newsDateTime": 1737548328,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Default"
+    },
+    {
+     "newsId": 1886352,
+     "title": "HDFC BANK: CO EXEC SAYS ENDEAVOUR IS TO BRING DOWN CD RATIO TO PRE-MERGER LEVELS, BELOW 90% OVER THE NEXT FEW YEARS || CO SAYS ENDEAVOUR WILL BE TO GROW DEPOSITS FASTER THAN LOANS IN FY26 || CO SAYS DON’T WANT TO COMPETE WITH STATE-RUN BANKS JUST FOR VOLUMES IN MORTGAGE SEGMENT",
+     "newsDateTime": 1737547544,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Default"
+    },
+    {
+     "newsId": 1886359,
+     "title": "HDFC BANK: CO EXEC SAYS PORTFOLIO POSITIONED WELL FROM GROSS NPA POINT OF VIEW || CO SAYS PRICING ON NON-RETAIL LOANS REMAIN TIGHT || CO SAYS EXPECT TO GROW LOANS IN-LINE WITH INDUSTRY IN FY26, ABOVE INDUSTRY IN FY27",
+     "newsDateTime": 1737547538,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Default"
+    },
+    {
+     "newsId": 1886296,
+     "title": "HDFC BANK: CO EXEC SAYS BANK PROGRESSING TOWARDS NORMALISING LOAN-TO-DEPOSIT RATIO FURTHER || CO EXEC SAYS SEEING UPWARD BIAS FOR MARGINS GOING FORWARD",
+     "newsDateTime": 1737547112,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Default"
+    },
+    {
+     "newsId": 1886141,
+     "title": "HDFC BANK: Q3 SLIPPAGES 88B RUPEES VS 78B (QOQ)",
+     "newsDateTime": 1737538832,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Result"
+    },
+    {
+     "newsId": 1886113,
+     "title": "HDFC BANK: Q3 NET INTEREST MARGIN SEEN AT 3.43% VS 3.46% (QOQ)",
+     "newsDateTime": 1737537032,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Result"
+    },
+    {
+     "newsId": 1886107,
+     "title": "HDFC BANK: Q3 NET INTEREST MARGIN SEEN AT 3.43%",
+     "newsDateTime": 1737536785,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Result"
+    },
+    {
+     "newsId": 1886082,
+     "title": "HDFC BANK: Q3 NII 306.53B RUPEES VS 284.7B (YOY); EST 306.7B",
+     "newsDateTime": 1737535189,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Result"
+    },
+    {
+     "newsId": 1886084,
+     "title": "HDFC BANK: Q3 GNPA 1.42% VS 1.36% (QOQ); NNPA 0.46% VS 0.41% (QOQ)",
+     "newsDateTime": 1737535122,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Result"
+    },
+    {
+     "newsId": 1886083,
+     "title": "HDFC BANK: Q3 SL NET PROFIT 167B RUPEES VS 164B (YOY); EST 165.48B",
+     "newsDateTime": 1737535087,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Result"
+    },
+    {
+     "newsId": 1884487,
+     "title": "HDFC BANK LTD.: RS. 99.66 CRORES NSE BLOCK TRADE; FOR ~ 601,298 SHARES, AT RS. 1657.35",
+     "newsDateTime": 1737440775,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1884377,
+     "title": "HDFC BANK LTD.: RS. 165.96 CRORES NSE BLOCK TRADE; FOR ~ 1,010,921 SHARES, AT RS. 1641.65",
+     "newsDateTime": 1737435141,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1880924,
+     "title": "HDFC BANK LTD.: RS. 151.07 CRORES NSE BLOCK TRADE; FOR ~ 924,525 SHARES, AT RS. 1634.00",
+     "newsDateTime": 1737098073,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1880929,
+     "title": "HDFC BANK LTD.: RS. 90.18 CRORES NSE BLOCK TRADE; FOR ~ 551,101 SHARES, AT RS. 1636.45",
+     "newsDateTime": 1737097838,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1880897,
+     "title": "HDFC BANK LTD.: RS. 230.02 CRORES NSE BLOCK TRADE; FOR ~ 1,408,292 SHARES, AT RS. 1633.35",
+     "newsDateTime": 1737095746,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    },
+    {
+     "newsId": 1876297,
+     "title": "HDFC BANK: PARENT ENTITIES OF LARGE INSURER LIKELY TO SUBMIT THE PUBLIC LISTING PLANS WITH IRDAI BY JAN 31 - CNBC TV18",
+     "newsDateTime": 1736836095,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Default"
+    },
+    {
+     "newsId": 1872851,
+     "title": "HDFC BANK LTD.: RS. 91.64 CRORES NSE BLOCK TRADE; FOR ~ 548,482 SHARES, AT RS. 1670.85",
+     "newsDateTime": 1736481201,
+     "stock": {
+      "companyName": "HDFC Bank Ltd",
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK"
+     },
+     "category": "Block_Details"
+    }
+   ]
+  }
+ },
+ "variants": {
+  "symbol=GOLD&sections=ResearchIdeas": {
+   "researchIdeas": {}
+  },
+  "symbol=HDFCBANK&sections=Returns": {
+   "returns": {
+    "entry": [
+     {
+      "period": "YTD",
+      "value": -1491
+     },
+     {
+      "period": "OneWeek",
+      "value": -67
+     },
+     {
+      "period": "OneMonth",
+      "value": -1411
+     },
+     {
+      "period": "ThreeMonth",
+      "value": -332
+     },
+     {
+      "period": "SixMonth",
+      "value": -1250
+     },
+     {
+      "period": "OneYear",
+      "value": -1253
+     },
+     {
+      "period": "TwoYear",
+      "value": -159
+     },
+     {
+      "period": "FiveYear",
+      "value": 3669
+     },
+     {
+      "period": "TenYear",
+      "value": 35331
+     }
+    ]
+   }
+  },
+  "symbol=HDFCBANK&sections=QuantScore": {
+   "quantScore": {
+    "overallScore": 7,
+    "earnings": {
+     "score": 8,
+     "label": "earnings",
+     "color": "Green"
+    },
+    "fundamentals": {
+     "score": 6,
+     "label": "fundamentals",
+     "color": "Yellow"
+    },
+    "relativeValuation": {
+     "score": 7,
+     "label": "relative_valuation",
+     "color": "Yellow"
+    },
+    "risk": {
+     "score": 10,
+     "label": "risk",
+     "color": "Green"
+    },
+    "priceMomentum": {
+     "score": 1,
+     "label": "price_momentum",
+     "color": "Red"
+    },
+    "pdfLink": "https://app.stockreportsplus.com/SRP_MOFSL/StockReportsPlus_HDFCBANK-IN.pdf?enc=3m273h3n3900163a041j302c3l0a2h34361b0c313338083f2e2j3d0h172b350g1f1m32022f3j1e2m3i2l211h220m0j052i142d0f1a1d2n3b0b2g0106261k133c24070k19101525111g1l2a0i2k28290n1c201i1803123g3e0l1n0937230e0d3k1n0c2d1e0h3i3j2a3a3n003h273m0a301l040a11173j32352m0m2a343n00153b1k3l2h000c2c110m222a1d1k1d2g1l1a1k1l2n1k311k2g152n3m3b1d152n3m3b0b2j"
+   }
+  },
+  "symbol=HDFCBANK&sections=AnalystRatingV2": {
+   "ratingV2": {
+    "buy": {
+     "percent": 9500,
+     "recommendedByCount": 38
+    },
+    "sell": {},
+    "hold": {
+     "percent": 500,
+     "recommendedByCount": 2
+    },
+    "targets": {
+     "lpt": 830,
+     "apt": 960,
+     "hpt": 1270
+    },
+    "summary": {
+     "totalAnalysts": 40,
+     "majorityRecommended": "Strong Buy",
+     "count": 38
+    }
+   }
+  },
+  "symbol=HDFCBANK&sections=ResearchIdeas": {
+   "researchIdeas": {
+    "entry": [
+     {
+      "callId": 175853,
+      "scrip": {
+       "scripCode": 1333
+      },
+      "tradeSymbol": "HDFCBANK",
+      "description": "NSE",
+      "callType": "Investment Idea: Bluechip",
+      "recoDate": 1759465469,
+      "recoPrice": 959.25,
+      "targetPrice": 1050,
+      "stopLoss": 864,
+      "viewType": "Single",
+      "logoUrl": "img/80edb0d5ef78.png"
+     }
+    ]
+   }
+  },
+  "symbol=HDFCBANK&sections=CorpActions": {
+   "corpActions": {}
+  },
+  "symbol=HDFCBANK&sections=SimilarStocks": {
+   "similarStocks": {
+    "entry": [
+     {
+      "tradeSymbol": "AUBANK",
+      "id": {
+       "scripCode": 21238
+      },
+      "stockInfo": {
+       "tradeSymbol": "AUBANK",
+       "fullName": "AU Small Finance Bank Ltd",
+       "logoUrl": "img/36b83da9df1c.png",
+       "marketCap": "MidCap",
+       "sector": "Banks",
+       "returns": {
+        "oneWeek": -60,
+        "oneMonth": -2228,
+        "threeMonth": -762,
+        "sixMonth": -1424,
+        "ytd": -2079,
+        "oneYear": -150,
+        "twoYear": -5350,
+        "threeYear": -3659,
+        "fiveYear": 597
+       }
+      },
+      "marketCap": 41671.33984375,
+      "pe": 26.239999771118164,
+      "threeMonthReturn": -7.619999885559082,
+      "pb": 3.56,
+      "dividendYield": 0.16,
+      "oneYearReturn": -1.5,
+      "logoUrl": "img/36b83da9df1c.png",
+      "noOfShares": 751770019.5313
+     },
+     {
+      "tradeSymbol": "AXISBANK",
+      "id": {
+       "scripCode": 5900
+      },
+      "stockInfo": {
+       "tradeSymbol": "AXISBANK",
+       "fullName": "Axis Bank Ltd",
+       "logoUrl": "img/523a554da0bb.png",
+       "sector": "Banks",
+       "returns": {
+        "oneWeek": 2,
+        "oneMonth": -664,
+        "threeMonth": 516,
+        "sixMonth": 1204,
+        "ytd": -330,
+        "oneYear": 2026,
+        "twoYear": 3444,
+        "threeYear": 4751,
+        "fiveYear": 4551,
+        "tenYear": 226151
+       }
+      },
+      "marketCap": 327751.09375,
+      "pe": 13.829999923706055,
+      "threeMonthReturn": 5.159999847412109,
+      "pb": 2.21,
+      "dividendYield": 0.09,
+      "oneYearReturn": 20.26,
+      "logoUrl": "img/523a554da0bb.png",
+      "noOfShares": 3114100036.6211
+     },
+     {
+      "tradeSymbol": "BANDHANBNK",
+      "id": {
+       "scripCode": 2263
+      },
+      "stockInfo": {
+       "tradeSymbol": "BANDHANBNK",
+       "fullName": "Bandhan Bank Ltd",
+       "logoUrl": "img/4c57188eef0d.png",
+       "marketCap": "MidCap",
+       "sector": "Banks",
+       "returns": {
+        "oneWeek": -29,
+        "oneMonth": -1154,
+        "threeMonth": 220,
+        "sixMonth": -311,
+        "ytd": -879,
+        "oneYear": -576,
+        "twoYear": -3058,
+        "threeYear": -3244,
+        "fiveYear": -4656
+       }
+      },
+      "marketCap": 35867.08984375,
+      "pe": 14.119999885559082,
+      "threeMonthReturn": 2.200000047683716,
+      "pb": 1.72,
+      "dividendYield": 0.67,
+      "oneYearReturn": -5.76,
+      "logoUrl": "img/4c57188eef0d.png",
+      "noOfShares": 1611150024.4141
+     },
+     {
+      "tradeSymbol": "BANKBARODA",
+      "id": {
+       "scripCode": 4668
+      },
+      "stockInfo": {
+       "tradeSymbol": "BANKBARODA",
+       "fullName": "Bank of Baroda",
+       "logoUrl": "img/3a32f206b40c.png",
+       "sector": "Banks",
+       "returns": {
+        "oneWeek": 990,
+        "oneMonth": 972,
+        "threeMonth": 3162,
+        "sixMonth": 3593,
+        "ytd": 1014,
+        "oneYear": 5334,
+        "twoYear": 12793,
+        "threeYear": 21206,
+        "fiveYear": 13849,
+        "tenYear": 13695
+       }
+      },
+      "marketCap": 133162.578125,
+      "pe": 7.050000190734863,
+      "threeMonthReturn": 31.6200008392334,
+      "pb": 1.17,
+      "dividendYield": 2.14,
+      "oneYearReturn": 53.34,
+      "logoUrl": "img/3a32f206b40c.png",
+      "noOfShares": 5171350097.6563
+     },
+     {
+      "tradeSymbol": "BANKINDIA",
+      "id": {
+       "scripCode": 4745
+      },
+      "stockInfo": {
+       "tradeSymbol": "BANKINDIA",
+       "fullName": "Bank of India",
+       "logoUrl": "img/74eab48a6dea.png",
+       "marketCap": "MidCap",
+       "sector": "Banks",
+       "returns": {
+        "oneWeek": 229,
+        "oneMonth": 1662,
+        "threeMonth": 3736,
+        "sixMonth": 6649,
+        "ytd": 2260,
+        "oneYear": 7522,
+        "twoYear": 14000,
+        "threeYear": 13275,
+        "fiveYear": 5239,
+        "tenYear": -2471
+       }
+      },
+      "marketCap": 63122.73828125,
+      "pe": 9.859999656677246,
+      "threeMonthReturn": 37.36000061035156,
+      "pb": 1.05,
+      "dividendYield": 1.3,
+      "oneYearReturn": 75.22,
+      "logoUrl": "img/74eab48a6dea.png",
+      "noOfShares": 4552669921.875
+     }
+    ]
+   }
+  },
+  "symbol=HDFCBANK&sections=News": {
+   "news": {
+    "news": [
+     {
+      "newsId": 2016453,
+      "title": "HDFC BANK LTD.: RS. 717.55 CRORES NSE BLOCK TRADE; FOR ~ 3,633,142 SHARES, AT RS. 1975.00",
+      "newsDateTime": 1754365794,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 2016455,
+      "title": "HDFC BANK LTD.: RS. 107.97 CRORES NSE BLOCK TRADE; FOR ~ 548,286 SHARES, AT RS. 1969.20",
+      "newsDateTime": 1754365775,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 2012777,
+      "title": "HDFC Bank: To Keep 1:1 ADS Conversion Ratio And Increase Bonus Shares' Conversion Ratio. 📈💰",
+      "newsDateTime": 1754050773,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Default"
+     },
+     {
+      "newsId": 2007694,
+      "title": "HDFC BANK: CO RECOMMENDED A DIVIDEND OF RS. 22 PER EQUITY SHARE\n",
+      "newsDateTime": 1745073689,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Result"
+     },
+     {
+      "newsId": 2007681,
+      "title": "HDFC BANK: Q4 SL NET PROFIT 176.2B RUPEES VS 165B (YOY) || Q4 INTEREST EARNED 774.6B RUPEES VS 714B (YOY) || Q4 GNPA 1.33% VS 1.42% (QOQ) || Q4 NNPA 0.43% VS 0.46% (QOQ) || Q4 PROVISIONS AND CONTINGENCIES SEEN AT 31.9B RUPEES VS 31.54B (QOQ)\n",
+      "newsDateTime": 1745073684,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Result"
+     },
+     {
+      "newsId": 2000809,
+      "title": "HDFC Bank Ltd.: Rs. 19.75 Crores NSE Block Trade; for ~ 109,311 Shares, at Rs. 1806.75 (PRE-OPEN)",
+      "newsDateTime": 1744688621,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1984611,
+      "title": "HDFC BANK: CO SAYS SECURITISED/ASSIGNED LOANS 107B RUPEES IN MARCH 2025 QUARTER",
+      "newsDateTime": 1743694506,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Default"
+     },
+     {
+      "newsId": 1984607,
+      "title": "HDFC BANK: CO SAYS AUM-AVERAGE UP 7.3% (YOY) & 2.6% (QOQ) AT 26.95 LK CR || AUM-PERIOD END UP 7.7% (YOY) & 3.3% (QOQ) AT ₹27.74 LK CR || CASA DEPOSITS UP 5.7% (YOY) & 1.4% (QOQ) AT ₹8.29 LK CR",
+      "newsDateTime": 1743694499,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Default"
+     },
+     {
+      "newsId": 1984616,
+      "title": "HDFC BANK: CO SAYS GROSS ADVANCE UP 5.4% (YOY) & 4% (QOQ) AT ₹26.44 LK CR || DEPOSITS-AVERAGE UP 15.8% (YOY) & 3.1% (QOQ) AT ₹25.28 LK CR || DEPOSITS-PERIOD END 14.1% (YOY) & 5.9% (QOQ) AT ₹27.15 LK CR",
+      "newsDateTime": 1743694491,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Default"
+     },
+     {
+      "newsId": 1982141,
+      "title": "HDFC BANK: SEBI ISSUES ADMINISTRATIVE WARNING LETTER TO BANK FOR ALLEGED NON COMPLIANCE WITH CERTAIN REGULATORY GUIDELINES, WHICH ARE APPLICABLE TO CUSTODIANS",
+      "newsDateTime": 1743603856,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Default"
+     },
+     {
+      "newsId": 1968400,
+      "title": "HDFC BANK: HDFC ERGO GENERAL INSURANCE - GETS ADDITIONAL TAX DEMAND OF 7.13B RUPEES",
+      "newsDateTime": 1742826536,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Default"
+     },
+     {
+      "newsId": 1968388,
+      "title": "HDFC BANK: HDFC CAPITAL - INVESTS 13B RUPEES IN TOTAL ENVIRONMENT, WITH A POTENTIAL GDV OF 101B RUPEES - RTRS",
+      "newsDateTime": 1742825917,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Default"
+     },
+     {
+      "newsId": 1965180,
+      "title": "HDFC BANK LTD.: RS. 62.03 CRORES NSE BLOCK TRADE; FOR ~ 351,678 SHARES, AT RS. 1763.70",
+      "newsDateTime": 1742547154,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1960099,
+      "title": "HDFC BANK: BOARD MEETING ON APRIL 19 TO CONSIDER Q4 RESULTS || CO TO RENEW ISSUANCE OF LONG-TERM BONDS AND DEBT INSTRUMENTS",
+      "newsDateTime": 1742296237,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Default"
+     },
+     {
+      "newsId": 1959590,
+      "title": "HDFC BANK LTD.: RS. 86.99 CRORES NSE BLOCK TRADE; FOR ~ 503,436 SHARES, AT RS. 1727.95",
+      "newsDateTime": 1742271556,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1943665,
+      "title": "HDFC Bank Ltd.: Rs. 23.52 Crores NSE Block Trade; for ~ 140,024 Shares, at Rs. 1680.00",
+      "newsDateTime": 1741246825,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1943622,
+      "title": "HDFC Bank Ltd.: Rs. 44.65 Crores NSE Block Trade; for ~ 265,521 Shares, at Rs. 1681.60",
+      "newsDateTime": 1741245080,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1943624,
+      "title": "HDFC Bank Ltd.: Rs. 43.63 Crores NSE Block Trade; for ~ 259,520 Shares, at Rs. 1681.35",
+      "newsDateTime": 1741244827,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1943406,
+      "title": "HDFC BANK LTD.: RS. 178.63 CRORES NSE BLOCK TRADE; FOR ~ 1,053,229 SHARES, AT RS. 1696.00",
+      "newsDateTime": 1741233106,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1943369,
+      "title": "HDFC BANK: BANK LAUNCHES PROJECT HAKK TO SUPPORT IAF VETERANS || BANK HAS ENTERED INTO MOU WITH THE IAF AND CSC ACADEMY TO SET UP 25 SUPPORT CENTRES ACROSS KEY AIR FORCE UNITS IN INDIA - BUSINESSLINE",
+      "newsDateTime": 1741231635,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Default"
+     },
+     {
+      "newsId": 1938094,
+      "title": "HDFC BANK LTD.: RS. 103.34 CRORES NSE BLOCK TRADE; FOR ~ 609,367 SHARES, AT RS. 1695.90",
+      "newsDateTime": 1740991620,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1937971,
+      "title": "HDFC Bank Ltd.: Rs. 43.18 Crores NSE Block Trade; for ~ 253,183 Shares, at Rs. 1705.30",
+      "newsDateTime": 1740984630,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1937970,
+      "title": "HDFC BANK LTD.: RS. 86.56 CRORES NSE BLOCK TRADE; FOR ~ 507,443 SHARES, AT RS. 1705.75",
+      "newsDateTime": 1740983694,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1937917,
+      "title": "HDFC BANK LTD.: RS. 69.59 CRORES NSE BLOCK TRADE; FOR ~ 408,953 SHARES, AT RS. 1701.65",
+      "newsDateTime": 1740981614,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1937912,
+      "title": "HDFC Bank Ltd.: Rs. 15.19 Crores NSE Block Trade; for ~ 88,843 Shares, at Rs. 1709.95",
+      "newsDateTime": 1740979572,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1935539,
+      "title": "HDFC Bank Ltd.: Rs. 31.42 Crores NSE Block Trade; for ~ 181,721 Shares, at Rs. 1729.10",
+      "newsDateTime": 1740735055,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1930168,
+      "title": "HDFC BANK LTD.: RS. 117.77 CRORES NSE BLOCK TRADE; FOR ~ 700,233 SHARES, AT RS. 1681.90",
+      "newsDateTime": 1740477112,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1923711,
+      "title": "HDFC BANK LTD.: RS. 121.00 CRORES NSE BLOCK TRADE; FOR ~ 706,919 SHARES, AT RS. 1711.70",
+      "newsDateTime": 1740023155,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1904168,
+      "title": "HDFC BANK LTD.: RS. 74.65 CRORES NSE BLOCK TRADE; FOR ~ 429,457 SHARES, AT RS. 1738.20",
+      "newsDateTime": 1738742881,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1896331,
+      "title": "HDFC BANK LTD.: RS. 51.00 CRORES NSE BLOCK TRADE; FOR ~ 302,246 SHARES, AT RS. 1687.50",
+      "newsDateTime": 1738224419,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1887332,
+      "title": "HDFC BANK: CO EXPECTS MARGINS TO BOUNCE BACK IN THE NEXT COUPLE OF YEARS AS THE RATE CYCLE CHANGES, WITH A POSSIBLE LAG EFFECT - CONCALL UPDATE",
+      "newsDateTime": 1737602705,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Default"
+     },
+     {
+      "newsId": 1887340,
+      "title": "HDFC BANK: CO EXPECTS TO BRING DOWN THE CREDIT DEPOSIT RATIO OVER A TWO TO THREE-YEAR TIME FRAME, WITH FY25 BEING LESSER THAN THE SYSTEM, FY26 BEING IN LINE WITH THE SYSTEM, AND FY27 BEING FASTER THAN THE SYSTEM - CONCALL UPDATE",
+      "newsDateTime": 1737602595,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Default"
+     },
+     {
+      "newsId": 1887338,
+      "title": "HDFC BANK: CO IS \"ROBUSTLY POSITIONED\" FOR THE FUTURE AND IS GROWING IN A BALANCED MANNER, IN LINE WITH ITS COMMITTED GLIDE PATH ON THE CD RATIO AND ANTICIPATED GROWTH LEVELS - CONCALL UPDATE",
+      "newsDateTime": 1737602548,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Default"
+     },
+     {
+      "newsId": 1886356,
+      "title": "HDFC BANK: CO EXEC SAYS GOAL IS TO MEET PRIORITY SECTOR LENDING TARGETS ORGANICALLY",
+      "newsDateTime": 1737548328,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Default"
+     },
+     {
+      "newsId": 1886352,
+      "title": "HDFC BANK: CO EXEC SAYS ENDEAVOUR IS TO BRING DOWN CD RATIO TO PRE-MERGER LEVELS, BELOW 90% OVER THE NEXT FEW YEARS || CO SAYS ENDEAVOUR WILL BE TO GROW DEPOSITS FASTER THAN LOANS IN FY26 || CO SAYS DON’T WANT TO COMPETE WITH STATE-RUN BANKS JUST FOR VOLUMES IN MORTGAGE SEGMENT",
+      "newsDateTime": 1737547544,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Default"
+     },
+     {
+      "newsId": 1886359,
+      "title": "HDFC BANK: CO EXEC SAYS PORTFOLIO POSITIONED WELL FROM GROSS NPA POINT OF VIEW || CO SAYS PRICING ON NON-RETAIL LOANS REMAIN TIGHT || CO SAYS EXPECT TO GROW LOANS IN-LINE WITH INDUSTRY IN FY26, ABOVE INDUSTRY IN FY27",
+      "newsDateTime": 1737547538,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Default"
+     },
+     {
+      "newsId": 1886296,
+      "title": "HDFC BANK: CO EXEC SAYS BANK PROGRESSING TOWARDS NORMALISING LOAN-TO-DEPOSIT RATIO FURTHER || CO EXEC SAYS SEEING UPWARD BIAS FOR MARGINS GOING FORWARD",
+      "newsDateTime": 1737547112,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Default"
+     },
+     {
+      "newsId": 1886141,
+      "title": "HDFC BANK: Q3 SLIPPAGES 88B RUPEES VS 78B (QOQ)",
+      "newsDateTime": 1737538832,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Result"
+     },
+     {
+      "newsId": 1886113,
+      "title": "HDFC BANK: Q3 NET INTEREST MARGIN SEEN AT 3.43% VS 3.46% (QOQ)",
+      "newsDateTime": 1737537032,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Result"
+     },
+     {
+      "newsId": 1886107,
+      "title": "HDFC BANK: Q3 NET INTEREST MARGIN SEEN AT 3.43%",
+      "newsDateTime": 1737536785,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Result"
+     },
+     {
+      "newsId": 1886082,
+      "title": "HDFC BANK: Q3 NII 306.53B RUPEES VS 284.7B (YOY); EST 306.7B",
+      "newsDateTime": 1737535189,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Result"
+     },
+     {
+      "newsId": 1886084,
+      "title": "HDFC BANK: Q3 GNPA 1.42% VS 1.36% (QOQ); NNPA 0.46% VS 0.41% (QOQ)",
+      "newsDateTime": 1737535122,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Result"
+     },
+     {
+      "newsId": 1886083,
+      "title": "HDFC BANK: Q3 SL NET PROFIT 167B RUPEES VS 164B (YOY); EST 165.48B",
+      "newsDateTime": 1737535087,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Result"
+     },
+     {
+      "newsId": 1884487,
+      "title": "HDFC BANK LTD.: RS. 99.66 CRORES NSE BLOCK TRADE; FOR ~ 601,298 SHARES, AT RS. 1657.35",
+      "newsDateTime": 1737440775,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1884377,
+      "title": "HDFC BANK LTD.: RS. 165.96 CRORES NSE BLOCK TRADE; FOR ~ 1,010,921 SHARES, AT RS. 1641.65",
+      "newsDateTime": 1737435141,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1880924,
+      "title": "HDFC BANK LTD.: RS. 151.07 CRORES NSE BLOCK TRADE; FOR ~ 924,525 SHARES, AT RS. 1634.00",
+      "newsDateTime": 1737098073,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1880929,
+      "title": "HDFC BANK LTD.: RS. 90.18 CRORES NSE BLOCK TRADE; FOR ~ 551,101 SHARES, AT RS. 1636.45",
+      "newsDateTime": 1737097838,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1880897,
+      "title": "HDFC BANK LTD.: RS. 230.02 CRORES NSE BLOCK TRADE; FOR ~ 1,408,292 SHARES, AT RS. 1633.35",
+      "newsDateTime": 1737095746,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     },
+     {
+      "newsId": 1876297,
+      "title": "HDFC BANK: PARENT ENTITIES OF LARGE INSURER LIKELY TO SUBMIT THE PUBLIC LISTING PLANS WITH IRDAI BY JAN 31 - CNBC TV18",
+      "newsDateTime": 1736836095,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Default"
+     },
+     {
+      "newsId": 1872851,
+      "title": "HDFC BANK LTD.: RS. 91.64 CRORES NSE BLOCK TRADE; FOR ~ 548,482 SHARES, AT RS. 1670.85",
+      "newsDateTime": 1736481201,
+      "stock": {
+       "companyName": "HDFC Bank Ltd",
+       "scrip": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK"
+      },
+      "category": "Block_Details"
+     }
+    ]
+   }
+  },
+  "symbol=HDFCBANK&sections=MfHoldings": {}
+ }
+}

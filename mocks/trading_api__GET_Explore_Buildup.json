@@ -1,0 +1,13 @@
+{
+ "endpoint": "/TradingApiV2/api/Explore/Buildup",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "BuildupResponse",
+ "source_flow": "debug_dump",
+ "response": {},
+ "variants": {
+  "stockCode=GOLD&expDate=2026-12-04&minutes=15": {},
+  "stockCode=GOLD&expDate=2026-11-27&minutes=15": {}
+ }
+}

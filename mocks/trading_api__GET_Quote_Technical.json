@@ -1,0 +1,135 @@
+{
+ "endpoint": "/TradingApiV2/api/Quote/Technical",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "QuoteTechnicalResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "movingAverage": {
+   "sma": [
+    {
+     "dayCount": 5,
+     "avgPrice": 685.9000244140625
+    },
+    {
+     "dayCount": 10,
+     "avgPrice": 696.4000244140625
+    },
+    {
+     "dayCount": 20,
+     "avgPrice": 703
+    },
+    {
+     "dayCount": 50,
+     "avgPrice": 712.0999755859375
+    },
+    {
+     "dayCount": 100,
+     "avgPrice": 741.5
+    },
+    {
+     "dayCount": 150,
+     "avgPrice": 751.9000244140625
+    },
+    {
+     "dayCount": 200,
+     "avgPrice": 789.5
+    }
+   ],
+   "ema": [
+    {
+     "dayCount": 5,
+     "avgPrice": 689.2999877929688
+    },
+    {
+     "dayCount": 10,
+     "avgPrice": 694
+    },
+    {
+     "dayCount": 12,
+     "avgPrice": 695.7999877929688
+    },
+    {
+     "dayCount": 20,
+     "avgPrice": 701.2000122070312
+    },
+    {
+     "dayCount": 26,
+     "avgPrice": 701.2000122070312
+    },
+    {
+     "dayCount": 50,
+     "avgPrice": 714.9000244140625
+    },
+    {
+     "dayCount": 100,
+     "avgPrice": 738.5999755859375
+    },
+    {
+     "dayCount": 200,
+     "avgPrice": 783.9000244140625
+    }
+   ]
+  },
+  "volume": {
+   "entry": [
+    {
+     "period": "Yesterday",
+     "totalVolume": 22613399,
+     "deliveryVolume": 14495189
+    },
+    {
+     "period": "Week",
+     "totalVolume": 30675702,
+     "deliveryVolume": 16932988
+    },
+    {
+     "period": "1 Month",
+     "totalVolume": 32721982,
+     "deliveryVolume": 18978749
+    }
+   ]
+  },
+  "rs": {
+   "r1": 69860,
+   "r2": 70440,
+   "r3": 71320,
+   "s1": 68390,
+   "s2": 67510,
+   "s3": 66930,
+   "pivotPoint": 68970
+  },
+  "beta": {
+   "description": "HDFC Bank Ltd.. Beta for 3 months is 0.00.",
+   "entry": [
+    {
+     "period": "1Month"
+    },
+    {
+     "period": "3Month"
+    },
+    {
+     "period": "1Year"
+    },
+    {
+     "period": "3Year"
+    }
+   ],
+   "benchmark": "Beta is calculated against Nifty 50"
+  },
+  "momentumOscillators": {
+   "rsiValue": 4400,
+   "rsiSignal": "Normal",
+   "macdValue": -840,
+   "macdSignal": "Bearish",
+   "cciValue": -7670,
+   "williamValue": -6410,
+   "williamSignal": "Normal",
+   "RsiName": "RSI (14)",
+   "MacdName": "MACD (12,26,9)",
+   "CciName": "CCI 20",
+   "WilliamName": "William"
+  }
+ }
+}

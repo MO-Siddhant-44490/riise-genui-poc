@@ -1,0 +1,145 @@
+{
+ "endpoint": "/TradingApiV2/api/Quote/PlaceOrderData",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "PlaceOrderData3",
+ "source_flow": "debug_dump",
+ "response": {
+  "orderData": {
+   "marginAvailable": 50000000,
+   "mtfFundAvailable": 158842216.7313802,
+   "margin": {
+    "normalPercent": 2000,
+    "mtfPercent": 2833,
+    "btstPercent": 2000,
+    "valuePlusPercent": 300,
+    "marginPlusPercent": 500,
+    "deliveryPercent": 2500
+   },
+   "hasEquityHoldings": true,
+   "exchanges": {
+    "entry": [
+     {
+      "id": {
+       "scripCode": 8479
+      },
+      "tradeSymbol": "TVSMOTOR",
+      "description": "NSE"
+     },
+     {
+      "id": {
+       "scripCode": 532343,
+       "exchange": "BSE"
+      },
+      "tradeSymbol": "TVSMOTOR",
+      "description": "BSE"
+     }
+    ]
+   },
+   "gtdExpiryDuration": 365
+  },
+  "spot": {
+   "id": {
+    "scripCode": 26000
+   },
+   "currentPrice": 23053.099609375,
+   "indexSpot": "NIFTY 50"
+  },
+  "preOpenTime": "09:00:00",
+  "marketOpenTime": "09:15:00",
+  "marketCloseTime": "15:30:00"
+ },
+ "variants": {
+  "scripCode=8479&exchange=0": {
+   "orderData": {
+    "marginAvailable": 50000000,
+    "mtfFundAvailable": 158842216.7313802,
+    "margin": {
+     "normalPercent": 2000,
+     "mtfPercent": 2833,
+     "btstPercent": 2000,
+     "valuePlusPercent": 300,
+     "marginPlusPercent": 500,
+     "deliveryPercent": 2500
+    },
+    "hasEquityHoldings": true,
+    "exchanges": {
+     "entry": [
+      {
+       "id": {
+        "scripCode": 8479
+       },
+       "tradeSymbol": "TVSMOTOR",
+       "description": "NSE"
+      },
+      {
+       "id": {
+        "scripCode": 532343,
+        "exchange": "BSE"
+       },
+       "tradeSymbol": "TVSMOTOR",
+       "description": "BSE"
+      }
+     ]
+    },
+    "gtdExpiryDuration": 365
+   },
+   "spot": {
+    "id": {
+     "scripCode": 26000
+    },
+    "currentPrice": 23053.099609375,
+    "indexSpot": "NIFTY 50"
+   },
+   "preOpenTime": "09:00:00",
+   "marketOpenTime": "09:15:00",
+   "marketCloseTime": "15:30:00"
+  },
+  "scripCode=1333&exchange=0": {
+   "orderData": {
+    "marginAvailable": 50000000,
+    "mtfFundAvailable": 169811320.75471696,
+    "margin": {
+     "normalPercent": 2000,
+     "mtfPercent": 2650,
+     "btstPercent": 2000,
+     "valuePlusPercent": 300,
+     "marginPlusPercent": 500,
+     "deliveryPercent": 2500
+    },
+    "hasEquityHoldings": true,
+    "exchanges": {
+     "entry": [
+      {
+       "id": {
+        "scripCode": 1333
+       },
+       "tradeSymbol": "HDFCBANK",
+       "description": "NSE"
+      },
+      {
+       "id": {
+        "scripCode": 500180,
+        "exchange": "BSE"
+       },
+       "tradeSymbol": "HDFCBANK",
+       "description": "BSE"
+      }
+     ]
+    },
+    "gtdExpiryDuration": 365
+   },
+   "spot": {
+    "id": {
+     "scripCode": 26000
+    },
+    "currentPrice": 23053.099609375,
+    "indexSpot": "NIFTY 50"
+   },
+   "preOpenTime": "09:00:00",
+   "marketOpenTime": "09:15:00",
+   "marketCloseTime": "15:30:00"
+  }
+ }
+}

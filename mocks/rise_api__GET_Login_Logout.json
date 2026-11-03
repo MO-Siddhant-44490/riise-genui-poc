@@ -1,0 +1,11 @@
+{
+ "endpoint": "/userlogin/api/Login/Logout",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "LogoutResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "message": "Success"
+ }
+}

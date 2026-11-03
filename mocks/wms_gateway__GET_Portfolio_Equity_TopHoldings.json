@@ -1,0 +1,42 @@
+{
+ "endpoint": "/dev/wms/v2/api/Portfolio/Equity/TopHoldings",
+ "method": "GET",
+ "host": "e74xime5x0.execute-api.ap-south-1.amazonaws.com",
+ "http_status": 200,
+ "decoded_as": "EquityTopHoldings",
+ "source_flow": "debug_dump",
+ "response": {
+  "scrips": [
+   {
+    "id": {
+     "scripCode": 532648,
+     "exchange": "BSE"
+    },
+    "qty": 90,
+    "values": {
+     "invested": "657662",
+     "prevDay": "194760",
+     "market": "188460"
+    }
+   },
+   {
+    "id": {
+     "scripCode": 532712,
+     "exchange": "BSE"
+    },
+    "qty": 1,
+    "values": {
+     "invested": "666",
+     "prevDay": "102",
+     "market": "103"
+    }
+   }
+  ],
+  "total": {
+   "invested": "658328",
+   "prevDay": "194862",
+   "market": "188563"
+  },
+  "remaining": {}
+ }
+}

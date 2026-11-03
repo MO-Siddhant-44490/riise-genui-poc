@@ -1,0 +1,4683 @@
+{
+ "endpoint": "/TradingApiV2/api/Explore/Commodity",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "CommodityDashboardResponseV4",
+ "source_flow": "debug_dump",
+ "response": {
+  "commodityOptionOpenInterest": {
+   "optionList": {
+    "entries": [
+     {
+      "tradeSymbol": "CRUDEOIL",
+      "expiry": [
+       {
+        "expirySeconds": 1479427199
+       },
+       {
+        "expirySeconds": 1481932799
+       }
+      ]
+     },
+     {
+      "tradeSymbol": "NATURALGAS",
+      "expiry": [
+       {
+        "expirySeconds": 1479686399
+       },
+       {
+        "expirySeconds": 1482537599
+       }
+      ]
+     },
+     {
+      "tradeSymbol": "SILVERM",
+      "expiry": [
+       {
+        "expirySeconds": 1479945599
+       },
+       {
+        "expirySeconds": 1482969599
+       },
+       {
+        "expirySeconds": 1485388799
+       },
+       {
+        "expirySeconds": 1487548799
+       },
+       {
+        "expirySeconds": 1490486399
+       },
+       {
+        "expirySeconds": 1492991999
+       },
+       {
+        "expirySeconds": 1495843199
+       },
+       {
+        "expirySeconds": 1498262399
+       },
+       {
+        "expirySeconds": 1501199999
+       },
+       {
+        "expirySeconds": 1503619199
+       }
+      ]
+     },
+     {
+      "tradeSymbol": "GOLDM",
+      "expiry": [
+       {
+        "expirySeconds": 1480291199
+       },
+       {
+        "expirySeconds": 1483055999
+       }
+      ]
+     },
+     {
+      "tradeSymbol": "GOLD",
+      "expiry": [
+       {
+        "expirySeconds": 1480291199
+       },
+       {
+        "expirySeconds": 1483228799
+       },
+       {
+        "expirySeconds": 1485734399
+       },
+       {
+        "expirySeconds": 1488153599
+       },
+       {
+        "expirySeconds": 1490831999
+       },
+       {
+        "expirySeconds": 1493596799
+       },
+       {
+        "expirySeconds": 1496015999
+       },
+       {
+        "expirySeconds": 1498867199
+       },
+       {
+        "expirySeconds": 1501372799
+       }
+      ]
+     },
+     {
+      "tradeSymbol": "SILVER",
+      "expiry": [
+       {
+        "expirySeconds": 1480291199
+       },
+       {
+        "expirySeconds": 1482969599
+       },
+       {
+        "expirySeconds": 1485388799
+       },
+       {
+        "expirySeconds": 1488153599
+       },
+       {
+        "expirySeconds": 1490486399
+       },
+       {
+        "expirySeconds": 1493423999
+       },
+       {
+        "expirySeconds": 1495843199
+       },
+       {
+        "expirySeconds": 1498694399
+       },
+       {
+        "expirySeconds": 1501199999
+       },
+       {
+        "expirySeconds": 1503878399
+       }
+      ]
+     }
+    ]
+   },
+   "optionOIData": {
+    "spot": {
+     "id": {
+      "scripCode": 573422,
+      "exchange": "MCX"
+     },
+     "currentPrice": 8790
+    },
+    "expirySeconds": 1479427199,
+    "scrips": [
+     {
+      "strikePrice": 13050,
+      "oi": 431,
+      "prevOi": 431
+     },
+     {
+      "strikePrice": 13050,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 13000,
+      "oi": 3921,
+      "prevOi": 3921
+     },
+     {
+      "strikePrice": 13000,
+      "oi": 1,
+      "prevOi": 1,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 12500,
+      "oi": 912,
+      "prevOi": 912
+     },
+     {
+      "strikePrice": 12500,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 12000,
+      "oi": 2875,
+      "prevOi": 2875
+     },
+     {
+      "strikePrice": 12000,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 11800,
+      "oi": 6,
+      "prevOi": 6
+     },
+     {
+      "strikePrice": 11800,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 11700,
+      "oi": 12,
+      "prevOi": 12
+     },
+     {
+      "strikePrice": 11700,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 11600,
+      "oi": 11,
+      "prevOi": 11
+     },
+     {
+      "strikePrice": 11600,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 11500,
+      "oi": 3351,
+      "prevOi": 3351
+     },
+     {
+      "strikePrice": 11500,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 11400,
+      "oi": 141,
+      "prevOi": 141
+     },
+     {
+      "strikePrice": 11400,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 11350,
+      "oi": 9,
+      "prevOi": 9
+     },
+     {
+      "strikePrice": 11350,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 11300,
+      "oi": 162,
+      "prevOi": 162
+     },
+     {
+      "strikePrice": 11300,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 11250,
+      "oi": 9,
+      "prevOi": 9
+     },
+     {
+      "strikePrice": 11250,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 11200,
+      "oi": 194,
+      "prevOi": 194
+     },
+     {
+      "strikePrice": 11200,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 11150,
+      "oi": 8,
+      "prevOi": 8
+     },
+     {
+      "strikePrice": 11150,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 11100,
+      "oi": 237,
+      "prevOi": 237
+     },
+     {
+      "strikePrice": 11100,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 11050,
+      "oi": 58,
+      "prevOi": 58
+     },
+     {
+      "strikePrice": 11050,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 11000,
+      "oi": 3875,
+      "prevOi": 3875
+     },
+     {
+      "strikePrice": 11000,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10950,
+      "oi": 186,
+      "prevOi": 186
+     },
+     {
+      "strikePrice": 10950,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10900,
+      "oi": 250,
+      "prevOi": 250
+     },
+     {
+      "strikePrice": 10900,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10850,
+      "oi": 55,
+      "prevOi": 55
+     },
+     {
+      "strikePrice": 10850,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10800,
+      "oi": 238,
+      "prevOi": 238
+     },
+     {
+      "strikePrice": 10800,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10750,
+      "oi": 57,
+      "prevOi": 57
+     },
+     {
+      "strikePrice": 10750,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10700,
+      "oi": 265,
+      "prevOi": 265
+     },
+     {
+      "strikePrice": 10700,
+      "oi": 23,
+      "prevOi": 23,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10650,
+      "oi": 68,
+      "prevOi": 68
+     },
+     {
+      "strikePrice": 10650,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10600,
+      "oi": 314,
+      "prevOi": 314
+     },
+     {
+      "strikePrice": 10600,
+      "oi": 41,
+      "prevOi": 41,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10550,
+      "oi": 104,
+      "prevOi": 104
+     },
+     {
+      "strikePrice": 10550,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10500,
+      "oi": 2954,
+      "prevOi": 2954
+     },
+     {
+      "strikePrice": 10500,
+      "oi": 520,
+      "prevOi": 520,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10450,
+      "oi": 129,
+      "prevOi": 129
+     },
+     {
+      "strikePrice": 10450,
+      "oi": 45,
+      "prevOi": 45,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10400,
+      "oi": 238,
+      "prevOi": 238
+     },
+     {
+      "strikePrice": 10400,
+      "oi": 22,
+      "prevOi": 22,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10350,
+      "oi": 119,
+      "prevOi": 119
+     },
+     {
+      "strikePrice": 10350,
+      "oi": 20,
+      "prevOi": 20,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10300,
+      "oi": 265,
+      "prevOi": 265
+     },
+     {
+      "strikePrice": 10300,
+      "oi": 30,
+      "prevOi": 30,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10250,
+      "oi": 109,
+      "prevOi": 109
+     },
+     {
+      "strikePrice": 10250,
+      "oi": 22,
+      "prevOi": 22,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10200,
+      "oi": 414,
+      "prevOi": 414
+     },
+     {
+      "strikePrice": 10200,
+      "oi": 131,
+      "prevOi": 131,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10150,
+      "oi": 114,
+      "prevOi": 114
+     },
+     {
+      "strikePrice": 10150,
+      "oi": 29,
+      "prevOi": 29,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10100,
+      "oi": 506,
+      "prevOi": 506
+     },
+     {
+      "strikePrice": 10100,
+      "oi": 107,
+      "prevOi": 107,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10050,
+      "oi": 244,
+      "prevOi": 244
+     },
+     {
+      "strikePrice": 10050,
+      "oi": 76,
+      "prevOi": 76,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 10000,
+      "oi": 4029,
+      "prevOi": 4029
+     },
+     {
+      "strikePrice": 10000,
+      "oi": 2433,
+      "prevOi": 2433,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9950,
+      "oi": 433,
+      "prevOi": 433
+     },
+     {
+      "strikePrice": 9950,
+      "oi": 445,
+      "prevOi": 445,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9900,
+      "oi": 3046,
+      "prevOi": 3046
+     },
+     {
+      "strikePrice": 9900,
+      "oi": 3528,
+      "prevOi": 3528,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9850,
+      "oi": 285,
+      "prevOi": 285
+     },
+     {
+      "strikePrice": 9850,
+      "oi": 1007,
+      "prevOi": 1007,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9800,
+      "oi": 1595,
+      "prevOi": 1595
+     },
+     {
+      "strikePrice": 9800,
+      "oi": 3175,
+      "prevOi": 3175,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9750,
+      "oi": 177,
+      "prevOi": 177
+     },
+     {
+      "strikePrice": 9750,
+      "oi": 631,
+      "prevOi": 631,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9700,
+      "oi": 2936,
+      "prevOi": 2936
+     },
+     {
+      "strikePrice": 9700,
+      "oi": 3785,
+      "prevOi": 3785,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9650,
+      "oi": 128,
+      "prevOi": 128
+     },
+     {
+      "strikePrice": 9650,
+      "oi": 966,
+      "prevOi": 966,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9600,
+      "oi": 1824,
+      "prevOi": 1824
+     },
+     {
+      "strikePrice": 9600,
+      "oi": 3339,
+      "prevOi": 3339,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9550,
+      "oi": 92,
+      "prevOi": 92
+     },
+     {
+      "strikePrice": 9550,
+      "oi": 844,
+      "prevOi": 844,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9500,
+      "oi": 2304,
+      "prevOi": 2304
+     },
+     {
+      "strikePrice": 9500,
+      "oi": 5931,
+      "prevOi": 5931,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9450,
+      "oi": 69,
+      "prevOi": 69
+     },
+     {
+      "strikePrice": 9450,
+      "oi": 748,
+      "prevOi": 748,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9400,
+      "oi": 1640,
+      "prevOi": 1640
+     },
+     {
+      "strikePrice": 9400,
+      "oi": 3532,
+      "prevOi": 3532,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9350,
+      "oi": 131,
+      "prevOi": 131
+     },
+     {
+      "strikePrice": 9350,
+      "oi": 587,
+      "prevOi": 587,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9300,
+      "oi": 759,
+      "prevOi": 759
+     },
+     {
+      "strikePrice": 9300,
+      "oi": 3032,
+      "prevOi": 3032,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9250,
+      "oi": 38,
+      "prevOi": 38
+     },
+     {
+      "strikePrice": 9250,
+      "oi": 742,
+      "prevOi": 742,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9200,
+      "oi": 635,
+      "prevOi": 635
+     },
+     {
+      "strikePrice": 9200,
+      "oi": 2573,
+      "prevOi": 2573,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9150,
+      "oi": 57,
+      "prevOi": 57
+     },
+     {
+      "strikePrice": 9150,
+      "oi": 543,
+      "prevOi": 543,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9100,
+      "oi": 728,
+      "prevOi": 728
+     },
+     {
+      "strikePrice": 9100,
+      "oi": 2336,
+      "prevOi": 2336,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9050,
+      "oi": 55,
+      "prevOi": 55
+     },
+     {
+      "strikePrice": 9050,
+      "oi": 608,
+      "prevOi": 608,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 9000,
+      "oi": 1924,
+      "prevOi": 1924
+     },
+     {
+      "strikePrice": 9000,
+      "oi": 10284,
+      "prevOi": 10284,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8950
+     },
+     {
+      "strikePrice": 8950,
+      "oi": 614,
+      "prevOi": 614,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8900,
+      "oi": 136,
+      "prevOi": 136
+     },
+     {
+      "strikePrice": 8900,
+      "oi": 1198,
+      "prevOi": 1198,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8850
+     },
+     {
+      "strikePrice": 8850,
+      "oi": 289,
+      "prevOi": 289,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8800,
+      "oi": 105,
+      "prevOi": 105
+     },
+     {
+      "strikePrice": 8800,
+      "oi": 2241,
+      "prevOi": 2241,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8750
+     },
+     {
+      "strikePrice": 8750,
+      "oi": 146,
+      "prevOi": 146,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8700,
+      "oi": 148,
+      "prevOi": 148
+     },
+     {
+      "strikePrice": 8700,
+      "oi": 1236,
+      "prevOi": 1236,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8650
+     },
+     {
+      "strikePrice": 8650,
+      "oi": 183,
+      "prevOi": 183,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8600,
+      "oi": 90,
+      "prevOi": 90
+     },
+     {
+      "strikePrice": 8600,
+      "oi": 787,
+      "prevOi": 787,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8550
+     },
+     {
+      "strikePrice": 8550,
+      "oi": 189,
+      "prevOi": 189,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8500,
+      "oi": 501,
+      "prevOi": 501
+     },
+     {
+      "strikePrice": 8500,
+      "oi": 6362,
+      "prevOi": 6362,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8450
+     },
+     {
+      "strikePrice": 8450,
+      "oi": 123,
+      "prevOi": 123,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8400
+     },
+     {
+      "strikePrice": 8400,
+      "oi": 498,
+      "prevOi": 498,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8350
+     },
+     {
+      "strikePrice": 8350,
+      "oi": 51,
+      "prevOi": 51,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8300
+     },
+     {
+      "strikePrice": 8300,
+      "oi": 434,
+      "prevOi": 434,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8250
+     },
+     {
+      "strikePrice": 8250,
+      "oi": 99,
+      "prevOi": 99,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8200
+     },
+     {
+      "strikePrice": 8200,
+      "oi": 357,
+      "prevOi": 357,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8150
+     },
+     {
+      "strikePrice": 8150,
+      "oi": 16,
+      "prevOi": 16,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8100
+     },
+     {
+      "strikePrice": 8100,
+      "oi": 282,
+      "prevOi": 282,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 8000,
+      "oi": 193,
+      "prevOi": 193
+     },
+     {
+      "strikePrice": 8000,
+      "oi": 7651,
+      "prevOi": 7651,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 7900
+     },
+     {
+      "strikePrice": 7900,
+      "oi": 85,
+      "prevOi": 85,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 7850
+     },
+     {
+      "strikePrice": 7850,
+      "oi": 2,
+      "prevOi": 2,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 7800
+     },
+     {
+      "strikePrice": 7800,
+      "oi": 258,
+      "prevOi": 258,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 7700
+     },
+     {
+      "strikePrice": 7700,
+      "oi": 134,
+      "prevOi": 134,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 7650
+     },
+     {
+      "strikePrice": 7650,
+      "oi": 1,
+      "prevOi": 1,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 7500
+     },
+     {
+      "strikePrice": 7500,
+      "oi": 2450,
+      "prevOi": 2450,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 7450
+     },
+     {
+      "strikePrice": 7450,
+      "oi": 34,
+      "prevOi": 34,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 7000,
+      "oi": 195,
+      "prevOi": 195
+     },
+     {
+      "strikePrice": 7000,
+      "oi": 2170,
+      "prevOi": 2170,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 6500
+     },
+     {
+      "strikePrice": 6500,
+      "oi": 443,
+      "prevOi": 443,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 6000
+     },
+     {
+      "strikePrice": 6000,
+      "oi": 324,
+      "prevOi": 324,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 5500
+     },
+     {
+      "strikePrice": 5500,
+      "oi": 83,
+      "prevOi": 83,
+      "optionType": "Put"
+     },
+     {
+      "strikePrice": 5000
+     },
+     {
+      "strikePrice": 5000,
+      "oi": 289,
+      "prevOi": 289,
+      "optionType": "Put"
+     }
+    ]
+   }
+  },
+  "isCommoditySegmentActivated": true,
+  "commodityIndices": {
+   "index": [
+    {
+     "symbol": {
+      "tradingSymbol": "CRUDEOIL",
+      "scrip": {
+       "scripCode": 573422,
+       "exchange": "MCX"
+      },
+      "description": "Expiry On 19 Nov 2026",
+      "hasDerivatives": true
+     }
+    },
+    {
+     "displayOrder": 1,
+     "symbol": {
+      "tradingSymbol": "GOLD",
+      "scrip": {
+       "scripCode": 495213,
+       "exchange": "MCX"
+      },
+      "description": "Expiry On 04 Dec 2026",
+      "hasDerivatives": true
+     }
+    },
+    {
+     "displayOrder": 2,
+     "symbol": {
+      "tradingSymbol": "SILVER",
+      "scrip": {
+       "scripCode": 495214,
+       "exchange": "MCX"
+      },
+      "description": "Expiry On 04 Dec 2026",
+      "hasDerivatives": true
+     }
+    },
+    {
+     "displayOrder": 3,
+     "symbol": {
+      "tradingSymbol": "NATURALGAS",
+      "scrip": {
+       "scripCode": 574319,
+       "exchange": "MCX"
+      },
+      "description": "Expiry On 24 Nov 2026",
+      "hasDerivatives": true
+     }
+    }
+   ]
+  },
+  "position": {
+   "availableMargin": 50000000
+  },
+  "researchIdeas": {
+   "entry": [
+    {
+     "callId": 256,
+     "scrip": {
+      "scripCode": 495214,
+      "exchange": "MCX"
+     },
+     "tradeSymbol": "SILVER",
+     "description": "04 Dec",
+     "callType": "Intraday",
+     "recoDate": 1791194068,
+     "recoPrice": 227873,
+     "targetPrice": 228500,
+     "stopLoss": 227600,
+     "viewType": "Single",
+     "isIntraday": true,
+     "potentialUpside": 20.610000610351562,
+     "lotSize": 30,
+     "ltp": 178900,
+     "isActiveCall": true,
+     "Category": "Commodity",
+     "SubCategory": "Futures",
+     "logoUrl": "img/1bae1943bb84.svg",
+     "mtfPercentageValue": "1.0 x"
+    },
+    {
+     "callId": 253,
+     "scrip": {
+      "scripCode": 495213,
+      "exchange": "MCX"
+     },
+     "tradeSymbol": "GOLD",
+     "description": "04 Dec",
+     "callType": "Intraday",
+     "recoDate": 1791190584,
+     "recoPrice": 150092,
+     "targetPrice": 150400,
+     "stopLoss": 149900,
+     "viewType": "Single",
+     "isIntraday": true,
+     "potentialUpside": 5.46999979019165,
+     "lotSize": 1,
+     "ltp": 138419,
+     "isActiveCall": true,
+     "Category": "Commodity",
+     "SubCategory": "Futures",
+     "logoUrl": "img/c9176cbc0bf8.svg",
+     "mtfPercentageValue": "1.0 x"
+    },
+    {
+     "callId": 251,
+     "scrip": {
+      "scripCode": 574320,
+      "exchange": "MCX"
+     },
+     "tradeSymbol": "NATGASMINI",
+     "description": "24 Nov",
+     "callType": "Intraday",
+     "recoDate": 1790237096,
+     "recoPrice": 340.20001220703125,
+     "targetPrice": 378,
+     "stopLoss": 323,
+     "viewType": "Single",
+     "isIntraday": true,
+     "potentialUpside": 34.09000015258789,
+     "lotSize": 250,
+     "ltp": 276.8999938964844,
+     "isActiveCall": true,
+     "Category": "Commodity",
+     "SubCategory": "Futures",
+     "logoUrl": "img/e12fe736e9be.svg",
+     "mtfPercentageValue": "1.0 x"
+    },
+    {
+     "callId": 239,
+     "scrip": {
+      "scripCode": 562058,
+      "exchange": "MCX"
+     },
+     "tradeSymbol": "SILVERMIC",
+     "description": "30 Nov",
+     "callType": "Intraday",
+     "recoDate": 1789716094,
+     "recoPrice": 243322,
+     "targetPrice": 243333,
+     "stopLoss": 243310,
+     "viewType": "Single",
+     "isIntraday": true,
+     "potentialUpside": 34.25,
+     "lotSize": 1,
+     "ltp": 181200,
+     "isActiveCall": true,
+     "Category": "Commodity",
+     "SubCategory": "Futures",
+     "logoUrl": "img/035ee9614424.svg",
+     "mtfPercentageValue": "1.0 x"
+    },
+    {
+     "callId": 90876,
+     "scrip": {
+      "scripCode": 562058,
+      "exchange": "MCX"
+     },
+     "tradeSymbol": "SILVERMIC",
+     "description": "30 Nov",
+     "callType": "Intraday",
+     "recoDate": 1788933906,
+     "recoPrice": 242686,
+     "targetPrice": 244000,
+     "stopLoss": 241190,
+     "viewType": "Single",
+     "isIntraday": true,
+     "potentialUpside": 34.619998931884766,
+     "lotSize": 1,
+     "ltp": 181200,
+     "isActiveCall": true,
+     "Category": "Commodity",
+     "SubCategory": "Futures",
+     "logoUrl": "img/035ee9614424.svg",
+     "mtfPercentageValue": "1.0 x"
+    },
+    {
+     "callId": 90876,
+     "scrip": {
+      "scripCode": 562058,
+      "exchange": "MCX"
+     },
+     "tradeSymbol": "SILVERMIC",
+     "description": "30 Nov",
+     "callType": "Intraday",
+     "recoDate": 1788933906,
+     "recoPrice": 242686,
+     "targetPrice": 244000,
+     "stopLoss": 241190,
+     "viewType": "Single",
+     "isIntraday": true,
+     "potentialUpside": 34.619998931884766,
+     "lotSize": 1,
+     "ltp": 181200,
+     "isActiveCall": true,
+     "Category": "Commodity",
+     "SubCategory": "Futures",
+     "logoUrl": "img/035ee9614424.svg",
+     "mtfPercentageValue": "1.0 x"
+    },
+    {
+     "callId": 239,
+     "scrip": {
+      "scripCode": 562058,
+      "exchange": "MCX"
+     },
+     "tradeSymbol": "SILVERMIC",
+     "description": "30 Nov",
+     "callType": "Intraday",
+     "recoDate": 1789716094,
+     "recoPrice": 243322,
+     "targetPrice": 243333,
+     "stopLoss": 243310,
+     "viewType": "Single",
+     "isIntraday": true,
+     "potentialUpside": 34.25,
+     "lotSize": 1,
+     "ltp": 181200,
+     "isActiveCall": true,
+     "Category": "Commodity",
+     "SubCategory": "Futures",
+     "logoUrl": "img/035ee9614424.svg",
+     "mtfPercentageValue": "1.0 x"
+    },
+    {
+     "callId": 251,
+     "scrip": {
+      "scripCode": 574320,
+      "exchange": "MCX"
+     },
+     "tradeSymbol": "NATGASMINI",
+     "description": "24 Nov",
+     "callType": "Intraday",
+     "recoDate": 1790237096,
+     "recoPrice": 340.20001220703125,
+     "targetPrice": 378,
+     "stopLoss": 323,
+     "viewType": "Single",
+     "isIntraday": true,
+     "potentialUpside": 34.09000015258789,
+     "lotSize": 250,
+     "ltp": 276.8999938964844,
+     "isActiveCall": true,
+     "Category": "Commodity",
+     "SubCategory": "Futures",
+     "logoUrl": "img/e12fe736e9be.svg",
+     "mtfPercentageValue": "1.0 x"
+    },
+    {
+     "callId": 253,
+     "scrip": {
+      "scripCode": 495213,
+      "exchange": "MCX"
+     },
+     "tradeSymbol": "GOLD",
+     "description": "04 Dec",
+     "callType": "Intraday",
+     "recoDate": 1791190584,
+     "recoPrice": 150092,
+     "targetPrice": 150400,
+     "stopLoss": 149900,
+     "viewType": "Single",
+     "isIntraday": true,
+     "potentialUpside": 5.46999979019165,
+     "lotSize": 1,
+     "ltp": 138419,
+     "isActiveCall": true,
+     "Category": "Commodity",
+     "SubCategory": "Futures",
+     "logoUrl": "img/c9176cbc0bf8.svg",
+     "mtfPercentageValue": "1.0 x"
+    },
+    {
+     "callId": 256,
+     "scrip": {
+      "scripCode": 495214,
+      "exchange": "MCX"
+     },
+     "tradeSymbol": "SILVER",
+     "description": "04 Dec",
+     "callType": "Intraday",
+     "recoDate": 1791194068,
+     "recoPrice": 227873,
+     "targetPrice": 228500,
+     "stopLoss": 227600,
+     "viewType": "Single",
+     "isIntraday": true,
+     "potentialUpside": 20.610000610351562,
+     "lotSize": 30,
+     "ltp": 178900,
+     "isActiveCall": true,
+     "Category": "Commodity",
+     "SubCategory": "Futures",
+     "logoUrl": "img/1bae1943bb84.svg",
+     "mtfPercentageValue": "1.0 x"
+    }
+   ],
+   "IsMarketOpen": true,
+   "viewCount": 302
+  },
+  "topTradedOptions": {
+   "scrips": [
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov CE 9900",
+     "scripId": {
+      "scripCode": 582948,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 493,
+      "change": 100.0999984741211,
+      "perChange": 25.479999542236328
+     },
+     "oi": 3046,
+     "volume": 70636,
+     "value": 34681569.64,
+     "optionType": "CE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov PE 9900",
+     "scripId": {
+      "scripCode": 583098,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 476.6000061035156,
+      "change": -105.69999694824219,
+      "perChange": -18.149999618530273
+     },
+     "oi": 3528,
+     "volume": 57875,
+     "value": 28634235,
+     "optionType": "PE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov CE 10000",
+     "scripId": {
+      "scripCode": 582950,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 439.20001220703125,
+      "change": -21.299999237060547,
+      "perChange": -4.630000114440918
+     },
+     "oi": 4029,
+     "volume": 53360,
+     "value": 23750002.4,
+     "optionType": "CE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov PE 9800",
+     "scripId": {
+      "scripCode": 583096,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 424.3999938964844,
+      "change": -99.4000015258789,
+      "perChange": -18.979999542236328
+     },
+     "oi": 3175,
+     "volume": 46175,
+     "value": 20941747.75,
+     "optionType": "PE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov CE 9800",
+     "scripId": {
+      "scripCode": 582946,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 534.7999877929688,
+      "change": 100.19999694824219,
+      "perChange": 23.059999465942383
+     },
+     "oi": 1595,
+     "volume": 38630,
+     "value": 20565839.4,
+     "optionType": "CE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov PE 9000",
+     "scripId": {
+      "scripCode": 583080,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 156.5,
+      "change": 1.100000023841858,
+      "perChange": 0.7099999785423279
+     },
+     "oi": 10284,
+     "volume": 36266,
+     "value": 6182990.34,
+     "optionType": "PE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov PE 9500",
+     "scripId": {
+      "scripCode": 583090,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 297,
+      "change": -76.80000305175781,
+      "perChange": -20.549999237060547
+     },
+     "oi": 5931,
+     "volume": 35902,
+     "value": 11458123.3,
+     "optionType": "PE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov CE 10500",
+     "scripId": {
+      "scripCode": 582960,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 265,
+      "change": -11.399999618530273,
+      "perChange": -4.119999885559082
+     },
+     "oi": 2954,
+     "volume": 31822,
+     "value": 8618352.26,
+     "optionType": "CE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov CE 11500",
+     "scripId": {
+      "scripCode": 582980,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 90,
+      "change": 17.200000762939453,
+      "perChange": 23.6299991607666
+     },
+     "oi": 3351,
+     "volume": 27964,
+     "value": 2712228.36,
+     "optionType": "CE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov PE 9700",
+     "scripId": {
+      "scripCode": 583094,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 377,
+      "change": -94,
+      "perChange": -19.959999084472656
+     },
+     "oi": 3785,
+     "volume": 27252,
+     "value": 11025614.16,
+     "optionType": "PE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    }
+   ]
+  },
+  "trendingOptions": {
+   "scrips": [
+    {
+     "tradeSymbol": "GOLDM",
+     "description": "27 Nov PE 140000",
+     "scripId": {
+      "scripCode": 584631,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 3980,
+      "change": -229,
+      "perChange": -5.440000057220459
+     },
+     "oi": 3260,
+     "volume": 55513,
+     "value": 177668801.37,
+     "optionType": "PE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/gold-mini.svg"
+    },
+    {
+     "tradeSymbol": "SILVERM",
+     "description": "23 Nov PE 185000",
+     "scripId": {
+      "scripCode": 580335,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 9325.5,
+      "change": 4980.5,
+      "perChange": 114.62999725341797
+     },
+     "oi": 1020,
+     "volume": 21499,
+     "value": 171972005.93,
+     "optionType": "PE",
+     "logoUrl": "img/035ee9614424.svg"
+    },
+    {
+     "tradeSymbol": "SILVERM",
+     "description": "23 Nov CE 190000",
+     "scripId": {
+      "scripCode": 577812,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 4250.5,
+      "change": -3824.5,
+      "perChange": -47.36000061035156
+     },
+     "oi": 4265,
+     "volume": 29034,
+     "value": 158119744.68,
+     "optionType": "CE",
+     "logoUrl": "img/035ee9614424.svg"
+    },
+    {
+     "tradeSymbol": "SILVERM",
+     "description": "23 Nov PE 190000",
+     "scripId": {
+      "scripCode": 577951,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 12725,
+      "change": 6444.5,
+      "perChange": 102.61000061035156
+     },
+     "oi": 3111,
+     "volume": 12829,
+     "value": 123656421.78,
+     "optionType": "PE",
+     "logoUrl": "img/035ee9614424.svg"
+    },
+    {
+     "tradeSymbol": "SILVERM",
+     "description": "23 Nov CE 185000",
+     "scripId": {
+      "scripCode": 580305,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 6001.5,
+      "change": -5112,
+      "perChange": -46
+     },
+     "oi": 1859,
+     "volume": 17268,
+     "value": 123463437.12,
+     "optionType": "CE",
+     "logoUrl": "img/035ee9614424.svg"
+    },
+    {
+     "tradeSymbol": "GOLDM",
+     "description": "27 Nov CE 140000",
+     "scripId": {
+      "scripCode": 584531,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 2707.5,
+      "change": -70,
+      "perChange": -2.5199999809265137
+     },
+     "oi": 2997,
+     "volume": 29250,
+     "value": 99055417.5,
+     "optionType": "CE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/gold-mini.svg"
+    },
+    {
+     "tradeSymbol": "GOLDM",
+     "description": "27 Nov PE 135000",
+     "scripId": {
+      "scripCode": 584641,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 1973.5,
+      "change": -145.5,
+      "perChange": -6.869999885559082
+     },
+     "oi": 3490,
+     "volume": 52487,
+     "value": 86121719.34,
+     "optionType": "PE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/gold-mini.svg"
+    },
+    {
+     "tradeSymbol": "SILVERM",
+     "description": "23 Nov CE 200000",
+     "scripId": {
+      "scripCode": 577802,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 2062,
+      "change": -1762.5,
+      "perChange": -46.08000183105469
+     },
+     "oi": 5591,
+     "volume": 30478,
+     "value": 80856914.88,
+     "optionType": "CE",
+     "logoUrl": "img/035ee9614424.svg"
+    },
+    {
+     "tradeSymbol": "SILVERM",
+     "description": "23 Nov PE 182000",
+     "scripId": {
+      "scripCode": 587629,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 7620,
+      "change": 4173.5,
+      "perChange": 121.08999633789062
+     },
+     "oi": 345,
+     "volume": 9697,
+     "value": 75296429.24,
+     "optionType": "PE",
+     "logoUrl": "img/035ee9614424.svg"
+    },
+    {
+     "tradeSymbol": "SILVERM",
+     "description": "23 Nov PE 183000",
+     "scripId": {
+      "scripCode": 581359,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 8412.5,
+      "change": 4704,
+      "perChange": 126.83999633789062
+     },
+     "oi": 317,
+     "volume": 9050,
+     "value": 71035350.5,
+     "optionType": "PE",
+     "logoUrl": "img/035ee9614424.svg"
+    }
+   ]
+  },
+  "lowMarginCommodities": {
+   "scrips": [
+    {
+     "tradeSymbol": "GOLDM",
+     "description": "16 Nov PE 138900",
+     "scripId": {
+      "scripCode": 122998,
+      "exchange": "NSE_CO"
+     },
+     "tick": {},
+     "optionType": "PE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/gold-mini.svg"
+    },
+    {
+     "tradeSymbol": "SILVERM",
+     "description": "23 Nov CE 181250",
+     "scripId": {
+      "scripCode": 123635,
+      "exchange": "NSE_CO"
+     },
+     "tick": {},
+     "optionType": "CE",
+     "logoUrl": "img/035ee9614424.svg"
+    }
+   ]
+  },
+  "commodityList": {
+   "entries": [
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "expirySeconds": 1479427199,
+     "scripId": {
+      "scripCode": 573422,
+      "exchange": "MCX"
+     }
+    },
+    {
+     "tradeSymbol": "NATURALGAS",
+     "expirySeconds": 1479686399,
+     "scripId": {
+      "scripCode": 574319,
+      "exchange": "MCX"
+     }
+    },
+    {
+     "tradeSymbol": "SILVERM",
+     "expirySeconds": 1479945599,
+     "scripId": {
+      "scripCode": 483080,
+      "exchange": "MCX"
+     }
+    },
+    {
+     "tradeSymbol": "GOLD",
+     "expirySeconds": 1480291199,
+     "scripId": {
+      "scripCode": 495213,
+      "exchange": "MCX"
+     }
+    },
+    {
+     "tradeSymbol": "GOLDM",
+     "expirySeconds": 1480291199,
+     "scripId": {
+      "scripCode": 571445,
+      "exchange": "MCX"
+     }
+    },
+    {
+     "tradeSymbol": "SILVER",
+     "expirySeconds": 1480291199,
+     "scripId": {
+      "scripCode": 495214,
+      "exchange": "MCX"
+     }
+    }
+   ]
+  },
+  "commodityScrips": {
+   "scrips": [
+    {
+     "id": 582947,
+     "scrip": {
+      "scripCode": 582947,
+      "exchange": "MCX"
+     },
+     "tradingSymbol": "CRUDEOIL",
+     "description": "17 Nov CE 9850",
+     "optionType": "CE",
+     "holding": {},
+     "expiry": 1479427199,
+     "moneyness": "ITM",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "id": 582948,
+     "scrip": {
+      "scripCode": 582948,
+      "exchange": "MCX"
+     },
+     "tradingSymbol": "CRUDEOIL",
+     "description": "17 Nov CE 9900",
+     "optionType": "CE",
+     "holding": {},
+     "expiry": 1479427199,
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "id": 582949,
+     "scrip": {
+      "scripCode": 582949,
+      "exchange": "MCX"
+     },
+     "tradingSymbol": "CRUDEOIL",
+     "description": "17 Nov CE 9950",
+     "optionType": "CE",
+     "holding": {},
+     "expiry": 1479427199,
+     "moneyness": "OTM",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    }
+   ]
+  }
+ },
+ "variants": {
+  "sections=OptionOpenInterest": {
+   "commodityOptionOpenInterest": {
+    "optionList": {
+     "entries": [
+      {
+       "tradeSymbol": "CRUDEOIL",
+       "expiry": [
+        {
+         "expirySeconds": 1479427199
+        },
+        {
+         "expirySeconds": 1481932799
+        }
+       ]
+      },
+      {
+       "tradeSymbol": "NATURALGAS",
+       "expiry": [
+        {
+         "expirySeconds": 1479686399
+        },
+        {
+         "expirySeconds": 1482537599
+        }
+       ]
+      },
+      {
+       "tradeSymbol": "SILVERM",
+       "expiry": [
+        {
+         "expirySeconds": 1479945599
+        },
+        {
+         "expirySeconds": 1482969599
+        },
+        {
+         "expirySeconds": 1485388799
+        },
+        {
+         "expirySeconds": 1487548799
+        },
+        {
+         "expirySeconds": 1490486399
+        },
+        {
+         "expirySeconds": 1492991999
+        },
+        {
+         "expirySeconds": 1495843199
+        },
+        {
+         "expirySeconds": 1498262399
+        },
+        {
+         "expirySeconds": 1501199999
+        },
+        {
+         "expirySeconds": 1503619199
+        }
+       ]
+      },
+      {
+       "tradeSymbol": "GOLDM",
+       "expiry": [
+        {
+         "expirySeconds": 1480291199
+        },
+        {
+         "expirySeconds": 1483055999
+        }
+       ]
+      },
+      {
+       "tradeSymbol": "GOLD",
+       "expiry": [
+        {
+         "expirySeconds": 1480291199
+        },
+        {
+         "expirySeconds": 1483228799
+        },
+        {
+         "expirySeconds": 1485734399
+        },
+        {
+         "expirySeconds": 1488153599
+        },
+        {
+         "expirySeconds": 1490831999
+        },
+        {
+         "expirySeconds": 1493596799
+        },
+        {
+         "expirySeconds": 1496015999
+        },
+        {
+         "expirySeconds": 1498867199
+        },
+        {
+         "expirySeconds": 1501372799
+        }
+       ]
+      },
+      {
+       "tradeSymbol": "SILVER",
+       "expiry": [
+        {
+         "expirySeconds": 1480291199
+        },
+        {
+         "expirySeconds": 1482969599
+        },
+        {
+         "expirySeconds": 1485388799
+        },
+        {
+         "expirySeconds": 1488153599
+        },
+        {
+         "expirySeconds": 1490486399
+        },
+        {
+         "expirySeconds": 1493423999
+        },
+        {
+         "expirySeconds": 1495843199
+        },
+        {
+         "expirySeconds": 1498694399
+        },
+        {
+         "expirySeconds": 1501199999
+        },
+        {
+         "expirySeconds": 1503878399
+        }
+       ]
+      }
+     ]
+    },
+    "optionOIData": {
+     "spot": {
+      "id": {
+       "scripCode": 573422,
+       "exchange": "MCX"
+      },
+      "currentPrice": 8790
+     },
+     "expirySeconds": 1479427199,
+     "scrips": [
+      {
+       "strikePrice": 13050,
+       "oi": 431,
+       "prevOi": 431
+      },
+      {
+       "strikePrice": 13050,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 13000,
+       "oi": 3921,
+       "prevOi": 3921
+      },
+      {
+       "strikePrice": 13000,
+       "oi": 1,
+       "prevOi": 1,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 12500,
+       "oi": 912,
+       "prevOi": 912
+      },
+      {
+       "strikePrice": 12500,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 12000,
+       "oi": 2875,
+       "prevOi": 2875
+      },
+      {
+       "strikePrice": 12000,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11800,
+       "oi": 6,
+       "prevOi": 6
+      },
+      {
+       "strikePrice": 11800,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11700,
+       "oi": 12,
+       "prevOi": 12
+      },
+      {
+       "strikePrice": 11700,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11600,
+       "oi": 11,
+       "prevOi": 11
+      },
+      {
+       "strikePrice": 11600,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11500,
+       "oi": 3351,
+       "prevOi": 3351
+      },
+      {
+       "strikePrice": 11500,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11400,
+       "oi": 141,
+       "prevOi": 141
+      },
+      {
+       "strikePrice": 11400,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11350,
+       "oi": 9,
+       "prevOi": 9
+      },
+      {
+       "strikePrice": 11350,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11300,
+       "oi": 162,
+       "prevOi": 162
+      },
+      {
+       "strikePrice": 11300,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11250,
+       "oi": 9,
+       "prevOi": 9
+      },
+      {
+       "strikePrice": 11250,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11200,
+       "oi": 194,
+       "prevOi": 194
+      },
+      {
+       "strikePrice": 11200,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11150,
+       "oi": 8,
+       "prevOi": 8
+      },
+      {
+       "strikePrice": 11150,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11100,
+       "oi": 237,
+       "prevOi": 237
+      },
+      {
+       "strikePrice": 11100,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11050,
+       "oi": 58,
+       "prevOi": 58
+      },
+      {
+       "strikePrice": 11050,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11000,
+       "oi": 3875,
+       "prevOi": 3875
+      },
+      {
+       "strikePrice": 11000,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10950,
+       "oi": 186,
+       "prevOi": 186
+      },
+      {
+       "strikePrice": 10950,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10900,
+       "oi": 250,
+       "prevOi": 250
+      },
+      {
+       "strikePrice": 10900,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10850,
+       "oi": 55,
+       "prevOi": 55
+      },
+      {
+       "strikePrice": 10850,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10800,
+       "oi": 238,
+       "prevOi": 238
+      },
+      {
+       "strikePrice": 10800,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10750,
+       "oi": 57,
+       "prevOi": 57
+      },
+      {
+       "strikePrice": 10750,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10700,
+       "oi": 265,
+       "prevOi": 265
+      },
+      {
+       "strikePrice": 10700,
+       "oi": 23,
+       "prevOi": 23,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10650,
+       "oi": 68,
+       "prevOi": 68
+      },
+      {
+       "strikePrice": 10650,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10600,
+       "oi": 314,
+       "prevOi": 314
+      },
+      {
+       "strikePrice": 10600,
+       "oi": 41,
+       "prevOi": 41,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10550,
+       "oi": 104,
+       "prevOi": 104
+      },
+      {
+       "strikePrice": 10550,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10500,
+       "oi": 2954,
+       "prevOi": 2954
+      },
+      {
+       "strikePrice": 10500,
+       "oi": 520,
+       "prevOi": 520,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10450,
+       "oi": 129,
+       "prevOi": 129
+      },
+      {
+       "strikePrice": 10450,
+       "oi": 45,
+       "prevOi": 45,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10400,
+       "oi": 238,
+       "prevOi": 238
+      },
+      {
+       "strikePrice": 10400,
+       "oi": 22,
+       "prevOi": 22,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10350,
+       "oi": 119,
+       "prevOi": 119
+      },
+      {
+       "strikePrice": 10350,
+       "oi": 20,
+       "prevOi": 20,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10300,
+       "oi": 265,
+       "prevOi": 265
+      },
+      {
+       "strikePrice": 10300,
+       "oi": 30,
+       "prevOi": 30,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10250,
+       "oi": 109,
+       "prevOi": 109
+      },
+      {
+       "strikePrice": 10250,
+       "oi": 22,
+       "prevOi": 22,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10200,
+       "oi": 414,
+       "prevOi": 414
+      },
+      {
+       "strikePrice": 10200,
+       "oi": 131,
+       "prevOi": 131,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10150,
+       "oi": 114,
+       "prevOi": 114
+      },
+      {
+       "strikePrice": 10150,
+       "oi": 29,
+       "prevOi": 29,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10100,
+       "oi": 506,
+       "prevOi": 506
+      },
+      {
+       "strikePrice": 10100,
+       "oi": 107,
+       "prevOi": 107,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10050,
+       "oi": 244,
+       "prevOi": 244
+      },
+      {
+       "strikePrice": 10050,
+       "oi": 76,
+       "prevOi": 76,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10000,
+       "oi": 4029,
+       "prevOi": 4029
+      },
+      {
+       "strikePrice": 10000,
+       "oi": 2433,
+       "prevOi": 2433,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9950,
+       "oi": 433,
+       "prevOi": 433
+      },
+      {
+       "strikePrice": 9950,
+       "oi": 445,
+       "prevOi": 445,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9900,
+       "oi": 3046,
+       "prevOi": 3046
+      },
+      {
+       "strikePrice": 9900,
+       "oi": 3528,
+       "prevOi": 3528,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9850,
+       "oi": 285,
+       "prevOi": 285
+      },
+      {
+       "strikePrice": 9850,
+       "oi": 1007,
+       "prevOi": 1007,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9800,
+       "oi": 1595,
+       "prevOi": 1595
+      },
+      {
+       "strikePrice": 9800,
+       "oi": 3175,
+       "prevOi": 3175,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9750,
+       "oi": 177,
+       "prevOi": 177
+      },
+      {
+       "strikePrice": 9750,
+       "oi": 631,
+       "prevOi": 631,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9700,
+       "oi": 2936,
+       "prevOi": 2936
+      },
+      {
+       "strikePrice": 9700,
+       "oi": 3785,
+       "prevOi": 3785,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9650,
+       "oi": 128,
+       "prevOi": 128
+      },
+      {
+       "strikePrice": 9650,
+       "oi": 966,
+       "prevOi": 966,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9600,
+       "oi": 1824,
+       "prevOi": 1824
+      },
+      {
+       "strikePrice": 9600,
+       "oi": 3339,
+       "prevOi": 3339,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9550,
+       "oi": 92,
+       "prevOi": 92
+      },
+      {
+       "strikePrice": 9550,
+       "oi": 844,
+       "prevOi": 844,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9500,
+       "oi": 2304,
+       "prevOi": 2304
+      },
+      {
+       "strikePrice": 9500,
+       "oi": 5931,
+       "prevOi": 5931,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9450,
+       "oi": 69,
+       "prevOi": 69
+      },
+      {
+       "strikePrice": 9450,
+       "oi": 748,
+       "prevOi": 748,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9400,
+       "oi": 1640,
+       "prevOi": 1640
+      },
+      {
+       "strikePrice": 9400,
+       "oi": 3532,
+       "prevOi": 3532,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9350,
+       "oi": 131,
+       "prevOi": 131
+      },
+      {
+       "strikePrice": 9350,
+       "oi": 587,
+       "prevOi": 587,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9300,
+       "oi": 759,
+       "prevOi": 759
+      },
+      {
+       "strikePrice": 9300,
+       "oi": 3032,
+       "prevOi": 3032,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9250,
+       "oi": 38,
+       "prevOi": 38
+      },
+      {
+       "strikePrice": 9250,
+       "oi": 742,
+       "prevOi": 742,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9200,
+       "oi": 635,
+       "prevOi": 635
+      },
+      {
+       "strikePrice": 9200,
+       "oi": 2573,
+       "prevOi": 2573,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9150,
+       "oi": 57,
+       "prevOi": 57
+      },
+      {
+       "strikePrice": 9150,
+       "oi": 543,
+       "prevOi": 543,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9100,
+       "oi": 728,
+       "prevOi": 728
+      },
+      {
+       "strikePrice": 9100,
+       "oi": 2336,
+       "prevOi": 2336,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9050,
+       "oi": 55,
+       "prevOi": 55
+      },
+      {
+       "strikePrice": 9050,
+       "oi": 608,
+       "prevOi": 608,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9000,
+       "oi": 1924,
+       "prevOi": 1924
+      },
+      {
+       "strikePrice": 9000,
+       "oi": 10284,
+       "prevOi": 10284,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8950
+      },
+      {
+       "strikePrice": 8950,
+       "oi": 614,
+       "prevOi": 614,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8900,
+       "oi": 136,
+       "prevOi": 136
+      },
+      {
+       "strikePrice": 8900,
+       "oi": 1198,
+       "prevOi": 1198,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8850
+      },
+      {
+       "strikePrice": 8850,
+       "oi": 289,
+       "prevOi": 289,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8800,
+       "oi": 105,
+       "prevOi": 105
+      },
+      {
+       "strikePrice": 8800,
+       "oi": 2241,
+       "prevOi": 2241,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8750
+      },
+      {
+       "strikePrice": 8750,
+       "oi": 146,
+       "prevOi": 146,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8700,
+       "oi": 148,
+       "prevOi": 148
+      },
+      {
+       "strikePrice": 8700,
+       "oi": 1236,
+       "prevOi": 1236,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8650
+      },
+      {
+       "strikePrice": 8650,
+       "oi": 183,
+       "prevOi": 183,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8600,
+       "oi": 90,
+       "prevOi": 90
+      },
+      {
+       "strikePrice": 8600,
+       "oi": 787,
+       "prevOi": 787,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8550
+      },
+      {
+       "strikePrice": 8550,
+       "oi": 189,
+       "prevOi": 189,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8500,
+       "oi": 501,
+       "prevOi": 501
+      },
+      {
+       "strikePrice": 8500,
+       "oi": 6362,
+       "prevOi": 6362,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8450
+      },
+      {
+       "strikePrice": 8450,
+       "oi": 123,
+       "prevOi": 123,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8400
+      },
+      {
+       "strikePrice": 8400,
+       "oi": 498,
+       "prevOi": 498,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8350
+      },
+      {
+       "strikePrice": 8350,
+       "oi": 51,
+       "prevOi": 51,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8300
+      },
+      {
+       "strikePrice": 8300,
+       "oi": 434,
+       "prevOi": 434,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8250
+      },
+      {
+       "strikePrice": 8250,
+       "oi": 99,
+       "prevOi": 99,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8200
+      },
+      {
+       "strikePrice": 8200,
+       "oi": 357,
+       "prevOi": 357,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8150
+      },
+      {
+       "strikePrice": 8150,
+       "oi": 16,
+       "prevOi": 16,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8100
+      },
+      {
+       "strikePrice": 8100,
+       "oi": 282,
+       "prevOi": 282,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8000,
+       "oi": 193,
+       "prevOi": 193
+      },
+      {
+       "strikePrice": 8000,
+       "oi": 7651,
+       "prevOi": 7651,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 7900
+      },
+      {
+       "strikePrice": 7900,
+       "oi": 85,
+       "prevOi": 85,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 7850
+      },
+      {
+       "strikePrice": 7850,
+       "oi": 2,
+       "prevOi": 2,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 7800
+      },
+      {
+       "strikePrice": 7800,
+       "oi": 258,
+       "prevOi": 258,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 7700
+      },
+      {
+       "strikePrice": 7700,
+       "oi": 134,
+       "prevOi": 134,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 7650
+      },
+      {
+       "strikePrice": 7650,
+       "oi": 1,
+       "prevOi": 1,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 7500
+      },
+      {
+       "strikePrice": 7500,
+       "oi": 2450,
+       "prevOi": 2450,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 7450
+      },
+      {
+       "strikePrice": 7450,
+       "oi": 34,
+       "prevOi": 34,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 7000,
+       "oi": 195,
+       "prevOi": 195
+      },
+      {
+       "strikePrice": 7000,
+       "oi": 2170,
+       "prevOi": 2170,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 6500
+      },
+      {
+       "strikePrice": 6500,
+       "oi": 443,
+       "prevOi": 443,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 6000
+      },
+      {
+       "strikePrice": 6000,
+       "oi": 324,
+       "prevOi": 324,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 5500
+      },
+      {
+       "strikePrice": 5500,
+       "oi": 83,
+       "prevOi": 83,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 5000
+      },
+      {
+       "strikePrice": 5000,
+       "oi": 289,
+       "prevOi": 289,
+       "optionType": "Put"
+      }
+     ]
+    }
+   },
+   "isCommoditySegmentActivated": true
+  },
+  "sections=PositionV2&sections=CommodityList&sections=CommodityScrips&sections=TopTradedOptions&sections=MoExpertPicks&sections=TrendingOptions&sections=LowMarginCommodities&sections=Indices&sections=OptionOpenInterest": {
+   "commodityIndices": {
+    "index": [
+     {
+      "symbol": {
+       "tradingSymbol": "CRUDEOIL",
+       "scrip": {
+        "scripCode": 573422,
+        "exchange": "MCX"
+       },
+       "description": "Expiry On 19 Nov 2026",
+       "hasDerivatives": true
+      }
+     },
+     {
+      "displayOrder": 1,
+      "symbol": {
+       "tradingSymbol": "GOLD",
+       "scrip": {
+        "scripCode": 495213,
+        "exchange": "MCX"
+       },
+       "description": "Expiry On 04 Dec 2026",
+       "hasDerivatives": true
+      }
+     },
+     {
+      "displayOrder": 2,
+      "symbol": {
+       "tradingSymbol": "SILVER",
+       "scrip": {
+        "scripCode": 495214,
+        "exchange": "MCX"
+       },
+       "description": "Expiry On 04 Dec 2026",
+       "hasDerivatives": true
+      }
+     },
+     {
+      "displayOrder": 3,
+      "symbol": {
+       "tradingSymbol": "NATURALGAS",
+       "scrip": {
+        "scripCode": 574319,
+        "exchange": "MCX"
+       },
+       "description": "Expiry On 24 Nov 2026",
+       "hasDerivatives": true
+      }
+     }
+    ]
+   },
+   "position": {
+    "availableMargin": 50000000
+   },
+   "commodityOptionOpenInterest": {
+    "optionList": {
+     "entries": [
+      {
+       "tradeSymbol": "CRUDEOIL",
+       "expiry": [
+        {
+         "expirySeconds": 1479427199
+        },
+        {
+         "expirySeconds": 1481932799
+        }
+       ]
+      },
+      {
+       "tradeSymbol": "NATURALGAS",
+       "expiry": [
+        {
+         "expirySeconds": 1479686399
+        },
+        {
+         "expirySeconds": 1482537599
+        }
+       ]
+      },
+      {
+       "tradeSymbol": "SILVERM",
+       "expiry": [
+        {
+         "expirySeconds": 1479945599
+        },
+        {
+         "expirySeconds": 1482969599
+        },
+        {
+         "expirySeconds": 1485388799
+        },
+        {
+         "expirySeconds": 1487548799
+        },
+        {
+         "expirySeconds": 1490486399
+        },
+        {
+         "expirySeconds": 1492991999
+        },
+        {
+         "expirySeconds": 1495843199
+        },
+        {
+         "expirySeconds": 1498262399
+        },
+        {
+         "expirySeconds": 1501199999
+        },
+        {
+         "expirySeconds": 1503619199
+        }
+       ]
+      },
+      {
+       "tradeSymbol": "GOLDM",
+       "expiry": [
+        {
+         "expirySeconds": 1480291199
+        },
+        {
+         "expirySeconds": 1483055999
+        }
+       ]
+      },
+      {
+       "tradeSymbol": "GOLD",
+       "expiry": [
+        {
+         "expirySeconds": 1480291199
+        },
+        {
+         "expirySeconds": 1483228799
+        },
+        {
+         "expirySeconds": 1485734399
+        },
+        {
+         "expirySeconds": 1488153599
+        },
+        {
+         "expirySeconds": 1490831999
+        },
+        {
+         "expirySeconds": 1493596799
+        },
+        {
+         "expirySeconds": 1496015999
+        },
+        {
+         "expirySeconds": 1498867199
+        },
+        {
+         "expirySeconds": 1501372799
+        }
+       ]
+      },
+      {
+       "tradeSymbol": "SILVER",
+       "expiry": [
+        {
+         "expirySeconds": 1480291199
+        },
+        {
+         "expirySeconds": 1482969599
+        },
+        {
+         "expirySeconds": 1485388799
+        },
+        {
+         "expirySeconds": 1488153599
+        },
+        {
+         "expirySeconds": 1490486399
+        },
+        {
+         "expirySeconds": 1493423999
+        },
+        {
+         "expirySeconds": 1495843199
+        },
+        {
+         "expirySeconds": 1498694399
+        },
+        {
+         "expirySeconds": 1501199999
+        },
+        {
+         "expirySeconds": 1503878399
+        }
+       ]
+      }
+     ]
+    },
+    "optionOIData": {
+     "spot": {
+      "id": {
+       "scripCode": 573422,
+       "exchange": "MCX"
+      },
+      "currentPrice": 8790
+     },
+     "expirySeconds": 1479427199,
+     "scrips": [
+      {
+       "strikePrice": 13050,
+       "oi": 431,
+       "prevOi": 431
+      },
+      {
+       "strikePrice": 13050,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 13000,
+       "oi": 3921,
+       "prevOi": 3921
+      },
+      {
+       "strikePrice": 13000,
+       "oi": 1,
+       "prevOi": 1,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 12500,
+       "oi": 912,
+       "prevOi": 912
+      },
+      {
+       "strikePrice": 12500,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 12000,
+       "oi": 2875,
+       "prevOi": 2875
+      },
+      {
+       "strikePrice": 12000,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11800,
+       "oi": 6,
+       "prevOi": 6
+      },
+      {
+       "strikePrice": 11800,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11700,
+       "oi": 12,
+       "prevOi": 12
+      },
+      {
+       "strikePrice": 11700,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11600,
+       "oi": 11,
+       "prevOi": 11
+      },
+      {
+       "strikePrice": 11600,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11500,
+       "oi": 3351,
+       "prevOi": 3351
+      },
+      {
+       "strikePrice": 11500,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11400,
+       "oi": 141,
+       "prevOi": 141
+      },
+      {
+       "strikePrice": 11400,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11350,
+       "oi": 9,
+       "prevOi": 9
+      },
+      {
+       "strikePrice": 11350,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11300,
+       "oi": 162,
+       "prevOi": 162
+      },
+      {
+       "strikePrice": 11300,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11250,
+       "oi": 9,
+       "prevOi": 9
+      },
+      {
+       "strikePrice": 11250,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11200,
+       "oi": 194,
+       "prevOi": 194
+      },
+      {
+       "strikePrice": 11200,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11150,
+       "oi": 8,
+       "prevOi": 8
+      },
+      {
+       "strikePrice": 11150,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11100,
+       "oi": 237,
+       "prevOi": 237
+      },
+      {
+       "strikePrice": 11100,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11050,
+       "oi": 58,
+       "prevOi": 58
+      },
+      {
+       "strikePrice": 11050,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 11000,
+       "oi": 3875,
+       "prevOi": 3875
+      },
+      {
+       "strikePrice": 11000,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10950,
+       "oi": 186,
+       "prevOi": 186
+      },
+      {
+       "strikePrice": 10950,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10900,
+       "oi": 250,
+       "prevOi": 250
+      },
+      {
+       "strikePrice": 10900,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10850,
+       "oi": 55,
+       "prevOi": 55
+      },
+      {
+       "strikePrice": 10850,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10800,
+       "oi": 238,
+       "prevOi": 238
+      },
+      {
+       "strikePrice": 10800,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10750,
+       "oi": 57,
+       "prevOi": 57
+      },
+      {
+       "strikePrice": 10750,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10700,
+       "oi": 265,
+       "prevOi": 265
+      },
+      {
+       "strikePrice": 10700,
+       "oi": 23,
+       "prevOi": 23,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10650,
+       "oi": 68,
+       "prevOi": 68
+      },
+      {
+       "strikePrice": 10650,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10600,
+       "oi": 314,
+       "prevOi": 314
+      },
+      {
+       "strikePrice": 10600,
+       "oi": 41,
+       "prevOi": 41,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10550,
+       "oi": 104,
+       "prevOi": 104
+      },
+      {
+       "strikePrice": 10550,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10500,
+       "oi": 2954,
+       "prevOi": 2954
+      },
+      {
+       "strikePrice": 10500,
+       "oi": 520,
+       "prevOi": 520,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10450,
+       "oi": 129,
+       "prevOi": 129
+      },
+      {
+       "strikePrice": 10450,
+       "oi": 45,
+       "prevOi": 45,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10400,
+       "oi": 238,
+       "prevOi": 238
+      },
+      {
+       "strikePrice": 10400,
+       "oi": 22,
+       "prevOi": 22,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10350,
+       "oi": 119,
+       "prevOi": 119
+      },
+      {
+       "strikePrice": 10350,
+       "oi": 20,
+       "prevOi": 20,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10300,
+       "oi": 265,
+       "prevOi": 265
+      },
+      {
+       "strikePrice": 10300,
+       "oi": 30,
+       "prevOi": 30,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10250,
+       "oi": 109,
+       "prevOi": 109
+      },
+      {
+       "strikePrice": 10250,
+       "oi": 22,
+       "prevOi": 22,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10200,
+       "oi": 414,
+       "prevOi": 414
+      },
+      {
+       "strikePrice": 10200,
+       "oi": 131,
+       "prevOi": 131,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10150,
+       "oi": 114,
+       "prevOi": 114
+      },
+      {
+       "strikePrice": 10150,
+       "oi": 29,
+       "prevOi": 29,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10100,
+       "oi": 506,
+       "prevOi": 506
+      },
+      {
+       "strikePrice": 10100,
+       "oi": 107,
+       "prevOi": 107,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10050,
+       "oi": 244,
+       "prevOi": 244
+      },
+      {
+       "strikePrice": 10050,
+       "oi": 76,
+       "prevOi": 76,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 10000,
+       "oi": 4029,
+       "prevOi": 4029
+      },
+      {
+       "strikePrice": 10000,
+       "oi": 2433,
+       "prevOi": 2433,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9950,
+       "oi": 433,
+       "prevOi": 433
+      },
+      {
+       "strikePrice": 9950,
+       "oi": 445,
+       "prevOi": 445,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9900,
+       "oi": 3046,
+       "prevOi": 3046
+      },
+      {
+       "strikePrice": 9900,
+       "oi": 3528,
+       "prevOi": 3528,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9850,
+       "oi": 285,
+       "prevOi": 285
+      },
+      {
+       "strikePrice": 9850,
+       "oi": 1007,
+       "prevOi": 1007,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9800,
+       "oi": 1595,
+       "prevOi": 1595
+      },
+      {
+       "strikePrice": 9800,
+       "oi": 3175,
+       "prevOi": 3175,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9750,
+       "oi": 177,
+       "prevOi": 177
+      },
+      {
+       "strikePrice": 9750,
+       "oi": 631,
+       "prevOi": 631,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9700,
+       "oi": 2936,
+       "prevOi": 2936
+      },
+      {
+       "strikePrice": 9700,
+       "oi": 3785,
+       "prevOi": 3785,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9650,
+       "oi": 128,
+       "prevOi": 128
+      },
+      {
+       "strikePrice": 9650,
+       "oi": 966,
+       "prevOi": 966,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9600,
+       "oi": 1824,
+       "prevOi": 1824
+      },
+      {
+       "strikePrice": 9600,
+       "oi": 3339,
+       "prevOi": 3339,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9550,
+       "oi": 92,
+       "prevOi": 92
+      },
+      {
+       "strikePrice": 9550,
+       "oi": 844,
+       "prevOi": 844,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9500,
+       "oi": 2304,
+       "prevOi": 2304
+      },
+      {
+       "strikePrice": 9500,
+       "oi": 5931,
+       "prevOi": 5931,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9450,
+       "oi": 69,
+       "prevOi": 69
+      },
+      {
+       "strikePrice": 9450,
+       "oi": 748,
+       "prevOi": 748,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9400,
+       "oi": 1640,
+       "prevOi": 1640
+      },
+      {
+       "strikePrice": 9400,
+       "oi": 3532,
+       "prevOi": 3532,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9350,
+       "oi": 131,
+       "prevOi": 131
+      },
+      {
+       "strikePrice": 9350,
+       "oi": 587,
+       "prevOi": 587,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9300,
+       "oi": 759,
+       "prevOi": 759
+      },
+      {
+       "strikePrice": 9300,
+       "oi": 3032,
+       "prevOi": 3032,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9250,
+       "oi": 38,
+       "prevOi": 38
+      },
+      {
+       "strikePrice": 9250,
+       "oi": 742,
+       "prevOi": 742,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9200,
+       "oi": 635,
+       "prevOi": 635
+      },
+      {
+       "strikePrice": 9200,
+       "oi": 2573,
+       "prevOi": 2573,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9150,
+       "oi": 57,
+       "prevOi": 57
+      },
+      {
+       "strikePrice": 9150,
+       "oi": 543,
+       "prevOi": 543,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9100,
+       "oi": 728,
+       "prevOi": 728
+      },
+      {
+       "strikePrice": 9100,
+       "oi": 2336,
+       "prevOi": 2336,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9050,
+       "oi": 55,
+       "prevOi": 55
+      },
+      {
+       "strikePrice": 9050,
+       "oi": 608,
+       "prevOi": 608,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 9000,
+       "oi": 1924,
+       "prevOi": 1924
+      },
+      {
+       "strikePrice": 9000,
+       "oi": 10284,
+       "prevOi": 10284,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8950
+      },
+      {
+       "strikePrice": 8950,
+       "oi": 614,
+       "prevOi": 614,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8900,
+       "oi": 136,
+       "prevOi": 136
+      },
+      {
+       "strikePrice": 8900,
+       "oi": 1198,
+       "prevOi": 1198,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8850
+      },
+      {
+       "strikePrice": 8850,
+       "oi": 289,
+       "prevOi": 289,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8800,
+       "oi": 105,
+       "prevOi": 105
+      },
+      {
+       "strikePrice": 8800,
+       "oi": 2241,
+       "prevOi": 2241,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8750
+      },
+      {
+       "strikePrice": 8750,
+       "oi": 146,
+       "prevOi": 146,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8700,
+       "oi": 148,
+       "prevOi": 148
+      },
+      {
+       "strikePrice": 8700,
+       "oi": 1236,
+       "prevOi": 1236,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8650
+      },
+      {
+       "strikePrice": 8650,
+       "oi": 183,
+       "prevOi": 183,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8600,
+       "oi": 90,
+       "prevOi": 90
+      },
+      {
+       "strikePrice": 8600,
+       "oi": 787,
+       "prevOi": 787,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8550
+      },
+      {
+       "strikePrice": 8550,
+       "oi": 189,
+       "prevOi": 189,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8500,
+       "oi": 501,
+       "prevOi": 501
+      },
+      {
+       "strikePrice": 8500,
+       "oi": 6362,
+       "prevOi": 6362,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8450
+      },
+      {
+       "strikePrice": 8450,
+       "oi": 123,
+       "prevOi": 123,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8400
+      },
+      {
+       "strikePrice": 8400,
+       "oi": 498,
+       "prevOi": 498,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8350
+      },
+      {
+       "strikePrice": 8350,
+       "oi": 51,
+       "prevOi": 51,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8300
+      },
+      {
+       "strikePrice": 8300,
+       "oi": 434,
+       "prevOi": 434,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8250
+      },
+      {
+       "strikePrice": 8250,
+       "oi": 99,
+       "prevOi": 99,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8200
+      },
+      {
+       "strikePrice": 8200,
+       "oi": 357,
+       "prevOi": 357,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8150
+      },
+      {
+       "strikePrice": 8150,
+       "oi": 16,
+       "prevOi": 16,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8100
+      },
+      {
+       "strikePrice": 8100,
+       "oi": 282,
+       "prevOi": 282,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 8000,
+       "oi": 193,
+       "prevOi": 193
+      },
+      {
+       "strikePrice": 8000,
+       "oi": 7651,
+       "prevOi": 7651,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 7900
+      },
+      {
+       "strikePrice": 7900,
+       "oi": 85,
+       "prevOi": 85,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 7850
+      },
+      {
+       "strikePrice": 7850,
+       "oi": 2,
+       "prevOi": 2,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 7800
+      },
+      {
+       "strikePrice": 7800,
+       "oi": 258,
+       "prevOi": 258,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 7700
+      },
+      {
+       "strikePrice": 7700,
+       "oi": 134,
+       "prevOi": 134,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 7650
+      },
+      {
+       "strikePrice": 7650,
+       "oi": 1,
+       "prevOi": 1,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 7500
+      },
+      {
+       "strikePrice": 7500,
+       "oi": 2450,
+       "prevOi": 2450,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 7450
+      },
+      {
+       "strikePrice": 7450,
+       "oi": 34,
+       "prevOi": 34,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 7000,
+       "oi": 195,
+       "prevOi": 195
+      },
+      {
+       "strikePrice": 7000,
+       "oi": 2170,
+       "prevOi": 2170,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 6500
+      },
+      {
+       "strikePrice": 6500,
+       "oi": 443,
+       "prevOi": 443,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 6000
+      },
+      {
+       "strikePrice": 6000,
+       "oi": 324,
+       "prevOi": 324,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 5500
+      },
+      {
+       "strikePrice": 5500,
+       "oi": 83,
+       "prevOi": 83,
+       "optionType": "Put"
+      },
+      {
+       "strikePrice": 5000
+      },
+      {
+       "strikePrice": 5000,
+       "oi": 289,
+       "prevOi": 289,
+       "optionType": "Put"
+      }
+     ]
+    }
+   },
+   "researchIdeas": {
+    "entry": [
+     {
+      "callId": 256,
+      "scrip": {
+       "scripCode": 495214,
+       "exchange": "MCX"
+      },
+      "tradeSymbol": "SILVER",
+      "description": "04 Dec",
+      "callType": "Intraday",
+      "recoDate": 1791194068,
+      "recoPrice": 227873,
+      "targetPrice": 228500,
+      "stopLoss": 227600,
+      "viewType": "Single",
+      "isIntraday": true,
+      "potentialUpside": 20.610000610351562,
+      "lotSize": 30,
+      "ltp": 178900,
+      "isActiveCall": true,
+      "Category": "Commodity",
+      "SubCategory": "Futures",
+      "logoUrl": "img/1bae1943bb84.svg",
+      "mtfPercentageValue": "1.0 x"
+     },
+     {
+      "callId": 253,
+      "scrip": {
+       "scripCode": 495213,
+       "exchange": "MCX"
+      },
+      "tradeSymbol": "GOLD",
+      "description": "04 Dec",
+      "callType": "Intraday",
+      "recoDate": 1791190584,
+      "recoPrice": 150092,
+      "targetPrice": 150400,
+      "stopLoss": 149900,
+      "viewType": "Single",
+      "isIntraday": true,
+      "potentialUpside": 5.46999979019165,
+      "lotSize": 1,
+      "ltp": 138419,
+      "isActiveCall": true,
+      "Category": "Commodity",
+      "SubCategory": "Futures",
+      "logoUrl": "img/c9176cbc0bf8.svg",
+      "mtfPercentageValue": "1.0 x"
+     },
+     {
+      "callId": 251,
+      "scrip": {
+       "scripCode": 574320,
+       "exchange": "MCX"
+      },
+      "tradeSymbol": "NATGASMINI",
+      "description": "24 Nov",
+      "callType": "Intraday",
+      "recoDate": 1790237096,
+      "recoPrice": 340.20001220703125,
+      "targetPrice": 378,
+      "stopLoss": 323,
+      "viewType": "Single",
+      "isIntraday": true,
+      "potentialUpside": 34.09000015258789,
+      "lotSize": 250,
+      "ltp": 276.8999938964844,
+      "isActiveCall": true,
+      "Category": "Commodity",
+      "SubCategory": "Futures",
+      "logoUrl": "img/e12fe736e9be.svg",
+      "mtfPercentageValue": "1.0 x"
+     },
+     {
+      "callId": 239,
+      "scrip": {
+       "scripCode": 562058,
+       "exchange": "MCX"
+      },
+      "tradeSymbol": "SILVERMIC",
+      "description": "30 Nov",
+      "callType": "Intraday",
+      "recoDate": 1789716094,
+      "recoPrice": 243322,
+      "targetPrice": 243333,
+      "stopLoss": 243310,
+      "viewType": "Single",
+      "isIntraday": true,
+      "potentialUpside": 34.25,
+      "lotSize": 1,
+      "ltp": 181200,
+      "isActiveCall": true,
+      "Category": "Commodity",
+      "SubCategory": "Futures",
+      "logoUrl": "img/035ee9614424.svg",
+      "mtfPercentageValue": "1.0 x"
+     },
+     {
+      "callId": 90876,
+      "scrip": {
+       "scripCode": 562058,
+       "exchange": "MCX"
+      },
+      "tradeSymbol": "SILVERMIC",
+      "description": "30 Nov",
+      "callType": "Intraday",
+      "recoDate": 1788933906,
+      "recoPrice": 242686,
+      "targetPrice": 244000,
+      "stopLoss": 241190,
+      "viewType": "Single",
+      "isIntraday": true,
+      "potentialUpside": 34.619998931884766,
+      "lotSize": 1,
+      "ltp": 181200,
+      "isActiveCall": true,
+      "Category": "Commodity",
+      "SubCategory": "Futures",
+      "logoUrl": "img/035ee9614424.svg",
+      "mtfPercentageValue": "1.0 x"
+     },
+     {
+      "callId": 90876,
+      "scrip": {
+       "scripCode": 562058,
+       "exchange": "MCX"
+      },
+      "tradeSymbol": "SILVERMIC",
+      "description": "30 Nov",
+      "callType": "Intraday",
+      "recoDate": 1788933906,
+      "recoPrice": 242686,
+      "targetPrice": 244000,
+      "stopLoss": 241190,
+      "viewType": "Single",
+      "isIntraday": true,
+      "potentialUpside": 34.619998931884766,
+      "lotSize": 1,
+      "ltp": 181200,
+      "isActiveCall": true,
+      "Category": "Commodity",
+      "SubCategory": "Futures",
+      "logoUrl": "img/035ee9614424.svg",
+      "mtfPercentageValue": "1.0 x"
+     },
+     {
+      "callId": 239,
+      "scrip": {
+       "scripCode": 562058,
+       "exchange": "MCX"
+      },
+      "tradeSymbol": "SILVERMIC",
+      "description": "30 Nov",
+      "callType": "Intraday",
+      "recoDate": 1789716094,
+      "recoPrice": 243322,
+      "targetPrice": 243333,
+      "stopLoss": 243310,
+      "viewType": "Single",
+      "isIntraday": true,
+      "potentialUpside": 34.25,
+      "lotSize": 1,
+      "ltp": 181200,
+      "isActiveCall": true,
+      "Category": "Commodity",
+      "SubCategory": "Futures",
+      "logoUrl": "img/035ee9614424.svg",
+      "mtfPercentageValue": "1.0 x"
+     },
+     {
+      "callId": 251,
+      "scrip": {
+       "scripCode": 574320,
+       "exchange": "MCX"
+      },
+      "tradeSymbol": "NATGASMINI",
+      "description": "24 Nov",
+      "callType": "Intraday",
+      "recoDate": 1790237096,
+      "recoPrice": 340.20001220703125,
+      "targetPrice": 378,
+      "stopLoss": 323,
+      "viewType": "Single",
+      "isIntraday": true,
+      "potentialUpside": 34.09000015258789,
+      "lotSize": 250,
+      "ltp": 276.8999938964844,
+      "isActiveCall": true,
+      "Category": "Commodity",
+      "SubCategory": "Futures",
+      "logoUrl": "img/e12fe736e9be.svg",
+      "mtfPercentageValue": "1.0 x"
+     },
+     {
+      "callId": 253,
+      "scrip": {
+       "scripCode": 495213,
+       "exchange": "MCX"
+      },
+      "tradeSymbol": "GOLD",
+      "description": "04 Dec",
+      "callType": "Intraday",
+      "recoDate": 1791190584,
+      "recoPrice": 150092,
+      "targetPrice": 150400,
+      "stopLoss": 149900,
+      "viewType": "Single",
+      "isIntraday": true,
+      "potentialUpside": 5.46999979019165,
+      "lotSize": 1,
+      "ltp": 138419,
+      "isActiveCall": true,
+      "Category": "Commodity",
+      "SubCategory": "Futures",
+      "logoUrl": "img/c9176cbc0bf8.svg",
+      "mtfPercentageValue": "1.0 x"
+     },
+     {
+      "callId": 256,
+      "scrip": {
+       "scripCode": 495214,
+       "exchange": "MCX"
+      },
+      "tradeSymbol": "SILVER",
+      "description": "04 Dec",
+      "callType": "Intraday",
+      "recoDate": 1791194068,
+      "recoPrice": 227873,
+      "targetPrice": 228500,
+      "stopLoss": 227600,
+      "viewType": "Single",
+      "isIntraday": true,
+      "potentialUpside": 20.610000610351562,
+      "lotSize": 30,
+      "ltp": 178900,
+      "isActiveCall": true,
+      "Category": "Commodity",
+      "SubCategory": "Futures",
+      "logoUrl": "img/1bae1943bb84.svg",
+      "mtfPercentageValue": "1.0 x"
+     }
+    ],
+    "IsMarketOpen": true,
+    "viewCount": 302
+   },
+   "topTradedOptions": {
+    "scrips": [
+     {
+      "tradeSymbol": "CRUDEOIL",
+      "description": "17 Nov CE 9900",
+      "scripId": {
+       "scripCode": 582948,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 493,
+       "change": 100.0999984741211,
+       "perChange": 25.479999542236328
+      },
+      "oi": 3046,
+      "volume": 70636,
+      "value": 34681569.64,
+      "optionType": "CE",
+      "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+     },
+     {
+      "tradeSymbol": "CRUDEOIL",
+      "description": "17 Nov PE 9900",
+      "scripId": {
+       "scripCode": 583098,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 476.6000061035156,
+       "change": -105.69999694824219,
+       "perChange": -18.149999618530273
+      },
+      "oi": 3528,
+      "volume": 57875,
+      "value": 28634235,
+      "optionType": "PE",
+      "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+     },
+     {
+      "tradeSymbol": "CRUDEOIL",
+      "description": "17 Nov CE 10000",
+      "scripId": {
+       "scripCode": 582950,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 439.20001220703125,
+       "change": -21.299999237060547,
+       "perChange": -4.630000114440918
+      },
+      "oi": 4029,
+      "volume": 53360,
+      "value": 23750002.4,
+      "optionType": "CE",
+      "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+     },
+     {
+      "tradeSymbol": "CRUDEOIL",
+      "description": "17 Nov PE 9800",
+      "scripId": {
+       "scripCode": 583096,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 424.3999938964844,
+       "change": -99.4000015258789,
+       "perChange": -18.979999542236328
+      },
+      "oi": 3175,
+      "volume": 46175,
+      "value": 20941747.75,
+      "optionType": "PE",
+      "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+     },
+     {
+      "tradeSymbol": "CRUDEOIL",
+      "description": "17 Nov CE 9800",
+      "scripId": {
+       "scripCode": 582946,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 534.7999877929688,
+       "change": 100.19999694824219,
+       "perChange": 23.059999465942383
+      },
+      "oi": 1595,
+      "volume": 38630,
+      "value": 20565839.4,
+      "optionType": "CE",
+      "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+     },
+     {
+      "tradeSymbol": "CRUDEOIL",
+      "description": "17 Nov PE 9000",
+      "scripId": {
+       "scripCode": 583080,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 156.5,
+       "change": 1.100000023841858,
+       "perChange": 0.7099999785423279
+      },
+      "oi": 10284,
+      "volume": 36266,
+      "value": 6182990.34,
+      "optionType": "PE",
+      "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+     },
+     {
+      "tradeSymbol": "CRUDEOIL",
+      "description": "17 Nov PE 9500",
+      "scripId": {
+       "scripCode": 583090,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 297,
+       "change": -76.80000305175781,
+       "perChange": -20.549999237060547
+      },
+      "oi": 5931,
+      "volume": 35902,
+      "value": 11458123.3,
+      "optionType": "PE",
+      "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+     },
+     {
+      "tradeSymbol": "CRUDEOIL",
+      "description": "17 Nov CE 10500",
+      "scripId": {
+       "scripCode": 582960,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 265,
+       "change": -11.399999618530273,
+       "perChange": -4.119999885559082
+      },
+      "oi": 2954,
+      "volume": 31822,
+      "value": 8618352.26,
+      "optionType": "CE",
+      "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+     },
+     {
+      "tradeSymbol": "CRUDEOIL",
+      "description": "17 Nov CE 11500",
+      "scripId": {
+       "scripCode": 582980,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 90,
+       "change": 17.200000762939453,
+       "perChange": 23.6299991607666
+      },
+      "oi": 3351,
+      "volume": 27964,
+      "value": 2712228.36,
+      "optionType": "CE",
+      "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+     },
+     {
+      "tradeSymbol": "CRUDEOIL",
+      "description": "17 Nov PE 9700",
+      "scripId": {
+       "scripCode": 583094,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 377,
+       "change": -94,
+       "perChange": -19.959999084472656
+      },
+      "oi": 3785,
+      "volume": 27252,
+      "value": 11025614.16,
+      "optionType": "PE",
+      "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+     }
+    ]
+   },
+   "trendingOptions": {
+    "scrips": [
+     {
+      "tradeSymbol": "GOLDM",
+      "description": "27 Nov PE 140000",
+      "scripId": {
+       "scripCode": 584631,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 3980,
+       "change": -229,
+       "perChange": -5.440000057220459
+      },
+      "oi": 3260,
+      "volume": 55513,
+      "value": 177668801.37,
+      "optionType": "PE",
+      "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/gold-mini.svg"
+     },
+     {
+      "tradeSymbol": "SILVERM",
+      "description": "23 Nov PE 185000",
+      "scripId": {
+       "scripCode": 580335,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 9325.5,
+       "change": 4980.5,
+       "perChange": 114.62999725341797
+      },
+      "oi": 1020,
+      "volume": 21499,
+      "value": 171972005.93,
+      "optionType": "PE",
+      "logoUrl": "img/035ee9614424.svg"
+     },
+     {
+      "tradeSymbol": "SILVERM",
+      "description": "23 Nov CE 190000",
+      "scripId": {
+       "scripCode": 577812,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 4250.5,
+       "change": -3824.5,
+       "perChange": -47.36000061035156
+      },
+      "oi": 4265,
+      "volume": 29034,
+      "value": 158119744.68,
+      "optionType": "CE",
+      "logoUrl": "img/035ee9614424.svg"
+     },
+     {
+      "tradeSymbol": "SILVERM",
+      "description": "23 Nov PE 190000",
+      "scripId": {
+       "scripCode": 577951,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 12725,
+       "change": 6444.5,
+       "perChange": 102.61000061035156
+      },
+      "oi": 3111,
+      "volume": 12829,
+      "value": 123656421.78,
+      "optionType": "PE",
+      "logoUrl": "img/035ee9614424.svg"
+     },
+     {
+      "tradeSymbol": "SILVERM",
+      "description": "23 Nov CE 185000",
+      "scripId": {
+       "scripCode": 580305,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 6001.5,
+       "change": -5112,
+       "perChange": -46
+      },
+      "oi": 1859,
+      "volume": 17268,
+      "value": 123463437.12,
+      "optionType": "CE",
+      "logoUrl": "img/035ee9614424.svg"
+     },
+     {
+      "tradeSymbol": "GOLDM",
+      "description": "27 Nov CE 140000",
+      "scripId": {
+       "scripCode": 584531,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 2707.5,
+       "change": -70,
+       "perChange": -2.5199999809265137
+      },
+      "oi": 2997,
+      "volume": 29250,
+      "value": 99055417.5,
+      "optionType": "CE",
+      "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/gold-mini.svg"
+     },
+     {
+      "tradeSymbol": "GOLDM",
+      "description": "27 Nov PE 135000",
+      "scripId": {
+       "scripCode": 584641,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 1973.5,
+       "change": -145.5,
+       "perChange": -6.869999885559082
+      },
+      "oi": 3490,
+      "volume": 52487,
+      "value": 86121719.34,
+      "optionType": "PE",
+      "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/gold-mini.svg"
+     },
+     {
+      "tradeSymbol": "SILVERM",
+      "description": "23 Nov CE 200000",
+      "scripId": {
+       "scripCode": 577802,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 2062,
+       "change": -1762.5,
+       "perChange": -46.08000183105469
+      },
+      "oi": 5591,
+      "volume": 30478,
+      "value": 80856914.88,
+      "optionType": "CE",
+      "logoUrl": "img/035ee9614424.svg"
+     },
+     {
+      "tradeSymbol": "SILVERM",
+      "description": "23 Nov PE 182000",
+      "scripId": {
+       "scripCode": 587629,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 7620,
+       "change": 4173.5,
+       "perChange": 121.08999633789062
+      },
+      "oi": 345,
+      "volume": 9697,
+      "value": 75296429.24,
+      "optionType": "PE",
+      "logoUrl": "img/035ee9614424.svg"
+     },
+     {
+      "tradeSymbol": "SILVERM",
+      "description": "23 Nov PE 183000",
+      "scripId": {
+       "scripCode": 581359,
+       "exchange": "MCX"
+      },
+      "tick": {
+       "ltp": 8412.5,
+       "change": 4704,
+       "perChange": 126.83999633789062
+      },
+      "oi": 317,
+      "volume": 9050,
+      "value": 71035350.5,
+      "optionType": "PE",
+      "logoUrl": "img/035ee9614424.svg"
+     }
+    ]
+   },
+   "lowMarginCommodities": {
+    "scrips": [
+     {
+      "tradeSymbol": "GOLDM",
+      "description": "16 Nov PE 138900",
+      "scripId": {
+       "scripCode": 122998,
+       "exchange": "NSE_CO"
+      },
+      "tick": {},
+      "optionType": "PE",
+      "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/gold-mini.svg"
+     },
+     {
+      "tradeSymbol": "SILVERM",
+      "description": "23 Nov CE 181250",
+      "scripId": {
+       "scripCode": 123635,
+       "exchange": "NSE_CO"
+      },
+      "tick": {},
+      "optionType": "CE",
+      "logoUrl": "img/035ee9614424.svg"
+     }
+    ]
+   },
+   "commodityList": {
+    "entries": [
+     {
+      "tradeSymbol": "CRUDEOIL",
+      "expirySeconds": 1479427199,
+      "scripId": {
+       "scripCode": 573422,
+       "exchange": "MCX"
+      }
+     },
+     {
+      "tradeSymbol": "NATURALGAS",
+      "expirySeconds": 1479686399,
+      "scripId": {
+       "scripCode": 574319,
+       "exchange": "MCX"
+      }
+     },
+     {
+      "tradeSymbol": "SILVERM",
+      "expirySeconds": 1479945599,
+      "scripId": {
+       "scripCode": 483080,
+       "exchange": "MCX"
+      }
+     },
+     {
+      "tradeSymbol": "GOLD",
+      "expirySeconds": 1480291199,
+      "scripId": {
+       "scripCode": 495213,
+       "exchange": "MCX"
+      }
+     },
+     {
+      "tradeSymbol": "GOLDM",
+      "expirySeconds": 1480291199,
+      "scripId": {
+       "scripCode": 571445,
+       "exchange": "MCX"
+      }
+     },
+     {
+      "tradeSymbol": "SILVER",
+      "expirySeconds": 1480291199,
+      "scripId": {
+       "scripCode": 495214,
+       "exchange": "MCX"
+      }
+     }
+    ]
+   },
+   "commodityScrips": {
+    "scrips": [
+     {
+      "id": 582947,
+      "scrip": {
+       "scripCode": 582947,
+       "exchange": "MCX"
+      },
+      "tradingSymbol": "CRUDEOIL",
+      "description": "17 Nov CE 9850",
+      "optionType": "CE",
+      "holding": {},
+      "expiry": 1479427199,
+      "moneyness": "ITM",
+      "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+     },
+     {
+      "id": 582948,
+      "scrip": {
+       "scripCode": 582948,
+       "exchange": "MCX"
+      },
+      "tradingSymbol": "CRUDEOIL",
+      "description": "17 Nov CE 9900",
+      "optionType": "CE",
+      "holding": {},
+      "expiry": 1479427199,
+      "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+     },
+     {
+      "id": 582949,
+      "scrip": {
+       "scripCode": 582949,
+       "exchange": "MCX"
+      },
+      "tradingSymbol": "CRUDEOIL",
+      "description": "17 Nov CE 9950",
+      "optionType": "CE",
+      "holding": {},
+      "expiry": 1479427199,
+      "moneyness": "OTM",
+      "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+     }
+    ]
+   },
+   "isCommoditySegmentActivated": true
+  },
+  "sections=Indices": {}
+ }
+}

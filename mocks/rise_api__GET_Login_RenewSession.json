@@ -1,0 +1,14 @@
+{
+ "endpoint": "/userlogin/api/Login/RenewSession",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "TokenInfo",
+ "source_flow": "debug_dump",
+ "response": {
+  "accessToken": "<redacted>",
+  "refreshToken": "<redacted>",
+  "expiresIn": 120,
+  "reLoginAfter": 300
+ }
+}

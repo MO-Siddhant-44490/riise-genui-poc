@@ -1,0 +1,11 @@
+{
+ "endpoint": "/TradingApiV2/api/Notification/SaveToken",
+ "method": "POST",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "Base.MessageResponse",
+ "source_flow": "01_login",
+ "response": {
+  "message": "Success"
+ }
+}

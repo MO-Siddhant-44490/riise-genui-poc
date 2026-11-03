@@ -1,0 +1,124 @@
+{
+ "endpoint": "/cmsapi/v2/api/FlashNews/ByScrip",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "FlashNewsListResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "items": [
+   {
+    "id": "BSEHDFCBANK31102026221441DSR0HSIB32",
+    "timestamp": 1793465081,
+    "company": {
+     "id": {
+      "scripCode": 1333
+     },
+     "symbol": "HDFCBANK",
+     "isin": "INE040A01034",
+     "logo": "img/80edb0d5ef78.png",
+     "companyName": "HDFC Bank Ltd"
+    },
+    "title": "HDFC Bank: Senior Leader Retires",
+    "shortDescription": "HDFC Bank's SME architect Sanjay D'Souza retires after 27 years, ending tenure as Group Head - Business Banking.",
+    "stockData": {
+     "onInsertionLtp": "69280"
+    },
+    "recommendation": {
+     "callId": 21308,
+     "recoPrice": "95925",
+     "targetPrice": "115000",
+     "type": "BUY",
+     "callCategory": "Equity",
+     "callSubCategory": "Fundamental",
+     "callType": "Investment Idea: Bluechip"
+    },
+    "category": "General Announcements",
+    "subCategory": "Change in Management",
+    "pdfLink": "https://www.bseindia.com/stockinfo/annpdfopen.aspx?pname=b36ff756-1cf7-44a3-9b2c-4583e7e0e792.pdf",
+    "longDescription": "HDFC Bank announces the superannuation of Mr. Sanjay D'Souza, effective October 31, 2026. A 27-year veteran, D'Souza served as Group Head - Business Banking, Emerging & Micro Enterprises Group and was instrumental in building the bank's dominant SME franchise. His departure marks the exit of a key architect behind HDFC Bank's leadership in small business lending. The bank acknowledged his contributions across credit and business functions. Investors may watch for succession plans in this critical segment that drives retail credit growth.",
+    "marketData": {
+     "peRatio": 1859,
+     "diiHolding": 4359,
+     "fiiHolding": 3940
+    },
+    "deepLinkUrl": "https://moriseapp.onelink.me/VgB3/flashNewsDetails?flashnewsId=BSEHDFCBANK31102026221441DSR0HSIB32"
+   },
+   {
+    "id": "BSEHDFCBANK30102026132455VGLFSJPL48",
+    "timestamp": 1793346895,
+    "company": {
+     "id": {
+      "scripCode": 1333
+     },
+     "symbol": "HDFCBANK",
+     "isin": "INE040A01034",
+     "logo": "img/80edb0d5ef78.png",
+     "companyName": "HDFC Bank Ltd"
+    },
+    "title": "HDFC Bank Allots 46.75L ESOP Shares",
+    "shortDescription": "HDFC Bank allots 46.75 lakh equity shares to employees via ESOP/RSU exercise, boosting share capital to ₹1,543.24 crore.",
+    "stockData": {
+     "onInsertionLtp": "69480"
+    },
+    "recommendation": {
+     "callId": 21308,
+     "recoPrice": "95925",
+     "targetPrice": "115000",
+     "type": "BUY",
+     "callCategory": "Equity",
+     "callSubCategory": "Fundamental",
+     "callType": "Investment Idea: Bluechip"
+    },
+    "category": "General Announcements",
+    "subCategory": "Allotment of ESOP / ESPS",
+    "pdfLink": "https://www.bseindia.com/stockinfo/annpdfopen.aspx?pname=38dab330-ca6e-4311-9679-7b47cebb7993.pdf",
+    "longDescription": "HDFC Bank has allotted 46,75,598 equity shares to employees through exercised stock options and RSUs under its employee incentive schemes. The paid-up share capital rises from ₹1,542.77 crore to ₹1,543.24 crore. This reflects continued employee retention efforts and confidence in the bank's long-term growth trajectory. The dilution impact remains minimal at ~0.03% of expanded equity base.",
+    "marketData": {
+     "peRatio": 1859,
+     "diiHolding": 4359,
+     "fiiHolding": 3940
+    },
+    "deepLinkUrl": "https://moriseapp.onelink.me/VgB3/flashNewsDetails?flashnewsId=BSEHDFCBANK30102026132455VGLFSJPL48"
+   },
+   {
+    "id": "BSEHDFCBANK271020260806228GHOZ92M78",
+    "timestamp": 1793068582,
+    "company": {
+     "id": {
+      "scripCode": 1333
+     },
+     "symbol": "HDFCBANK",
+     "isin": "INE040A01034",
+     "logo": "img/80edb0d5ef78.png",
+     "companyName": "HDFC Bank Ltd"
+    },
+    "title": "HDFC Bank: New CEO Takes Charge",
+    "shortDescription": "HDFC Bank leadership change: Anup Bagchi takes over as MD & CEO from Sashidhar Jagdishan, who completed his tenure on Oct 26, 2026.",
+    "stockData": {
+     "onInsertionLtp": "68805"
+    },
+    "recommendation": {
+     "callId": 21308,
+     "recoPrice": "95925",
+     "targetPrice": "115000",
+     "type": "BUY",
+     "callCategory": "Equity",
+     "callSubCategory": "Fundamental",
+     "callType": "Investment Idea: Bluechip"
+    },
+    "category": "General Announcements",
+    "subCategory": "General",
+    "pdfLink": "https://www.bseindia.com/stockinfo/annpdfopen.aspx?pname=e5b2d06f-fea8-4dea-aa03-84674215a0fd.pdf",
+    "longDescription": "HDFC Bank announces a significant leadership transition with Anup Bagchi assuming charge as Managing Director and CEO effective October 27, 2026. Sashidhar Jagdishan vacated office after completing his tenure, having steered India's largest private lender through one of corporate India's biggest mergers. The Bank credited Jagdishan for strengthening performance, culture and customer-centricity during his distinguished tenure. Investors will watch how Bagchi advances strategic priorities at HDFC Bank, which remains a dominant force in Indian banking with its extensive retail and corporate franchise.",
+    "marketData": {
+     "peRatio": 1859,
+     "diiHolding": 4359,
+     "fiiHolding": 3940
+    },
+    "deepLinkUrl": "https://moriseapp.onelink.me/VgB3/flashNewsDetails?flashnewsId=BSEHDFCBANK271020260806228GHOZ92M78"
+   }
+  ],
+  "totalNews": 3
+ }
+}

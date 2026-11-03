@@ -1,0 +1,200 @@
+{
+ "endpoint": "/TradingApiV2/api/Watchlist",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "WatchlistResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "watchlist": {
+   "watchlists": [
+    {
+     "id": 6877787,
+     "name": "Trending Under 500",
+     "isDefault": true,
+     "scripCount": 5,
+     "indexId": 1000007
+    },
+    {
+     "id": 883191,
+     "name": "Index Options",
+     "scripCount": 16,
+     "indexId": 1000003
+    },
+    {
+     "id": 883275,
+     "name": "WatchList 33535353",
+     "isModifiable": true
+    },
+    {
+     "id": 883372,
+     "name": "Monocept",
+     "isModifiable": true,
+     "scripCount": 1
+    },
+    {
+     "id": 883104,
+     "name": "WatchList 3353535397",
+     "isModifiable": true
+    },
+    {
+     "id": 883454,
+     "name": "Nifty 50",
+     "scripCount": 50,
+     "indexId": 26000
+    },
+    {
+     "id": 883453,
+     "name": "Holdings"
+    },
+    {
+     "id": 883541,
+     "name": "Nifty FMCG",
+     "scripCount": 15,
+     "indexId": 26055
+    },
+    {
+     "id": 883542,
+     "name": "Nifty Pharma",
+     "scripCount": 20,
+     "indexId": 26057
+    },
+    {
+     "id": 884411,
+     "name": "MTF Watchlist",
+     "scripCount": 1447,
+     "indexId": 1000005
+    },
+    {
+     "id": 886154,
+     "name": "Commodity",
+     "scripCount": 25,
+     "indexId": 1000004
+    },
+    {
+     "id": 6880922,
+     "name": "WatchList 3353535398",
+     "isModifiable": true,
+     "scripCount": 10
+    }
+   ],
+   "scrips": {
+    "name": {
+     "id": 6877787,
+     "name": "Trending Under 500",
+     "isDefault": true,
+     "scripCount": 5,
+     "indexId": 1000007
+    },
+    "scrips": [
+     {
+      "id": 750518,
+      "scrip": {
+       "scripCode": 750518
+      },
+      "tradingSymbol": "VEDPOWER",
+      "description": "NSE",
+      "optionType": "EQ",
+      "holding": {},
+      "hasEvents": true,
+      "eventFlags": "12",
+      "scripIsin": "INE694L01019"
+     },
+     {
+      "id": 750368,
+      "scrip": {
+       "scripCode": 750368
+      },
+      "tradingSymbol": "VOGL",
+      "description": "NSE",
+      "optionType": "EQ",
+      "holding": {},
+      "hasEvents": true,
+      "eventFlags": "8",
+      "scripIsin": "INE704J01044"
+     },
+     {
+      "id": 11403,
+      "scrip": {
+       "scripCode": 11403
+      },
+      "tradingSymbol": "POONAWALLA",
+      "description": "NSE",
+      "optionType": "EQ",
+      "sectorId": 34,
+      "holding": {},
+      "PE": 37.869998931884766,
+      "PB": 4.71999979019165,
+      "qvt": {
+       "quality": {
+        "score": 57,
+        "label": "High Financial Strength",
+        "color": "positive"
+       },
+       "valuation": {
+        "score": 38,
+        "label": "Mid Valuation",
+        "color": "neutral"
+       },
+       "technical": {
+        "score": 52,
+        "label": "Technically Neutral",
+        "color": "neutral"
+       }
+      },
+      "hasEvents": true,
+      "eventFlags": "12",
+      "scripIsin": "INE511C01022"
+     },
+     {
+      "id": 759084,
+      "scrip": {
+       "scripCode": 759084
+      },
+      "tradingSymbol": "URBANCO",
+      "description": "NSE",
+      "optionType": "EQ",
+      "holding": {},
+      "hasEvents": true,
+      "eventFlags": "8",
+      "scripIsin": "INE0CAZ01013"
+     },
+     {
+      "id": 3787,
+      "scrip": {
+       "scripCode": 3787
+      },
+      "tradingSymbol": "WIPRO",
+      "description": "NSE",
+      "optionType": "EQ",
+      "sectorId": 44,
+      "holding": {},
+      "PE": 22.329999923706055,
+      "PB": 3.630000114440918,
+      "qvt": {
+       "quality": {
+        "score": 55,
+        "label": "High Financial Strength",
+        "color": "positive"
+       },
+       "valuation": {
+        "score": 42,
+        "label": "Mid Valuation",
+        "color": "neutral"
+       },
+       "technical": {
+        "score": 50,
+        "label": "Technically Neutral",
+        "color": "neutral"
+       }
+      },
+      "hasOptionsAvailable": true,
+      "hasEvents": true,
+      "eventFlags": "8",
+      "scripIsin": "INE075A01022"
+     }
+    ]
+   }
+  }
+ }
+}

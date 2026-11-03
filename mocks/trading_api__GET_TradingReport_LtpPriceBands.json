@@ -1,0 +1,91 @@
+{
+ "endpoint": "/TradingApiV2/api/TradingReport/LtpPriceBands",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "LtpPriceBandsResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "entries": [
+   {
+    "segment": "Cash",
+    "minTickDiffMainStopLoss": 10,
+    "minTickDiffMainProfit": 10,
+    "minTickSlTrail": 10,
+    "minPerSlTrail": 0.1,
+    "exchanges": [
+     "NSE",
+     "BSE"
+    ]
+   },
+   {
+    "segment": "FNO-FUT",
+    "minTickDiffMainStopLoss": 10,
+    "minTickDiffMainProfit": 10,
+    "minTickSlTrail": 10,
+    "minPerSlTrail": 0.1,
+    "exchanges": [
+     "NSE_FO",
+     "BSE_FO"
+    ]
+   },
+   {
+    "segment": "FNO-OPT",
+    "minTickDiffMainStopLoss": 20,
+    "minTickDiffMainProfit": 20,
+    "minTickSlTrail": 20,
+    "minPerSlTrail": 0.1,
+    "exchanges": [
+     "NSE_FO",
+     "BSE_FO"
+    ]
+   },
+   {
+    "segment": "CURR-FUT",
+    "minTickDiffMainStopLoss": 5,
+    "minTickDiffMainProfit": 5,
+    "minTickSlTrail": 5,
+    "minPerSlTrail": 0.01,
+    "exchanges": [
+     "NSE_CD",
+     "BSE_CD"
+    ]
+   },
+   {
+    "segment": "CURR-OPT",
+    "minTickDiffMainStopLoss": 5,
+    "minTickDiffMainProfit": 5,
+    "minTickSlTrail": 5,
+    "minPerSlTrail": 0.01,
+    "exchanges": [
+     "NSE_CD",
+     "BSE_CD"
+    ]
+   },
+   {
+    "segment": "COMM-FUT",
+    "minTickDiffMainStopLoss": 10,
+    "minTickDiffMainProfit": 10,
+    "minTickSlTrail": 10,
+    "minPerSlTrail": 0.1,
+    "exchanges": [
+     "MCX",
+     "NCDEX",
+     "NSE_CO"
+    ]
+   },
+   {
+    "segment": "COMM-OPT",
+    "minTickDiffMainStopLoss": 10,
+    "minTickDiffMainProfit": 10,
+    "minTickSlTrail": 10,
+    "minPerSlTrail": 0.1,
+    "exchanges": [
+     "MCX",
+     "NCDEX",
+     "NSE_CO"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "endpoint": "/cmsapi/v2/api/ResearchIdeas/CompanyReport/ByScrip",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "CompanyReportExtractsResponse",
+ "source_flow": "debug_dump",
+ "response": {},
+ "variants": {
+  "scripCode=495213": {},
+  "scripCode=1333": {}
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "endpoint": "/TradingApiV2/api/Misc/LogBroadcastConnected",
+ "method": "POST",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "MessageResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "message": "Success"
+ }
+}

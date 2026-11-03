@@ -1,0 +1,697 @@
+{
+ "endpoint": "/dev/wms/v2/api/Search/History/Recent",
+ "method": "GET",
+ "host": "e74xime5x0.execute-api.ap-south-1.amazonaws.com",
+ "http_status": 200,
+ "decoded_as": "SearchResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "stock": [
+   {
+    "id": {
+     "scripCode": 1333
+    },
+    "tradeSymbol": "HDFCBANK",
+    "description": "HDFC Bank Ltd",
+    "tag": "Equity",
+    "optionType": "EQ",
+    "logoUrl": "img/80edb0d5ef78.png",
+    "hasDerivatives": true,
+    "lotSize": 1,
+    "searchInfo": {
+     "timestamp": "1793606523",
+     "price": "69050"
+    }
+   },
+   {
+    "id": {
+     "scripCode": 17388
+    },
+    "tradeSymbol": "ADANIPOWER",
+    "description": "Adani Power Ltd",
+    "tag": "Equity",
+    "optionType": "EQ",
+    "logoUrl": "img/81aebc4cf4d5.png",
+    "hasDerivatives": true,
+    "lotSize": 1,
+    "searchInfo": {
+     "timestamp": "1787897086"
+    }
+   },
+   {
+    "id": {
+     "scripCode": 146788,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "TATACONSUM",
+    "description": "23 Nov PE 1250",
+    "tag": "Options",
+    "optionType": "PE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "125000",
+    "expiryDate": "1795392000",
+    "lotSize": 550,
+    "searchInfo": {
+     "timestamp": "1787890258"
+    }
+   },
+   {
+    "id": {
+     "scripCode": 500112,
+     "exchange": "BSE"
+    },
+    "tradeSymbol": "SBIN",
+    "description": "State Bank of India",
+    "tag": "Equity",
+    "optionType": "A",
+    "logoUrl": "img/a07cdc8c6245.png",
+    "hasDerivatives": true,
+    "lotSize": 1,
+    "searchInfo": {
+     "timestamp": "1787890123",
+     "price": "104200"
+    }
+   },
+   {
+    "id": {
+     "scripCode": 3045
+    },
+    "tradeSymbol": "SBIN",
+    "description": "State Bank of India",
+    "tag": "Equity",
+    "optionType": "EQ",
+    "logoUrl": "img/a07cdc8c6245.png",
+    "hasDerivatives": true,
+    "lotSize": 1,
+    "searchInfo": {
+     "timestamp": "1787890106",
+     "price": "104209"
+    }
+   },
+   {
+    "id": {
+     "scripCode": 11536
+    },
+    "tradeSymbol": "TCS",
+    "description": "Tata Consultancy Services Ltd",
+    "tag": "Equity",
+    "optionType": "EQ",
+    "logoUrl": "img/21620e790149.png",
+    "hasDerivatives": true,
+    "lotSize": 1,
+    "searchInfo": {
+     "timestamp": "1784288760",
+     "price": "226900"
+    }
+   },
+   {
+    "id": {
+     "scripCode": 8954
+    },
+    "tradeSymbol": "TTML",
+    "description": "Tata Teleservices (Maharashtra) Ltd",
+    "tag": "Equity",
+    "optionType": "EQ",
+    "logoUrl": "img/a87f3c985110.png",
+    "lotSize": 1,
+    "searchInfo": {
+     "timestamp": "1784276806",
+     "price": "4035"
+    }
+   },
+   {
+    "id": {
+     "scripCode": 68407,
+     "exchange": "NSE_FO"
+    },
+    "tradeSymbol": "ABCAPITAL",
+    "description": "25 Jan 2027 CE 280",
+    "tag": "Options",
+    "optionType": "CE",
+    "expiryFlag": "M",
+    "hasDerivatives": true,
+    "strikePrice": "28000",
+    "expiryDate": "1800835200",
+    "lotSize": 1550,
+    "searchInfo": {
+     "timestamp": "1784107427"
+    }
+   },
+   {
+    "id": {
+     "scripCode": 11703
+    },
+    "tradeSymbol": "ALKEM",
+    "description": "Alkem Laboratories Ltd",
+    "tag": "Equity",
+    "optionType": "EQ",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/AlkemLab_4180671424_19299.png",
+    "hasDerivatives": true,
+    "lotSize": 1,
+    "searchInfo": {
+     "timestamp": "1781694746",
+     "price": "534750"
+    }
+   },
+   {
+    "id": {
+     "scripCode": 544529,
+     "exchange": "BSE"
+    },
+    "tradeSymbol": "APPL",
+    "description": "Aptus Pharma Limited-APPL",
+    "tag": "Equity",
+    "optionType": "MT",
+    "lotSize": 2000,
+    "searchInfo": {
+     "timestamp": "1781694727",
+     "price": "21185"
+    }
+   },
+   {
+    "id": {
+     "scripCode": 2963
+    },
+    "tradeSymbol": "SAIL",
+    "description": "Steel Authority of India Ltd",
+    "tag": "Equity",
+    "optionType": "EQ",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/SAIL_40802201738_2299.png",
+    "hasDerivatives": true,
+    "lotSize": 1,
+    "searchInfo": {
+     "timestamp": "1778829790",
+     "price": "19660"
+    }
+   }
+  ],
+  "mf": [
+   {
+    "isin": "INF846K018J8",
+    "name": "Axis Silver FoF Regular-Growth",
+    "category": "Commodities",
+    "subCategory": " Silver",
+    "return3Year": 4322,
+    "currentNav": "402101",
+    "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8799-axis-2__BASE__.png",
+    "returnPeriod": "THREE_YEAR",
+    "returnValue": 4322,
+    "searchInfo": {
+     "timestamp": "1784701940"
+    },
+    "minSip": "100"
+   }
+  ],
+  "usStock": [
+   {
+    "ticker": "APP",
+    "isin": "US03831W1080",
+    "name": "AppLovin Corp",
+    "category": "LARGE CAP",
+    "sector": "Communication Services",
+    "logoUrl": "https://drivewealth.imgix.net/symbols/app_1618404239.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+    "stockPrice": "37638",
+    "changePer": -363,
+    "searchInfo": {
+     "timestamp": "1784699662",
+     "price": "37638"
+    }
+   },
+   {
+    "ticker": "AAPL",
+    "isin": "US0378331005",
+    "name": "Apple, Inc.",
+    "category": "MEGA CAP",
+    "sector": "Technology",
+    "logoUrl": "https://drivewealth.imgix.net/symbols/aapl_1666583960.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+    "stockPrice": "26388",
+    "changePer": 317,
+    "searchInfo": {
+     "timestamp": "1781694750",
+     "price": "26388"
+    }
+   }
+  ]
+ },
+ "variants": {
+  "": {
+   "stock": [
+    {
+     "id": {
+      "scripCode": 1333
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "HDFC Bank Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/80edb0d5ef78.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1793606523",
+      "price": "69050"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 17388
+     },
+     "tradeSymbol": "ADANIPOWER",
+     "description": "Adani Power Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/81aebc4cf4d5.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1787897086"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 146788,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "TATACONSUM",
+     "description": "23 Nov PE 1250",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "125000",
+     "expiryDate": "1795392000",
+     "lotSize": 550,
+     "searchInfo": {
+      "timestamp": "1787890258"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 500112,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "SBIN",
+     "description": "State Bank of India",
+     "tag": "Equity",
+     "optionType": "A",
+     "logoUrl": "img/a07cdc8c6245.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1787890123",
+      "price": "104200"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 3045
+     },
+     "tradeSymbol": "SBIN",
+     "description": "State Bank of India",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/a07cdc8c6245.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1787890106",
+      "price": "104209"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 11536
+     },
+     "tradeSymbol": "TCS",
+     "description": "Tata Consultancy Services Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/21620e790149.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1784288760",
+      "price": "226900"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 8954
+     },
+     "tradeSymbol": "TTML",
+     "description": "Tata Teleservices (Maharashtra) Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/a87f3c985110.png",
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1784276806",
+      "price": "4035"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 68407,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "ABCAPITAL",
+     "description": "25 Jan 2027 CE 280",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "28000",
+     "expiryDate": "1800835200",
+     "lotSize": 1550,
+     "searchInfo": {
+      "timestamp": "1784107427"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 11703
+     },
+     "tradeSymbol": "ALKEM",
+     "description": "Alkem Laboratories Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/AlkemLab_4180671424_19299.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1781694746",
+      "price": "534750"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 544529,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "APPL",
+     "description": "Aptus Pharma Limited-APPL",
+     "tag": "Equity",
+     "optionType": "MT",
+     "lotSize": 2000,
+     "searchInfo": {
+      "timestamp": "1781694727",
+      "price": "21185"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 2963
+     },
+     "tradeSymbol": "SAIL",
+     "description": "Steel Authority of India Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/SAIL_40802201738_2299.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1778829790",
+      "price": "19660"
+     }
+    }
+   ],
+   "mf": [
+    {
+     "isin": "INF846K018J8",
+     "name": "Axis Silver FoF Regular-Growth",
+     "category": "Commodities",
+     "subCategory": " Silver",
+     "return3Year": 4322,
+     "currentNav": "402101",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8799-axis-2__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 4322,
+     "searchInfo": {
+      "timestamp": "1784701940"
+     },
+     "minSip": "100"
+    }
+   ],
+   "usStock": [
+    {
+     "ticker": "APP",
+     "isin": "US03831W1080",
+     "name": "AppLovin Corp",
+     "category": "LARGE CAP",
+     "sector": "Communication Services",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/app_1618404239.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "37638",
+     "changePer": -363,
+     "searchInfo": {
+      "timestamp": "1784699662",
+      "price": "37638"
+     }
+    },
+    {
+     "ticker": "AAPL",
+     "isin": "US0378331005",
+     "name": "Apple, Inc.",
+     "category": "MEGA CAP",
+     "sector": "Technology",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/aapl_1666583960.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "26388",
+     "changePer": 317,
+     "searchInfo": {
+      "timestamp": "1781694750",
+      "price": "26388"
+     }
+    }
+   ]
+  },
+  "asset=mf&days=30&limit=4": {
+   "stock": [
+    {
+     "id": {
+      "scripCode": 1333
+     },
+     "tradeSymbol": "HDFCBANK",
+     "description": "HDFC Bank Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/80edb0d5ef78.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1793602505",
+      "price": "69290"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 17388
+     },
+     "tradeSymbol": "ADANIPOWER",
+     "description": "Adani Power Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/81aebc4cf4d5.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1787897086"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 146788,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "TATACONSUM",
+     "description": "23 Nov PE 1250",
+     "tag": "Options",
+     "optionType": "PE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "125000",
+     "expiryDate": "1795392000",
+     "lotSize": 550,
+     "searchInfo": {
+      "timestamp": "1787890258"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 500112,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "SBIN",
+     "description": "State Bank of India",
+     "tag": "Equity",
+     "optionType": "A",
+     "logoUrl": "img/a07cdc8c6245.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1787890123",
+      "price": "104200"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 3045
+     },
+     "tradeSymbol": "SBIN",
+     "description": "State Bank of India",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/a07cdc8c6245.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1787890106",
+      "price": "104209"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 11536
+     },
+     "tradeSymbol": "TCS",
+     "description": "Tata Consultancy Services Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/21620e790149.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1784288760",
+      "price": "226900"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 8954
+     },
+     "tradeSymbol": "TTML",
+     "description": "Tata Teleservices (Maharashtra) Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "img/a87f3c985110.png",
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1784276806",
+      "price": "4035"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 68407,
+      "exchange": "NSE_FO"
+     },
+     "tradeSymbol": "ABCAPITAL",
+     "description": "25 Jan 2027 CE 280",
+     "tag": "Options",
+     "optionType": "CE",
+     "expiryFlag": "M",
+     "hasDerivatives": true,
+     "strikePrice": "28000",
+     "expiryDate": "1800835200",
+     "lotSize": 1550,
+     "searchInfo": {
+      "timestamp": "1784107427"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 11703
+     },
+     "tradeSymbol": "ALKEM",
+     "description": "Alkem Laboratories Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/AlkemLab_4180671424_19299.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1781694746",
+      "price": "534750"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 544529,
+      "exchange": "BSE"
+     },
+     "tradeSymbol": "APPL",
+     "description": "Aptus Pharma Limited-APPL",
+     "tag": "Equity",
+     "optionType": "MT",
+     "lotSize": 2000,
+     "searchInfo": {
+      "timestamp": "1781694727",
+      "price": "21185"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 2963
+     },
+     "tradeSymbol": "SAIL",
+     "description": "Steel Authority of India Ltd",
+     "tag": "Equity",
+     "optionType": "EQ",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/SAIL_40802201738_2299.png",
+     "hasDerivatives": true,
+     "lotSize": 1,
+     "searchInfo": {
+      "timestamp": "1778829790",
+      "price": "19660"
+     }
+    }
+   ],
+   "mf": [
+    {
+     "isin": "INF846K018J8",
+     "name": "Axis Silver FoF Regular-Growth",
+     "category": "Commodities",
+     "subCategory": " Silver",
+     "return3Year": 4322,
+     "currentNav": "402101",
+     "logoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8799-axis-2__BASE__.png",
+     "returnPeriod": "THREE_YEAR",
+     "returnValue": 4322,
+     "searchInfo": {
+      "timestamp": "1784701940"
+     },
+     "minSip": "100"
+    }
+   ],
+   "usStock": [
+    {
+     "ticker": "APP",
+     "isin": "US03831W1080",
+     "name": "AppLovin Corp",
+     "category": "LARGE CAP",
+     "sector": "Communication Services",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/app_1618404239.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "37638",
+     "changePer": -363,
+     "searchInfo": {
+      "timestamp": "1784699662",
+      "price": "37638"
+     }
+    },
+    {
+     "ticker": "AAPL",
+     "isin": "US0378331005",
+     "name": "Apple, Inc.",
+     "category": "MEGA CAP",
+     "sector": "Technology",
+     "logoUrl": "https://drivewealth.imgix.net/symbols/aapl_1666583960.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+     "stockPrice": "26388",
+     "changePer": 317,
+     "searchInfo": {
+      "timestamp": "1781694750",
+      "price": "26388"
+     }
+    }
+   ]
+  }
+ }
+}

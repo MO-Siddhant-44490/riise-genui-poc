@@ -1,0 +1,11 @@
+{
+ "endpoint": "/StratX_API/api/MobileApi/SummaryOrders",
+ "method": "GET",
+ "host": "onlinereportsuat.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "SummaryOrdersResponseV1",
+ "source_flow": "debug_dump",
+ "response": {
+  "message": "Sequence contains no elements"
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "endpoint": "/news/api/News/GetNewsCategories",
+ "method": "POST",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "NewsCategoryDataModel",
+ "source_flow": "debug_dump",
+ "response": {
+  "message": "Success",
+  "statusCode": 200,
+  "data": [
+   {
+    "id": 1,
+    "name": "Stocks",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 68,
+    "name": "IPO",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 36,
+    "name": "Company Result",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 37,
+    "name": "Economy & Outlook",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 40,
+    "name": "Mutual Funds",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 265,
+    "name": "Fixed Deposits",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 199,
+    "name": "Alternate Investments",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 70,
+    "name": "Bonds",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 69,
+    "name": "Commodities",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 166,
+    "name": "ETFs",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 71,
+    "name": "Forex",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 72,
+    "name": "GMP",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 2,
+    "name": "Insurance",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 39,
+    "name": "Nifty",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 38,
+    "name": "Sensex",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 67,
+    "name": "Personal Finance",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 100,
+    "name": "PMS",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 298,
+    "name": "Real Estate",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 133,
+    "name": "Startups & Business Updates",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 73,
+    "name": "Tax Savings",
+    "description": null,
+    "image": ""
+   },
+   {
+    "id": 232,
+    "name": "Cryptocurrencies",
+    "description": null,
+    "image": ""
+   }
+  ],
+  "status": true
+ }
+}

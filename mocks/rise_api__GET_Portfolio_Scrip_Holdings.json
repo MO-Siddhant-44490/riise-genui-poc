@@ -1,0 +1,13 @@
+{
+ "endpoint": "/wms/v2/api/Portfolio/Scrip/Holdings",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "ScripsHoldingResponse",
+ "source_flow": "debug_dump",
+ "response": {},
+ "variants": {
+  "symbol=GOLD": {},
+  "symbol=HDFCBANK": {}
+ }
+}

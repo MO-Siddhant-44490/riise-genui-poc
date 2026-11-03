@@ -1,0 +1,871 @@
+{
+ "endpoint": "/TradingApiV2/api/Markets/MarketMoversFilters",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "MarketMoversFilterResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "entries": [
+   {
+    "filterLabel": "Top Gainers",
+    "description": "Gainers are stocks with the highest daily price increase, indicating strong momentum and potential for future growth.",
+    "groups": [
+     {
+      "groupName": "CNX500",
+      "displayName": "NIFTY 500"
+     },
+     {
+      "groupName": "BANKNIFTY",
+      "displayName": "NIFTY BANK"
+     },
+     {
+      "groupName": "NFTYMC150",
+      "displayName": "NIFTY MIDCAP 150"
+     },
+     {
+      "groupName": "NFTYSC250",
+      "displayName": "Nifty Smallcap 250"
+     },
+     {
+      "groupName": "CNX_FMCG",
+      "displayName": "NIFTY FMCG"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_100",
+      "displayName": "Sensex 100"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_200",
+      "displayName": "BSE 200"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_500",
+      "displayName": "BSE 500"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSECPSE",
+      "displayName": "BSE CPSE"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEENERGY",
+      "displayName": "BSE Energy"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_FMCG",
+      "displayName": "BSE FMCG"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_HC",
+      "displayName": "BSE Healthcare"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEIPO",
+      "displayName": "BSE IPO"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_IT",
+      "displayName": "BSE IT"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEMID",
+      "displayName": "BSE MidCap"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEMOI",
+      "displayName": "BSE Momentum"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEPOWER",
+      "displayName": "BSE Power"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEQUI",
+      "displayName": "BSE Quality"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEREALTY",
+      "displayName": "BSE Realty"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "SENSNEXT50",
+      "displayName": "BSE Sensex Next 50"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSESMALLCA",
+      "displayName": "BSE SmallCap"
+     },
+     {
+      "groupName": "CNX100",
+      "displayName": "NIFTY 100"
+     },
+     {
+      "groupName": "CNX200",
+      "displayName": "NIFTY 200"
+     },
+     {
+      "groupName": "NIFTY",
+      "displayName": "NIFTY 50"
+     },
+     {
+      "groupName": "CNXAUTO",
+      "displayName": "NIFTY AUTO"
+     },
+     {
+      "groupName": "CNXENERGY",
+      "displayName": "NIFTY ENERGY"
+     },
+     {
+      "groupName": "CNXFINANCE",
+      "displayName": "NIFTY FIN SERVICE"
+     },
+     {
+      "groupName": "CNXINFRAST",
+      "displayName": "NIFTY INFRA"
+     },
+     {
+      "groupName": "CNX_IT",
+      "displayName": "NIFTY IT"
+     },
+     {
+      "groupName": "CNXMETAL",
+      "displayName": "NIFTY METAL"
+     },
+     {
+      "groupName": "CNXMIDCAP",
+      "displayName": "NIFTY MIDCAP 100"
+     },
+     {
+      "groupName": "NIFTYJR",
+      "displayName": "NIFTY NEXT 50"
+     },
+     {
+      "groupName": "CNXPHARMA",
+      "displayName": "NIFTY PHARMA"
+     },
+     {
+      "groupName": "NFTPVTBANK",
+      "displayName": "NIFTY PVT BANK"
+     },
+     {
+      "groupName": "CNXREALTY",
+      "displayName": "NIFTY REALTY"
+     },
+     {
+      "groupName": "CNXSMALLCA",
+      "displayName": "NIFTY SMLCAP 100"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_SENSEX",
+      "displayName": "SENSEX"
+     }
+    ]
+   },
+   {
+    "filterLabel": "Top Losers",
+    "filterId": 1,
+    "description": "Stocks with the largest daily price decrease, suggesting weak momentum and potential further decline.",
+    "groups": [
+     {
+      "groupName": "CNX500",
+      "displayName": "NIFTY 500"
+     },
+     {
+      "groupName": "BANKNIFTY",
+      "displayName": "NIFTY BANK"
+     },
+     {
+      "groupName": "NFTYMC150",
+      "displayName": "NIFTY MIDCAP 150"
+     },
+     {
+      "groupName": "NFTYSC250",
+      "displayName": "Nifty Smallcap 250"
+     },
+     {
+      "groupName": "CNX_FMCG",
+      "displayName": "NIFTY FMCG"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_100",
+      "displayName": "Sensex 100"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_200",
+      "displayName": "BSE 200"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_500",
+      "displayName": "BSE 500"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSECPSE",
+      "displayName": "BSE CPSE"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEENERGY",
+      "displayName": "BSE Energy"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_FMCG",
+      "displayName": "BSE FMCG"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_HC",
+      "displayName": "BSE Healthcare"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEIPO",
+      "displayName": "BSE IPO"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_IT",
+      "displayName": "BSE IT"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEMID",
+      "displayName": "BSE MidCap"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEMOI",
+      "displayName": "BSE Momentum"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEPOWER",
+      "displayName": "BSE Power"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEQUI",
+      "displayName": "BSE Quality"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEREALTY",
+      "displayName": "BSE Realty"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "SENSNEXT50",
+      "displayName": "BSE Sensex Next 50"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSESMALLCA",
+      "displayName": "BSE SmallCap"
+     },
+     {
+      "groupName": "CNX100",
+      "displayName": "NIFTY 100"
+     },
+     {
+      "groupName": "CNX200",
+      "displayName": "NIFTY 200"
+     },
+     {
+      "groupName": "NIFTY",
+      "displayName": "NIFTY 50"
+     },
+     {
+      "groupName": "CNXAUTO",
+      "displayName": "NIFTY AUTO"
+     },
+     {
+      "groupName": "CNXENERGY",
+      "displayName": "NIFTY ENERGY"
+     },
+     {
+      "groupName": "CNXFINANCE",
+      "displayName": "NIFTY FIN SERVICE"
+     },
+     {
+      "groupName": "CNXINFRAST",
+      "displayName": "NIFTY INFRA"
+     },
+     {
+      "groupName": "CNX_IT",
+      "displayName": "NIFTY IT"
+     },
+     {
+      "groupName": "CNXMETAL",
+      "displayName": "NIFTY METAL"
+     },
+     {
+      "groupName": "CNXMIDCAP",
+      "displayName": "NIFTY MIDCAP 100"
+     },
+     {
+      "groupName": "NIFTYJR",
+      "displayName": "NIFTY NEXT 50"
+     },
+     {
+      "groupName": "CNXPHARMA",
+      "displayName": "NIFTY PHARMA"
+     },
+     {
+      "groupName": "NFTPVTBANK",
+      "displayName": "NIFTY PVT BANK"
+     },
+     {
+      "groupName": "CNXREALTY",
+      "displayName": "NIFTY REALTY"
+     },
+     {
+      "groupName": "CNXSMALLCA",
+      "displayName": "NIFTY SMLCAP 100"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_SENSEX",
+      "displayName": "SENSEX"
+     }
+    ]
+   },
+   {
+    "filterLabel": "52 W High",
+    "filterId": 8,
+    "description": "The highest price a stock has reached in the past year, indicating strong past performance.",
+    "groups": [
+     {
+      "groupName": "CNX500",
+      "displayName": "NIFTY 500"
+     },
+     {
+      "groupName": "BANKNIFTY",
+      "displayName": "NIFTY BANK"
+     },
+     {
+      "groupName": "NFTYMC150",
+      "displayName": "NIFTY MIDCAP 150"
+     },
+     {
+      "groupName": "NFTYSC250",
+      "displayName": "Nifty Smallcap 250"
+     },
+     {
+      "groupName": "CNX_FMCG",
+      "displayName": "NIFTY FMCG"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_100",
+      "displayName": "Sensex 100"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_200",
+      "displayName": "BSE 200"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_500",
+      "displayName": "BSE 500"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSECPSE",
+      "displayName": "BSE CPSE"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEENERGY",
+      "displayName": "BSE Energy"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_FMCG",
+      "displayName": "BSE FMCG"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_HC",
+      "displayName": "BSE Healthcare"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEIPO",
+      "displayName": "BSE IPO"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_IT",
+      "displayName": "BSE IT"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEMID",
+      "displayName": "BSE MidCap"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEMOI",
+      "displayName": "BSE Momentum"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEPOWER",
+      "displayName": "BSE Power"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEQUI",
+      "displayName": "BSE Quality"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEREALTY",
+      "displayName": "BSE Realty"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "SENSNEXT50",
+      "displayName": "BSE Sensex Next 50"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSESMALLCA",
+      "displayName": "BSE SmallCap"
+     },
+     {
+      "groupName": "CNX100",
+      "displayName": "NIFTY 100"
+     },
+     {
+      "groupName": "CNX200",
+      "displayName": "NIFTY 200"
+     },
+     {
+      "groupName": "NIFTY",
+      "displayName": "NIFTY 50"
+     },
+     {
+      "groupName": "CNXAUTO",
+      "displayName": "NIFTY AUTO"
+     },
+     {
+      "groupName": "CNXENERGY",
+      "displayName": "NIFTY ENERGY"
+     },
+     {
+      "groupName": "CNXFINANCE",
+      "displayName": "NIFTY FIN SERVICE"
+     },
+     {
+      "groupName": "CNXINFRAST",
+      "displayName": "NIFTY INFRA"
+     },
+     {
+      "groupName": "CNX_IT",
+      "displayName": "NIFTY IT"
+     },
+     {
+      "groupName": "CNXMETAL",
+      "displayName": "NIFTY METAL"
+     },
+     {
+      "groupName": "CNXMIDCAP",
+      "displayName": "NIFTY MIDCAP 100"
+     },
+     {
+      "groupName": "NIFTYJR",
+      "displayName": "NIFTY NEXT 50"
+     },
+     {
+      "groupName": "CNXPHARMA",
+      "displayName": "NIFTY PHARMA"
+     },
+     {
+      "groupName": "NFTPVTBANK",
+      "displayName": "NIFTY PVT BANK"
+     },
+     {
+      "groupName": "CNXREALTY",
+      "displayName": "NIFTY REALTY"
+     },
+     {
+      "groupName": "CNXSMALLCA",
+      "displayName": "NIFTY SMLCAP 100"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_SENSEX",
+      "displayName": "SENSEX"
+     }
+    ]
+   },
+   {
+    "filterLabel": "52 W Low",
+    "filterId": 9,
+    "description": "The lowest price a stock has reached in the past year, indicating weak past performance.",
+    "groups": [
+     {
+      "groupName": "CNX500",
+      "displayName": "NIFTY 500"
+     },
+     {
+      "groupName": "BANKNIFTY",
+      "displayName": "NIFTY BANK"
+     },
+     {
+      "groupName": "NFTYMC150",
+      "displayName": "NIFTY MIDCAP 150"
+     },
+     {
+      "groupName": "NFTYSC250",
+      "displayName": "Nifty Smallcap 250"
+     },
+     {
+      "groupName": "CNX_FMCG",
+      "displayName": "NIFTY FMCG"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_100",
+      "displayName": "Sensex 100"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_200",
+      "displayName": "BSE 200"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_500",
+      "displayName": "BSE 500"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSECPSE",
+      "displayName": "BSE CPSE"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEENERGY",
+      "displayName": "BSE Energy"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_FMCG",
+      "displayName": "BSE FMCG"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_HC",
+      "displayName": "BSE Healthcare"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEIPO",
+      "displayName": "BSE IPO"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_IT",
+      "displayName": "BSE IT"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEMID",
+      "displayName": "BSE MidCap"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEMOI",
+      "displayName": "BSE Momentum"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEPOWER",
+      "displayName": "BSE Power"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEQUI",
+      "displayName": "BSE Quality"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEREALTY",
+      "displayName": "BSE Realty"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "SENSNEXT50",
+      "displayName": "BSE Sensex Next 50"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSESMALLCA",
+      "displayName": "BSE SmallCap"
+     },
+     {
+      "groupName": "CNX100",
+      "displayName": "NIFTY 100"
+     },
+     {
+      "groupName": "CNX200",
+      "displayName": "NIFTY 200"
+     },
+     {
+      "groupName": "NIFTY",
+      "displayName": "NIFTY 50"
+     },
+     {
+      "groupName": "CNXAUTO",
+      "displayName": "NIFTY AUTO"
+     },
+     {
+      "groupName": "CNXENERGY",
+      "displayName": "NIFTY ENERGY"
+     },
+     {
+      "groupName": "CNXFINANCE",
+      "displayName": "NIFTY FIN SERVICE"
+     },
+     {
+      "groupName": "CNXINFRAST",
+      "displayName": "NIFTY INFRA"
+     },
+     {
+      "groupName": "CNX_IT",
+      "displayName": "NIFTY IT"
+     },
+     {
+      "groupName": "CNXMETAL",
+      "displayName": "NIFTY METAL"
+     },
+     {
+      "groupName": "CNXMIDCAP",
+      "displayName": "NIFTY MIDCAP 100"
+     },
+     {
+      "groupName": "NIFTYJR",
+      "displayName": "NIFTY NEXT 50"
+     },
+     {
+      "groupName": "CNXPHARMA",
+      "displayName": "NIFTY PHARMA"
+     },
+     {
+      "groupName": "NFTPVTBANK",
+      "displayName": "NIFTY PVT BANK"
+     },
+     {
+      "groupName": "CNXREALTY",
+      "displayName": "NIFTY REALTY"
+     },
+     {
+      "groupName": "CNXSMALLCA",
+      "displayName": "NIFTY SMLCAP 100"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_SENSEX",
+      "displayName": "SENSEX"
+     }
+    ]
+   },
+   {
+    "filterLabel": "Volume Gainers",
+    "filterId": 5,
+    "description": "Stocks with significantly increased trading volume, suggesting heightened investor interest or activity.",
+    "groups": [
+     {
+      "groupName": "CNX500",
+      "displayName": "NIFTY 500"
+     },
+     {
+      "groupName": "BANKNIFTY",
+      "displayName": "NIFTY BANK"
+     },
+     {
+      "groupName": "NFTYMC150",
+      "displayName": "NIFTY MIDCAP 150"
+     },
+     {
+      "groupName": "NFTYSC250",
+      "displayName": "Nifty Smallcap 250"
+     },
+     {
+      "groupName": "CNX_FMCG",
+      "displayName": "NIFTY FMCG"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_100",
+      "displayName": "Sensex 100"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_200",
+      "displayName": "BSE 200"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_500",
+      "displayName": "BSE 500"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSECPSE",
+      "displayName": "BSE CPSE"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEENERGY",
+      "displayName": "BSE Energy"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_FMCG",
+      "displayName": "BSE FMCG"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_HC",
+      "displayName": "BSE Healthcare"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEIPO",
+      "displayName": "BSE IPO"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_IT",
+      "displayName": "BSE IT"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEMID",
+      "displayName": "BSE MidCap"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEMOI",
+      "displayName": "BSE Momentum"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEPOWER",
+      "displayName": "BSE Power"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEQUI",
+      "displayName": "BSE Quality"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSEREALTY",
+      "displayName": "BSE Realty"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "SENSNEXT50",
+      "displayName": "BSE Sensex Next 50"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSESMALLCA",
+      "displayName": "BSE SmallCap"
+     },
+     {
+      "groupName": "CNX100",
+      "displayName": "NIFTY 100"
+     },
+     {
+      "groupName": "CNX200",
+      "displayName": "NIFTY 200"
+     },
+     {
+      "groupName": "NIFTY",
+      "displayName": "NIFTY 50"
+     },
+     {
+      "groupName": "CNXAUTO",
+      "displayName": "NIFTY AUTO"
+     },
+     {
+      "groupName": "CNXENERGY",
+      "displayName": "NIFTY ENERGY"
+     },
+     {
+      "groupName": "CNXFINANCE",
+      "displayName": "NIFTY FIN SERVICE"
+     },
+     {
+      "groupName": "CNXINFRAST",
+      "displayName": "NIFTY INFRA"
+     },
+     {
+      "groupName": "CNX_IT",
+      "displayName": "NIFTY IT"
+     },
+     {
+      "groupName": "CNXMETAL",
+      "displayName": "NIFTY METAL"
+     },
+     {
+      "groupName": "CNXMIDCAP",
+      "displayName": "NIFTY MIDCAP 100"
+     },
+     {
+      "groupName": "NIFTYJR",
+      "displayName": "NIFTY NEXT 50"
+     },
+     {
+      "groupName": "CNXPHARMA",
+      "displayName": "NIFTY PHARMA"
+     },
+     {
+      "groupName": "NFTPVTBANK",
+      "displayName": "NIFTY PVT BANK"
+     },
+     {
+      "groupName": "CNXREALTY",
+      "displayName": "NIFTY REALTY"
+     },
+     {
+      "groupName": "CNXSMALLCA",
+      "displayName": "NIFTY SMLCAP 100"
+     },
+     {
+      "exchange": "BSE",
+      "groupName": "BSE_SENSEX",
+      "displayName": "SENSEX"
+     }
+    ]
+   }
+  ]
+ }
+}

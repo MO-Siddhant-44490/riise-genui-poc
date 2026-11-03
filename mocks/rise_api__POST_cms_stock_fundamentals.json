@@ -1,0 +1,532 @@
+{
+ "endpoint": "/usequity/api/cms/stock/fundamentals",
+ "method": "POST",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "StockDetailsResponseModel",
+ "source_flow": "debug_dump",
+ "response": {
+  "status": true,
+  "statusCode": 200,
+  "data": [
+   {
+    "id": 0,
+    "symbol": "SPOT",
+    "type": "Common Stock",
+    "name": "Spotify Technology SA",
+    "isin": "LU1778762911",
+    "sector": "Communication Services",
+    "category": "LARGE CAP",
+    "home_category": null,
+    "eod_category": null,
+    "industry": "Internet Content & Information",
+    "exchange": "NYSE",
+    "ipo_start_date": "04/03/2018 00:00:00",
+    "gicsector": "Communication Services",
+    "gicgroup": "Media & Entertainment",
+    "gicindustry": "Entertainment",
+    "gicsubindustry": "Movies & Entertainment",
+    "inception_date": null,
+    "description": "Spotify Technology S.A., together with its subsidiaries, provides audio streaming subscription services worldwide. It operates in two segments, Premium and Ad-Supported. The Premium segment offers online and offline streaming access to its catalog of music and podcasts, including video, lossless music, and audiobooks in select markets through subscription offerings primarily sold directly to end users and partners. The Ad-Supported segment provides limited on-demand online access to its catalog of music and online and offline access to its catalog of podcasts on computers, tablets, mobile devices, and other smart devices. The company also offers sales, distribution and marketing, contract research and development, and customer and other support services. Spotify Technology S.A. was incorporated in 2006 and is headquartered in Stockholm, Sweden.",
+    "is_delisted": true,
+    "address": "<redacted>",
+    "ceo": "Mr. Daniel G. Ek",
+    "phone": "",
+    "web_url": null,
+    "company_url": "https://www.spotify.com",
+    "eft_url": null,
+    "logo_url": "https://drivewealth.imgix.net/symbols/spot.png?fit=fillmax&w=125&h=125&bg=FFFFFF",
+    "employees": "7287",
+    "expense_ratio": 0.0,
+    "avg_market_capitalization_mln": 0,
+    "market_capitalization": 0,
+    "market_capitalization_mln": 94369464320.0,
+    "pe_ratio": 36.7554,
+    "pb_ratio": 9.5382,
+    "enterprise_value": 85427680986.0,
+    "avgmarketcapitalization": 0,
+    "total_assets": 15008609540.0,
+    "updated_at": null,
+    "sub_category": null,
+    "high_52week": "785.00000000",
+    "low_52week": "405.00000000",
+    "high_1day": null,
+    "low_1day": null,
+    "mkt_cap_mega": 0.0,
+    "mkt_cap_big": 0.0,
+    "mkt_cap_medium": 0.0,
+    "mkt_cap_small": 0.0,
+    "mkt_cap_micro": "<redacted>",
+    "ret_one_day": 0,
+    "ret_one_week": -5.02,
+    "ret_one_month": -9.47,
+    "ret_three_month": -27.3,
+    "ret_six_month": -36.42,
+    "ret_nine_month": -30.38,
+    "ret_one_year": -26.6,
+    "ret_three_year": 284.58,
+    "ret_five_year": 30.31,
+    "ret_ten_year": 0,
+    "ret_all_time": 208.48,
+    "collection": "[{\"id\": 1, \"name\": \"High Returns\"}, {\"id\": 19, \"name\": \"Communication Services\"}]",
+    "market_data": [
+     {
+      "date": "2023-05-26T06:12:27.23",
+      "strong_buy": 14,
+      "buy": 6,
+      "hold": 12,
+      "sell": 0,
+      "strong_sell": 0
+     }
+    ],
+    "institutional_holdings": [
+     {
+      "name": "Baillie Gifford & Co Limited.",
+      "date": "2023-03-31",
+      "totalShares": "14.21510000",
+      "totalAssets": "3.31480000",
+      "currentShares": "27494681.00000000",
+      "change": "-442873.00000000",
+      "change_p": "-1.58520000"
+     },
+     {
+      "name": "Vanguard International Growth Inv",
+      "date": "2023-03-31",
+      "totalShares": "4.81540000",
+      "totalAssets": "2.72250000",
+      "currentShares": "9313801.00000000",
+      "change": "-111577.00000000",
+      "change_p": "-1.18380000"
+     },
+     {
+      "name": "Morgan Stanley - Brokerage Accounts",
+      "date": "2022-12-31",
+      "totalShares": "4.71160000",
+      "totalAssets": "0.08170000",
+      "currentShares": "9113077.00000000",
+      "change": "-1454144.00000000",
+      "change_p": "-13.76090000"
+     },
+     {
+      "name": "T. Rowe Price Associates, Inc.",
+      "date": "2023-03-31",
+      "totalShares": "4.50230000",
+      "totalAssets": "0.17420000",
+      "currentShares": "8708366.00000000",
+      "change": "-993042.00000000",
+      "change_p": "-10.23610000"
+     },
+     {
+      "name": "BlackRock Inc",
+      "date": "2022-12-31",
+      "totalShares": "2.36250000",
+      "totalAssets": "0.01130000",
+      "currentShares": "4569419.00000000",
+      "change": "354857.00000000",
+      "change_p": "8.41980000"
+     },
+     {
+      "name": "Technology Crossover Management VIII, Ltd.",
+      "date": "2022-12-31",
+      "totalShares": "1.87070000",
+      "totalAssets": "32.90470000",
+      "currentShares": "3618272.00000000",
+      "change": "0.00000000",
+      "change_p": "0.00000000"
+     },
+     {
+      "name": "Alecta Pensionsforsakring, Omsesidigt",
+      "date": "2023-03-31",
+      "totalShares": "1.74520000",
+      "totalAssets": "2.84090000",
+      "currentShares": "3375600.00000000",
+      "change": "-550000.00000000",
+      "change_p": "-14.01060000"
+     },
+     {
+      "name": "T. Rowe Price Growth Stock",
+      "date": "2023-03-31",
+      "totalShares": "1.44350000",
+      "totalAssets": "0.79510000",
+      "currentShares": "2791918.00000000",
+      "change": "-93443.00000000",
+      "change_p": "-3.23850000"
+     },
+     {
+      "name": "T. Rowe Price US Growth Stock Composite",
+      "date": "2023-03-31",
+      "totalShares": "1.44350000",
+      "totalAssets": "0.79510000",
+      "currentShares": "2791918.00000000",
+      "change": "-93443.00000000",
+      "change_p": "-3.23850000"
+     },
+     {
+      "name": "T. Rowe Price Investment Management,Inc.",
+      "date": "2022-12-31",
+      "totalShares": "1.41350000",
+      "totalAssets": "0.16560000",
+      "currentShares": "2733909.00000000",
+      "change": "10302.00000000",
+      "change_p": "0.37820000"
+     },
+     {
+      "name": "MS INVF Global Opportunity Z",
+      "date": "2022-12-31",
+      "totalShares": "1.17240000",
+      "totalAssets": "2.06200000",
+      "currentShares": "2267562.00000000",
+      "change": "22428.00000000",
+      "change_p": "0.99900000"
+     },
+     {
+      "name": "Valueact Holdings, L.p.",
+      "date": "2023-03-31",
+      "totalShares": "1.16280000",
+      "totalAssets": "4.89360000",
+      "currentShares": "2249141.00000000",
+      "change": "2249141.00000000",
+      "change_p": "0.00000000"
+     },
+     {
+      "name": "SRS Investment Management, LLC",
+      "date": "2023-03-31",
+      "totalShares": "1.14020000",
+      "totalAssets": "4.22730000",
+      "currentShares": "2205383.00000000",
+      "change": "2205383.00000000",
+      "change_p": "0.00000000"
+     },
+     {
+      "name": "Fidelity International Ltd",
+      "date": "2022-12-31",
+      "totalShares": "1.04410000",
+      "totalAssets": "0.19130000",
+      "currentShares": "2019415.00000000",
+      "change": "2000906.00000000",
+      "change_p": "10810.44900000"
+     },
+     {
+      "name": "AMF Pensionsforsakring AB",
+      "date": "2023-03-31",
+      "totalShares": "1.03400000",
+      "totalAssets": "2.73500000",
+      "currentShares": "2000000.00000000",
+      "change": "0.00000000",
+      "change_p": "0.00000000"
+     },
+     {
+      "name": "UBS Group AG",
+      "date": "2022-12-31",
+      "totalShares": "0.92250000",
+      "totalAssets": "0.05260000",
+      "currentShares": "1784229.00000000",
+      "change": "1739175.00000000",
+      "change_p": "3860.20110000"
+     },
+     {
+      "name": "Scottish Mortgage Ord",
+      "date": "2023-03-31",
+      "totalShares": "0.85560000",
+      "totalAssets": "1.34060000",
+      "currentShares": "1654916.00000000",
+      "change": "0.00000000",
+      "change_p": "0.00000000"
+     },
+     {
+      "name": "T. Rowe Price Growth Stock Tr-B",
+      "date": "2023-03-31",
+      "totalShares": "0.83030000",
+      "totalAssets": "0.79830000",
+      "currentShares": "1605863.00000000",
+      "change": "153254.00000000",
+      "change_p": "10.55030000"
+     },
+     {
+      "name": "NORGES BANK",
+      "date": "2022-12-31",
+      "totalShares": "0.80570000",
+      "totalAssets": "0.02970000",
+      "currentShares": "1558285.00000000",
+      "change": "550614.00000000",
+      "change_p": "54.64220000"
+     },
+     {
+      "name": "State Street Corporation",
+      "date": "2023-03-31",
+      "totalShares": "0.80560000",
+      "totalAssets": "0.01180000",
+      "currentShares": "1558258.00000000",
+      "change": "74303.00000000",
+      "change_p": "5.00710000"
+     },
+     {
+      "name": "T. Rowe Price Mid-Cap Growth",
+      "date": "2023-03-31",
+      "totalShares": "0.77550000",
+      "totalAssets": "0.69240000",
+      "currentShares": "1500000.00000000",
+      "change": "158100.00000000",
+      "change_p": "11.78180000"
+     },
+     {
+      "name": "T. Rowe Price US Mid-Cap Growth Equity",
+      "date": "2023-03-31",
+      "totalShares": "0.77550000",
+      "totalAssets": "0.69240000",
+      "currentShares": "1500000.00000000",
+      "change": "158100.00000000",
+      "change_p": "11.78180000"
+     },
+     {
+      "name": "AMONE Global HighQuality Growth Stock MF",
+      "date": "2022-09-06",
+      "totalShares": "0.66840000",
+      "totalAssets": "2.54290000",
+      "currentShares": "1292717.00000000",
+      "change": "91368.00000000",
+      "change_p": "7.60550000"
+     },
+     {
+      "name": "Two Sigma Investments LLC",
+      "date": "2022-12-31",
+      "totalShares": "0.64560000",
+      "totalAssets": "0.30950000",
+      "currentShares": "1248684.00000000",
+      "change": "555786.00000000",
+      "change_p": "80.21180000"
+     },
+     {
+      "name": "Fidelity Global Technology A-Dis-EUR",
+      "date": "2023-03-31",
+      "totalShares": "0.59830000",
+      "totalAssets": "0.95310000",
+      "currentShares": "1157255.00000000",
+      "change": "4551.00000000",
+      "change_p": "0.39480000"
+     },
+     {
+      "name": "Two Sigma Advisers, LLC",
+      "date": "2022-12-31",
+      "totalShares": "0.56500000",
+      "totalAssets": "0.24090000",
+      "currentShares": "1092800.00000000",
+      "change": "495400.00000000",
+      "change_p": "82.92600000"
+     },
+     {
+      "name": "Renaissance Technologies Corp",
+      "date": "2023-03-31",
+      "totalShares": "0.55230000",
+      "totalAssets": "0.18940000",
+      "currentShares": "1068329.00000000",
+      "change": "1123.00000000",
+      "change_p": "0.10520000"
+     },
+     {
+      "name": "Goldman Sachs Group Inc",
+      "date": "2022-12-31",
+      "totalShares": "0.51050000",
+      "totalAssets": "0.01750000",
+      "currentShares": "987489.00000000",
+      "change": "243508.00000000",
+      "change_p": "32.73040000"
+     },
+     {
+      "name": "Baillie Gifford International Growth",
+      "date": "2023-04-30",
+      "totalShares": "0.49050000",
+      "totalAssets": "4.36530000",
+      "currentShares": "948768.00000000",
+      "change": "0.00000000",
+      "change_p": "0.00000000"
+     },
+     {
+      "name": "Baillie Gifford International Growth 2",
+      "date": "2022-12-31",
+      "totalShares": "0.49050000",
+      "totalAssets": "2.90700000",
+      "currentShares": "948768.00000000",
+      "change": "17583.00000000",
+      "change_p": "1.88820000"
+     },
+     {
+      "name": "Hyperion Asset Management Limited",
+      "date": "2023-03-31",
+      "totalShares": "0.46890000",
+      "totalAssets": "6.30920000",
+      "currentShares": "906933.00000000",
+      "change": "199348.00000000",
+      "change_p": "28.17300000"
+     },
+     {
+      "name": "Swedbank Robur Allemansfond Komplett",
+      "date": "2023-04-30",
+      "totalShares": "0.46530000",
+      "totalAssets": "1.50160000",
+      "currentShares": "900000.00000000",
+      "change": "0.00000000",
+      "change_p": "0.00000000"
+     },
+     {
+      "name": "Federated Hermes Inc",
+      "date": "2022-12-31",
+      "totalShares": "0.40490000",
+      "totalAssets": "0.17100000",
+      "currentShares": "783227.00000000",
+      "change": "661225.00000000",
+      "change_p": "541.97880000"
+     },
+     {
+      "name": "MS INVF US Advantage I",
+      "date": "2022-09-30",
+      "totalShares": "0.40160000",
+      "totalAssets": "1.51240000",
+      "currentShares": "776727.00000000",
+      "change": "0.00000000",
+      "change_p": "0.00000000"
+     },
+     {
+      "name": "State St Russell Sm/Mid Cp® Indx NL Cl C",
+      "date": "2023-04-30",
+      "totalShares": "0.38920000",
+      "totalAssets": "0.32040000",
+      "currentShares": "752861.00000000",
+      "change": "7600.00000000",
+      "change_p": "1.01980000"
+     },
+     {
+      "name": "Lord Abbett & Co. Growth Equity- SA",
+      "date": "2023-03-31",
+      "totalShares": "0.34260000",
+      "totalAssets": "1.70710000",
+      "currentShares": "662746.00000000",
+      "change": "662746.00000000",
+      "change_p": "0.00000000"
+     },
+     {
+      "name": "Lord Abbett Growth Leaders I",
+      "date": "2023-03-31",
+      "totalShares": "0.34260000",
+      "totalAssets": "1.77070000",
+      "currentShares": "662746.00000000",
+      "change": "0.00000000",
+      "change_p": "0.00000000"
+     },
+     {
+      "name": "T. Rowe Price Lrg Cp Gr I",
+      "date": "2023-03-31",
+      "totalShares": "0.34130000",
+      "totalAssets": "0.55440000",
+      "currentShares": "660146.00000000",
+      "change": "-289500.00000000",
+      "change_p": "-30.48500000"
+     },
+     {
+      "name": "T. Rowe Price US Large-Cap Growth Equity",
+      "date": "2023-03-31",
+      "totalShares": "0.34130000",
+      "totalAssets": "0.55440000",
+      "currentShares": "660146.00000000",
+      "change": "-289500.00000000",
+      "change_p": "-30.48500000"
+     },
+     {
+      "name": "T. Rowe Price Comm & Tech Investor",
+      "date": "2023-03-31",
+      "totalShares": "0.33930000",
+      "totalAssets": "1.33010000",
+      "currentShares": "656200.00000000",
+      "change": "0.00000000",
+      "change_p": "0.00000000"
+     }
+    ],
+    "asset_allocations": [],
+    "sector_allocations": [],
+    "top_10_holdings": [],
+    "company_financials": {
+     "quarterly": [
+      {
+       "period": "quarterly",
+       "date": "2023-06-30",
+       "net_worth": "-302000000.00000000",
+       "revenue": "3177000000.00000000",
+       "profit": "789000000.00000000"
+      },
+      {
+       "period": "quarterly",
+       "date": "2023-03-31",
+       "net_worth": "-225000000.00000000",
+       "revenue": "3042000000.00000000",
+       "profit": "766000000.00000000"
+      },
+      {
+       "period": "quarterly",
+       "date": "2022-12-31",
+       "net_worth": "-270000000.00000000",
+       "revenue": "3166000000.00000000",
+       "profit": "801000000.00000000"
+      },
+      {
+       "period": "quarterly",
+       "date": "2022-09-30",
+       "net_worth": "-166000000.00000000",
+       "revenue": "3036000000.00000000",
+       "profit": "750000000.00000000"
+      },
+      {
+       "period": "quarterly",
+       "date": "2022-06-30",
+       "net_worth": "-125000000.00000000",
+       "revenue": "2864000000.00000000",
+       "profit": "704000000.00000000"
+      }
+     ],
+     "annual": [
+      {
+       "period": "yearly",
+       "date": "2022-12-31",
+       "net_worth": "-430000000.00000000",
+       "revenue": "11727000000.00000000",
+       "profit": "2926000000.00000000"
+      },
+      {
+       "period": "yearly",
+       "date": "2021-12-31",
+       "net_worth": "-34000000.00000000",
+       "revenue": "<redacted>.00000000",
+       "profit": "2591000000.00000000"
+      },
+      {
+       "period": "yearly",
+       "date": "2020-12-31",
+       "net_worth": "-581000000.00000000",
+       "revenue": "<redacted>.00000000",
+       "profit": "2015000000.00000000"
+      },
+      {
+       "period": "yearly",
+       "date": "2019-12-31",
+       "net_worth": "-186000000.00000000",
+       "revenue": "<redacted>.00000000",
+       "profit": "1722000000.00000000"
+      },
+      {
+       "period": "yearly",
+       "date": "2018-12-31",
+       "net_worth": "-78000000.00000000",
+       "revenue": "5259000000.00000000",
+       "profit": "1353000000.00000000"
+      }
+     ]
+    },
+    "etf_market_data": [],
+    "status": "ACTIVE",
+    "statusmessage": "VALID",
+    "allowsell": true,
+    "allowbuy": true
+   }
+  ],
+  "message": "Success"
+ }
+}

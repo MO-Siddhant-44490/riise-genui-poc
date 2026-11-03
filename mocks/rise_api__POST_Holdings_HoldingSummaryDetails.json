@@ -1,0 +1,14 @@
+{
+ "endpoint": "/usequity/api/Holdings/HoldingSummaryDetails",
+ "method": "POST",
+ "host": "api.dev.riseapp.in",
+ "http_status": 400,
+ "decoded_as": "json",
+ "source_flow": "18_stratx_bonds",
+ "response": {
+  "status": false,
+  "statusCode": 500,
+  "data": null,
+  "message": "Failed ! Please contact you administrator."
+ }
+}

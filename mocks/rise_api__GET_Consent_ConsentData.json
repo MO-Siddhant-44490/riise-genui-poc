@@ -1,0 +1,9 @@
+{
+ "endpoint": "/userlogin/api/Consent/ConsentData",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "ConsentDataResponse",
+ "source_flow": "debug_dump",
+ "response": {}
+}

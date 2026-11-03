@@ -1,0 +1,16 @@
+{
+ "endpoint": "/TradingApiV2/api/User/GetSettings",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "OrderSettingsGetResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "data": {
+   "lastProductTypeBySegment": {
+    "EQ": "Delivery",
+    "COMM": "Normal"
+   }
+  }
+ }
+}

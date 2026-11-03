@@ -1,0 +1,84 @@
+{
+ "endpoint": "/TradingApiV2/api/TradingReport/MppPriceBands",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "MppPriceBandResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "priceBands": [
+   {
+    "segment": "CASH",
+    "endLTP": 10000,
+    "percentageOfLTP": 1000,
+    "type": "NA"
+   },
+   {
+    "segment": "CASH",
+    "startLTP": 10001,
+    "endLTP": 500000,
+    "percentageOfLTP": 500,
+    "type": "NA"
+   },
+   {
+    "segment": "CASH",
+    "startLTP": 500001,
+    "endLTP": 9999999900,
+    "percentageOfLTP": 100,
+    "type": "NA"
+   },
+   {
+    "segment": "F&O",
+    "endLTP": 5000,
+    "percentageOfLTP": 300,
+    "type": "FUTSTK"
+   },
+   {
+    "segment": "F&O",
+    "startLTP": 5001,
+    "endLTP": 9999999900,
+    "percentageOfLTP": 2000,
+    "type": "OPTSTK"
+   },
+   {
+    "segment": "F&O",
+    "startLTP": 5001,
+    "endLTP": 9999999900,
+    "minAbsoluteRange": 150,
+    "type": "FUTSTK"
+   },
+   {
+    "segment": "F&O",
+    "endLTP": 5000,
+    "minAbsoluteRange": 1000,
+    "type": "OPTIDX"
+   },
+   {
+    "segment": "F&O",
+    "endLTP": 5000,
+    "percentageOfLTP": 300,
+    "type": "FUTIDX"
+   },
+   {
+    "segment": "F&O",
+    "startLTP": 5001,
+    "endLTP": 9999999900,
+    "minAbsoluteRange": 150,
+    "type": "FUTIDX"
+   },
+   {
+    "segment": "F&O",
+    "endLTP": 5000,
+    "minAbsoluteRange": 1000,
+    "type": "OPTSTK"
+   },
+   {
+    "segment": "F&O",
+    "startLTP": 5001,
+    "endLTP": 9999999900,
+    "percentageOfLTP": 2000,
+    "type": "OPTIDX"
+   }
+  ]
+ }
+}

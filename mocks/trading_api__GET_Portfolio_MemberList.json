@@ -1,0 +1,9 @@
+{
+ "endpoint": "/TradingApiV2/api/Portfolio/MemberList",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "FamilyMemberListResponse",
+ "source_flow": "debug_dump",
+ "response": {}
+}

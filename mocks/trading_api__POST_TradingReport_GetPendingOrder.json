@@ -1,0 +1,9 @@
+{
+ "endpoint": "/TradingApiV2/api/TradingReport/GetPendingOrder",
+ "method": "POST",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "OrderDetailResponse",
+ "source_flow": "debug_dump",
+ "response": {}
+}

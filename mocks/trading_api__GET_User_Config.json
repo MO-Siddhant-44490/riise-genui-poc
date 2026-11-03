@@ -1,0 +1,95 @@
+{
+ "endpoint": "/TradingApiV2/api/User/Config",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "UserConfigResponseV4",
+ "source_flow": "debug_dump",
+ "response": {
+  "userFlags": {
+   "hasPortfolio": true,
+   "hasNonMofslPortfolio": true,
+   "isStaff": true,
+   "reportRefreshInterval": 30,
+   "reportFetchDelayMs": 2000,
+   "isAlgo": true,
+   "orderConfirmationWaitMs": 5000,
+   "fatcaStatus": true,
+   "fatcaFrequency": 4,
+   "dormantFrequency": 4,
+   "eModificationReminder": true,
+   "isNonPoa": true,
+   "bestPriceExecutionDelay": 200,
+   "isMtfEnabled": true,
+   "exchangeRule": 2047,
+   "allowedMarket": 763,
+   "isDerivativeActive": true,
+   "isCashInteropEnabled": true,
+   "isCdInteropEnabled": true,
+   "isEOffMarketAllowed": true,
+   "cashMaxOrderQty": "10000",
+   "enableTradingView": true,
+   "optionBrainSubscribed": true,
+   "clientType": "IND",
+   "riskDisclosureText": "I have read the risk disclosure.",
+   "enableWebSocket": true,
+   "preferredBroadcastUrl": "wss://gowebsocketmm.motilaloswal.com/jwebsocket/jwebsocket",
+   "bseFoChartEnabled": true,
+   "enableAutoExecution": true,
+   "computePortfolioSummary": true,
+   "portfolioAssetsFlag": 3,
+   "smsSenderIds": [
+    "BFDLTS",
+    "BSELTD",
+    "CDSLEV",
+    "CDSLTX",
+    "HDFC",
+    "ICICI",
+    "NSDLBP",
+    "NSDLDP",
+    "NSESMS",
+    "NSETRA",
+    "NSEWEL",
+    "RREDEE"
+   ],
+   "hasMfHolding": true,
+   "pwmInfo": {},
+   "riskDisclosureFlags": [
+    {
+     "flagType": "FNO",
+     "text": "I have read the risk disclosure."
+    },
+    {
+     "flagType": "SEBIADVISORY",
+     "text": "I have read the risk disclosure."
+    },
+    {
+     "flagType": "USEQUITY",
+     "text": "I have read and understood the US Equity risk disclosure."
+    }
+   ]
+  },
+  "settings": {
+   "isShortSellAlert": true,
+   "startUpScreen": "watchlist",
+   "bottomMenu": [
+    ""
+   ],
+   "onPageHelp": true,
+   "bestPriceExecution": true,
+   "adBanner": true,
+   "limitPer": {},
+   "mitcConsent": true,
+   "marketUpdateNotification": true,
+   "userConsentFlags": 7,
+   "dailyBriefEnabled": true
+  },
+  "nudgeData": {
+   "title": "Re-track your holdings",
+   "subTitle": "Some holdings may be showing outdated values. Re-link to keep your holdings accurate",
+   "buttonText": "Re-link now",
+   "investorCount": 18448
+  },
+  "marketBrief": {}
+ }
+}

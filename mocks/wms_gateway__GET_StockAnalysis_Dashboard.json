@@ -1,0 +1,326 @@
+{
+ "endpoint": "/dev/wms/v2/api/StockAnalysis/Dashboard",
+ "method": "GET",
+ "host": "e74xime5x0.execute-api.ap-south-1.amazonaws.com",
+ "http_status": 200,
+ "decoded_as": "StockAnalysisDashboardResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "insights": {
+   "insights": [
+    {
+     "title": "Mid Cap Extreme Concentration",
+     "description": "Immediate diversification strongly recommended",
+     "nudge": "Your portfolio is extremely concentrated in <b>Mid Cap (99.94%)</b>. This creates significant volatility risk. Diversifying across market caps will provide better stability.",
+     "iconUrl": "img/956ba928c43a.svg",
+     "Symbol": "moderate"
+    },
+    {
+     "type": 1,
+     "title": "BFSI Sector Overexposure",
+     "description": "Immediate sector diversification required",
+     "nudge": "Your portfolio is extremely concentrated in <b>BFSI (99.94%)</b>. If this industry faces challenges, your entire portfolio suffers. Immediate diversification is crucial.",
+     "iconUrl": "img/217d62a23431.svg",
+     "Symbol": "moderate"
+    },
+    {
+     "type": 2,
+     "title": "Extreme Stock Concentration",
+     "description": "Immediate stock diversification strongly recommended",
+     "nudge": "Your portfolio relies heavily on very few stocks. Poor performance of any major holding could severely impact your wealth. Immediate diversification is essential.",
+     "iconUrl": "img/cc123e856d4c.svg",
+     "Symbol": "moderate"
+    }
+   ]
+  },
+  "portfolioSummary": {
+   "name": "Stocks",
+   "investedValue": "658328",
+   "marketValue": "188563",
+   "daysChange": "-6299",
+   "overallChange": "-469765",
+   "deepLinkUrl": "portfolio/equity"
+  },
+  "performanceTrend": {
+   "portfolioGrowth": {
+    "name": "Stocks",
+    "investedValue": "658328",
+    "marketValue": "188563",
+    "daysChange": "-6299",
+    "overallChange": "-469765",
+    "deepLinkUrl": "portfolio/equity"
+   },
+   "benchmark": {
+    "benchmarkYear": [
+     {
+      "periodTag": "1M",
+      "periodName": "1 Month"
+     },
+     {
+      "periodTag": "3M",
+      "periodName": "3 Months"
+     },
+     {
+      "periodTag": "6M",
+      "periodName": "6 Months"
+     },
+     {
+      "periodTag": "1Y",
+      "periodName": "1 Year"
+     },
+     {
+      "periodTag": "3Y",
+      "periodName": "3 Years"
+     },
+     {
+      "periodTag": "5Y",
+      "periodName": "5 Years"
+     }
+    ],
+    "benchmarkType": [
+     {
+      "benchmarkTag": "benchmark_1",
+      "benchmarkName": "Nifty 50"
+     },
+     {
+      "benchmarkTag": "benchmark_2",
+      "benchmarkName": "Nifty 200"
+     },
+     {
+      "benchmarkTag": "benchmark_3",
+      "benchmarkName": "Nifty 500"
+     }
+    ]
+   }
+  },
+  "analysisByMo": {
+   "title": "Live Calls By Motilal Oswal",
+   "description": "You portfolio currently has <b>0 Buy-rated stocks.</b> A quick review could help protect your performance."
+  },
+  "marketcap": {
+   "title": "Mid Cap Extreme Concentration",
+   "message": "Your portfolio is extremely concentrated in <b>Mid Cap (99.94%)</b>. This creates significant volatility risk. Diversifying across market caps will provide better stability.",
+   "deeplinkUrl": "mosl://superapp.com/researchProduct/research",
+   "riskType": 1,
+   "entry": [
+    {
+     "label": "Mid Cap",
+     "marketValue": "136440",
+     "allocation": 9994
+    },
+    {
+     "label": "Small Cap",
+     "marketValue": "81",
+     "allocation": 6
+    }
+   ]
+  },
+  "sector": {
+   "title": "BFSI Sector Overexposure",
+   "message": "Your portfolio is extremely concentrated in <b>BFSI (99.94%)</b>. If this industry faces challenges, your entire portfolio suffers. Immediate diversification is crucial.",
+   "category": 1,
+   "deeplinkUrl": "mosl://power.app.new/stockBasket",
+   "riskType": 1,
+   "entry": [
+    {
+     "label": "BFSI",
+     "marketValue": "136440",
+     "allocation": 9994
+    },
+    {
+     "label": "Telecom-Service",
+     "marketValue": "81",
+     "allocation": 6
+    }
+   ]
+  },
+  "stock": {
+   "title": "Extreme Stock Concentration",
+   "message": "Your portfolio relies heavily on very few stocks. Poor performance of any major holding could severely impact your wealth. Immediate diversification is essential.",
+   "category": 2,
+   "deeplinkUrl": "mosl://superapp.com/equityexplorediversification",
+   "riskType": 1,
+   "entry": [
+    {
+     "label": "YESBANK",
+     "marketValue": "136440",
+     "allocation": 9994,
+     "iconUrl": "img/f0760a67bb57.png"
+    },
+    {
+     "label": "RCOM",
+     "marketValue": "81",
+     "allocation": 6,
+     "iconUrl": "img/02a8dfd511e7.png"
+    }
+   ]
+  },
+  "nudgeData": {
+   "title": "Track External Portfolio",
+   "subTitle": "Monitor all Stocks & Mutual Funds in one place",
+   "buttonText": "Track Now",
+   "investorCount": "4721"
+  }
+ },
+ "variants": {
+  "type=0": {
+   "insights": {
+    "insights": [
+     {
+      "title": "Mid Cap Extreme Concentration",
+      "description": "Immediate diversification strongly recommended",
+      "nudge": "Your portfolio is extremely concentrated in <b>Mid Cap (99.94%)</b>. This creates significant volatility risk. Diversifying across market caps will provide better stability.",
+      "iconUrl": "img/956ba928c43a.svg",
+      "Symbol": "moderate"
+     },
+     {
+      "type": 1,
+      "title": "BFSI Sector Overexposure",
+      "description": "Immediate sector diversification required",
+      "nudge": "Your portfolio is extremely concentrated in <b>BFSI (99.94%)</b>. If this industry faces challenges, your entire portfolio suffers. Immediate diversification is crucial.",
+      "iconUrl": "img/217d62a23431.svg",
+      "Symbol": "moderate"
+     },
+     {
+      "type": 2,
+      "title": "Extreme Stock Concentration",
+      "description": "Immediate stock diversification strongly recommended",
+      "nudge": "Your portfolio relies heavily on very few stocks. Poor performance of any major holding could severely impact your wealth. Immediate diversification is essential.",
+      "iconUrl": "img/cc123e856d4c.svg",
+      "Symbol": "moderate"
+     }
+    ]
+   },
+   "portfolioSummary": {
+    "name": "Stocks",
+    "investedValue": "658328",
+    "marketValue": "188563",
+    "daysChange": "-6299",
+    "overallChange": "-469765",
+    "deepLinkUrl": "portfolio/equity"
+   },
+   "performanceTrend": {
+    "portfolioGrowth": {
+     "name": "Stocks",
+     "investedValue": "658328",
+     "marketValue": "188563",
+     "daysChange": "-6299",
+     "overallChange": "-469765",
+     "deepLinkUrl": "portfolio/equity"
+    },
+    "benchmark": {
+     "benchmarkYear": [
+      {
+       "periodTag": "1M",
+       "periodName": "1 Month"
+      },
+      {
+       "periodTag": "3M",
+       "periodName": "3 Months"
+      },
+      {
+       "periodTag": "6M",
+       "periodName": "6 Months"
+      },
+      {
+       "periodTag": "1Y",
+       "periodName": "1 Year"
+      },
+      {
+       "periodTag": "3Y",
+       "periodName": "3 Years"
+      },
+      {
+       "periodTag": "5Y",
+       "periodName": "5 Years"
+      }
+     ],
+     "benchmarkType": [
+      {
+       "benchmarkTag": "benchmark_1",
+       "benchmarkName": "Nifty 50"
+      },
+      {
+       "benchmarkTag": "benchmark_2",
+       "benchmarkName": "Nifty 200"
+      },
+      {
+       "benchmarkTag": "benchmark_3",
+       "benchmarkName": "Nifty 500"
+      }
+     ]
+    }
+   },
+   "analysisByMo": {
+    "title": "Live Calls By Motilal Oswal",
+    "description": "You portfolio currently has <b>0 Buy-rated stocks.</b> A quick review could help protect your performance."
+   },
+   "marketcap": {
+    "title": "Mid Cap Extreme Concentration",
+    "message": "Your portfolio is extremely concentrated in <b>Mid Cap (99.94%)</b>. This creates significant volatility risk. Diversifying across market caps will provide better stability.",
+    "deeplinkUrl": "mosl://superapp.com/researchProduct/research",
+    "riskType": 1,
+    "entry": [
+     {
+      "label": "Mid Cap",
+      "marketValue": "136440",
+      "allocation": 9994
+     },
+     {
+      "label": "Small Cap",
+      "marketValue": "81",
+      "allocation": 6
+     }
+    ]
+   },
+   "sector": {
+    "title": "BFSI Sector Overexposure",
+    "message": "Your portfolio is extremely concentrated in <b>BFSI (99.94%)</b>. If this industry faces challenges, your entire portfolio suffers. Immediate diversification is crucial.",
+    "category": 1,
+    "deeplinkUrl": "mosl://power.app.new/stockBasket",
+    "riskType": 1,
+    "entry": [
+     {
+      "label": "BFSI",
+      "marketValue": "136440",
+      "allocation": 9994
+     },
+     {
+      "label": "Telecom-Service",
+      "marketValue": "81",
+      "allocation": 6
+     }
+    ]
+   },
+   "stock": {
+    "title": "Extreme Stock Concentration",
+    "message": "Your portfolio relies heavily on very few stocks. Poor performance of any major holding could severely impact your wealth. Immediate diversification is essential.",
+    "category": 2,
+    "deeplinkUrl": "mosl://superapp.com/equityexplorediversification",
+    "riskType": 1,
+    "entry": [
+     {
+      "label": "YESBANK",
+      "marketValue": "136440",
+      "allocation": 9994,
+      "iconUrl": "img/f0760a67bb57.png"
+     },
+     {
+      "label": "RCOM",
+      "marketValue": "81",
+      "allocation": 6,
+      "iconUrl": "img/02a8dfd511e7.png"
+     }
+    ]
+   }
+  },
+  "type=1": {
+   "nudgeData": {
+    "title": "Track External Portfolio",
+    "subTitle": "Monitor all Stocks & Mutual Funds in one place",
+    "buttonText": "Track Now",
+    "investorCount": "4721"
+   }
+  }
+ }
+}

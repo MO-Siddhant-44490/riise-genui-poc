@@ -1,0 +1,5244 @@
+{
+ "endpoint": "/cmsapi/v2/api/Research/InvestNow/Calls",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "InvestNowCallsResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "calls": [
+   {
+    "callId": 453,
+    "scrip": {
+     "scripCode": 10099
+    },
+    "symbol": "GODREJCP",
+    "displayName": "NSE",
+    "companyName": "Godrej Consumer Products Ltd",
+    "logoUrl": "img/84d405754f77.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "85700",
+    "targetPrice": "88100",
+    "stopLoss": "84500",
+    "publishedAt": 1789467219,
+    "potentialReturnPct": "770",
+    "returnPct": "-455",
+    "lotSize": 1,
+    "ltp": "81800"
+   },
+   {
+    "callId": 243983,
+    "scrip": {
+     "scripCode": 685
+    },
+    "symbol": "CHOLAFIN",
+    "displayName": "NSE",
+    "companyName": "Cholamandalam Investment & Finance Company Ltd",
+    "logoUrl": "img/b60c66d40319.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "181820",
+    "targetPrice": "216000",
+    "stopLoss": "164500",
+    "publishedAt": 1788926104,
+    "potentialReturnPct": "3619",
+    "returnPct": "-1277",
+    "lotSize": 1,
+    "ltp": "158600"
+   },
+   {
+    "callId": 243667,
+    "scrip": {
+     "scripCode": 2303
+    },
+    "symbol": "HAL",
+    "displayName": "NSE",
+    "companyName": "Hindustan Aeronautics Ltd",
+    "logoUrl": "img/709191641b7d.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "500940",
+    "targetPrice": "580000",
+    "stopLoss": "460000",
+    "publishedAt": 1788841331,
+    "potentialReturnPct": "1950",
+    "returnPct": "-311",
+    "lotSize": 1,
+    "ltp": "485370"
+   },
+   {
+    "callId": 242900,
+    "scrip": {
+     "scripCode": 760
+    },
+    "symbol": "CGPOWER",
+    "displayName": "NSE",
+    "companyName": "CG Power & Industrial Solutions Ltd",
+    "logoUrl": "img/2891c64392c9.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "89205",
+    "targetPrice": "102000",
+    "stopLoss": "82800",
+    "publishedAt": 1788494234,
+    "potentialReturnPct": "2687",
+    "returnPct": "-987",
+    "lotSize": 1,
+    "ltp": "80400"
+   },
+   {
+    "callId": 242499,
+    "scrip": {
+     "scripCode": 17388
+    },
+    "symbol": "ADANIPOWER",
+    "displayName": "NSE",
+    "companyName": "Adani Power Ltd",
+    "logoUrl": "img/81aebc4cf4d5.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "20984",
+    "targetPrice": "25000",
+    "stopLoss": "18500",
+    "publishedAt": 1788407108,
+    "potentialReturnPct": "3228",
+    "returnPct": "-993",
+    "lotSize": 1,
+    "ltp": "18900"
+   },
+   {
+    "callId": 241973,
+    "scrip": {
+     "scripCode": 3351
+    },
+    "symbol": "SUNPHARMA",
+    "displayName": "NSE",
+    "companyName": "Sun Pharmaceuticals Industries Ltd",
+    "logoUrl": "img/676508ce6d11.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "194000",
+    "targetPrice": "231000",
+    "stopLoss": "176000",
+    "publishedAt": 1788234979,
+    "potentialReturnPct": "2994",
+    "returnPct": "-837",
+    "lotSize": 1,
+    "ltp": "177770"
+   },
+   {
+    "callId": 241716,
+    "scrip": {
+     "scripCode": 764173
+    },
+    "symbol": "SBIFUNDS",
+    "displayName": "NSE",
+    "companyName": "SBI FUNDS MANAGEMENT LTD-SBIFUNDS EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "56020",
+    "targetPrice": "72000",
+    "stopLoss": "48000",
+    "publishedAt": 1788148411,
+    "potentialReturnPct": "5378",
+    "returnPct": "-1642",
+    "lotSize": 1,
+    "ltp": "46820"
+   },
+   {
+    "callId": 241281,
+    "scrip": {
+     "scripCode": 25
+    },
+    "symbol": "ADANIENT",
+    "displayName": "NSE",
+    "companyName": "Adani Enterprises Ltd",
+    "logoUrl": "img/0dbf375fab60.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "314210",
+    "targetPrice": "388000",
+    "stopLoss": "276000",
+    "publishedAt": 1787802496,
+    "potentialReturnPct": "5042",
+    "returnPct": "-1791",
+    "lotSize": 1,
+    "ltp": "257940"
+   },
+   {
+    "callId": 240673,
+    "scrip": {
+     "scripCode": 1901
+    },
+    "symbol": "CUMMINSIND",
+    "displayName": "NSE",
+    "companyName": "Cummins India Ltd",
+    "logoUrl": "img/ecb99f89ce5d.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "516700",
+    "targetPrice": "640000",
+    "stopLoss": "454700",
+    "publishedAt": 1787631122,
+    "potentialReturnPct": "4374",
+    "returnPct": "-1383",
+    "lotSize": 1,
+    "ltp": "445260"
+   },
+   {
+    "callId": 239175,
+    "scrip": {
+     "scripCode": 760407
+    },
+    "symbol": "ICICIAMC",
+    "displayName": "NSE",
+    "companyName": "ICICI PRUDENTIAL AMC LTD-ICICIAMC EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "309100",
+    "targetPrice": "380000",
+    "stopLoss": "275000",
+    "publishedAt": 1787111292,
+    "potentialReturnPct": "4038",
+    "returnPct": "-1243",
+    "lotSize": 1,
+    "ltp": "270690"
+   },
+   {
+    "callId": 238179,
+    "scrip": {
+     "scripCode": 11184
+    },
+    "symbol": "IDFCFIRSTB",
+    "displayName": "NSE",
+    "companyName": "IDFC First Bank Ltd",
+    "logoUrl": "img/f3dd783fc56b.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "8588",
+    "targetPrice": "9776",
+    "stopLoss": "8000",
+    "publishedAt": 1786685937,
+    "potentialReturnPct": "3578",
+    "returnPct": "-1616",
+    "lotSize": 1,
+    "ltp": "7200"
+   },
+   {
+    "callId": 237244,
+    "scrip": {
+     "scripCode": 3506
+    },
+    "symbol": "TITAN",
+    "displayName": "NSE",
+    "companyName": "Titan Company Ltd",
+    "logoUrl": "img/1dfc37059346.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "509750",
+    "targetPrice": "600000",
+    "stopLoss": "464400",
+    "publishedAt": 1786506616,
+    "potentialReturnPct": "3524",
+    "returnPct": "-1297",
+    "lotSize": 1,
+    "ltp": "443650"
+   },
+   {
+    "callId": 236312,
+    "scrip": {
+     "scripCode": 3045
+    },
+    "symbol": "SBIN",
+    "displayName": "NSE",
+    "companyName": "State Bank of India",
+    "logoUrl": "img/a07cdc8c6245.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "110320",
+    "targetPrice": "137000",
+    "stopLoss": "97500",
+    "publishedAt": 1786333588,
+    "potentialReturnPct": "4243",
+    "returnPct": "-1281",
+    "lotSize": 1,
+    "ltp": "96185"
+   },
+   {
+    "callId": 235823,
+    "scrip": {
+     "scripCode": 756871
+    },
+    "symbol": "ENRIN",
+    "displayName": "NSE",
+    "companyName": "SIEMENS ENERGY INDIA LTD-ENRIN EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "347690",
+    "targetPrice": "410000",
+    "stopLoss": "320000",
+    "publishedAt": 1786074680,
+    "potentialReturnPct": "4626",
+    "returnPct": "-1937",
+    "lotSize": 1,
+    "ltp": "280330"
+   },
+   {
+    "callId": 235815,
+    "scrip": {
+     "scripCode": 4204
+    },
+    "symbol": "MOTHERSON",
+    "displayName": "NSE",
+    "companyName": "Samvardhana Motherson International Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MothersonSumi_60777480057_2966.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "16215",
+    "targetPrice": "17800",
+    "stopLoss": "15500",
+    "publishedAt": 1786074545,
+    "potentialReturnPct": "1374",
+    "returnPct": "-348",
+    "lotSize": 1,
+    "ltp": "15650"
+   },
+   {
+    "callId": 233889,
+    "scrip": {
+     "scripCode": 21614
+    },
+    "symbol": "ABCAPITAL",
+    "displayName": "NSE",
+    "companyName": "Aditya Birla Capital Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/AdityaBirlaCapitalLtd_956643460_40903.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "42340",
+    "targetPrice": "48000",
+    "stopLoss": "39500",
+    "publishedAt": 1785729788,
+    "potentialReturnPct": "2992",
+    "returnPct": "-1274",
+    "lotSize": 1,
+    "ltp": "36945"
+   },
+   {
+    "callId": 233802,
+    "scrip": {
+     "scripCode": 16675
+    },
+    "symbol": "BAJAJFINSV",
+    "displayName": "NSE",
+    "companyName": "Bajaj Finserv Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/BajajFinservLtd_55748737_28075.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "204560",
+    "targetPrice": "249000",
+    "stopLoss": "183000",
+    "publishedAt": 1785728755,
+    "potentialReturnPct": "4932",
+    "returnPct": "-1848",
+    "lotSize": 1,
+    "ltp": "166760"
+   },
+   {
+    "callId": 233371,
+    "scrip": {
+     "scripCode": 317
+    },
+    "symbol": "BAJFINANCE",
+    "displayName": "NSE",
+    "companyName": "Bajaj Finance Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/BajajFin_50319005561_3722.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "109180",
+    "targetPrice": "130000",
+    "stopLoss": "98500",
+    "publishedAt": 1785469700,
+    "potentialReturnPct": "3843",
+    "returnPct": "-1399",
+    "lotSize": 1,
+    "ltp": "93910"
+   },
+   {
+    "callId": 232616,
+    "scrip": {
+     "scripCode": 11483
+    },
+    "symbol": "LT",
+    "displayName": "NSE",
+    "companyName": "Larsen & Toubro Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/LarsenToubro_5177126969_348.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "393600",
+    "targetPrice": "455000",
+    "stopLoss": "356400",
+    "publishedAt": 1785296793,
+    "potentialReturnPct": "1752",
+    "returnPct": "-163",
+    "lotSize": 1,
+    "ltp": "387170"
+   },
+   {
+    "callId": 231667,
+    "scrip": {
+     "scripCode": 8479
+    },
+    "symbol": "TVSMOTOR",
+    "displayName": "NSE",
+    "companyName": "TVS Motor Company Ltd",
+    "logoUrl": "img/58b7edd6cc23.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "388940",
+    "targetPrice": "447000",
+    "stopLoss": "359500",
+    "publishedAt": 1784866568,
+    "potentialReturnPct": "655",
+    "returnPct": "786",
+    "isHighPotential": true,
+    "lotSize": 1,
+    "ltp": "419520"
+   },
+   {
+    "callId": 229465,
+    "scrip": {
+     "scripCode": 3426
+    },
+    "symbol": "TATAPOWER",
+    "displayName": "NSE",
+    "companyName": "Tata Power Company Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/TataPowerCo_38377109932_554.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "37865",
+    "targetPrice": "48800",
+    "stopLoss": "32500",
+    "publishedAt": 1784087422,
+    "potentialReturnPct": "4143",
+    "returnPct": "-887",
+    "lotSize": 1,
+    "ltp": "34505"
+   },
+   {
+    "callId": 228791,
+    "scrip": {
+     "scripCode": 14309
+    },
+    "symbol": "INDIANB",
+    "displayName": "NSE",
+    "companyName": "Indian Bank",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/IndianBank_77867287520_6061.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "86165",
+    "targetPrice": "102500",
+    "stopLoss": "78000",
+    "publishedAt": 1783914976,
+    "potentialReturnPct": "1843",
+    "returnPct": "45",
+    "lotSize": 1,
+    "ltp": "86550"
+   },
+   {
+    "callId": 228488,
+    "scrip": {
+     "scripCode": 1232
+    },
+    "symbol": "GRASIM",
+    "displayName": "NSE",
+    "companyName": "Grasim Industries Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/GrasimInds_92395663124_227.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "321470",
+    "targetPrice": "377000",
+    "stopLoss": "294100",
+    "publishedAt": 1783655859,
+    "potentialReturnPct": "2645",
+    "returnPct": "-726",
+    "lotSize": 1,
+    "ltp": "298140"
+   },
+   {
+    "callId": 228173,
+    "scrip": {
+     "scripCode": 157
+    },
+    "symbol": "APOLLOHOSP",
+    "displayName": "NSE",
+    "companyName": "Apollo Hospitals Enterprise Ltd",
+    "logoUrl": "img/7a38aa65cba1.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "889900",
+    "targetPrice": "1012000",
+    "stopLoss": "829000",
+    "publishedAt": 1783571505,
+    "potentialReturnPct": "1979",
+    "returnPct": "-507",
+    "lotSize": 1,
+    "ltp": "844800"
+   },
+   {
+    "callId": 228082,
+    "scrip": {
+     "scripCode": 750174
+    },
+    "symbol": "VAML",
+    "displayName": "NSE",
+    "companyName": "VEDANTA ALUMINIUM METAL L-VAML EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "44855",
+    "targetPrice": "54000",
+    "stopLoss": "40500",
+    "publishedAt": 1783568952,
+    "potentialReturnPct": "5149",
+    "returnPct": "-2053",
+    "lotSize": 1,
+    "ltp": "35645"
+   },
+   {
+    "callId": 227783,
+    "scrip": {
+     "scripCode": 4067
+    },
+    "symbol": "MARICO",
+    "displayName": "NSE",
+    "companyName": "Marico Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/Marico_77423580094_12585.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "84600",
+    "targetPrice": "100000",
+    "stopLoss": "76900",
+    "publishedAt": 1783483498,
+    "potentialReturnPct": "2500",
+    "returnPct": "-544",
+    "lotSize": 1,
+    "ltp": "80000"
+   },
+   {
+    "callId": 227189,
+    "scrip": {
+     "scripCode": 2475
+    },
+    "symbol": "ONGC",
+    "displayName": "NSE",
+    "companyName": "Oil & Natural Gas Corpn Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/ONGC_65712746772_6068.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "23832",
+    "targetPrice": "28800",
+    "stopLoss": "21300",
+    "publishedAt": 1783311186,
+    "potentialReturnPct": "2778",
+    "returnPct": "-543",
+    "lotSize": 1,
+    "ltp": "22539"
+   },
+   {
+    "callId": 226309,
+    "scrip": {
+     "scripCode": 15083
+    },
+    "symbol": "ADANIPORTS",
+    "displayName": "NSE",
+    "companyName": "Adani Ports & Special Economic Zone Ltd",
+    "logoUrl": "img/d8b7e4134a5a.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "181750",
+    "targetPrice": "205000",
+    "stopLoss": "170000",
+    "publishedAt": 1782878061,
+    "potentialReturnPct": "1081",
+    "returnPct": "179",
+    "lotSize": 1,
+    "ltp": "185000"
+   },
+   {
+    "callId": 224019,
+    "scrip": {
+     "scripCode": 383
+    },
+    "symbol": "BEL",
+    "displayName": "NSE",
+    "companyName": "Bharat Electronics Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/BharatElectron_81586952923_2298.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "42430",
+    "targetPrice": "51000",
+    "stopLoss": "38100",
+    "publishedAt": 1781755831,
+    "potentialReturnPct": "3788",
+    "returnPct": "-1282",
+    "lotSize": 1,
+    "ltp": "36990"
+   },
+   {
+    "callId": 223053,
+    "scrip": {
+     "scripCode": 11195
+    },
+    "symbol": "INDIGO",
+    "displayName": "NSE",
+    "companyName": "Interglobe Aviation Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/InterglobeAviat_28069694232_33159.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "487250",
+    "targetPrice": "560000",
+    "stopLoss": "451000",
+    "publishedAt": 1781496016,
+    "potentialReturnPct": "1481",
+    "returnPct": "10",
+    "lotSize": 1,
+    "ltp": "487760"
+   },
+   {
+    "callId": 221475,
+    "scrip": {
+     "scripCode": 14418
+    },
+    "symbol": "ASTRAL",
+    "displayName": "NSE",
+    "companyName": "Astral Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/AstralPoly_45262796582_27655.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "154150",
+    "targetPrice": "195000",
+    "stopLoss": "133700",
+    "publishedAt": 1780898135,
+    "potentialReturnPct": "4532",
+    "returnPct": "-1295",
+    "lotSize": 1,
+    "ltp": "134190"
+   },
+   {
+    "callId": 220737,
+    "scrip": {
+     "scripCode": 324
+    },
+    "symbol": "ANGELONE",
+    "displayName": "NSE",
+    "companyName": "Angel One Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/AngelBrokingLtd._58447852_38941.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "33520",
+    "targetPrice": "40000",
+    "stopLoss": "30500",
+    "publishedAt": 1780545705,
+    "potentialReturnPct": "4172",
+    "returnPct": "-1580",
+    "lotSize": 1,
+    "ltp": "28225"
+   },
+   {
+    "callId": 220364,
+    "scrip": {
+     "scripCode": 4306
+    },
+    "symbol": "SHRIRAMFIN",
+    "displayName": "NSE",
+    "companyName": "Shriram Finance Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/ShriramTrans_74407990498_1745.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "90080",
+    "targetPrice": "117500",
+    "stopLoss": "78000",
+    "publishedAt": 1780458381,
+    "potentialReturnPct": "4274",
+    "returnPct": "-862",
+    "lotSize": 1,
+    "ltp": "82315"
+   },
+   {
+    "callId": 219529,
+    "scrip": {
+     "scripCode": 1901
+    },
+    "symbol": "CUMMINSIND",
+    "displayName": "NSE",
+    "companyName": "Cummins India Ltd",
+    "logoUrl": "img/ecb99f89ce5d.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "584350",
+    "targetPrice": "660000",
+    "stopLoss": "548100",
+    "publishedAt": 1780285935,
+    "potentialReturnPct": "4823",
+    "returnPct": "-2380",
+    "lotSize": 1,
+    "ltp": "445260"
+   },
+   {
+    "callId": 218513,
+    "scrip": {
+     "scripCode": 24948
+    },
+    "symbol": "LTF",
+    "displayName": "NSE",
+    "companyName": "L&T FINANCE LIMITED-LTF EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "27960",
+    "targetPrice": "34000",
+    "stopLoss": "25000",
+    "publishedAt": 1779767346,
+    "potentialReturnPct": "3912",
+    "returnPct": "-1259",
+    "lotSize": 1,
+    "ltp": "24440"
+   },
+   {
+    "callId": 218208,
+    "scrip": {
+     "scripCode": 1363
+    },
+    "symbol": "HINDALCO",
+    "displayName": "NSE",
+    "companyName": "Hindalco Industries Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/HindalcoInds_40254437488_252.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "109690",
+    "targetPrice": "128000",
+    "stopLoss": "102000",
+    "publishedAt": 1779680805,
+    "potentialReturnPct": "4468",
+    "returnPct": "-1935",
+    "lotSize": 1,
+    "ltp": "88470"
+   },
+   {
+    "callId": 217983,
+    "scrip": {
+     "scripCode": 157
+    },
+    "symbol": "APOLLOHOSP",
+    "displayName": "NSE",
+    "companyName": "Apollo Hospitals Enterprise Ltd",
+    "logoUrl": "img/7a38aa65cba1.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "829500",
+    "targetPrice": "959000",
+    "stopLoss": "769000",
+    "publishedAt": 1779422351,
+    "potentialReturnPct": "1352",
+    "returnPct": "184",
+    "lotSize": 1,
+    "ltp": "844800"
+   },
+   {
+    "callId": 217603,
+    "scrip": {
+     "scripCode": 15380
+    },
+    "symbol": "MANKIND",
+    "displayName": "NSE",
+    "companyName": "Mankind Pharma Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MankindPharmaLtd_91606272_38451.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "261290",
+    "targetPrice": "298000",
+    "stopLoss": "250000",
+    "publishedAt": 1779335343,
+    "potentialReturnPct": "1954",
+    "returnPct": "-460",
+    "lotSize": 1,
+    "ltp": "249280"
+   },
+   {
+    "callId": 216576,
+    "scrip": {
+     "scripCode": 25049
+    },
+    "symbol": "PREMIERENE",
+    "displayName": "NSE",
+    "companyName": "PREMIER ENERGIES LIMITED-PREMIERENE EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "101120",
+    "targetPrice": "119500",
+    "stopLoss": "91300",
+    "publishedAt": 1779076074,
+    "potentialReturnPct": "3642",
+    "returnPct": "-1337",
+    "lotSize": 1,
+    "ltp": "87600"
+   },
+   {
+    "callId": 216304,
+    "scrip": {
+     "scripCode": 11723
+    },
+    "symbol": "JSWSTEEL",
+    "displayName": "NSE",
+    "companyName": "JSW Steel Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/JSWSteel_59462548667_4764.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "129310",
+    "targetPrice": "152000",
+    "stopLoss": "118500",
+    "publishedAt": 1778817271,
+    "potentialReturnPct": "2199",
+    "returnPct": "-364",
+    "lotSize": 1,
+    "ltp": "124600"
+   },
+   {
+    "callId": 215909,
+    "scrip": {
+     "scripCode": 6733
+    },
+    "symbol": "JINDALSTEL",
+    "displayName": "NSE",
+    "companyName": "Jindal Steel & Power Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/JindalSteel_90248047419_20287.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "124700",
+    "targetPrice": "145000",
+    "stopLoss": "115000",
+    "publishedAt": 1778730346,
+    "potentialReturnPct": "3664",
+    "returnPct": "-1490",
+    "lotSize": 1,
+    "ltp": "106120"
+   },
+   {
+    "callId": 215616,
+    "scrip": {
+     "scripCode": 2142
+    },
+    "symbol": "MFSL",
+    "displayName": "NSE",
+    "companyName": "Max Financial Services Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MaxFinancial_51299011415_372.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "163880",
+    "targetPrice": "198000",
+    "stopLoss": "146500",
+    "publishedAt": 1778644283,
+    "potentialReturnPct": "6500",
+    "returnPct": "-2678",
+    "lotSize": 1,
+    "ltp": "120000"
+   },
+   {
+    "callId": 215059,
+    "scrip": {
+     "scripCode": 20534
+    },
+    "symbol": "GRAVITA",
+    "displayName": "NSE",
+    "companyName": "Gravita India Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/GravitaIndia_26101386162_35607.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "179140",
+    "targetPrice": "220000",
+    "stopLoss": "159800",
+    "publishedAt": 1778471373,
+    "potentialReturnPct": "5851",
+    "returnPct": "-2252",
+    "lotSize": 1,
+    "ltp": "138790"
+   },
+   {
+    "callId": 214815,
+    "scrip": {
+     "scripCode": 25907
+    },
+    "symbol": "WAAREEENER",
+    "displayName": "NSE",
+    "companyName": "WAAREE ENERGIES LIMITED-WAAREEENER EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "325510",
+    "targetPrice": "385000",
+    "stopLoss": "296000",
+    "publishedAt": 1778212281,
+    "potentialReturnPct": "6710",
+    "returnPct": "-2922",
+    "lotSize": 1,
+    "ltp": "230400"
+   },
+   {
+    "callId": 214389,
+    "scrip": {
+     "scripCode": 3273
+    },
+    "symbol": "SRF",
+    "displayName": "NSE",
+    "companyName": "SRF Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/SRF_56123073213_513.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "270450",
+    "targetPrice": "340000",
+    "stopLoss": "234900",
+    "publishedAt": 1778125971,
+    "potentialReturnPct": "4558",
+    "returnPct": "-1364",
+    "lotSize": 1,
+    "ltp": "233550"
+   },
+   {
+    "callId": 214091,
+    "scrip": {
+     "scripCode": 21770
+    },
+    "symbol": "ICICIGI",
+    "displayName": "NSE",
+    "companyName": "ICICI Lombard General Insurance Company Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/ICICILombardGeneralInsuranceCompanyLtd_66159376115_22664.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "177910",
+    "targetPrice": "223000",
+    "stopLoss": "155000",
+    "publishedAt": 1778041744,
+    "potentialReturnPct": "4107",
+    "returnPct": "-1115",
+    "lotSize": 1,
+    "ltp": "158080"
+   },
+   {
+    "callId": 214088,
+    "scrip": {
+     "scripCode": 2031
+    },
+    "symbol": "M&M",
+    "displayName": "NSE",
+    "companyName": "Mahindra & Mahindra Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MM_81551700988_365.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "329810",
+    "targetPrice": "396300",
+    "stopLoss": "296500",
+    "publishedAt": 1778041583,
+    "potentialReturnPct": "3953",
+    "returnPct": "-1388",
+    "lotSize": 1,
+    "ltp": "284030"
+   },
+   {
+    "callId": 212896,
+    "scrip": {
+     "scripCode": 759477
+    },
+    "symbol": "CANHLIFE",
+    "displayName": "NSE",
+    "companyName": "CANARA HSBC LIFE INS CO L-CANHLIFE EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "14463",
+    "targetPrice": "18000",
+    "stopLoss": "12800",
+    "publishedAt": 1777434978,
+    "potentialReturnPct": "4826",
+    "returnPct": "-1605",
+    "lotSize": 1,
+    "ltp": "12141"
+   },
+   {
+    "callId": 212889,
+    "scrip": {
+     "scripCode": 8050
+    },
+    "symbol": "MAHLIFE",
+    "displayName": "NSE",
+    "companyName": "Mahindra Lifespace Developers Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MahindraLife_17004584737_20728.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "34020",
+    "targetPrice": "42500",
+    "stopLoss": "30000",
+    "publishedAt": 1777434793,
+    "potentialReturnPct": "3859",
+    "returnPct": "-986",
+    "lotSize": 1,
+    "ltp": "30665"
+   },
+   {
+    "callId": 212676,
+    "scrip": {
+     "scripCode": 18921
+    },
+    "symbol": "VBL",
+    "displayName": "NSE",
+    "companyName": "Varun Beverages Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/VarunBeveragesLtd_58326939712_24608.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "52405",
+    "targetPrice": "60000",
+    "stopLoss": "48400",
+    "publishedAt": 1777349308,
+    "potentialReturnPct": "5306",
+    "returnPct": "-2520",
+    "lotSize": 1,
+    "ltp": "39200"
+   },
+   {
+    "callId": 212665,
+    "scrip": {
+     "scripCode": 11532
+    },
+    "symbol": "ULTRACEMCO",
+    "displayName": "NSE",
+    "companyName": "UltraTech Cement Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/UltraTechCem_63281629205_24951.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "1189400",
+    "targetPrice": "1380000",
+    "stopLoss": "1095400",
+    "publishedAt": 1777348943,
+    "potentialReturnPct": "2494",
+    "returnPct": "-714",
+    "lotSize": 1,
+    "ltp": "1104500"
+   },
+   {
+    "callId": 212452,
+    "scrip": {
+     "scripCode": 13270
+    },
+    "symbol": "JKCEMENT",
+    "displayName": "NSE",
+    "companyName": "J K Cements Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/JKCements_26301288730_17136.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "560150",
+    "targetPrice": "604000",
+    "stopLoss": "538200",
+    "publishedAt": 1777264070,
+    "potentialReturnPct": "2621",
+    "returnPct": "-1457",
+    "lotSize": 1,
+    "ltp": "478550"
+   },
+   {
+    "callId": 212388,
+    "scrip": {
+     "scripCode": 14937
+    },
+    "symbol": "CIEINDIA",
+    "displayName": "NSE",
+    "companyName": "CIE Automotive India Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MahindraCIE_57690369780_27486.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "46495",
+    "targetPrice": "54200",
+    "stopLoss": "41300",
+    "publishedAt": 1777261687,
+    "potentialReturnPct": "5363",
+    "returnPct": "-2412",
+    "lotSize": 1,
+    "ltp": "35280"
+   },
+   {
+    "callId": 212230,
+    "scrip": {
+     "scripCode": 9599
+    },
+    "symbol": "DELHIVERY",
+    "displayName": "NSE",
+    "companyName": "Delhivery Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/delhivery-ltd_88412953_68151.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "44805",
+    "targetPrice": "57000",
+    "stopLoss": "38700",
+    "publishedAt": 1777002904,
+    "potentialReturnPct": "4767",
+    "returnPct": "-1385",
+    "lotSize": 1,
+    "ltp": "38600"
+   },
+   {
+    "callId": 212219,
+    "scrip": {
+     "scripCode": 14592
+    },
+    "symbol": "FORTIS",
+    "displayName": "NSE",
+    "companyName": "Fortis Healthcare Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/FortisHealth_260912253_24049.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "92500",
+    "targetPrice": "110000",
+    "stopLoss": "84000",
+    "publishedAt": 1777002530,
+    "potentialReturnPct": "4320",
+    "returnPct": "-1696",
+    "lotSize": 1,
+    "ltp": "76815"
+   },
+   {
+    "callId": 211924,
+    "scrip": {
+     "scripCode": 1964
+    },
+    "symbol": "TRENT",
+    "displayName": "NSE",
+    "companyName": "Trent Ltd",
+    "logoUrl": "img/f854c8351736.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "292100",
+    "targetPrice": "350000",
+    "stopLoss": "270400",
+    "publishedAt": 1776917059,
+    "potentialReturnPct": "1600",
+    "returnPct": "330",
+    "lotSize": 1,
+    "ltp": "301730"
+   },
+   {
+    "callId": 211067,
+    "scrip": {
+     "scripCode": 759806
+    },
+    "symbol": "GROWW",
+    "displayName": "NSE",
+    "companyName": "BILLIONBRAINS GARAGE VN L-GROWW EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "19536",
+    "targetPrice": "23500",
+    "stopLoss": "17500",
+    "publishedAt": 1776743891,
+    "potentialReturnPct": "2270",
+    "returnPct": "-197",
+    "lotSize": 1,
+    "ltp": "19152"
+   },
+   {
+    "callId": 209098,
+    "scrip": {
+     "scripCode": 13816
+    },
+    "symbol": "LTFOODS",
+    "displayName": "NSE",
+    "companyName": "L T Foods Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/LTFoods_63425499182_27387.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "40345",
+    "targetPrice": "50000",
+    "stopLoss": "35500",
+    "publishedAt": 1776053768,
+    "potentialReturnPct": "3175",
+    "returnPct": "-594",
+    "lotSize": 1,
+    "ltp": "37950"
+   },
+   {
+    "callId": 208525,
+    "scrip": {
+     "scripCode": 20374
+    },
+    "symbol": "COALINDIA",
+    "displayName": "NSE",
+    "companyName": "Coal India Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/CoalIndia_84226386779_12019.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "45375",
+    "targetPrice": "53500",
+    "stopLoss": "41200",
+    "publishedAt": 1775710750,
+    "potentialReturnPct": "3753",
+    "returnPct": "-1427",
+    "lotSize": 1,
+    "ltp": "38900"
+   },
+   {
+    "callId": 208142,
+    "scrip": {
+     "scripCode": 3506
+    },
+    "symbol": "TITAN",
+    "displayName": "NSE",
+    "companyName": "Titan Company Ltd",
+    "logoUrl": "img/1dfc37059346.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "446100",
+    "targetPrice": "520000",
+    "stopLoss": "399500",
+    "publishedAt": 1775620384,
+    "potentialReturnPct": "1721",
+    "returnPct": "-55",
+    "lotSize": 1,
+    "ltp": "443650"
+   },
+   {
+    "callId": 206227,
+    "scrip": {
+     "scripCode": 27052
+    },
+    "symbol": "SAGILITY",
+    "displayName": "NSE",
+    "companyName": "SAGILITY LIMITED-SAGILITY EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "3963",
+    "targetPrice": "5800",
+    "stopLoss": "3100",
+    "publishedAt": 1774585244,
+    "potentialReturnPct": "3783",
+    "returnPct": "618",
+    "lotSize": 1,
+    "ltp": "4208"
+   },
+   {
+    "callId": 205167,
+    "scrip": {
+     "scripCode": 4963
+    },
+    "symbol": "ICICIBANK",
+    "displayName": "NSE",
+    "companyName": "ICICI Bank Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/ICICIBank_93786457618_5418.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "122680",
+    "targetPrice": "175000",
+    "stopLoss": "96600",
+    "publishedAt": 1774237706,
+    "potentialReturnPct": "2518",
+    "returnPct": "1396",
+    "lotSize": 1,
+    "ltp": "139800"
+   },
+   {
+    "callId": 203455,
+    "scrip": {
+     "scripCode": 11403
+    },
+    "symbol": "POONAWALLA",
+    "displayName": "NSE",
+    "companyName": "Poonawalla Fincorp Ltd",
+    "logoUrl": "img/c77d60f97d09.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "40455",
+    "targetPrice": "56000",
+    "stopLoss": "32900",
+    "publishedAt": 1773632797,
+    "potentialReturnPct": "2129",
+    "returnPct": "1413",
+    "lotSize": 1,
+    "ltp": "46170"
+   },
+   {
+    "callId": 203206,
+    "scrip": {
+     "scripCode": 2885
+    },
+    "symbol": "RELIANCE",
+    "displayName": "NSE",
+    "companyName": "Reliance Industries Ltd",
+    "logoUrl": "img/cce2151cf12e.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "139630",
+    "targetPrice": "175000",
+    "stopLoss": "121800",
+    "publishedAt": 1773373729,
+    "potentialReturnPct": "5023",
+    "returnPct": "-1657",
+    "lotSize": 1,
+    "ltp": "116490"
+   },
+   {
+    "callId": 202499,
+    "scrip": {
+     "scripCode": 18143
+    },
+    "symbol": "JIOFIN",
+    "displayName": "NSE",
+    "companyName": "Jio Financial Services Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/JioFinancialServicesLtd_17889422_20712.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "23890",
+    "targetPrice": "32000",
+    "stopLoss": "19900",
+    "publishedAt": 1773201315,
+    "potentialReturnPct": "5648",
+    "returnPct": "-1440",
+    "lotSize": 1,
+    "ltp": "20450"
+   },
+   {
+    "callId": 202490,
+    "scrip": {
+     "scripCode": 11723
+    },
+    "symbol": "JSWSTEEL",
+    "displayName": "NSE",
+    "companyName": "JSW Steel Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/JSWSteel_59462548667_4764.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "122240",
+    "targetPrice": "140000",
+    "stopLoss": "113300",
+    "publishedAt": 1773201154,
+    "potentialReturnPct": "1236",
+    "returnPct": "193",
+    "lotSize": 1,
+    "ltp": "124600"
+   },
+   {
+    "callId": 202071,
+    "scrip": {
+     "scripCode": 21238
+    },
+    "symbol": "AUBANK",
+    "displayName": "NSE",
+    "companyName": "AU Small Finance Bank Ltd",
+    "logoUrl": "img/36b83da9df1c.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "94240",
+    "targetPrice": "125000",
+    "stopLoss": "78800",
+    "publishedAt": 1773115259,
+    "potentialReturnPct": "4468",
+    "returnPct": "-832",
+    "lotSize": 1,
+    "ltp": "86400"
+   },
+   {
+    "callId": 201511,
+    "scrip": {
+     "scripCode": 9599
+    },
+    "symbol": "DELHIVERY",
+    "displayName": "NSE",
+    "companyName": "Delhivery Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/delhivery-ltd_88412953_68151.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "42500",
+    "targetPrice": "58000",
+    "stopLoss": "39800",
+    "publishedAt": 1772768772,
+    "potentialReturnPct": "5026",
+    "returnPct": "-918",
+    "lotSize": 1,
+    "ltp": "38600"
+   },
+   {
+    "callId": 200561,
+    "scrip": {
+     "scripCode": 3363
+    },
+    "symbol": "SUPREMEIND",
+    "displayName": "NSE",
+    "companyName": "Supreme Industries Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/SupremeInds_28660861665_541.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "400990",
+    "targetPrice": "480000",
+    "stopLoss": "362600",
+    "publishedAt": 1772165164,
+    "potentialReturnPct": "5238",
+    "returnPct": "-2144",
+    "lotSize": 1,
+    "ltp": "315000"
+   },
+   {
+    "callId": 199783,
+    "scrip": {
+     "scripCode": 25426
+    },
+    "symbol": "NORTHARC",
+    "displayName": "NSE",
+    "companyName": "NORTHERN ARC CAPITAL LTD-NORTHARC EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "25215",
+    "targetPrice": "36000",
+    "stopLoss": "20000",
+    "publishedAt": 1771904778,
+    "potentialReturnPct": "4241",
+    "returnPct": "26",
+    "lotSize": 1,
+    "ltp": "25280"
+   },
+   {
+    "callId": 199086,
+    "scrip": {
+     "scripCode": 3499
+    },
+    "symbol": "TATASTEEL",
+    "displayName": "NSE",
+    "companyName": "Tata Steel Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/TataSteel_98454158604_566.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "20940",
+    "targetPrice": "24000",
+    "stopLoss": "19400",
+    "publishedAt": 1771473829,
+    "potentialReturnPct": "4320",
+    "returnPct": "-1996",
+    "lotSize": 1,
+    "ltp": "16760"
+   },
+   {
+    "callId": 197890,
+    "scrip": {
+     "scripCode": 2142
+    },
+    "symbol": "MFSL",
+    "displayName": "NSE",
+    "companyName": "Max Financial Services Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MaxFinancial_51299011415_372.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "183900",
+    "targetPrice": "220000",
+    "stopLoss": "166000",
+    "publishedAt": 1770955865,
+    "potentialReturnPct": "8333",
+    "returnPct": "-3475",
+    "lotSize": 1,
+    "ltp": "120000"
+   },
+   {
+    "callId": 197544,
+    "scrip": {
+     "scripCode": 547
+    },
+    "symbol": "BRITANNIA",
+    "displayName": "NSE",
+    "companyName": "Britannia Industries Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/BritanniaInds_60979410361_93.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "603450",
+    "targetPrice": "715000",
+    "stopLoss": "548200",
+    "publishedAt": 1770868903,
+    "potentialReturnPct": "5409",
+    "returnPct": "-2311",
+    "lotSize": 1,
+    "ltp": "464000"
+   },
+   {
+    "callId": 196712,
+    "scrip": {
+     "scripCode": 23489
+    },
+    "symbol": "BHARTIHEXA",
+    "displayName": "NSE",
+    "companyName": "BHARTI HEXACOM LIMITED-BHARTIHEXA EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "169610",
+    "targetPrice": "200000",
+    "stopLoss": "155400",
+    "publishedAt": 1770608864,
+    "potentialReturnPct": "2223",
+    "returnPct": "-353",
+    "lotSize": 1,
+    "ltp": "163620"
+   },
+   {
+    "callId": 196708,
+    "scrip": {
+     "scripCode": 3045
+    },
+    "symbol": "SBIN",
+    "displayName": "NSE",
+    "companyName": "State Bank of India",
+    "logoUrl": "img/a07cdc8c6245.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "110750",
+    "targetPrice": "130000",
+    "stopLoss": "100700",
+    "publishedAt": 1770608731,
+    "potentialReturnPct": "3516",
+    "returnPct": "-1315",
+    "lotSize": 1,
+    "ltp": "96185"
+   },
+   {
+    "callId": 196261,
+    "scrip": {
+     "scripCode": 4963
+    },
+    "symbol": "ICICIBANK",
+    "displayName": "NSE",
+    "companyName": "ICICI Bank Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/ICICIBank_93786457618_5418.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "140920",
+    "targetPrice": "175000",
+    "stopLoss": "123900",
+    "publishedAt": 1770264409,
+    "potentialReturnPct": "2518",
+    "returnPct": "-79",
+    "lotSize": 1,
+    "ltp": "139800"
+   },
+   {
+    "callId": 195910,
+    "scrip": {
+     "scripCode": 28847
+    },
+    "symbol": "VENTIVE",
+    "displayName": "NSE",
+    "companyName": "VENTIVE HOSPITALITY LTD-VENTIVE EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "75960",
+    "targetPrice": "78500",
+    "stopLoss": "64000",
+    "publishedAt": 1770176897,
+    "potentialReturnPct": "4768",
+    "returnPct": "-3002",
+    "lotSize": 1,
+    "ltp": "53155"
+   },
+   {
+    "callId": 195178,
+    "scrip": {
+     "scripCode": 9599
+    },
+    "symbol": "DELHIVERY",
+    "displayName": "NSE",
+    "companyName": "Delhivery Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/delhivery-ltd_88412953_68151.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "42625",
+    "targetPrice": "58000",
+    "stopLoss": "35100",
+    "publishedAt": 1769917960,
+    "potentialReturnPct": "5026",
+    "returnPct": "-944",
+    "lotSize": 1,
+    "ltp": "38600"
+   },
+   {
+    "callId": 194835,
+    "scrip": {
+     "scripCode": 21808
+    },
+    "symbol": "SBILIFE",
+    "displayName": "NSE",
+    "companyName": "SBI Life Insurance Company Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/SBILifeInsuranceCompanyLtd_43034021988_22045.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "201350",
+    "targetPrice": "224000",
+    "stopLoss": "173500",
+    "publishedAt": 1769659378,
+    "potentialReturnPct": "3505",
+    "returnPct": "-1763",
+    "lotSize": 1,
+    "ltp": "165860"
+   },
+   {
+    "callId": 194264,
+    "scrip": {
+     "scripCode": 11532
+    },
+    "symbol": "ULTRACEMCO",
+    "displayName": "NSE",
+    "companyName": "UltraTech Cement Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/UltraTechCem_63281629205_24951.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "1270500",
+    "targetPrice": "1420000",
+    "stopLoss": "1196100",
+    "publishedAt": 1769486335,
+    "potentialReturnPct": "2856",
+    "returnPct": "-1307",
+    "lotSize": 1,
+    "ltp": "1104500"
+   },
+   {
+    "callId": 193752,
+    "scrip": {
+     "scripCode": 5097
+    },
+    "symbol": "ETERNAL",
+    "displayName": "NSE",
+    "companyName": "ETERNAL LIMITED-ETERNAL EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "30055",
+    "targetPrice": "36000",
+    "stopLoss": "27200",
+    "publishedAt": 1769053521,
+    "potentialReturnPct": "476",
+    "returnPct": "1434",
+    "isHighPotential": true,
+    "lotSize": 1,
+    "ltp": "34365"
+   },
+   {
+    "callId": 193214,
+    "scrip": {
+     "scripCode": 13270
+    },
+    "symbol": "JKCEMENT",
+    "displayName": "NSE",
+    "companyName": "J K Cements Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/JKCements_26301288730_17136.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "592400",
+    "targetPrice": "668500",
+    "stopLoss": "546300",
+    "publishedAt": 1768880848,
+    "potentialReturnPct": "3969",
+    "returnPct": "-1922",
+    "lotSize": 1,
+    "ltp": "478550"
+   },
+   {
+    "callId": 192137,
+    "scrip": {
+     "scripCode": 759477
+    },
+    "symbol": "CANHLIFE",
+    "displayName": "NSE",
+    "companyName": "CANARA HSBC LIFE INS CO L-CANHLIFE EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "14480",
+    "targetPrice": "18000",
+    "stopLoss": "12700",
+    "publishedAt": 1768276100,
+    "potentialReturnPct": "4826",
+    "returnPct": "-1615",
+    "lotSize": 1,
+    "ltp": "12141"
+   },
+   {
+    "callId": 191829,
+    "scrip": {
+     "scripCode": 2606
+    },
+    "symbol": "LEMONTREE",
+    "displayName": "NSE",
+    "companyName": "Lemon Tree Hotels Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/LemonTreeHotelsLtd_62193476144_40619.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "15570",
+    "targetPrice": "16000",
+    "stopLoss": "13200",
+    "publishedAt": 1768189506,
+    "potentialReturnPct": "4643",
+    "returnPct": "-2982",
+    "lotSize": 1,
+    "ltp": "10927"
+   },
+   {
+    "callId": 191001,
+    "scrip": {
+     "scripCode": 21840
+    },
+    "symbol": "DIAMONDYD",
+    "displayName": "NSE",
+    "companyName": "Prataap Snacks Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/PrataapSnacksLtd_68289649964_68829.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "119210",
+    "targetPrice": "130000",
+    "stopLoss": "104400",
+    "publishedAt": 1767757690,
+    "potentialReturnPct": "2390",
+    "returnPct": "-1199",
+    "lotSize": 1,
+    "ltp": "104920"
+   },
+   {
+    "callId": 190992,
+    "scrip": {
+     "scripCode": 23066
+    },
+    "symbol": "GOPAL",
+    "displayName": "NSE",
+    "companyName": "GOPAL SNACKS LIMITED-GOPAL EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "32150",
+    "targetPrice": "35000",
+    "stopLoss": "28300",
+    "publishedAt": 1767757618,
+    "potentialReturnPct": "4457",
+    "returnPct": "-2470",
+    "lotSize": 1,
+    "ltp": "24210"
+   },
+   {
+    "callId": 190986,
+    "scrip": {
+     "scripCode": 11966
+    },
+    "symbol": "BIKAJI",
+    "displayName": "NSE",
+    "companyName": "Bikaji Foods International Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/BikajiFoodsInternationalLtd_26794362_25811.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "71475",
+    "targetPrice": "77000",
+    "stopLoss": "62300",
+    "publishedAt": 1767757546,
+    "potentialReturnPct": "7060",
+    "returnPct": "-3685",
+    "lotSize": 1,
+    "ltp": "45135"
+   },
+   {
+    "callId": 190454,
+    "scrip": {
+     "scripCode": 21238
+    },
+    "symbol": "AUBANK",
+    "displayName": "NSE",
+    "companyName": "AU Small Finance Bank Ltd",
+    "logoUrl": "img/36b83da9df1c.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "101990",
+    "targetPrice": "115000",
+    "stopLoss": "94700",
+    "publishedAt": 1767584909,
+    "potentialReturnPct": "3310",
+    "returnPct": "-1529",
+    "lotSize": 1,
+    "ltp": "86400"
+   },
+   {
+    "callId": 190008,
+    "scrip": {
+     "scripCode": 1922
+    },
+    "symbol": "KOTAKBANK",
+    "displayName": "NSE",
+    "companyName": "Kotak Mahindra Bank Ltd",
+    "logoUrl": "img/60196163870d.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "43920",
+    "targetPrice": "50000",
+    "stopLoss": "40920",
+    "publishedAt": 1767240013,
+    "potentialReturnPct": "832",
+    "returnPct": "510",
+    "isHighPotential": true,
+    "lotSize": 1,
+    "ltp": "46160"
+   },
+   {
+    "callId": 188914,
+    "scrip": {
+     "scripCode": 759517
+    },
+    "symbol": "MIDWESTLTD",
+    "displayName": "NSE",
+    "companyName": "MIDWEST LIMITED-MIDWESTLTD EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "163680",
+    "targetPrice": "170000",
+    "stopLoss": "145700",
+    "publishedAt": 1766720856,
+    "potentialReturnPct": "5987",
+    "returnPct": "-3503",
+    "lotSize": 1,
+    "ltp": "106335"
+   },
+   {
+    "callId": 188354,
+    "scrip": {
+     "scripCode": 1270
+    },
+    "symbol": "AMBUJACEM",
+    "displayName": "NSE",
+    "companyName": "Ambuja Cements Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/AmbujaCem_93575841891_218.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "55180",
+    "targetPrice": "56000",
+    "stopLoss": "45000",
+    "publishedAt": 1766462750,
+    "potentialReturnPct": "6090",
+    "returnPct": "-3692",
+    "lotSize": 1,
+    "ltp": "34805"
+   },
+   {
+    "callId": 187627,
+    "scrip": {
+     "scripCode": 625
+    },
+    "symbol": "ABREL",
+    "displayName": "NSE",
+    "companyName": "ADITYA BIRLA REAL EST LTD-ABREL EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "174660",
+    "targetPrice": "180000",
+    "stopLoss": "148800",
+    "publishedAt": 1766116008,
+    "potentialReturnPct": "7930",
+    "returnPct": "-4252",
+    "lotSize": 1,
+    "ltp": "100390"
+   },
+   {
+    "callId": 187353,
+    "scrip": {
+     "scripCode": 11536
+    },
+    "symbol": "TCS",
+    "displayName": "NSE",
+    "companyName": "Tata Consultancy Services Ltd",
+    "logoUrl": "img/21620e790149.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "324000",
+    "targetPrice": "325000",
+    "stopLoss": "266000",
+    "publishedAt": 1766029986,
+    "potentialReturnPct": "2986",
+    "returnPct": "-2276",
+    "lotSize": 1,
+    "ltp": "250260"
+   },
+   {
+    "callId": 186836,
+    "scrip": {
+     "scripCode": 9111
+    },
+    "symbol": "ARVINDFASN",
+    "displayName": "NSE",
+    "companyName": "Arvind Fashions Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/ArvindFashionsLtd_45999851552_72051.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "51695",
+    "targetPrice": "60000",
+    "stopLoss": "41500",
+    "publishedAt": 1765856888,
+    "potentialReturnPct": "7158",
+    "returnPct": "-3235",
+    "lotSize": 1,
+    "ltp": "34970"
+   },
+   {
+    "callId": 186080,
+    "scrip": {
+     "scripCode": 27052
+    },
+    "symbol": "SAGILITY",
+    "displayName": "NSE",
+    "companyName": "SAGILITY LIMITED-SAGILITY EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "4917",
+    "targetPrice": "5500",
+    "stopLoss": "4200",
+    "publishedAt": 1765425869,
+    "potentialReturnPct": "3070",
+    "returnPct": "-1442",
+    "lotSize": 1,
+    "ltp": "4208"
+   },
+   {
+    "callId": 186063,
+    "scrip": {
+     "scripCode": 28125
+    },
+    "symbol": "IKS",
+    "displayName": "NSE",
+    "companyName": "INVENTURUS KNOWLEDGE SO L-IKS EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "157770",
+    "targetPrice": "210700",
+    "stopLoss": "135000",
+    "publishedAt": 1765425484,
+    "potentialReturnPct": "2366",
+    "returnPct": "799",
+    "lotSize": 1,
+    "ltp": "170380"
+   },
+   {
+    "callId": 185569,
+    "scrip": {
+     "scripCode": 10604
+    },
+    "symbol": "BHARTIARTL",
+    "displayName": "NSE",
+    "companyName": "Bharti Airtel Ltd",
+    "logoUrl": "img/4113e57fff38.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "209290",
+    "targetPrice": "236500",
+    "stopLoss": "195600",
+    "publishedAt": 1765253128,
+    "potentialReturnPct": "1983",
+    "returnPct": "-570",
+    "lotSize": 1,
+    "ltp": "197370"
+   },
+   {
+    "callId": 184452,
+    "scrip": {
+     "scripCode": 1270
+    },
+    "symbol": "AMBUJACEM",
+    "displayName": "NSE",
+    "companyName": "Ambuja Cements Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/AmbujaCem_93575841891_218.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "54565",
+    "targetPrice": "56000",
+    "stopLoss": "43500",
+    "publishedAt": 1764647458,
+    "potentialReturnPct": "6090",
+    "returnPct": "-3621",
+    "lotSize": 1,
+    "ltp": "34805"
+   },
+   {
+    "callId": 184116,
+    "scrip": {
+     "scripCode": 8825
+    },
+    "symbol": "PRIVISCL",
+    "displayName": "NSE",
+    "companyName": "Privi Speciality Chemicals Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/FairchemSpeci_81335984825_4846.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "311400",
+    "targetPrice": "396000",
+    "stopLoss": "268500",
+    "publishedAt": 1764301685,
+    "potentialReturnPct": "2305",
+    "returnPct": "334",
+    "lotSize": 1,
+    "ltp": "321810"
+   },
+   {
+    "callId": 183306,
+    "scrip": {
+     "scripCode": 1076
+    },
+    "symbol": "ZENSARTECH",
+    "displayName": "NSE",
+    "companyName": "Zensar Technologies Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/ZensarTech_44514200946_262.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "72020",
+    "targetPrice": "73000",
+    "stopLoss": "55500",
+    "publishedAt": 1763957011,
+    "potentialReturnPct": "3632",
+    "returnPct": "-2565",
+    "lotSize": 1,
+    "ltp": "53550"
+   },
+   {
+    "callId": 183300,
+    "scrip": {
+     "scripCode": 4503
+    },
+    "symbol": "MPHASIS",
+    "displayName": "NSE",
+    "companyName": "Mphasis Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/Mphasis_88855176_3361.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "279500",
+    "targetPrice": "300000",
+    "stopLoss": "214100",
+    "publishedAt": 1763956942,
+    "potentialReturnPct": "1878",
+    "returnPct": "-964",
+    "lotSize": 1,
+    "ltp": "252560"
+   },
+   {
+    "callId": 183297,
+    "scrip": {
+     "scripCode": 1594
+    },
+    "symbol": "INFY",
+    "displayName": "NSE",
+    "companyName": "Infosys Ltd",
+    "logoUrl": "img/3d3c8eef00e6.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "157930",
+    "targetPrice": "160000",
+    "stopLoss": "129500",
+    "publishedAt": 1763956850,
+    "potentialReturnPct": "3502",
+    "returnPct": "-2497",
+    "lotSize": 1,
+    "ltp": "118500"
+   },
+   {
+    "callId": 183141,
+    "scrip": {
+     "scripCode": 2031
+    },
+    "symbol": "M&M",
+    "displayName": "NSE",
+    "companyName": "Mahindra & Mahindra Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MM_81551700988_365.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "375500",
+    "targetPrice": "427500",
+    "stopLoss": "349500",
+    "publishedAt": 1763697998,
+    "potentialReturnPct": "5051",
+    "returnPct": "-2436",
+    "lotSize": 1,
+    "ltp": "284030"
+   },
+   {
+    "callId": 182930,
+    "scrip": {
+     "scripCode": 2885
+    },
+    "symbol": "RELIANCE",
+    "displayName": "NSE",
+    "companyName": "Reliance Industries Ltd",
+    "logoUrl": "img/cce2151cf12e.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "153600",
+    "targetPrice": "176500",
+    "stopLoss": "142300",
+    "publishedAt": 1763611767,
+    "potentialReturnPct": "5152",
+    "returnPct": "-2416",
+    "lotSize": 1,
+    "ltp": "116490"
+   },
+   {
+    "callId": 182494,
+    "scrip": {
+     "scripCode": 22377
+    },
+    "symbol": "MAXHEALTH",
+    "displayName": "NSE",
+    "companyName": "Max Healthcare Institute Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MaxHealthcareInstituteLtd._69725583_22865.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "114140",
+    "targetPrice": "136000",
+    "stopLoss": "103300",
+    "publishedAt": 1763438636,
+    "potentialReturnPct": "5814",
+    "returnPct": "-2465",
+    "lotSize": 1,
+    "ltp": "86000"
+   },
+   {
+    "callId": 182265,
+    "scrip": {
+     "scripCode": 27969
+    },
+    "symbol": "VMM",
+    "displayName": "NSE",
+    "companyName": "VISHAL MEGA MART LIMITED-VMM EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "13800",
+    "targetPrice": "14500",
+    "stopLoss": "12200",
+    "publishedAt": 1763352906,
+    "potentialReturnPct": "7180",
+    "returnPct": "-3884",
+    "lotSize": 1,
+    "ltp": "8440"
+   },
+   {
+    "callId": 182178,
+    "scrip": {
+     "scripCode": 15313
+    },
+    "symbol": "IRB",
+    "displayName": "NSE",
+    "companyName": "IRB Infrastructure Developers Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/IRBInfraDevl_42061995161_28365.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "2362",
+    "targetPrice": "2600",
+    "stopLoss": "2100",
+    "publishedAt": 1763351310,
+    "potentialReturnPct": "6529",
+    "returnPct": "-3340",
+    "lotSize": 1,
+    "ltp": "1573"
+   },
+   {
+    "callId": 181519,
+    "scrip": {
+     "scripCode": 11236
+    },
+    "symbol": "JSL",
+    "displayName": "NSE",
+    "companyName": "Jindal Stainless Ltd",
+    "logoUrl": "img/83ebb74aa9a9.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "73960",
+    "targetPrice": "87000",
+    "stopLoss": "67400",
+    "publishedAt": 1762919527,
+    "potentialReturnPct": "2908",
+    "returnPct": "-887",
+    "lotSize": 1,
+    "ltp": "67400"
+   },
+   {
+    "callId": 181245,
+    "scrip": {
+     "scripCode": 13035
+    },
+    "symbol": "SAFARI",
+    "displayName": "NSE",
+    "companyName": "Safari Industries (India) Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/SafariInds_98893928962_710.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "211100",
+    "targetPrice": "220000",
+    "stopLoss": "182000",
+    "publishedAt": 1762833298,
+    "potentialReturnPct": "8627",
+    "returnPct": "-4405",
+    "lotSize": 1,
+    "ltp": "118110"
+   },
+   {
+    "callId": 180974,
+    "scrip": {
+     "scripCode": 547
+    },
+    "symbol": "BRITANNIA",
+    "displayName": "NSE",
+    "companyName": "Britannia Industries Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/BritanniaInds_60979410361_93.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "621050",
+    "targetPrice": "715000",
+    "stopLoss": "574800",
+    "publishedAt": 1762746549,
+    "potentialReturnPct": "5409",
+    "returnPct": "-2529",
+    "lotSize": 1,
+    "ltp": "464000"
+   },
+   {
+    "callId": 180611,
+    "scrip": {
+     "scripCode": 25907
+    },
+    "symbol": "WAAREEENER",
+    "displayName": "NSE",
+    "companyName": "WAAREE ENERGIES LIMITED-WAAREEENER EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "335560",
+    "targetPrice": "360000",
+    "stopLoss": "302500",
+    "publishedAt": 1762401487,
+    "potentialReturnPct": "5625",
+    "returnPct": "-3134",
+    "lotSize": 1,
+    "ltp": "230400"
+   },
+   {
+    "callId": 180424,
+    "scrip": {
+     "scripCode": 3432
+    },
+    "symbol": "TATACONSUM",
+    "displayName": "NSE",
+    "companyName": "Tata Consumer Products Ltd",
+    "logoUrl": "img/cfe998f7f2d4.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "117080",
+    "targetPrice": "145000",
+    "stopLoss": "102900",
+    "publishedAt": 1762228724,
+    "potentialReturnPct": "4134",
+    "returnPct": "-1238",
+    "lotSize": 1,
+    "ltp": "102590"
+   },
+   {
+    "callId": 178498,
+    "scrip": {
+     "scripCode": 13061
+    },
+    "symbol": "360ONE",
+    "displayName": "NSE",
+    "companyName": "360 ONE WAM Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/IIFLWealthManagement_51720290_66008.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "117950",
+    "targetPrice": "140000",
+    "stopLoss": "106700",
+    "publishedAt": 1760938104,
+    "potentialReturnPct": "4213",
+    "returnPct": "-1649",
+    "lotSize": 1,
+    "ltp": "98500"
+   },
+   {
+    "callId": 177960,
+    "scrip": {
+     "scripCode": 25844
+    },
+    "symbol": "HYUNDAI",
+    "displayName": "NSE",
+    "companyName": "HYUNDAI MOTOR INDIA LTD-HYUNDAI EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "244690",
+    "targetPrice": "266300",
+    "stopLoss": "218900",
+    "publishedAt": 1760586505,
+    "potentialReturnPct": "3935",
+    "returnPct": "-2190",
+    "lotSize": 1,
+    "ltp": "191100"
+   },
+   {
+    "callId": 177537,
+    "scrip": {
+     "scripCode": 760213
+    },
+    "symbol": "LGEINDIA",
+    "displayName": "NSE",
+    "companyName": "LG ELECTRONICS INDIA LTD-LGEINDIA EQ",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "166370",
+    "targetPrice": "180000",
+    "stopLoss": "160000",
+    "publishedAt": 1760416936,
+    "potentialReturnPct": "834",
+    "returnPct": "-14",
+    "lotSize": 1,
+    "ltp": "166140"
+   },
+   {
+    "callId": 176594,
+    "scrip": {
+     "scripCode": 11956
+    },
+    "symbol": "MEDANTA",
+    "displayName": "NSE",
+    "companyName": "Global Health Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/GlobalHealthLtd_90263007_34649.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "137000",
+    "targetPrice": "159000",
+    "stopLoss": "126000",
+    "publishedAt": 1759897099,
+    "potentialReturnPct": "2517",
+    "returnPct": "-728",
+    "lotSize": 1,
+    "ltp": "127030"
+   },
+   {
+    "callId": 176321,
+    "scrip": {
+     "scripCode": 18822
+    },
+    "symbol": "ENDURANCE",
+    "displayName": "NSE",
+    "companyName": "Endurance Technologies Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/EnduranceTechnologiesLtd_39563549090_40457.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "290470",
+    "targetPrice": "320400",
+    "stopLoss": "270000",
+    "publishedAt": 1759809843,
+    "potentialReturnPct": "4093",
+    "returnPct": "-2173",
+    "lotSize": 1,
+    "ltp": "227340"
+   },
+   {
+    "callId": 176088,
+    "scrip": {
+     "scripCode": 2142
+    },
+    "symbol": "MFSL",
+    "displayName": "NSE",
+    "companyName": "Max Financial Services Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MaxFinancial_51299011415_372.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "162570",
+    "targetPrice": "200000",
+    "stopLoss": "143800",
+    "publishedAt": 1759724406,
+    "potentialReturnPct": "6667",
+    "returnPct": "-2619",
+    "lotSize": 1,
+    "ltp": "120000"
+   },
+   {
+    "callId": 176085,
+    "scrip": {
+     "scripCode": 467
+    },
+    "symbol": "HDFCLIFE",
+    "displayName": "NSE",
+    "companyName": "HDFC Life Insurance Company Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/HDFCLifeInsuranceCompanyLtd_86429089807_21997.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "75800",
+    "targetPrice": "78000",
+    "stopLoss": "68200",
+    "publishedAt": 1759724246,
+    "potentialReturnPct": "4860",
+    "returnPct": "-3075",
+    "lotSize": 1,
+    "ltp": "52490"
+   },
+   {
+    "callId": 175853,
+    "scrip": {
+     "scripCode": 1333
+    },
+    "symbol": "HDFCBANK",
+    "displayName": "NSE",
+    "companyName": "HDFC Bank Ltd",
+    "logoUrl": "img/80edb0d5ef78.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "95925",
+    "targetPrice": "105000",
+    "stopLoss": "86400",
+    "publishedAt": 1759465469,
+    "potentialReturnPct": "5156",
+    "returnPct": "-2778",
+    "lotSize": 1,
+    "ltp": "69280"
+   },
+   {
+    "callId": 175590,
+    "scrip": {
+     "scripCode": 14707
+    },
+    "symbol": "TIMETECHNO",
+    "displayName": "NSE",
+    "companyName": "Time Technoplast Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/TimeTechnoplast_46114320009_27753.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "21650",
+    "targetPrice": "25000",
+    "stopLoss": "17800",
+    "publishedAt": 1759292877,
+    "potentialReturnPct": "5744",
+    "returnPct": "-2666",
+    "lotSize": 1,
+    "ltp": "15879"
+   },
+   {
+    "callId": 174209,
+    "scrip": {
+     "scripCode": 3432
+    },
+    "symbol": "TATACONSUM",
+    "displayName": "NSE",
+    "companyName": "Tata Consumer Products Ltd",
+    "logoUrl": "img/cfe998f7f2d4.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "112190",
+    "targetPrice": "130000",
+    "stopLoss": "104000",
+    "publishedAt": 1758599625,
+    "potentialReturnPct": "2672",
+    "returnPct": "-856",
+    "lotSize": 1,
+    "ltp": "102590"
+   },
+   {
+    "callId": 174017,
+    "scrip": {
+     "scripCode": 2031
+    },
+    "symbol": "M&M",
+    "displayName": "NSE",
+    "companyName": "Mahindra & Mahindra Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MM_81551700988_365.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "359200",
+    "targetPrice": "414500",
+    "stopLoss": "331600",
+    "publishedAt": 1758514703,
+    "potentialReturnPct": "4594",
+    "returnPct": "-2093",
+    "lotSize": 1,
+    "ltp": "284030"
+   },
+   {
+    "callId": 173682,
+    "scrip": {
+     "scripCode": 10999
+    },
+    "symbol": "MARUTI",
+    "displayName": "NSE",
+    "companyName": "Maruti Suzuki India Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MarutiSuzuki_13596837192_5496.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "1588200",
+    "targetPrice": "1789000",
+    "stopLoss": "1490000",
+    "publishedAt": 1758174217,
+    "potentialReturnPct": "5697",
+    "returnPct": "-2824",
+    "lotSize": 1,
+    "ltp": "1139700"
+   },
+   {
+    "callId": 172146,
+    "scrip": {
+     "scripCode": 11532
+    },
+    "symbol": "ULTRACEMCO",
+    "displayName": "NSE",
+    "companyName": "UltraTech Cement Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/UltraTechCem_63281629205_24951.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "1257300",
+    "targetPrice": "1365000",
+    "stopLoss": "1127400",
+    "publishedAt": 1757476088,
+    "potentialReturnPct": "2359",
+    "returnPct": "-1215",
+    "lotSize": 1,
+    "ltp": "1104500"
+   },
+   {
+    "callId": 171969,
+    "scrip": {
+     "scripCode": 15141
+    },
+    "symbol": "COLPAL",
+    "displayName": "NSE",
+    "companyName": "Colgate-Palmolive (India) Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/ColgatePalm_37609617182_118.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "239530",
+    "targetPrice": "250000",
+    "stopLoss": "217000",
+    "publishedAt": 1757391642,
+    "potentialReturnPct": "5659",
+    "returnPct": "-3335",
+    "lotSize": 1,
+    "ltp": "159650"
+   },
+   {
+    "callId": 169368,
+    "scrip": {
+     "scripCode": 21690
+    },
+    "symbol": "DIXON",
+    "displayName": "NSE",
+    "companyName": "Dixon Technologies (India) Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/DixonTechnologiesIndiaLtd_22760470989_35727.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "1679400",
+    "targetPrice": "1750000",
+    "stopLoss": "1404800",
+    "publishedAt": 1755839282,
+    "potentialReturnPct": "5909",
+    "returnPct": "-3450",
+    "lotSize": 1,
+    "ltp": "1100000"
+   },
+   {
+    "callId": 166200,
+    "scrip": {
+     "scripCode": 13816
+    },
+    "symbol": "LTFOODS",
+    "displayName": "NSE",
+    "companyName": "L T Foods Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/LTFoods_63425499182_27387.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "50415",
+    "targetPrice": "55000",
+    "stopLoss": "45900",
+    "publishedAt": 1753847604,
+    "potentialReturnPct": "4493",
+    "returnPct": "-2472",
+    "lotSize": 1,
+    "ltp": "37950"
+   },
+   {
+    "callId": 164960,
+    "scrip": {
+     "scripCode": 4244
+    },
+    "symbol": "HDFCAMC",
+    "displayName": "NSE",
+    "companyName": "HDFC Asset Management Company Ltd",
+    "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/HDFCAssetManagementCompanyLtd_12019358568_21272.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "280200",
+    "targetPrice": "320000",
+    "stopLoss": "260000",
+    "publishedAt": 1752810700,
+    "potentialReturnPct": "3856",
+    "returnPct": "-1758",
+    "lotSize": 1,
+    "ltp": "230950"
+   },
+   {
+    "callId": 163406,
+    "scrip": {
+     "scripCode": 1922
+    },
+    "symbol": "KOTAKBANK",
+    "displayName": "NSE",
+    "companyName": "Kotak Mahindra Bank Ltd",
+    "logoUrl": "img/60196163870d.png",
+    "callType": "Investment Idea: Bluechip",
+    "callHorizon": "LongTermHorizon",
+    "entryPrice": "44600",
+    "targetPrice": "48000",
+    "stopLoss": "43000",
+    "publishedAt": 1751947648,
+    "potentialReturnPct": "399",
+    "returnPct": "350",
+    "isHighPotential": true,
+    "lotSize": 1,
+    "ltp": "46160"
+   }
+  ],
+  "chipCounts": [
+   {
+    "count": 6
+   },
+   {
+    "callHorizon": "LongTermHorizon",
+    "count": 130
+   },
+   {
+    "callHorizon": "MidTermHorizon",
+    "count": 5
+   },
+   {
+    "callHorizon": "ShortTermHorizon",
+    "count": 45
+   },
+   {
+    "callHorizon": "BtstHorizon",
+    "count": 7
+   },
+   {
+    "callHorizon": "IntradayHorizon",
+    "count": 34
+   },
+   {
+    "callHorizon": "MtfHorizon",
+    "count": 3
+   }
+  ]
+ },
+ "variants": {
+  "segment=EquitySegment&status=OpenCall&callHorizon=LongTermHorizon": {
+   "calls": [
+    {
+     "callId": 453,
+     "scrip": {
+      "scripCode": 10099
+     },
+     "symbol": "GODREJCP",
+     "displayName": "NSE",
+     "companyName": "Godrej Consumer Products Ltd",
+     "logoUrl": "img/84d405754f77.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "85700",
+     "targetPrice": "88100",
+     "stopLoss": "84500",
+     "publishedAt": 1789467219,
+     "potentialReturnPct": "770",
+     "returnPct": "-455",
+     "lotSize": 1,
+     "ltp": "81800"
+    },
+    {
+     "callId": 243983,
+     "scrip": {
+      "scripCode": 685
+     },
+     "symbol": "CHOLAFIN",
+     "displayName": "NSE",
+     "companyName": "Cholamandalam Investment & Finance Company Ltd",
+     "logoUrl": "img/b60c66d40319.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "181820",
+     "targetPrice": "216000",
+     "stopLoss": "164500",
+     "publishedAt": 1788926104,
+     "potentialReturnPct": "3619",
+     "returnPct": "-1277",
+     "lotSize": 1,
+     "ltp": "158600"
+    },
+    {
+     "callId": 243667,
+     "scrip": {
+      "scripCode": 2303
+     },
+     "symbol": "HAL",
+     "displayName": "NSE",
+     "companyName": "Hindustan Aeronautics Ltd",
+     "logoUrl": "img/709191641b7d.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "500940",
+     "targetPrice": "580000",
+     "stopLoss": "460000",
+     "publishedAt": 1788841331,
+     "potentialReturnPct": "1950",
+     "returnPct": "-311",
+     "lotSize": 1,
+     "ltp": "485370"
+    },
+    {
+     "callId": 242900,
+     "scrip": {
+      "scripCode": 760
+     },
+     "symbol": "CGPOWER",
+     "displayName": "NSE",
+     "companyName": "CG Power & Industrial Solutions Ltd",
+     "logoUrl": "img/2891c64392c9.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "89205",
+     "targetPrice": "102000",
+     "stopLoss": "82800",
+     "publishedAt": 1788494234,
+     "potentialReturnPct": "2687",
+     "returnPct": "-987",
+     "lotSize": 1,
+     "ltp": "80400"
+    },
+    {
+     "callId": 242499,
+     "scrip": {
+      "scripCode": 17388
+     },
+     "symbol": "ADANIPOWER",
+     "displayName": "NSE",
+     "companyName": "Adani Power Ltd",
+     "logoUrl": "img/81aebc4cf4d5.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "20984",
+     "targetPrice": "25000",
+     "stopLoss": "18500",
+     "publishedAt": 1788407108,
+     "potentialReturnPct": "3228",
+     "returnPct": "-993",
+     "lotSize": 1,
+     "ltp": "18900"
+    },
+    {
+     "callId": 241973,
+     "scrip": {
+      "scripCode": 3351
+     },
+     "symbol": "SUNPHARMA",
+     "displayName": "NSE",
+     "companyName": "Sun Pharmaceuticals Industries Ltd",
+     "logoUrl": "img/676508ce6d11.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "194000",
+     "targetPrice": "231000",
+     "stopLoss": "176000",
+     "publishedAt": 1788234979,
+     "potentialReturnPct": "2994",
+     "returnPct": "-837",
+     "lotSize": 1,
+     "ltp": "177770"
+    },
+    {
+     "callId": 241716,
+     "scrip": {
+      "scripCode": 764173
+     },
+     "symbol": "SBIFUNDS",
+     "displayName": "NSE",
+     "companyName": "SBI FUNDS MANAGEMENT LTD-SBIFUNDS EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "56020",
+     "targetPrice": "72000",
+     "stopLoss": "48000",
+     "publishedAt": 1788148411,
+     "potentialReturnPct": "5378",
+     "returnPct": "-1642",
+     "lotSize": 1,
+     "ltp": "46820"
+    },
+    {
+     "callId": 241281,
+     "scrip": {
+      "scripCode": 25
+     },
+     "symbol": "ADANIENT",
+     "displayName": "NSE",
+     "companyName": "Adani Enterprises Ltd",
+     "logoUrl": "img/0dbf375fab60.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "314210",
+     "targetPrice": "388000",
+     "stopLoss": "276000",
+     "publishedAt": 1787802496,
+     "potentialReturnPct": "5042",
+     "returnPct": "-1791",
+     "lotSize": 1,
+     "ltp": "257940"
+    },
+    {
+     "callId": 240673,
+     "scrip": {
+      "scripCode": 1901
+     },
+     "symbol": "CUMMINSIND",
+     "displayName": "NSE",
+     "companyName": "Cummins India Ltd",
+     "logoUrl": "img/ecb99f89ce5d.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "516700",
+     "targetPrice": "640000",
+     "stopLoss": "454700",
+     "publishedAt": 1787631122,
+     "potentialReturnPct": "4374",
+     "returnPct": "-1383",
+     "lotSize": 1,
+     "ltp": "445260"
+    },
+    {
+     "callId": 239175,
+     "scrip": {
+      "scripCode": 760407
+     },
+     "symbol": "ICICIAMC",
+     "displayName": "NSE",
+     "companyName": "ICICI PRUDENTIAL AMC LTD-ICICIAMC EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "309100",
+     "targetPrice": "380000",
+     "stopLoss": "275000",
+     "publishedAt": 1787111292,
+     "potentialReturnPct": "4038",
+     "returnPct": "-1243",
+     "lotSize": 1,
+     "ltp": "270690"
+    },
+    {
+     "callId": 238179,
+     "scrip": {
+      "scripCode": 11184
+     },
+     "symbol": "IDFCFIRSTB",
+     "displayName": "NSE",
+     "companyName": "IDFC First Bank Ltd",
+     "logoUrl": "img/f3dd783fc56b.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "8588",
+     "targetPrice": "9776",
+     "stopLoss": "8000",
+     "publishedAt": 1786685937,
+     "potentialReturnPct": "3578",
+     "returnPct": "-1616",
+     "lotSize": 1,
+     "ltp": "7200"
+    },
+    {
+     "callId": 237244,
+     "scrip": {
+      "scripCode": 3506
+     },
+     "symbol": "TITAN",
+     "displayName": "NSE",
+     "companyName": "Titan Company Ltd",
+     "logoUrl": "img/1dfc37059346.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "509750",
+     "targetPrice": "600000",
+     "stopLoss": "464400",
+     "publishedAt": 1786506616,
+     "potentialReturnPct": "3524",
+     "returnPct": "-1297",
+     "lotSize": 1,
+     "ltp": "443650"
+    },
+    {
+     "callId": 236312,
+     "scrip": {
+      "scripCode": 3045
+     },
+     "symbol": "SBIN",
+     "displayName": "NSE",
+     "companyName": "State Bank of India",
+     "logoUrl": "img/a07cdc8c6245.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "110320",
+     "targetPrice": "137000",
+     "stopLoss": "97500",
+     "publishedAt": 1786333588,
+     "potentialReturnPct": "4243",
+     "returnPct": "-1281",
+     "lotSize": 1,
+     "ltp": "96185"
+    },
+    {
+     "callId": 235823,
+     "scrip": {
+      "scripCode": 756871
+     },
+     "symbol": "ENRIN",
+     "displayName": "NSE",
+     "companyName": "SIEMENS ENERGY INDIA LTD-ENRIN EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "347690",
+     "targetPrice": "410000",
+     "stopLoss": "320000",
+     "publishedAt": 1786074680,
+     "potentialReturnPct": "4626",
+     "returnPct": "-1937",
+     "lotSize": 1,
+     "ltp": "280330"
+    },
+    {
+     "callId": 235815,
+     "scrip": {
+      "scripCode": 4204
+     },
+     "symbol": "MOTHERSON",
+     "displayName": "NSE",
+     "companyName": "Samvardhana Motherson International Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MothersonSumi_60777480057_2966.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "16215",
+     "targetPrice": "17800",
+     "stopLoss": "15500",
+     "publishedAt": 1786074545,
+     "potentialReturnPct": "1374",
+     "returnPct": "-348",
+     "lotSize": 1,
+     "ltp": "15650"
+    },
+    {
+     "callId": 233889,
+     "scrip": {
+      "scripCode": 21614
+     },
+     "symbol": "ABCAPITAL",
+     "displayName": "NSE",
+     "companyName": "Aditya Birla Capital Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/AdityaBirlaCapitalLtd_956643460_40903.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "42340",
+     "targetPrice": "48000",
+     "stopLoss": "39500",
+     "publishedAt": 1785729788,
+     "potentialReturnPct": "2992",
+     "returnPct": "-1274",
+     "lotSize": 1,
+     "ltp": "36945"
+    },
+    {
+     "callId": 233802,
+     "scrip": {
+      "scripCode": 16675
+     },
+     "symbol": "BAJAJFINSV",
+     "displayName": "NSE",
+     "companyName": "Bajaj Finserv Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/BajajFinservLtd_55748737_28075.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "204560",
+     "targetPrice": "249000",
+     "stopLoss": "183000",
+     "publishedAt": 1785728755,
+     "potentialReturnPct": "4932",
+     "returnPct": "-1848",
+     "lotSize": 1,
+     "ltp": "166760"
+    },
+    {
+     "callId": 233371,
+     "scrip": {
+      "scripCode": 317
+     },
+     "symbol": "BAJFINANCE",
+     "displayName": "NSE",
+     "companyName": "Bajaj Finance Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/BajajFin_50319005561_3722.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "109180",
+     "targetPrice": "130000",
+     "stopLoss": "98500",
+     "publishedAt": 1785469700,
+     "potentialReturnPct": "3843",
+     "returnPct": "-1399",
+     "lotSize": 1,
+     "ltp": "93910"
+    },
+    {
+     "callId": 232616,
+     "scrip": {
+      "scripCode": 11483
+     },
+     "symbol": "LT",
+     "displayName": "NSE",
+     "companyName": "Larsen & Toubro Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/LarsenToubro_5177126969_348.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "393600",
+     "targetPrice": "455000",
+     "stopLoss": "356400",
+     "publishedAt": 1785296793,
+     "potentialReturnPct": "1752",
+     "returnPct": "-163",
+     "lotSize": 1,
+     "ltp": "387170"
+    },
+    {
+     "callId": 231667,
+     "scrip": {
+      "scripCode": 8479
+     },
+     "symbol": "TVSMOTOR",
+     "displayName": "NSE",
+     "companyName": "TVS Motor Company Ltd",
+     "logoUrl": "img/58b7edd6cc23.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "388940",
+     "targetPrice": "447000",
+     "stopLoss": "359500",
+     "publishedAt": 1784866568,
+     "potentialReturnPct": "655",
+     "returnPct": "786",
+     "isHighPotential": true,
+     "lotSize": 1,
+     "ltp": "419520"
+    },
+    {
+     "callId": 229465,
+     "scrip": {
+      "scripCode": 3426
+     },
+     "symbol": "TATAPOWER",
+     "displayName": "NSE",
+     "companyName": "Tata Power Company Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/TataPowerCo_38377109932_554.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "37865",
+     "targetPrice": "48800",
+     "stopLoss": "32500",
+     "publishedAt": 1784087422,
+     "potentialReturnPct": "4143",
+     "returnPct": "-887",
+     "lotSize": 1,
+     "ltp": "34505"
+    },
+    {
+     "callId": 228791,
+     "scrip": {
+      "scripCode": 14309
+     },
+     "symbol": "INDIANB",
+     "displayName": "NSE",
+     "companyName": "Indian Bank",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/IndianBank_77867287520_6061.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "86165",
+     "targetPrice": "102500",
+     "stopLoss": "78000",
+     "publishedAt": 1783914976,
+     "potentialReturnPct": "1843",
+     "returnPct": "45",
+     "lotSize": 1,
+     "ltp": "86550"
+    },
+    {
+     "callId": 228488,
+     "scrip": {
+      "scripCode": 1232
+     },
+     "symbol": "GRASIM",
+     "displayName": "NSE",
+     "companyName": "Grasim Industries Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/GrasimInds_92395663124_227.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "321470",
+     "targetPrice": "377000",
+     "stopLoss": "294100",
+     "publishedAt": 1783655859,
+     "potentialReturnPct": "2645",
+     "returnPct": "-726",
+     "lotSize": 1,
+     "ltp": "298140"
+    },
+    {
+     "callId": 228173,
+     "scrip": {
+      "scripCode": 157
+     },
+     "symbol": "APOLLOHOSP",
+     "displayName": "NSE",
+     "companyName": "Apollo Hospitals Enterprise Ltd",
+     "logoUrl": "img/7a38aa65cba1.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "889900",
+     "targetPrice": "1012000",
+     "stopLoss": "829000",
+     "publishedAt": 1783571505,
+     "potentialReturnPct": "1979",
+     "returnPct": "-507",
+     "lotSize": 1,
+     "ltp": "844800"
+    },
+    {
+     "callId": 228082,
+     "scrip": {
+      "scripCode": 750174
+     },
+     "symbol": "VAML",
+     "displayName": "NSE",
+     "companyName": "VEDANTA ALUMINIUM METAL L-VAML EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "44855",
+     "targetPrice": "54000",
+     "stopLoss": "40500",
+     "publishedAt": 1783568952,
+     "potentialReturnPct": "5149",
+     "returnPct": "-2053",
+     "lotSize": 1,
+     "ltp": "35645"
+    },
+    {
+     "callId": 227783,
+     "scrip": {
+      "scripCode": 4067
+     },
+     "symbol": "MARICO",
+     "displayName": "NSE",
+     "companyName": "Marico Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/Marico_77423580094_12585.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "84600",
+     "targetPrice": "100000",
+     "stopLoss": "76900",
+     "publishedAt": 1783483498,
+     "potentialReturnPct": "2500",
+     "returnPct": "-544",
+     "lotSize": 1,
+     "ltp": "80000"
+    },
+    {
+     "callId": 227189,
+     "scrip": {
+      "scripCode": 2475
+     },
+     "symbol": "ONGC",
+     "displayName": "NSE",
+     "companyName": "Oil & Natural Gas Corpn Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/ONGC_65712746772_6068.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "23832",
+     "targetPrice": "28800",
+     "stopLoss": "21300",
+     "publishedAt": 1783311186,
+     "potentialReturnPct": "2778",
+     "returnPct": "-543",
+     "lotSize": 1,
+     "ltp": "22539"
+    },
+    {
+     "callId": 226309,
+     "scrip": {
+      "scripCode": 15083
+     },
+     "symbol": "ADANIPORTS",
+     "displayName": "NSE",
+     "companyName": "Adani Ports & Special Economic Zone Ltd",
+     "logoUrl": "img/d8b7e4134a5a.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "181750",
+     "targetPrice": "205000",
+     "stopLoss": "170000",
+     "publishedAt": 1782878061,
+     "potentialReturnPct": "1081",
+     "returnPct": "179",
+     "lotSize": 1,
+     "ltp": "185000"
+    },
+    {
+     "callId": 224019,
+     "scrip": {
+      "scripCode": 383
+     },
+     "symbol": "BEL",
+     "displayName": "NSE",
+     "companyName": "Bharat Electronics Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/BharatElectron_81586952923_2298.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "42430",
+     "targetPrice": "51000",
+     "stopLoss": "38100",
+     "publishedAt": 1781755831,
+     "potentialReturnPct": "3788",
+     "returnPct": "-1282",
+     "lotSize": 1,
+     "ltp": "36990"
+    },
+    {
+     "callId": 223053,
+     "scrip": {
+      "scripCode": 11195
+     },
+     "symbol": "INDIGO",
+     "displayName": "NSE",
+     "companyName": "Interglobe Aviation Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/InterglobeAviat_28069694232_33159.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "487250",
+     "targetPrice": "560000",
+     "stopLoss": "451000",
+     "publishedAt": 1781496016,
+     "potentialReturnPct": "1481",
+     "returnPct": "10",
+     "lotSize": 1,
+     "ltp": "487760"
+    },
+    {
+     "callId": 221475,
+     "scrip": {
+      "scripCode": 14418
+     },
+     "symbol": "ASTRAL",
+     "displayName": "NSE",
+     "companyName": "Astral Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/AstralPoly_45262796582_27655.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "154150",
+     "targetPrice": "195000",
+     "stopLoss": "133700",
+     "publishedAt": 1780898135,
+     "potentialReturnPct": "4532",
+     "returnPct": "-1295",
+     "lotSize": 1,
+     "ltp": "134190"
+    },
+    {
+     "callId": 220737,
+     "scrip": {
+      "scripCode": 324
+     },
+     "symbol": "ANGELONE",
+     "displayName": "NSE",
+     "companyName": "Angel One Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/AngelBrokingLtd._58447852_38941.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "33520",
+     "targetPrice": "40000",
+     "stopLoss": "30500",
+     "publishedAt": 1780545705,
+     "potentialReturnPct": "4172",
+     "returnPct": "-1580",
+     "lotSize": 1,
+     "ltp": "28225"
+    },
+    {
+     "callId": 220364,
+     "scrip": {
+      "scripCode": 4306
+     },
+     "symbol": "SHRIRAMFIN",
+     "displayName": "NSE",
+     "companyName": "Shriram Finance Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/ShriramTrans_74407990498_1745.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "90080",
+     "targetPrice": "117500",
+     "stopLoss": "78000",
+     "publishedAt": 1780458381,
+     "potentialReturnPct": "4274",
+     "returnPct": "-862",
+     "lotSize": 1,
+     "ltp": "82315"
+    },
+    {
+     "callId": 219529,
+     "scrip": {
+      "scripCode": 1901
+     },
+     "symbol": "CUMMINSIND",
+     "displayName": "NSE",
+     "companyName": "Cummins India Ltd",
+     "logoUrl": "img/ecb99f89ce5d.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "584350",
+     "targetPrice": "660000",
+     "stopLoss": "548100",
+     "publishedAt": 1780285935,
+     "potentialReturnPct": "4823",
+     "returnPct": "-2380",
+     "lotSize": 1,
+     "ltp": "445260"
+    },
+    {
+     "callId": 218513,
+     "scrip": {
+      "scripCode": 24948
+     },
+     "symbol": "LTF",
+     "displayName": "NSE",
+     "companyName": "L&T FINANCE LIMITED-LTF EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "27960",
+     "targetPrice": "34000",
+     "stopLoss": "25000",
+     "publishedAt": 1779767346,
+     "potentialReturnPct": "3912",
+     "returnPct": "-1259",
+     "lotSize": 1,
+     "ltp": "24440"
+    },
+    {
+     "callId": 218208,
+     "scrip": {
+      "scripCode": 1363
+     },
+     "symbol": "HINDALCO",
+     "displayName": "NSE",
+     "companyName": "Hindalco Industries Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/HindalcoInds_40254437488_252.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "109690",
+     "targetPrice": "128000",
+     "stopLoss": "102000",
+     "publishedAt": 1779680805,
+     "potentialReturnPct": "4468",
+     "returnPct": "-1935",
+     "lotSize": 1,
+     "ltp": "88470"
+    },
+    {
+     "callId": 217983,
+     "scrip": {
+      "scripCode": 157
+     },
+     "symbol": "APOLLOHOSP",
+     "displayName": "NSE",
+     "companyName": "Apollo Hospitals Enterprise Ltd",
+     "logoUrl": "img/7a38aa65cba1.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "829500",
+     "targetPrice": "959000",
+     "stopLoss": "769000",
+     "publishedAt": 1779422351,
+     "potentialReturnPct": "1352",
+     "returnPct": "184",
+     "lotSize": 1,
+     "ltp": "844800"
+    },
+    {
+     "callId": 217603,
+     "scrip": {
+      "scripCode": 15380
+     },
+     "symbol": "MANKIND",
+     "displayName": "NSE",
+     "companyName": "Mankind Pharma Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MankindPharmaLtd_91606272_38451.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "261290",
+     "targetPrice": "298000",
+     "stopLoss": "250000",
+     "publishedAt": 1779335343,
+     "potentialReturnPct": "1954",
+     "returnPct": "-460",
+     "lotSize": 1,
+     "ltp": "249280"
+    },
+    {
+     "callId": 216576,
+     "scrip": {
+      "scripCode": 25049
+     },
+     "symbol": "PREMIERENE",
+     "displayName": "NSE",
+     "companyName": "PREMIER ENERGIES LIMITED-PREMIERENE EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "101120",
+     "targetPrice": "119500",
+     "stopLoss": "91300",
+     "publishedAt": 1779076074,
+     "potentialReturnPct": "3642",
+     "returnPct": "-1337",
+     "lotSize": 1,
+     "ltp": "87600"
+    },
+    {
+     "callId": 216304,
+     "scrip": {
+      "scripCode": 11723
+     },
+     "symbol": "JSWSTEEL",
+     "displayName": "NSE",
+     "companyName": "JSW Steel Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/JSWSteel_59462548667_4764.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "129310",
+     "targetPrice": "152000",
+     "stopLoss": "118500",
+     "publishedAt": 1778817271,
+     "potentialReturnPct": "2199",
+     "returnPct": "-364",
+     "lotSize": 1,
+     "ltp": "124600"
+    },
+    {
+     "callId": 215909,
+     "scrip": {
+      "scripCode": 6733
+     },
+     "symbol": "JINDALSTEL",
+     "displayName": "NSE",
+     "companyName": "Jindal Steel & Power Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/JindalSteel_90248047419_20287.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "124700",
+     "targetPrice": "145000",
+     "stopLoss": "115000",
+     "publishedAt": 1778730346,
+     "potentialReturnPct": "3664",
+     "returnPct": "-1490",
+     "lotSize": 1,
+     "ltp": "106120"
+    },
+    {
+     "callId": 215616,
+     "scrip": {
+      "scripCode": 2142
+     },
+     "symbol": "MFSL",
+     "displayName": "NSE",
+     "companyName": "Max Financial Services Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MaxFinancial_51299011415_372.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "163880",
+     "targetPrice": "198000",
+     "stopLoss": "146500",
+     "publishedAt": 1778644283,
+     "potentialReturnPct": "6500",
+     "returnPct": "-2678",
+     "lotSize": 1,
+     "ltp": "120000"
+    },
+    {
+     "callId": 215059,
+     "scrip": {
+      "scripCode": 20534
+     },
+     "symbol": "GRAVITA",
+     "displayName": "NSE",
+     "companyName": "Gravita India Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/GravitaIndia_26101386162_35607.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "179140",
+     "targetPrice": "220000",
+     "stopLoss": "159800",
+     "publishedAt": 1778471373,
+     "potentialReturnPct": "5851",
+     "returnPct": "-2252",
+     "lotSize": 1,
+     "ltp": "138790"
+    },
+    {
+     "callId": 214815,
+     "scrip": {
+      "scripCode": 25907
+     },
+     "symbol": "WAAREEENER",
+     "displayName": "NSE",
+     "companyName": "WAAREE ENERGIES LIMITED-WAAREEENER EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "325510",
+     "targetPrice": "385000",
+     "stopLoss": "296000",
+     "publishedAt": 1778212281,
+     "potentialReturnPct": "6710",
+     "returnPct": "-2922",
+     "lotSize": 1,
+     "ltp": "230400"
+    },
+    {
+     "callId": 214389,
+     "scrip": {
+      "scripCode": 3273
+     },
+     "symbol": "SRF",
+     "displayName": "NSE",
+     "companyName": "SRF Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/SRF_56123073213_513.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "270450",
+     "targetPrice": "340000",
+     "stopLoss": "234900",
+     "publishedAt": 1778125971,
+     "potentialReturnPct": "4558",
+     "returnPct": "-1364",
+     "lotSize": 1,
+     "ltp": "233550"
+    },
+    {
+     "callId": 214091,
+     "scrip": {
+      "scripCode": 21770
+     },
+     "symbol": "ICICIGI",
+     "displayName": "NSE",
+     "companyName": "ICICI Lombard General Insurance Company Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/ICICILombardGeneralInsuranceCompanyLtd_66159376115_22664.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "177910",
+     "targetPrice": "223000",
+     "stopLoss": "155000",
+     "publishedAt": 1778041744,
+     "potentialReturnPct": "4107",
+     "returnPct": "-1115",
+     "lotSize": 1,
+     "ltp": "158080"
+    },
+    {
+     "callId": 214088,
+     "scrip": {
+      "scripCode": 2031
+     },
+     "symbol": "M&M",
+     "displayName": "NSE",
+     "companyName": "Mahindra & Mahindra Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MM_81551700988_365.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "329810",
+     "targetPrice": "396300",
+     "stopLoss": "296500",
+     "publishedAt": 1778041583,
+     "potentialReturnPct": "3953",
+     "returnPct": "-1388",
+     "lotSize": 1,
+     "ltp": "284030"
+    },
+    {
+     "callId": 212896,
+     "scrip": {
+      "scripCode": 759477
+     },
+     "symbol": "CANHLIFE",
+     "displayName": "NSE",
+     "companyName": "CANARA HSBC LIFE INS CO L-CANHLIFE EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "14463",
+     "targetPrice": "18000",
+     "stopLoss": "12800",
+     "publishedAt": 1777434978,
+     "potentialReturnPct": "4826",
+     "returnPct": "-1605",
+     "lotSize": 1,
+     "ltp": "12141"
+    },
+    {
+     "callId": 212889,
+     "scrip": {
+      "scripCode": 8050
+     },
+     "symbol": "MAHLIFE",
+     "displayName": "NSE",
+     "companyName": "Mahindra Lifespace Developers Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MahindraLife_17004584737_20728.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "34020",
+     "targetPrice": "42500",
+     "stopLoss": "30000",
+     "publishedAt": 1777434793,
+     "potentialReturnPct": "3859",
+     "returnPct": "-986",
+     "lotSize": 1,
+     "ltp": "30665"
+    },
+    {
+     "callId": 212676,
+     "scrip": {
+      "scripCode": 18921
+     },
+     "symbol": "VBL",
+     "displayName": "NSE",
+     "companyName": "Varun Beverages Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/VarunBeveragesLtd_58326939712_24608.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "52405",
+     "targetPrice": "60000",
+     "stopLoss": "48400",
+     "publishedAt": 1777349308,
+     "potentialReturnPct": "5306",
+     "returnPct": "-2520",
+     "lotSize": 1,
+     "ltp": "39200"
+    },
+    {
+     "callId": 212665,
+     "scrip": {
+      "scripCode": 11532
+     },
+     "symbol": "ULTRACEMCO",
+     "displayName": "NSE",
+     "companyName": "UltraTech Cement Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/UltraTechCem_63281629205_24951.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "1189400",
+     "targetPrice": "1380000",
+     "stopLoss": "1095400",
+     "publishedAt": 1777348943,
+     "potentialReturnPct": "2494",
+     "returnPct": "-714",
+     "lotSize": 1,
+     "ltp": "1104500"
+    },
+    {
+     "callId": 212452,
+     "scrip": {
+      "scripCode": 13270
+     },
+     "symbol": "JKCEMENT",
+     "displayName": "NSE",
+     "companyName": "J K Cements Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/JKCements_26301288730_17136.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "560150",
+     "targetPrice": "604000",
+     "stopLoss": "538200",
+     "publishedAt": 1777264070,
+     "potentialReturnPct": "2621",
+     "returnPct": "-1457",
+     "lotSize": 1,
+     "ltp": "478550"
+    },
+    {
+     "callId": 212388,
+     "scrip": {
+      "scripCode": 14937
+     },
+     "symbol": "CIEINDIA",
+     "displayName": "NSE",
+     "companyName": "CIE Automotive India Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MahindraCIE_57690369780_27486.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "46495",
+     "targetPrice": "54200",
+     "stopLoss": "41300",
+     "publishedAt": 1777261687,
+     "potentialReturnPct": "5363",
+     "returnPct": "-2412",
+     "lotSize": 1,
+     "ltp": "35280"
+    },
+    {
+     "callId": 212230,
+     "scrip": {
+      "scripCode": 9599
+     },
+     "symbol": "DELHIVERY",
+     "displayName": "NSE",
+     "companyName": "Delhivery Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/delhivery-ltd_88412953_68151.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "44805",
+     "targetPrice": "57000",
+     "stopLoss": "38700",
+     "publishedAt": 1777002904,
+     "potentialReturnPct": "4767",
+     "returnPct": "-1385",
+     "lotSize": 1,
+     "ltp": "38600"
+    },
+    {
+     "callId": 212219,
+     "scrip": {
+      "scripCode": 14592
+     },
+     "symbol": "FORTIS",
+     "displayName": "NSE",
+     "companyName": "Fortis Healthcare Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/FortisHealth_260912253_24049.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "92500",
+     "targetPrice": "110000",
+     "stopLoss": "84000",
+     "publishedAt": 1777002530,
+     "potentialReturnPct": "4320",
+     "returnPct": "-1696",
+     "lotSize": 1,
+     "ltp": "76815"
+    },
+    {
+     "callId": 211924,
+     "scrip": {
+      "scripCode": 1964
+     },
+     "symbol": "TRENT",
+     "displayName": "NSE",
+     "companyName": "Trent Ltd",
+     "logoUrl": "img/f854c8351736.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "292100",
+     "targetPrice": "350000",
+     "stopLoss": "270400",
+     "publishedAt": 1776917059,
+     "potentialReturnPct": "1600",
+     "returnPct": "330",
+     "lotSize": 1,
+     "ltp": "301730"
+    },
+    {
+     "callId": 211067,
+     "scrip": {
+      "scripCode": 759806
+     },
+     "symbol": "GROWW",
+     "displayName": "NSE",
+     "companyName": "BILLIONBRAINS GARAGE VN L-GROWW EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "19536",
+     "targetPrice": "23500",
+     "stopLoss": "17500",
+     "publishedAt": 1776743891,
+     "potentialReturnPct": "2270",
+     "returnPct": "-197",
+     "lotSize": 1,
+     "ltp": "19152"
+    },
+    {
+     "callId": 209098,
+     "scrip": {
+      "scripCode": 13816
+     },
+     "symbol": "LTFOODS",
+     "displayName": "NSE",
+     "companyName": "L T Foods Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/LTFoods_63425499182_27387.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "40345",
+     "targetPrice": "50000",
+     "stopLoss": "35500",
+     "publishedAt": 1776053768,
+     "potentialReturnPct": "3175",
+     "returnPct": "-594",
+     "lotSize": 1,
+     "ltp": "37950"
+    },
+    {
+     "callId": 208525,
+     "scrip": {
+      "scripCode": 20374
+     },
+     "symbol": "COALINDIA",
+     "displayName": "NSE",
+     "companyName": "Coal India Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/CoalIndia_84226386779_12019.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "45375",
+     "targetPrice": "53500",
+     "stopLoss": "41200",
+     "publishedAt": 1775710750,
+     "potentialReturnPct": "3753",
+     "returnPct": "-1427",
+     "lotSize": 1,
+     "ltp": "38900"
+    },
+    {
+     "callId": 208142,
+     "scrip": {
+      "scripCode": 3506
+     },
+     "symbol": "TITAN",
+     "displayName": "NSE",
+     "companyName": "Titan Company Ltd",
+     "logoUrl": "img/1dfc37059346.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "446100",
+     "targetPrice": "520000",
+     "stopLoss": "399500",
+     "publishedAt": 1775620384,
+     "potentialReturnPct": "1721",
+     "returnPct": "-55",
+     "lotSize": 1,
+     "ltp": "443650"
+    },
+    {
+     "callId": 206227,
+     "scrip": {
+      "scripCode": 27052
+     },
+     "symbol": "SAGILITY",
+     "displayName": "NSE",
+     "companyName": "SAGILITY LIMITED-SAGILITY EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "3963",
+     "targetPrice": "5800",
+     "stopLoss": "3100",
+     "publishedAt": 1774585244,
+     "potentialReturnPct": "3783",
+     "returnPct": "618",
+     "lotSize": 1,
+     "ltp": "4208"
+    },
+    {
+     "callId": 205167,
+     "scrip": {
+      "scripCode": 4963
+     },
+     "symbol": "ICICIBANK",
+     "displayName": "NSE",
+     "companyName": "ICICI Bank Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/ICICIBank_93786457618_5418.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "122680",
+     "targetPrice": "175000",
+     "stopLoss": "96600",
+     "publishedAt": 1774237706,
+     "potentialReturnPct": "2518",
+     "returnPct": "1396",
+     "lotSize": 1,
+     "ltp": "139800"
+    },
+    {
+     "callId": 203455,
+     "scrip": {
+      "scripCode": 11403
+     },
+     "symbol": "POONAWALLA",
+     "displayName": "NSE",
+     "companyName": "Poonawalla Fincorp Ltd",
+     "logoUrl": "img/c77d60f97d09.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "40455",
+     "targetPrice": "56000",
+     "stopLoss": "32900",
+     "publishedAt": 1773632797,
+     "potentialReturnPct": "2129",
+     "returnPct": "1413",
+     "lotSize": 1,
+     "ltp": "46170"
+    },
+    {
+     "callId": 203206,
+     "scrip": {
+      "scripCode": 2885
+     },
+     "symbol": "RELIANCE",
+     "displayName": "NSE",
+     "companyName": "Reliance Industries Ltd",
+     "logoUrl": "img/cce2151cf12e.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "139630",
+     "targetPrice": "175000",
+     "stopLoss": "121800",
+     "publishedAt": 1773373729,
+     "potentialReturnPct": "5023",
+     "returnPct": "-1657",
+     "lotSize": 1,
+     "ltp": "116490"
+    },
+    {
+     "callId": 202499,
+     "scrip": {
+      "scripCode": 18143
+     },
+     "symbol": "JIOFIN",
+     "displayName": "NSE",
+     "companyName": "Jio Financial Services Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/JioFinancialServicesLtd_17889422_20712.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "23890",
+     "targetPrice": "32000",
+     "stopLoss": "19900",
+     "publishedAt": 1773201315,
+     "potentialReturnPct": "5648",
+     "returnPct": "-1440",
+     "lotSize": 1,
+     "ltp": "20450"
+    },
+    {
+     "callId": 202490,
+     "scrip": {
+      "scripCode": 11723
+     },
+     "symbol": "JSWSTEEL",
+     "displayName": "NSE",
+     "companyName": "JSW Steel Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/JSWSteel_59462548667_4764.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "122240",
+     "targetPrice": "140000",
+     "stopLoss": "113300",
+     "publishedAt": 1773201154,
+     "potentialReturnPct": "1236",
+     "returnPct": "193",
+     "lotSize": 1,
+     "ltp": "124600"
+    },
+    {
+     "callId": 202071,
+     "scrip": {
+      "scripCode": 21238
+     },
+     "symbol": "AUBANK",
+     "displayName": "NSE",
+     "companyName": "AU Small Finance Bank Ltd",
+     "logoUrl": "img/36b83da9df1c.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "94240",
+     "targetPrice": "125000",
+     "stopLoss": "78800",
+     "publishedAt": 1773115259,
+     "potentialReturnPct": "4468",
+     "returnPct": "-832",
+     "lotSize": 1,
+     "ltp": "86400"
+    },
+    {
+     "callId": 201511,
+     "scrip": {
+      "scripCode": 9599
+     },
+     "symbol": "DELHIVERY",
+     "displayName": "NSE",
+     "companyName": "Delhivery Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/delhivery-ltd_88412953_68151.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "42500",
+     "targetPrice": "58000",
+     "stopLoss": "39800",
+     "publishedAt": 1772768772,
+     "potentialReturnPct": "5026",
+     "returnPct": "-918",
+     "lotSize": 1,
+     "ltp": "38600"
+    },
+    {
+     "callId": 200561,
+     "scrip": {
+      "scripCode": 3363
+     },
+     "symbol": "SUPREMEIND",
+     "displayName": "NSE",
+     "companyName": "Supreme Industries Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/SupremeInds_28660861665_541.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "400990",
+     "targetPrice": "480000",
+     "stopLoss": "362600",
+     "publishedAt": 1772165164,
+     "potentialReturnPct": "5238",
+     "returnPct": "-2144",
+     "lotSize": 1,
+     "ltp": "315000"
+    },
+    {
+     "callId": 199783,
+     "scrip": {
+      "scripCode": 25426
+     },
+     "symbol": "NORTHARC",
+     "displayName": "NSE",
+     "companyName": "NORTHERN ARC CAPITAL LTD-NORTHARC EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "25215",
+     "targetPrice": "36000",
+     "stopLoss": "20000",
+     "publishedAt": 1771904778,
+     "potentialReturnPct": "4241",
+     "returnPct": "26",
+     "lotSize": 1,
+     "ltp": "25280"
+    },
+    {
+     "callId": 199086,
+     "scrip": {
+      "scripCode": 3499
+     },
+     "symbol": "TATASTEEL",
+     "displayName": "NSE",
+     "companyName": "Tata Steel Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/TataSteel_98454158604_566.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "20940",
+     "targetPrice": "24000",
+     "stopLoss": "19400",
+     "publishedAt": 1771473829,
+     "potentialReturnPct": "4320",
+     "returnPct": "-1996",
+     "lotSize": 1,
+     "ltp": "16760"
+    },
+    {
+     "callId": 197890,
+     "scrip": {
+      "scripCode": 2142
+     },
+     "symbol": "MFSL",
+     "displayName": "NSE",
+     "companyName": "Max Financial Services Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MaxFinancial_51299011415_372.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "183900",
+     "targetPrice": "220000",
+     "stopLoss": "166000",
+     "publishedAt": 1770955865,
+     "potentialReturnPct": "8333",
+     "returnPct": "-3475",
+     "lotSize": 1,
+     "ltp": "120000"
+    },
+    {
+     "callId": 197544,
+     "scrip": {
+      "scripCode": 547
+     },
+     "symbol": "BRITANNIA",
+     "displayName": "NSE",
+     "companyName": "Britannia Industries Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/BritanniaInds_60979410361_93.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "603450",
+     "targetPrice": "715000",
+     "stopLoss": "548200",
+     "publishedAt": 1770868903,
+     "potentialReturnPct": "5409",
+     "returnPct": "-2311",
+     "lotSize": 1,
+     "ltp": "464000"
+    },
+    {
+     "callId": 196712,
+     "scrip": {
+      "scripCode": 23489
+     },
+     "symbol": "BHARTIHEXA",
+     "displayName": "NSE",
+     "companyName": "BHARTI HEXACOM LIMITED-BHARTIHEXA EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "169610",
+     "targetPrice": "200000",
+     "stopLoss": "155400",
+     "publishedAt": 1770608864,
+     "potentialReturnPct": "2223",
+     "returnPct": "-353",
+     "lotSize": 1,
+     "ltp": "163620"
+    },
+    {
+     "callId": 196708,
+     "scrip": {
+      "scripCode": 3045
+     },
+     "symbol": "SBIN",
+     "displayName": "NSE",
+     "companyName": "State Bank of India",
+     "logoUrl": "img/a07cdc8c6245.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "110750",
+     "targetPrice": "130000",
+     "stopLoss": "100700",
+     "publishedAt": 1770608731,
+     "potentialReturnPct": "3516",
+     "returnPct": "-1315",
+     "lotSize": 1,
+     "ltp": "96185"
+    },
+    {
+     "callId": 196261,
+     "scrip": {
+      "scripCode": 4963
+     },
+     "symbol": "ICICIBANK",
+     "displayName": "NSE",
+     "companyName": "ICICI Bank Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/ICICIBank_93786457618_5418.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "140920",
+     "targetPrice": "175000",
+     "stopLoss": "123900",
+     "publishedAt": 1770264409,
+     "potentialReturnPct": "2518",
+     "returnPct": "-79",
+     "lotSize": 1,
+     "ltp": "139800"
+    },
+    {
+     "callId": 195910,
+     "scrip": {
+      "scripCode": 28847
+     },
+     "symbol": "VENTIVE",
+     "displayName": "NSE",
+     "companyName": "VENTIVE HOSPITALITY LTD-VENTIVE EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "75960",
+     "targetPrice": "78500",
+     "stopLoss": "64000",
+     "publishedAt": 1770176897,
+     "potentialReturnPct": "4768",
+     "returnPct": "-3002",
+     "lotSize": 1,
+     "ltp": "53155"
+    },
+    {
+     "callId": 195178,
+     "scrip": {
+      "scripCode": 9599
+     },
+     "symbol": "DELHIVERY",
+     "displayName": "NSE",
+     "companyName": "Delhivery Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/delhivery-ltd_88412953_68151.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "42625",
+     "targetPrice": "58000",
+     "stopLoss": "35100",
+     "publishedAt": 1769917960,
+     "potentialReturnPct": "5026",
+     "returnPct": "-944",
+     "lotSize": 1,
+     "ltp": "38600"
+    },
+    {
+     "callId": 194835,
+     "scrip": {
+      "scripCode": 21808
+     },
+     "symbol": "SBILIFE",
+     "displayName": "NSE",
+     "companyName": "SBI Life Insurance Company Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/SBILifeInsuranceCompanyLtd_43034021988_22045.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "201350",
+     "targetPrice": "224000",
+     "stopLoss": "173500",
+     "publishedAt": 1769659378,
+     "potentialReturnPct": "3505",
+     "returnPct": "-1763",
+     "lotSize": 1,
+     "ltp": "165860"
+    },
+    {
+     "callId": 194264,
+     "scrip": {
+      "scripCode": 11532
+     },
+     "symbol": "ULTRACEMCO",
+     "displayName": "NSE",
+     "companyName": "UltraTech Cement Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/UltraTechCem_63281629205_24951.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "1270500",
+     "targetPrice": "1420000",
+     "stopLoss": "1196100",
+     "publishedAt": 1769486335,
+     "potentialReturnPct": "2856",
+     "returnPct": "-1307",
+     "lotSize": 1,
+     "ltp": "1104500"
+    },
+    {
+     "callId": 193752,
+     "scrip": {
+      "scripCode": 5097
+     },
+     "symbol": "ETERNAL",
+     "displayName": "NSE",
+     "companyName": "ETERNAL LIMITED-ETERNAL EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "30055",
+     "targetPrice": "36000",
+     "stopLoss": "27200",
+     "publishedAt": 1769053521,
+     "potentialReturnPct": "476",
+     "returnPct": "1434",
+     "isHighPotential": true,
+     "lotSize": 1,
+     "ltp": "34365"
+    },
+    {
+     "callId": 193214,
+     "scrip": {
+      "scripCode": 13270
+     },
+     "symbol": "JKCEMENT",
+     "displayName": "NSE",
+     "companyName": "J K Cements Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/JKCements_26301288730_17136.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "592400",
+     "targetPrice": "668500",
+     "stopLoss": "546300",
+     "publishedAt": 1768880848,
+     "potentialReturnPct": "3969",
+     "returnPct": "-1922",
+     "lotSize": 1,
+     "ltp": "478550"
+    },
+    {
+     "callId": 192137,
+     "scrip": {
+      "scripCode": 759477
+     },
+     "symbol": "CANHLIFE",
+     "displayName": "NSE",
+     "companyName": "CANARA HSBC LIFE INS CO L-CANHLIFE EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "14480",
+     "targetPrice": "18000",
+     "stopLoss": "12700",
+     "publishedAt": 1768276100,
+     "potentialReturnPct": "4826",
+     "returnPct": "-1615",
+     "lotSize": 1,
+     "ltp": "12141"
+    },
+    {
+     "callId": 191829,
+     "scrip": {
+      "scripCode": 2606
+     },
+     "symbol": "LEMONTREE",
+     "displayName": "NSE",
+     "companyName": "Lemon Tree Hotels Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/LemonTreeHotelsLtd_62193476144_40619.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "15570",
+     "targetPrice": "16000",
+     "stopLoss": "13200",
+     "publishedAt": 1768189506,
+     "potentialReturnPct": "4643",
+     "returnPct": "-2982",
+     "lotSize": 1,
+     "ltp": "10927"
+    },
+    {
+     "callId": 191001,
+     "scrip": {
+      "scripCode": 21840
+     },
+     "symbol": "DIAMONDYD",
+     "displayName": "NSE",
+     "companyName": "Prataap Snacks Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/PrataapSnacksLtd_68289649964_68829.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "119210",
+     "targetPrice": "130000",
+     "stopLoss": "104400",
+     "publishedAt": 1767757690,
+     "potentialReturnPct": "2390",
+     "returnPct": "-1199",
+     "lotSize": 1,
+     "ltp": "104920"
+    },
+    {
+     "callId": 190992,
+     "scrip": {
+      "scripCode": 23066
+     },
+     "symbol": "GOPAL",
+     "displayName": "NSE",
+     "companyName": "GOPAL SNACKS LIMITED-GOPAL EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "32150",
+     "targetPrice": "35000",
+     "stopLoss": "28300",
+     "publishedAt": 1767757618,
+     "potentialReturnPct": "4457",
+     "returnPct": "-2470",
+     "lotSize": 1,
+     "ltp": "24210"
+    },
+    {
+     "callId": 190986,
+     "scrip": {
+      "scripCode": 11966
+     },
+     "symbol": "BIKAJI",
+     "displayName": "NSE",
+     "companyName": "Bikaji Foods International Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/BikajiFoodsInternationalLtd_26794362_25811.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "71475",
+     "targetPrice": "77000",
+     "stopLoss": "62300",
+     "publishedAt": 1767757546,
+     "potentialReturnPct": "7060",
+     "returnPct": "-3685",
+     "lotSize": 1,
+     "ltp": "45135"
+    },
+    {
+     "callId": 190454,
+     "scrip": {
+      "scripCode": 21238
+     },
+     "symbol": "AUBANK",
+     "displayName": "NSE",
+     "companyName": "AU Small Finance Bank Ltd",
+     "logoUrl": "img/36b83da9df1c.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "101990",
+     "targetPrice": "115000",
+     "stopLoss": "94700",
+     "publishedAt": 1767584909,
+     "potentialReturnPct": "3310",
+     "returnPct": "-1529",
+     "lotSize": 1,
+     "ltp": "86400"
+    },
+    {
+     "callId": 190008,
+     "scrip": {
+      "scripCode": 1922
+     },
+     "symbol": "KOTAKBANK",
+     "displayName": "NSE",
+     "companyName": "Kotak Mahindra Bank Ltd",
+     "logoUrl": "img/60196163870d.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "43920",
+     "targetPrice": "50000",
+     "stopLoss": "40920",
+     "publishedAt": 1767240013,
+     "potentialReturnPct": "832",
+     "returnPct": "510",
+     "isHighPotential": true,
+     "lotSize": 1,
+     "ltp": "46160"
+    },
+    {
+     "callId": 188914,
+     "scrip": {
+      "scripCode": 759517
+     },
+     "symbol": "MIDWESTLTD",
+     "displayName": "NSE",
+     "companyName": "MIDWEST LIMITED-MIDWESTLTD EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "163680",
+     "targetPrice": "170000",
+     "stopLoss": "145700",
+     "publishedAt": 1766720856,
+     "potentialReturnPct": "5987",
+     "returnPct": "-3503",
+     "lotSize": 1,
+     "ltp": "106335"
+    },
+    {
+     "callId": 188354,
+     "scrip": {
+      "scripCode": 1270
+     },
+     "symbol": "AMBUJACEM",
+     "displayName": "NSE",
+     "companyName": "Ambuja Cements Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/AmbujaCem_93575841891_218.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "55180",
+     "targetPrice": "56000",
+     "stopLoss": "45000",
+     "publishedAt": 1766462750,
+     "potentialReturnPct": "6090",
+     "returnPct": "-3692",
+     "lotSize": 1,
+     "ltp": "34805"
+    },
+    {
+     "callId": 187627,
+     "scrip": {
+      "scripCode": 625
+     },
+     "symbol": "ABREL",
+     "displayName": "NSE",
+     "companyName": "ADITYA BIRLA REAL EST LTD-ABREL EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "174660",
+     "targetPrice": "180000",
+     "stopLoss": "148800",
+     "publishedAt": 1766116008,
+     "potentialReturnPct": "7930",
+     "returnPct": "-4252",
+     "lotSize": 1,
+     "ltp": "100390"
+    },
+    {
+     "callId": 187353,
+     "scrip": {
+      "scripCode": 11536
+     },
+     "symbol": "TCS",
+     "displayName": "NSE",
+     "companyName": "Tata Consultancy Services Ltd",
+     "logoUrl": "img/21620e790149.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "324000",
+     "targetPrice": "325000",
+     "stopLoss": "266000",
+     "publishedAt": 1766029986,
+     "potentialReturnPct": "2986",
+     "returnPct": "-2276",
+     "lotSize": 1,
+     "ltp": "250260"
+    },
+    {
+     "callId": 186836,
+     "scrip": {
+      "scripCode": 9111
+     },
+     "symbol": "ARVINDFASN",
+     "displayName": "NSE",
+     "companyName": "Arvind Fashions Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/ArvindFashionsLtd_45999851552_72051.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "51695",
+     "targetPrice": "60000",
+     "stopLoss": "41500",
+     "publishedAt": 1765856888,
+     "potentialReturnPct": "7158",
+     "returnPct": "-3235",
+     "lotSize": 1,
+     "ltp": "34970"
+    },
+    {
+     "callId": 186080,
+     "scrip": {
+      "scripCode": 27052
+     },
+     "symbol": "SAGILITY",
+     "displayName": "NSE",
+     "companyName": "SAGILITY LIMITED-SAGILITY EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "4917",
+     "targetPrice": "5500",
+     "stopLoss": "4200",
+     "publishedAt": 1765425869,
+     "potentialReturnPct": "3070",
+     "returnPct": "-1442",
+     "lotSize": 1,
+     "ltp": "4208"
+    },
+    {
+     "callId": 186063,
+     "scrip": {
+      "scripCode": 28125
+     },
+     "symbol": "IKS",
+     "displayName": "NSE",
+     "companyName": "INVENTURUS KNOWLEDGE SO L-IKS EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "157770",
+     "targetPrice": "210700",
+     "stopLoss": "135000",
+     "publishedAt": 1765425484,
+     "potentialReturnPct": "2366",
+     "returnPct": "799",
+     "lotSize": 1,
+     "ltp": "170380"
+    },
+    {
+     "callId": 185569,
+     "scrip": {
+      "scripCode": 10604
+     },
+     "symbol": "BHARTIARTL",
+     "displayName": "NSE",
+     "companyName": "Bharti Airtel Ltd",
+     "logoUrl": "img/4113e57fff38.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "209290",
+     "targetPrice": "236500",
+     "stopLoss": "195600",
+     "publishedAt": 1765253128,
+     "potentialReturnPct": "1983",
+     "returnPct": "-570",
+     "lotSize": 1,
+     "ltp": "197370"
+    },
+    {
+     "callId": 184452,
+     "scrip": {
+      "scripCode": 1270
+     },
+     "symbol": "AMBUJACEM",
+     "displayName": "NSE",
+     "companyName": "Ambuja Cements Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/AmbujaCem_93575841891_218.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "54565",
+     "targetPrice": "56000",
+     "stopLoss": "43500",
+     "publishedAt": 1764647458,
+     "potentialReturnPct": "6090",
+     "returnPct": "-3621",
+     "lotSize": 1,
+     "ltp": "34805"
+    },
+    {
+     "callId": 184116,
+     "scrip": {
+      "scripCode": 8825
+     },
+     "symbol": "PRIVISCL",
+     "displayName": "NSE",
+     "companyName": "Privi Speciality Chemicals Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/FairchemSpeci_81335984825_4846.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "311400",
+     "targetPrice": "396000",
+     "stopLoss": "268500",
+     "publishedAt": 1764301685,
+     "potentialReturnPct": "2305",
+     "returnPct": "334",
+     "lotSize": 1,
+     "ltp": "321810"
+    },
+    {
+     "callId": 183306,
+     "scrip": {
+      "scripCode": 1076
+     },
+     "symbol": "ZENSARTECH",
+     "displayName": "NSE",
+     "companyName": "Zensar Technologies Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/ZensarTech_44514200946_262.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "72020",
+     "targetPrice": "73000",
+     "stopLoss": "55500",
+     "publishedAt": 1763957011,
+     "potentialReturnPct": "3632",
+     "returnPct": "-2565",
+     "lotSize": 1,
+     "ltp": "53550"
+    },
+    {
+     "callId": 183300,
+     "scrip": {
+      "scripCode": 4503
+     },
+     "symbol": "MPHASIS",
+     "displayName": "NSE",
+     "companyName": "Mphasis Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/Mphasis_88855176_3361.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "279500",
+     "targetPrice": "300000",
+     "stopLoss": "214100",
+     "publishedAt": 1763956942,
+     "potentialReturnPct": "1878",
+     "returnPct": "-964",
+     "lotSize": 1,
+     "ltp": "252560"
+    },
+    {
+     "callId": 183297,
+     "scrip": {
+      "scripCode": 1594
+     },
+     "symbol": "INFY",
+     "displayName": "NSE",
+     "companyName": "Infosys Ltd",
+     "logoUrl": "img/3d3c8eef00e6.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "157930",
+     "targetPrice": "160000",
+     "stopLoss": "129500",
+     "publishedAt": 1763956850,
+     "potentialReturnPct": "3502",
+     "returnPct": "-2497",
+     "lotSize": 1,
+     "ltp": "118500"
+    },
+    {
+     "callId": 183141,
+     "scrip": {
+      "scripCode": 2031
+     },
+     "symbol": "M&M",
+     "displayName": "NSE",
+     "companyName": "Mahindra & Mahindra Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MM_81551700988_365.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "375500",
+     "targetPrice": "427500",
+     "stopLoss": "349500",
+     "publishedAt": 1763697998,
+     "potentialReturnPct": "5051",
+     "returnPct": "-2436",
+     "lotSize": 1,
+     "ltp": "284030"
+    },
+    {
+     "callId": 182930,
+     "scrip": {
+      "scripCode": 2885
+     },
+     "symbol": "RELIANCE",
+     "displayName": "NSE",
+     "companyName": "Reliance Industries Ltd",
+     "logoUrl": "img/cce2151cf12e.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "153600",
+     "targetPrice": "176500",
+     "stopLoss": "142300",
+     "publishedAt": 1763611767,
+     "potentialReturnPct": "5152",
+     "returnPct": "-2416",
+     "lotSize": 1,
+     "ltp": "116490"
+    },
+    {
+     "callId": 182494,
+     "scrip": {
+      "scripCode": 22377
+     },
+     "symbol": "MAXHEALTH",
+     "displayName": "NSE",
+     "companyName": "Max Healthcare Institute Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MaxHealthcareInstituteLtd._69725583_22865.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "114140",
+     "targetPrice": "136000",
+     "stopLoss": "103300",
+     "publishedAt": 1763438636,
+     "potentialReturnPct": "5814",
+     "returnPct": "-2465",
+     "lotSize": 1,
+     "ltp": "86000"
+    },
+    {
+     "callId": 182265,
+     "scrip": {
+      "scripCode": 27969
+     },
+     "symbol": "VMM",
+     "displayName": "NSE",
+     "companyName": "VISHAL MEGA MART LIMITED-VMM EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "13800",
+     "targetPrice": "14500",
+     "stopLoss": "12200",
+     "publishedAt": 1763352906,
+     "potentialReturnPct": "7180",
+     "returnPct": "-3884",
+     "lotSize": 1,
+     "ltp": "8440"
+    },
+    {
+     "callId": 182178,
+     "scrip": {
+      "scripCode": 15313
+     },
+     "symbol": "IRB",
+     "displayName": "NSE",
+     "companyName": "IRB Infrastructure Developers Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/IRBInfraDevl_42061995161_28365.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "2362",
+     "targetPrice": "2600",
+     "stopLoss": "2100",
+     "publishedAt": 1763351310,
+     "potentialReturnPct": "6529",
+     "returnPct": "-3340",
+     "lotSize": 1,
+     "ltp": "1573"
+    },
+    {
+     "callId": 181519,
+     "scrip": {
+      "scripCode": 11236
+     },
+     "symbol": "JSL",
+     "displayName": "NSE",
+     "companyName": "Jindal Stainless Ltd",
+     "logoUrl": "img/83ebb74aa9a9.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "73960",
+     "targetPrice": "87000",
+     "stopLoss": "67400",
+     "publishedAt": 1762919527,
+     "potentialReturnPct": "2908",
+     "returnPct": "-887",
+     "lotSize": 1,
+     "ltp": "67400"
+    },
+    {
+     "callId": 181245,
+     "scrip": {
+      "scripCode": 13035
+     },
+     "symbol": "SAFARI",
+     "displayName": "NSE",
+     "companyName": "Safari Industries (India) Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/SafariInds_98893928962_710.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "211100",
+     "targetPrice": "220000",
+     "stopLoss": "182000",
+     "publishedAt": 1762833298,
+     "potentialReturnPct": "8627",
+     "returnPct": "-4405",
+     "lotSize": 1,
+     "ltp": "118110"
+    },
+    {
+     "callId": 180974,
+     "scrip": {
+      "scripCode": 547
+     },
+     "symbol": "BRITANNIA",
+     "displayName": "NSE",
+     "companyName": "Britannia Industries Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/BritanniaInds_60979410361_93.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "621050",
+     "targetPrice": "715000",
+     "stopLoss": "574800",
+     "publishedAt": 1762746549,
+     "potentialReturnPct": "5409",
+     "returnPct": "-2529",
+     "lotSize": 1,
+     "ltp": "464000"
+    },
+    {
+     "callId": 180611,
+     "scrip": {
+      "scripCode": 25907
+     },
+     "symbol": "WAAREEENER",
+     "displayName": "NSE",
+     "companyName": "WAAREE ENERGIES LIMITED-WAAREEENER EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "335560",
+     "targetPrice": "360000",
+     "stopLoss": "302500",
+     "publishedAt": 1762401487,
+     "potentialReturnPct": "5625",
+     "returnPct": "-3134",
+     "lotSize": 1,
+     "ltp": "230400"
+    },
+    {
+     "callId": 180424,
+     "scrip": {
+      "scripCode": 3432
+     },
+     "symbol": "TATACONSUM",
+     "displayName": "NSE",
+     "companyName": "Tata Consumer Products Ltd",
+     "logoUrl": "img/cfe998f7f2d4.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "117080",
+     "targetPrice": "145000",
+     "stopLoss": "102900",
+     "publishedAt": 1762228724,
+     "potentialReturnPct": "4134",
+     "returnPct": "-1238",
+     "lotSize": 1,
+     "ltp": "102590"
+    },
+    {
+     "callId": 178498,
+     "scrip": {
+      "scripCode": 13061
+     },
+     "symbol": "360ONE",
+     "displayName": "NSE",
+     "companyName": "360 ONE WAM Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/IIFLWealthManagement_51720290_66008.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "117950",
+     "targetPrice": "140000",
+     "stopLoss": "106700",
+     "publishedAt": 1760938104,
+     "potentialReturnPct": "4213",
+     "returnPct": "-1649",
+     "lotSize": 1,
+     "ltp": "98500"
+    },
+    {
+     "callId": 177960,
+     "scrip": {
+      "scripCode": 25844
+     },
+     "symbol": "HYUNDAI",
+     "displayName": "NSE",
+     "companyName": "HYUNDAI MOTOR INDIA LTD-HYUNDAI EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "244690",
+     "targetPrice": "266300",
+     "stopLoss": "218900",
+     "publishedAt": 1760586505,
+     "potentialReturnPct": "3935",
+     "returnPct": "-2190",
+     "lotSize": 1,
+     "ltp": "191100"
+    },
+    {
+     "callId": 177537,
+     "scrip": {
+      "scripCode": 760213
+     },
+     "symbol": "LGEINDIA",
+     "displayName": "NSE",
+     "companyName": "LG ELECTRONICS INDIA LTD-LGEINDIA EQ",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "166370",
+     "targetPrice": "180000",
+     "stopLoss": "160000",
+     "publishedAt": 1760416936,
+     "potentialReturnPct": "834",
+     "returnPct": "-14",
+     "lotSize": 1,
+     "ltp": "166140"
+    },
+    {
+     "callId": 176594,
+     "scrip": {
+      "scripCode": 11956
+     },
+     "symbol": "MEDANTA",
+     "displayName": "NSE",
+     "companyName": "Global Health Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/GlobalHealthLtd_90263007_34649.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "137000",
+     "targetPrice": "159000",
+     "stopLoss": "126000",
+     "publishedAt": 1759897099,
+     "potentialReturnPct": "2517",
+     "returnPct": "-728",
+     "lotSize": 1,
+     "ltp": "127030"
+    },
+    {
+     "callId": 176321,
+     "scrip": {
+      "scripCode": 18822
+     },
+     "symbol": "ENDURANCE",
+     "displayName": "NSE",
+     "companyName": "Endurance Technologies Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/EnduranceTechnologiesLtd_39563549090_40457.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "290470",
+     "targetPrice": "320400",
+     "stopLoss": "270000",
+     "publishedAt": 1759809843,
+     "potentialReturnPct": "4093",
+     "returnPct": "-2173",
+     "lotSize": 1,
+     "ltp": "227340"
+    },
+    {
+     "callId": 176088,
+     "scrip": {
+      "scripCode": 2142
+     },
+     "symbol": "MFSL",
+     "displayName": "NSE",
+     "companyName": "Max Financial Services Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MaxFinancial_51299011415_372.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "162570",
+     "targetPrice": "200000",
+     "stopLoss": "143800",
+     "publishedAt": 1759724406,
+     "potentialReturnPct": "6667",
+     "returnPct": "-2619",
+     "lotSize": 1,
+     "ltp": "120000"
+    },
+    {
+     "callId": 176085,
+     "scrip": {
+      "scripCode": 467
+     },
+     "symbol": "HDFCLIFE",
+     "displayName": "NSE",
+     "companyName": "HDFC Life Insurance Company Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/HDFCLifeInsuranceCompanyLtd_86429089807_21997.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "75800",
+     "targetPrice": "78000",
+     "stopLoss": "68200",
+     "publishedAt": 1759724246,
+     "potentialReturnPct": "4860",
+     "returnPct": "-3075",
+     "lotSize": 1,
+     "ltp": "52490"
+    },
+    {
+     "callId": 175853,
+     "scrip": {
+      "scripCode": 1333
+     },
+     "symbol": "HDFCBANK",
+     "displayName": "NSE",
+     "companyName": "HDFC Bank Ltd",
+     "logoUrl": "img/80edb0d5ef78.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "95925",
+     "targetPrice": "105000",
+     "stopLoss": "86400",
+     "publishedAt": 1759465469,
+     "potentialReturnPct": "5156",
+     "returnPct": "-2778",
+     "lotSize": 1,
+     "ltp": "69280"
+    },
+    {
+     "callId": 175590,
+     "scrip": {
+      "scripCode": 14707
+     },
+     "symbol": "TIMETECHNO",
+     "displayName": "NSE",
+     "companyName": "Time Technoplast Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/TimeTechnoplast_46114320009_27753.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "21650",
+     "targetPrice": "25000",
+     "stopLoss": "17800",
+     "publishedAt": 1759292877,
+     "potentialReturnPct": "5744",
+     "returnPct": "-2666",
+     "lotSize": 1,
+     "ltp": "15879"
+    },
+    {
+     "callId": 174209,
+     "scrip": {
+      "scripCode": 3432
+     },
+     "symbol": "TATACONSUM",
+     "displayName": "NSE",
+     "companyName": "Tata Consumer Products Ltd",
+     "logoUrl": "img/cfe998f7f2d4.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "112190",
+     "targetPrice": "130000",
+     "stopLoss": "104000",
+     "publishedAt": 1758599625,
+     "potentialReturnPct": "2672",
+     "returnPct": "-856",
+     "lotSize": 1,
+     "ltp": "102590"
+    },
+    {
+     "callId": 174017,
+     "scrip": {
+      "scripCode": 2031
+     },
+     "symbol": "M&M",
+     "displayName": "NSE",
+     "companyName": "Mahindra & Mahindra Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MM_81551700988_365.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "359200",
+     "targetPrice": "414500",
+     "stopLoss": "331600",
+     "publishedAt": 1758514703,
+     "potentialReturnPct": "4594",
+     "returnPct": "-2093",
+     "lotSize": 1,
+     "ltp": "284030"
+    },
+    {
+     "callId": 173682,
+     "scrip": {
+      "scripCode": 10999
+     },
+     "symbol": "MARUTI",
+     "displayName": "NSE",
+     "companyName": "Maruti Suzuki India Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/MarutiSuzuki_13596837192_5496.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "1588200",
+     "targetPrice": "1789000",
+     "stopLoss": "1490000",
+     "publishedAt": 1758174217,
+     "potentialReturnPct": "5697",
+     "returnPct": "-2824",
+     "lotSize": 1,
+     "ltp": "1139700"
+    },
+    {
+     "callId": 172146,
+     "scrip": {
+      "scripCode": 11532
+     },
+     "symbol": "ULTRACEMCO",
+     "displayName": "NSE",
+     "companyName": "UltraTech Cement Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/UltraTechCem_63281629205_24951.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "1257300",
+     "targetPrice": "1365000",
+     "stopLoss": "1127400",
+     "publishedAt": 1757476088,
+     "potentialReturnPct": "2359",
+     "returnPct": "-1215",
+     "lotSize": 1,
+     "ltp": "1104500"
+    },
+    {
+     "callId": 171969,
+     "scrip": {
+      "scripCode": 15141
+     },
+     "symbol": "COLPAL",
+     "displayName": "NSE",
+     "companyName": "Colgate-Palmolive (India) Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/ColgatePalm_37609617182_118.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "239530",
+     "targetPrice": "250000",
+     "stopLoss": "217000",
+     "publishedAt": 1757391642,
+     "potentialReturnPct": "5659",
+     "returnPct": "-3335",
+     "lotSize": 1,
+     "ltp": "159650"
+    },
+    {
+     "callId": 169368,
+     "scrip": {
+      "scripCode": 21690
+     },
+     "symbol": "DIXON",
+     "displayName": "NSE",
+     "companyName": "Dixon Technologies (India) Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/DixonTechnologiesIndiaLtd_22760470989_35727.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "1679400",
+     "targetPrice": "1750000",
+     "stopLoss": "1404800",
+     "publishedAt": 1755839282,
+     "potentialReturnPct": "5909",
+     "returnPct": "-3450",
+     "lotSize": 1,
+     "ltp": "1100000"
+    },
+    {
+     "callId": 166200,
+     "scrip": {
+      "scripCode": 13816
+     },
+     "symbol": "LTFOODS",
+     "displayName": "NSE",
+     "companyName": "L T Foods Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/LTFoods_63425499182_27387.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "50415",
+     "targetPrice": "55000",
+     "stopLoss": "45900",
+     "publishedAt": 1753847604,
+     "potentialReturnPct": "4493",
+     "returnPct": "-2472",
+     "lotSize": 1,
+     "ltp": "37950"
+    },
+    {
+     "callId": 164960,
+     "scrip": {
+      "scripCode": 4244
+     },
+     "symbol": "HDFCAMC",
+     "displayName": "NSE",
+     "companyName": "HDFC Asset Management Company Ltd",
+     "logoUrl": "https://d1tymi9mhi46bx.cloudfront.net/cmot-logos/HDFCAssetManagementCompanyLtd_12019358568_21272.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "280200",
+     "targetPrice": "320000",
+     "stopLoss": "260000",
+     "publishedAt": 1752810700,
+     "potentialReturnPct": "3856",
+     "returnPct": "-1758",
+     "lotSize": 1,
+     "ltp": "230950"
+    },
+    {
+     "callId": 163406,
+     "scrip": {
+      "scripCode": 1922
+     },
+     "symbol": "KOTAKBANK",
+     "displayName": "NSE",
+     "companyName": "Kotak Mahindra Bank Ltd",
+     "logoUrl": "img/60196163870d.png",
+     "callType": "Investment Idea: Bluechip",
+     "callHorizon": "LongTermHorizon",
+     "entryPrice": "44600",
+     "targetPrice": "48000",
+     "stopLoss": "43000",
+     "publishedAt": 1751947648,
+     "potentialReturnPct": "399",
+     "returnPct": "350",
+     "isHighPotential": true,
+     "lotSize": 1,
+     "ltp": "46160"
+    }
+   ],
+   "chipCounts": [
+    {
+     "count": 6
+    },
+    {
+     "callHorizon": "LongTermHorizon",
+     "count": 130
+    },
+    {
+     "callHorizon": "MidTermHorizon",
+     "count": 5
+    },
+    {
+     "callHorizon": "ShortTermHorizon",
+     "count": 45
+    },
+    {
+     "callHorizon": "BtstHorizon",
+     "count": 7
+    },
+    {
+     "callHorizon": "IntradayHorizon",
+     "count": 34
+    },
+    {
+     "callHorizon": "MtfHorizon",
+     "count": 3
+    }
+   ]
+  },
+  "segment=EquitySegment&status=ClosedCall&callHorizon=LongTermHorizon": {
+   "chipCounts": [
+    {
+     "callHorizon": "IntradayHorizon",
+     "count": 1
+    }
+   ]
+  }
+ }
+}

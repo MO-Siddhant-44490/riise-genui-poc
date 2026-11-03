@@ -1,0 +1,39 @@
+{
+ "endpoint": "/cmsapi/v2/api/ActionCenter/ViewDetail",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "ActionCenterResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "summary": {
+   "sections": [
+    {
+     "sectionId": "alerts",
+     "label": "Alerts for you",
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/action-center/alerts.svg",
+     "totalCount": 1,
+     "pendingCount": 1
+    },
+    {
+     "sectionId": "news",
+     "label": "News Articles for you",
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/action-center/news.svg"
+    },
+    {
+     "sectionId": "spotlight",
+     "label": "Spotlights for you",
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/action-center/spotlight.svg",
+     "totalCount": 1,
+     "pendingCount": 1
+    },
+    {
+     "sectionId": "actions",
+     "label": "Pending Actions for you",
+     "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/action-center/actions.svg"
+    }
+   ]
+  },
+  "actions": {}
+ }
+}

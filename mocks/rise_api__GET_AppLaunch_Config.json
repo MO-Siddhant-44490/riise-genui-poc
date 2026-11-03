@@ -1,0 +1,343 @@
+{
+ "endpoint": "/cmsapi/v2/api/AppLaunch/Config",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "HeaderOptions",
+ "source_flow": "debug_dump",
+ "response": {
+  "tabs": [
+   {
+    "tabName": "Home",
+    "bannerUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset_banner_1793600786426_7923.webp",
+    "gifUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/hero_banner_1793604023212_255.json",
+    "lightFontColor": "#4d77c7",
+    "darkFontColor": "#c6d9ff",
+    "bottomNavbar": [
+     {
+      "name": "Explore",
+      "iconUrl": "img/4880106d218d.svg",
+      "selectedIconUrl": "img/66c79d51cf58.svg"
+     },
+     {
+      "name": "Watchlist",
+      "iconUrl": "img/4672cdb2f673.svg",
+      "selectedIconUrl": "img/7ab0009170b8.svg"
+     },
+     {
+      "name": "More",
+      "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/more.svg",
+      "selectedIconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/selected/more.svg"
+     },
+     {
+      "name": "Trades",
+      "iconUrl": "img/69179c0a1ec4.svg",
+      "selectedIconUrl": "img/2cfe977d0930.svg"
+     },
+     {
+      "name": "Portfolio",
+      "iconUrl": "img/9d2c90dc2416.svg",
+      "selectedIconUrl": "img/74591f617f67.svg"
+     },
+     {
+      "name": "Peak",
+      "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/peak.svg",
+      "selectedIconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/selected/peak.svg"
+     }
+    ],
+    "isEnabled": true
+   },
+   {
+    "productId": 1,
+    "tabName": "Stocks",
+    "productSequence": 1,
+    "bannerUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset_banner_1790059174907_5875.webp",
+    "lightFontColor": "#345799",
+    "darkFontColor": "#c6d9ff",
+    "bottomNavbar": [
+     {
+      "name": "Explore",
+      "iconUrl": "img/4880106d218d.svg",
+      "selectedIconUrl": "img/66c79d51cf58.svg"
+     },
+     {
+      "name": "Watchlist",
+      "iconUrl": "img/4672cdb2f673.svg",
+      "selectedIconUrl": "img/7ab0009170b8.svg"
+     },
+     {
+      "name": "More",
+      "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/more.svg",
+      "selectedIconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/selected/more.svg"
+     },
+     {
+      "name": "Trades",
+      "iconUrl": "img/69179c0a1ec4.svg",
+      "selectedIconUrl": "img/2cfe977d0930.svg"
+     },
+     {
+      "name": "Portfolio",
+      "iconUrl": "img/9d2c90dc2416.svg",
+      "selectedIconUrl": "img/74591f617f67.svg"
+     },
+     {
+      "name": "Peak",
+      "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/peak.svg",
+      "selectedIconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/selected/peak.svg"
+     }
+    ],
+    "isEnabled": true
+   },
+   {
+    "productId": 2,
+    "tabName": "F&O",
+    "productSequence": 2,
+    "bannerUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset_banner_1790059249101_8228.webp",
+    "lightFontColor": "#345799",
+    "darkFontColor": "#c6d9ff",
+    "bottomNavbar": [
+     {
+      "name": "Explore",
+      "iconUrl": "img/4880106d218d.svg",
+      "selectedIconUrl": "img/66c79d51cf58.svg"
+     },
+     {
+      "name": "Watchlist",
+      "iconUrl": "img/4672cdb2f673.svg",
+      "selectedIconUrl": "img/7ab0009170b8.svg"
+     },
+     {
+      "name": "More",
+      "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/more.svg",
+      "selectedIconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/selected/more.svg"
+     },
+     {
+      "name": "Trades",
+      "iconUrl": "img/69179c0a1ec4.svg",
+      "selectedIconUrl": "img/2cfe977d0930.svg"
+     },
+     {
+      "name": "Portfolio",
+      "iconUrl": "img/9d2c90dc2416.svg",
+      "selectedIconUrl": "img/74591f617f67.svg"
+     },
+     {
+      "name": "Peak",
+      "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/peak.svg",
+      "selectedIconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/selected/peak.svg"
+     }
+    ],
+    "isEnabled": true
+   },
+   {
+    "productId": 3,
+    "tabName": "Commodity",
+    "productSequence": 3,
+    "bannerUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset_banner_1790059230515_6162.webp",
+    "lightFontColor": "#345799",
+    "darkFontColor": "#c6d9ff",
+    "bottomNavbar": [
+     {
+      "name": "Explore",
+      "iconUrl": "img/4880106d218d.svg",
+      "selectedIconUrl": "img/66c79d51cf58.svg"
+     },
+     {
+      "name": "Watchlist",
+      "iconUrl": "img/4672cdb2f673.svg",
+      "selectedIconUrl": "img/7ab0009170b8.svg"
+     },
+     {
+      "name": "More",
+      "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/more.svg",
+      "selectedIconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/selected/more.svg"
+     },
+     {
+      "name": "Trades",
+      "iconUrl": "img/69179c0a1ec4.svg",
+      "selectedIconUrl": "img/2cfe977d0930.svg"
+     },
+     {
+      "name": "Portfolio",
+      "iconUrl": "img/9d2c90dc2416.svg",
+      "selectedIconUrl": "img/74591f617f67.svg"
+     },
+     {
+      "name": "Peak",
+      "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/peak.svg",
+      "selectedIconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/selected/peak.svg"
+     }
+    ],
+    "isEnabled": true
+   },
+   {
+    "productId": 4,
+    "tabName": "MF",
+    "productSequence": 4,
+    "bannerUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset_banner_1790059197854_2259.webp",
+    "lightFontColor": "#345799",
+    "darkFontColor": "#c6d9ff",
+    "bottomNavbar": [
+     {
+      "name": "Explore",
+      "iconUrl": "img/eccb5f67ee01.svg",
+      "selectedIconUrl": "img/758404d94190.svg"
+     },
+     {
+      "name": "SIPs",
+      "iconUrl": "img/8725b4e03ac7.svg",
+      "selectedIconUrl": "img/730b83d49c47.svg"
+     },
+     {
+      "name": "More",
+      "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/more.svg",
+      "selectedIconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/selected/more.svg"
+     },
+     {
+      "name": "Orders",
+      "iconUrl": "img/da63a0963068.svg",
+      "selectedIconUrl": "img/d817fee597a2.svg"
+     },
+     {
+      "name": "Portfolio",
+      "iconUrl": "img/9d2c90dc2416.svg",
+      "selectedIconUrl": "img/74591f617f67.svg"
+     }
+    ],
+    "isEnabled": true
+   },
+   {
+    "productId": 5,
+    "tabName": "Research",
+    "productSequence": 5,
+    "bannerUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset_banner_1790059346945_3217.webp",
+    "lightFontColor": "#345799",
+    "darkFontColor": "#c6d9ff",
+    "bottomNavbar": [
+     {
+      "name": "Explore",
+      "iconUrl": "img/34bcb070e050.svg",
+      "selectedIconUrl": "img/63860bc314de.svg"
+     },
+     {
+      "name": "Ideas",
+      "iconUrl": "img/bb4a8ac93801.svg",
+      "selectedIconUrl": "img/6d2ad28a1acb.svg"
+     },
+     {
+      "name": "Insights",
+      "iconUrl": "img/bb4a8ac93801.svg",
+      "selectedIconUrl": "img/6d2ad28a1acb.svg"
+     },
+     {
+      "name": "More",
+      "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/more.svg",
+      "selectedIconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/selected/more.svg"
+     },
+     {
+      "name": "Trades",
+      "iconUrl": "img/69179c0a1ec4.svg",
+      "selectedIconUrl": "img/2cfe977d0930.svg"
+     },
+     {
+      "name": "Portfolio",
+      "iconUrl": "img/9d2c90dc2416.svg",
+      "selectedIconUrl": "img/74591f617f67.svg"
+     }
+    ],
+    "isEnabled": true
+   },
+   {
+    "productId": 6,
+    "tabName": "US Stocks",
+    "productSequence": 6,
+    "bannerUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset_banner_1790059325635_6784.webp",
+    "lightFontColor": "#345799",
+    "darkFontColor": "#c6d9ff",
+    "bottomNavbar": [
+     {
+      "name": "Explore",
+      "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/usstocksExplore.svg",
+      "selectedIconUrl": "img/82ed13202e64.svg"
+     },
+     {
+      "name": "Watchlist",
+      "iconUrl": "img/4672cdb2f673.svg",
+      "selectedIconUrl": "img/7ab0009170b8.svg"
+     },
+     {
+      "name": "More",
+      "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/more.svg",
+      "selectedIconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/selected/more.svg"
+     },
+     {
+      "name": "Trades",
+      "iconUrl": "img/69179c0a1ec4.svg",
+      "selectedIconUrl": "img/2cfe977d0930.svg"
+     },
+     {
+      "name": "Portfolio",
+      "iconUrl": "img/9d2c90dc2416.svg",
+      "selectedIconUrl": "img/74591f617f67.svg"
+     }
+    ],
+    "isEnabled": true
+   },
+   {
+    "productId": 7,
+    "tabName": "StratX",
+    "productSequence": 7,
+    "bannerUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset_banner_1790059362843_3156.webp",
+    "lightFontColor": "#345799",
+    "darkFontColor": "#c6d9ff",
+    "bottomNavbar": [
+     {
+      "name": "Explore",
+      "iconUrl": "img/911b1d46c9f2.svg",
+      "selectedIconUrl": "img/8212b545ae99.svg"
+     },
+     {
+      "name": "Strategies",
+      "iconUrl": "img/dc42e06f6417.svg",
+      "selectedIconUrl": "img/14752ed6055f.svg"
+     },
+     {
+      "name": "More",
+      "iconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/more.svg",
+      "selectedIconUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/bottom-nav/selected/more.svg"
+     },
+     {
+      "name": "SX Trade",
+      "iconUrl": "img/bd40f1789e8d.svg",
+      "selectedIconUrl": "img/8557d0df4f67.svg"
+     },
+     {
+      "name": "SX History",
+      "iconUrl": "img/0bac5e460263.svg",
+      "selectedIconUrl": "img/5e46788700ac.svg"
+     }
+    ],
+    "isEnabled": true
+   },
+   {
+    "productId": 9,
+    "tabName": "Bonds",
+    "productSequence": 9,
+    "bottomNavbar": [
+     {
+      "name": "Explore",
+      "iconUrl": "img/4880106d218d.svg",
+      "selectedIconUrl": "img/66c79d51cf58.svg"
+     }
+    ],
+    "isEnabled": true
+   }
+  ],
+  "guestTheme": {
+   "bgImageUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/asset_banners/guest-bgbanner.png",
+   "inProgressGifUrl": "https://d3dcs14qkauvac.cloudfront.net/SuperAppCMS/light/hero-banner/guest-verification.png",
+   "lightFontColor": "#B9D0FD",
+   "darkFontColor": "#c6d9ff"
+  }
+ }
+}

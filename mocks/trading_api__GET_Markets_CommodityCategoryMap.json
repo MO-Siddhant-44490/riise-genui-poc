@@ -1,0 +1,16 @@
+{
+ "endpoint": "/TradingApiV2/api/Markets/CommodityCategoryMap",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "CommodityCategoryMapResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "commodityCodes": [
+   "CRUDEOIL",
+   "CRUDEOILM",
+   "NATURALGAS",
+   "NATGASMINI"
+  ]
+ }
+}

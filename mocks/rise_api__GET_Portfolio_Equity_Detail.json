@@ -1,0 +1,116 @@
+{
+ "endpoint": "/wms/v2/api/Portfolio/Equity/Detail",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "PortfolioEquityResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "entry": [
+   {
+    "id": {
+     "scripCode": 532712,
+     "exchange": "BSE"
+    },
+    "isin": "INE330H01018",
+    "tradeSymbol": "RCOM",
+    "totalQuantity": 1,
+    "availableQuantity": 1,
+    "buyAvgPrice": "666",
+    "investedValue": "666",
+    "ltp": "103",
+    "marketValue": "103",
+    "overallChange": "-563",
+    "overallChangePercent": -8453,
+    "daysChange": "1",
+    "daysChangePercent": 98,
+    "sectorId": 79,
+    "companyName": "Reliance Communications Ltd",
+    "sectorName": "Telecomm-Service",
+    "recommendationType": "NONE",
+    "xirr": -2393
+   },
+   {
+    "id": {
+     "scripCode": 532648,
+     "exchange": "BSE"
+    },
+    "isin": "INE528G01035",
+    "tradeSymbol": "YESBANK",
+    "totalQuantity": 90,
+    "availableQuantity": 90,
+    "buyAvgPrice": "7307",
+    "investedValue": "657662",
+    "ltp": "2094",
+    "marketValue": "188460",
+    "overallChange": "-469202",
+    "overallChangePercent": -7134,
+    "daysChange": "-6300",
+    "daysChangePercent": -323,
+    "hasEvents": true,
+    "eventFlags": "8",
+    "sectorId": 7,
+    "companyName": "Yes Bank Ltd",
+    "isSipEnabled": true,
+    "hasDerivatives": true,
+    "sectorName": "Banks",
+    "recommendationType": "NONE",
+    "xirr": -1925
+   }
+  ],
+  "unlistedScrips": [
+   {
+    "scripName": "HDFC Silver ETF FoF Reg-G",
+    "totalQuantity": 200,
+    "investedValue": "851119",
+    "avgPrice": "4255"
+   },
+   {
+    "scripName": "MOTILAL OSWAL HOME FINANCE LIMITED#FORMERLY ASPIRE HOME FINANCE CORPORATION LIMITED",
+    "totalQuantity": 10000
+   }
+  ],
+  "topHoldings": {
+   "scrips": [
+    {
+     "id": {
+      "scripCode": 532648,
+      "exchange": "BSE"
+     },
+     "qty": 90,
+     "values": {
+      "invested": "657662",
+      "prevDay": "194760",
+      "market": "188460"
+     }
+    },
+    {
+     "id": {
+      "scripCode": 532712,
+      "exchange": "BSE"
+     },
+     "qty": 1,
+     "values": {
+      "invested": "666",
+      "prevDay": "102",
+      "market": "103"
+     }
+    }
+   ],
+   "total": {
+    "invested": "658328",
+    "prevDay": "194862",
+    "market": "188563"
+   },
+   "remaining": {}
+  },
+  "summary": {
+   "name": "Stocks",
+   "investedValue": "658328",
+   "marketValue": "188563",
+   "daysChange": "-6299",
+   "overallChange": "-469765",
+   "deepLinkUrl": "portfolio/equity"
+  }
+ }
+}

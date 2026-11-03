@@ -1,0 +1,9 @@
+{
+ "endpoint": "/TradingApiV2/api/TradingReport/GetTrigXOrderReport",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "OrderReportResponseV4",
+ "source_flow": "debug_dump",
+ "response": {}
+}

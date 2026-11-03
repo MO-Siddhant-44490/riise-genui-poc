@@ -1,0 +1,287 @@
+{
+ "endpoint": "/master/Master/GetDatabyType",
+ "method": "POST",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "MfCollectionModel",
+ "source_flow": "debug_dump",
+ "response": {
+  "status": true,
+  "data": [
+   {
+    "id": 15,
+    "subassettype": "MF",
+    "collectiontype": "COLLECTION TILES",
+    "collectionname": "Most Popular",
+    "collectiondescription": "Funds with a high investor's attention & large AUM.",
+    "iconUrl": ""
+   },
+   {
+    "id": 16,
+    "subassettype": "MF",
+    "collectiontype": "COLLECTION TILES",
+    "collectionname": "Consistent Compounder",
+    "collectiondescription": "MFs with consistent records of growth & profitability.",
+    "iconUrl": ""
+   },
+   {
+    "id": 18,
+    "subassettype": "MF",
+    "collectiontype": "COLLECTION TILES",
+    "collectionname": "Highest Rated Funds",
+    "collectiondescription": "Discover funds with high ratings for performance.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Highest%20Rated%20Funds.svg"
+   },
+   {
+    "id": 31,
+    "subassettype": "MF",
+    "collectiontype": "COLLECTION",
+    "collectionname": "High Return",
+    "collectiondescription": "Explore funds with the potential for high returns.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/High%20Return.svg"
+   },
+   {
+    "id": 19,
+    "subassettype": "MF",
+    "collectiontype": "COLLECTION",
+    "collectionname": "SIP with ₹500",
+    "collectiondescription": "Start investing with just ₹500 through SIPs",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/SIP%20with%20%E2%82%B9500.svg"
+   },
+   {
+    "id": 20,
+    "subassettype": "MF",
+    "collectiontype": "COLLECTION",
+    "collectionname": "Tax Saver",
+    "collectiondescription": "Pick expert-chosen funds designed to help you save tax",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Tax%20Saver.svg"
+   },
+   {
+    "id": 32,
+    "subassettype": "MF",
+    "collectiontype": "COLLECTION",
+    "collectionname": "Smart Picks",
+    "collectiondescription": "Funds recommended by Motilal Oswal for optimal returns.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Smart%20Picks.svg"
+   },
+   {
+    "id": 28,
+    "subassettype": "MF",
+    "collectiontype": "COLLECTION",
+    "collectionname": "Highest Rated Funds",
+    "collectiondescription": "Discover funds with high ratings for performance.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Highest%20Rated%20Funds.svg"
+   },
+   {
+    "id": 23,
+    "subassettype": "MF",
+    "collectiontype": "COLLECTION",
+    "collectionname": "Index Funds",
+    "collectiondescription": "Invest in funds that track market indices.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Index%20Funds.svg"
+   },
+   {
+    "id": 22,
+    "subassettype": "MF",
+    "collectiontype": "COLLECTION",
+    "collectionname": "Wealth Builder",
+    "collectiondescription": "Build your wealth with funds designed for growth.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Wealth%20Builder.svg"
+   },
+   {
+    "id": 21,
+    "subassettype": "MF",
+    "collectiontype": "COLLECTION",
+    "collectionname": "International Funds",
+    "collectiondescription": "Diversify your portfolio with international investment options.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/International%20Funds.svg"
+   },
+   {
+    "id": 24,
+    "subassettype": "MF",
+    "collectiontype": "COLLECTION",
+    "collectionname": "New Fund Offerings",
+    "collectiondescription": "Explore newly launched funds to diversify your investments.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/NFO.svg"
+   },
+   {
+    "id": 9,
+    "subassettype": "MF",
+    "collectiontype": "EQUITY",
+    "collectionname": "Small Cap",
+    "collectiondescription": "Invest in small-cap funds for potential high growth.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Smallcap.svg"
+   },
+   {
+    "id": 10,
+    "subassettype": "MF",
+    "collectiontype": "EQUITY",
+    "collectionname": "Mid Cap",
+    "collectiondescription": "Explore mid-cap funds for balanced growth potential.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Midcap.svg"
+   },
+   {
+    "id": 11,
+    "subassettype": "MF",
+    "collectiontype": "EQUITY",
+    "collectionname": "Large Cap",
+    "collectiondescription": "Invest in large-cap funds for stable returns.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Largecap.svg"
+   },
+   {
+    "id": 12,
+    "subassettype": "MF",
+    "collectiontype": "EQUITY",
+    "collectionname": "Large & Mid Cap",
+    "collectiondescription": "Blend of large and mid-cap funds for balanced growth.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Large%20&%20Midcap.svg"
+   },
+   {
+    "id": 13,
+    "subassettype": "MF",
+    "collectiontype": "EQUITY",
+    "collectionname": "Flexi Cap",
+    "collectiondescription": "Invest in a flexible mix of large, mid, and small-cap funds.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Flexicap.svg"
+   },
+   {
+    "id": 14,
+    "subassettype": "MF",
+    "collectiontype": "EQUITY",
+    "collectionname": "Tax Saver",
+    "collectiondescription": "Invest in funds that offer tax-saving benefits & shortest lock-in of 3 years",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Tax%20Saver.svg"
+   },
+   {
+    "id": 3,
+    "subassettype": "MF",
+    "collectiontype": "DEBT",
+    "collectionname": "Liquid Funds",
+    "collectiondescription": "Opt for liquid funds for high liquidity and safety.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Liquid%20Funds.svg"
+   },
+   {
+    "id": 25,
+    "subassettype": "MF",
+    "collectiontype": "DEBT",
+    "collectionname": "Dynamic Fund",
+    "collectiondescription": "Invest in dynamically managed funds for optimal returns.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Dynamic%20Funds.svg"
+   },
+   {
+    "id": 5,
+    "subassettype": "MF",
+    "collectiontype": "DEBT",
+    "collectionname": "Long Duration",
+    "collectiondescription": "Explore long-duration funds for potential higher returns.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Long%20Duration%20Funds.svg"
+   },
+   {
+    "id": 6,
+    "subassettype": "MF",
+    "collectiontype": "DEBT",
+    "collectionname": "Short Duration",
+    "collectiondescription": "Invest in short-duration funds for lower interest rate risk.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Short%20Duration%20Funds.svg"
+   },
+   {
+    "id": 7,
+    "subassettype": "MF",
+    "collectiontype": "DEBT",
+    "collectionname": "Banking & PSU",
+    "collectiondescription": "Invest in funds that primarily hold securities of banks and PSUs for stability.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Banking%20&%20PSU%20Funds.svg"
+   },
+   {
+    "id": 8,
+    "subassettype": "MF",
+    "collectiontype": "DEBT",
+    "collectionname": "Corporate Bonds",
+    "collectiondescription": "Explore funds investing in highly rated corporate bonds for fixed income.",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/Mf/Light/Corporate%20Bonds.svg"
+   },
+   {
+    "id": 41,
+    "subassettype": "MF",
+    "collectiontype": "AMC",
+    "collectionname": "Motilal Oswal",
+    "collectiondescription": "Explore all mutual funds from Motilal oswal",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/icons/logos/MotilOswal_NewLogo.png"
+   },
+   {
+    "id": 37,
+    "subassettype": "MF",
+    "collectiontype": "AMC",
+    "collectionname": "SBI",
+    "collectiondescription": "Explore all mutual funds from SBI",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/dark-themes/MF-Collection/sbi_mf_logo.png"
+   },
+   {
+    "id": 38,
+    "subassettype": "MF",
+    "collectiontype": "AMC",
+    "collectionname": "ICICI",
+    "collectiondescription": "Explore all mutual funds from ICICI",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/dark-themes/MF-Collection/icici_mf_logo.png"
+   },
+   {
+    "id": 39,
+    "subassettype": "MF",
+    "collectiontype": "AMC",
+    "collectionname": "HDFC",
+    "collectiondescription": "Explore all mutual funds from HDFC",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/dark-themes/MF-Collection/hdfc_mf_logo.png"
+   },
+   {
+    "id": 40,
+    "subassettype": "MF",
+    "collectiontype": "AMC",
+    "collectionname": "Nippon",
+    "collectiondescription": "Explore all mutual funds from Nippon",
+    "iconUrl": "https://d2kq2qiht771rt.cloudfront.net/RiiseIcon/MF/Nippon.png"
+   },
+   {
+    "id": 45,
+    "subassettype": "MF",
+    "collectiontype": "HYBRID",
+    "collectionname": "Conservative",
+    "collectiondescription": "Explore funds with the potential for high returns.",
+    "iconUrl": ""
+   },
+   {
+    "id": 44,
+    "subassettype": "MF",
+    "collectiontype": "HYBRID",
+    "collectionname": "Balanced",
+    "collectiondescription": "Explore funds with the potential for high returns.",
+    "iconUrl": ""
+   },
+   {
+    "id": 46,
+    "subassettype": "MF",
+    "collectiontype": "HYBRID",
+    "collectionname": "Arbitrage",
+    "collectiondescription": "Explore funds with the potential for high returns.",
+    "iconUrl": ""
+   },
+   {
+    "id": 47,
+    "subassettype": "MF",
+    "collectiontype": "EXPLORE",
+    "collectionname": "Research Funds",
+    "collectiondescription": "",
+    "iconUrl": ""
+   },
+   {
+    "id": 43,
+    "subassettype": "MF",
+    "collectiontype": "HYBRID",
+    "collectionname": "Aggressive",
+    "collectiondescription": "Explore funds with the potential for high returns.",
+    "iconUrl": ""
+   }
+  ],
+  "message": "success",
+  "statuscode": "200"
+ }
+}

@@ -1,0 +1,360 @@
+{
+ "endpoint": "/TradingApiV2/api/TradingReport/MarginReport",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "MarginReportV4",
+ "source_flow": "debug_dump",
+ "response": {
+  "entry": [
+   {
+    "label": "Available for Trade (A)-(B)-(C)-(D)",
+    "value": "5000000000",
+    "second": [
+     {
+      "label": "Cash or SLBM",
+      "description": "Funds available for investing in equities and SLBM (Securities Lending and Borrowing Market)",
+      "value": "5000000000"
+     },
+     {
+      "label": "F&O",
+      "description": "Funds available for trading in futures and options",
+      "value": "5000000000"
+     },
+     {
+      "label": "Currency ",
+      "description": "Funds available for  trading in currency",
+      "value": "5000000000"
+     },
+     {
+      "label": "Commodity ",
+      "description": "Funds available for  trading in commodity",
+      "value": "5000000000"
+     },
+     {
+      "label": "Option Buy FO",
+      "value": "5000000000"
+     },
+     {
+      "label": "Option Buy Currency",
+      "value": "5000000000"
+     },
+     {
+      "label": "Option Buy MCX",
+      "value": "5000000000"
+     },
+     {
+      "label": "Option Buy NCDEX",
+      "value": "5000000000"
+     },
+     {
+      "label": "Option Buy NSECO/BSECO",
+      "value": "5000000000"
+     }
+    ]
+   },
+   {
+    "label": "(A) Total Margin",
+    "value": "5000000000",
+    "second": [
+     {
+      "label": "Cash Margin",
+      "value": "5000000000",
+      "third": [
+       {
+        "label": "Opening Balance",
+        "description": "Previous day cleared fund",
+        "value": "5000000000"
+       },
+       {
+        "label": "Funds Added Today",
+        "description": "Funds Added by you today to your trading account"
+       },
+       {
+        "label": "MTF Loss",
+        "description": "Loss from a Margin funded position"
+       },
+       {
+        "label": "Credit for Sell",
+        "description": "Funds Received from Selling Stocks, ETFs etc."
+       },
+       {
+        "label": "Option Premium Received",
+        "description": "Funds Received from Selling Carry Forward Options"
+       },
+       {
+        "label": "Realised Cheque Amount.",
+        "description": "Cheque Amount Cleared during the Day"
+       }
+      ]
+     },
+     {
+      "label": "Non-Cash Margin",
+      "third": [
+       {
+        "label": "Margin Against Stocks Pledged",
+        "fourth": [
+         {
+          "label": "UnApproved Stock Margin",
+          "entry": [
+           {
+            "label": "Intraday",
+            "description": "Pledge Margin benefit from unapproved stocks for Intraday Trading "
+           },
+           {
+            "label": "Delivery",
+            "description": "Pledge Margin benefit from unapproved stocks for Delivery Trading "
+           },
+           {
+            "label": "F&O",
+            "description": "Pledge Margin benefit from unapproved stocks for Futures and Options"
+           },
+           {
+            "label": "Currency",
+            "description": "Pledge Margin benefit from unapproved stocks for Currency Trading"
+           },
+           {
+            "label": "Commodity",
+            "description": "Pledge Margin benefit from unapproved stocks for Commodity Trading"
+           }
+          ]
+         },
+         {
+          "label": "Cash Equivalent ",
+          "description": "Pledge Margin Available from ETFs etc."
+         },
+         {
+          "label": "Approved Stock Margin",
+          "description": "Pledge Margin Available from exchange approved stocks "
+         }
+        ]
+       },
+       {
+        "label": "Additional Margin",
+        "description": "Additional Margin limit provided for Trading "
+       },
+       {
+        "label": "Margin against Mutual Fund Pledged",
+        "fourth": [
+         {
+          "label": "Unapproved Mutual fund/NCD/BOND/FDs Margin",
+          "description": "Pledged Margin Available from exchange unapproved Mutual fund/NCD/BOND/FDs"
+         },
+         {
+          "label": "Mutual Fund Cash Equivalent",
+          "description": "Pledge Margin Available from Liquid mutual funds etc."
+         },
+         {
+          "label": "Approved Mutual Fund Margin",
+          "description": "Pledge Margin Available from exchange approved Mutual fund/NCD/BOND/FDs"
+         }
+        ]
+       },
+       {
+        "label": "Outstanding / Cuspa Stock Benefit",
+        "description": "Outstanding / Cuspa Stock Benefit"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "label": "(B) Margin Usage Details ",
+    "second": [
+     {
+      "label": "Equities",
+      "third": [
+       {
+        "label": "Margin on orders/Trades"
+       },
+       {
+        "label": "Margin used for Mutual Funds, IPOs, Bonds, and FDs.",
+        "description": "Margin Used for Mutual Funds / IPO / BONDS / FD"
+       },
+       {
+        "label": "Margin used for Margin Trading Facility.",
+        "description": "Margin Used against MTF Positions"
+       },
+       {
+        "label": "ASDMargin"
+       }
+      ]
+     },
+     {
+      "label": "FO",
+      "third": [
+       {
+        "label": "Span + Premium paid",
+        "description": "Span Margin on Orders/Trades and Premium Paid for F&O"
+       },
+       {
+        "label": "Exposure",
+        "description": "Exposure margin on Orders/Trades for F&O"
+       },
+       {
+        "label": "Other Margins",
+        "description": "Special/Additional margin on Orders/Trades for F&O"
+       },
+       {
+        "label": "Option Obligation",
+        "description": "Net of premium payable and receivable"
+       }
+      ]
+     },
+     {
+      "label": "Currency",
+      "third": [
+       {
+        "label": "Span + Premium paid",
+        "description": "Span Margin on Orders/Trades and Premium Paid for Currency "
+       },
+       {
+        "label": "Exposure",
+        "description": "Exposure margin on Orders/Trades for Currency"
+       },
+       {
+        "label": "Other Margins",
+        "description": "Special/Additional margin on Orders/Trades for Currency"
+       },
+       {
+        "label": "Option Obligation",
+        "description": "Net of premium payable and receivable "
+       }
+      ]
+     },
+     {
+      "label": "Commodity",
+      "third": [
+       {
+        "label": "Span + Premium paid",
+        "description": "Span Margin on Orders/Trades and Premium Paid for Commodity "
+       },
+       {
+        "label": "Exposure",
+        "description": "Exposure margin on Orders/Trades for Commodity"
+       },
+       {
+        "label": "Other Margins",
+        "description": "Special/Additional margin on Orders/Trades for Commodity "
+       },
+       {
+        "label": "Option Obligation",
+        "description": "Net of premium payable and receivable ",
+        "fourth": [
+         {
+          "label": "MCX"
+         },
+         {
+          "label": "NCDEX"
+         },
+         {
+          "label": "NSECO/BSECO"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "label": "SLBM Margin",
+      "description": "Margin used for Securities Lending and Borrowing market"
+     },
+     {
+      "label": "Brokerage",
+      "description": "Approx brokerage and other charges "
+     }
+    ]
+   },
+   {
+    "label": "(C) Profit/Loss details",
+    "second": [
+     {
+      "label": "Equities",
+      "third": [
+       {
+        "label": "Unrealised P&L",
+        "description": "Potential Profit/Loss from Open Stock Positions"
+       },
+       {
+        "label": "Realised P&L",
+        "description": "Actual Profit/Loss from Closed Stock Positions"
+       },
+       {
+        "label": "MTF/SLBM Unrealised P&L",
+        "description": "Potential Profit/Loss from Open Margin Trading Facility/Short-Term Lending and Borrowing Positions"
+       },
+       {
+        "label": "MTF/SLBM Realised P&L ",
+        "description": "Actual Profit/Loss from Closed Margin Trading Facility/Short-Term Lending and Borrowing Positions"
+       }
+      ]
+     },
+     {
+      "label": "FO",
+      "third": [
+       {
+        "label": "Unrealised P&L",
+        "description": "Potential Profit/Loss from Open Futures and Options Positions"
+       },
+       {
+        "label": "Realised P&L",
+        "description": "Actual Profit/Loss from Closed Futures and Options Positions"
+       }
+      ]
+     },
+     {
+      "label": "Currency",
+      "third": [
+       {
+        "label": "Unrealised P&L",
+        "description": "Potential Profit/Loss from Open Currency Positions"
+       },
+       {
+        "label": "Realised P&L",
+        "description": "Actual Profit/Loss from Closed Currency Positions"
+       }
+      ]
+     },
+     {
+      "label": "Commodity",
+      "third": [
+       {
+        "label": "Unrealised P&L",
+        "description": "Potential Profit/Loss from Open Commodity Positions"
+       },
+       {
+        "label": "Realised P&L",
+        "description": "Actual Profit/Loss from Closed Commodity Positions"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "label": "(D) Others",
+    "second": [
+     {
+      "label": "Fund Withdrawal Request",
+      "description": "Funds Requested to be Sent to Your Bank Account"
+     },
+     {
+      "label": "Max Fund Withdrawal for the day",
+      "description": "Maximum Amount You Can Withdraw Today"
+     },
+     {
+      "label": "Unrealize Cheque Amount",
+      "description": "Funds from uncleared cheque amount"
+     }
+    ]
+   }
+  ],
+  "openingBalance": "5000000000",
+  "available": {
+   "overall": "5000000000",
+   "cash": "5000000000",
+   "fno": "5000000000",
+   "currency": "5000000000",
+   "commodity": "5000000000",
+   "optionBuy": "5000000000"
+  }
+ }
+}

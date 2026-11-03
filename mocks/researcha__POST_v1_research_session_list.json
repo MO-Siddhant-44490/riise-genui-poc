@@ -1,0 +1,60 @@
+{
+ "endpoint": "/api/v1/research/session_list",
+ "method": "POST",
+ "host": "researcha.dev.motilaloswal.cloud",
+ "http_status": 200,
+ "decoded_as": "SessionHistory",
+ "source_flow": "debug_dump",
+ "response": {
+  "status": "Success",
+  "code": 200,
+  "message": "Request successful",
+  "data": [
+   {
+    "sessionId": "<redacted>-ses-c903ab02-6703-4377-8b3e-65a9a8a2047c",
+    "title": "Give me research report on JSL",
+    "timestamp": "2026-11-02T07:07:45.967567+00:00"
+   },
+   {
+    "sessionId": "<redacted>-ses-ec8ec54e-64a9-4bc1-888a-21e57b2f150b",
+    "title": "52 week high stocks on NSE",
+    "timestamp": "2026-03-19T06:10:25.286022+00:00"
+   },
+   {
+    "sessionId": "<redacted>-ses-0a3c7157-9c04-4486-93d4-f4f7f8b01c4f",
+    "title": "Stocks with high return on equity",
+    "timestamp": "2026-03-12T10:41:57.430554+00:00"
+   },
+   {
+    "sessionId": "<redacted>-ses-c04515e8-81cf-486a-95f3-adf91e238255",
+    "title": "New session for <redacted>  <redacted>  .",
+    "timestamp": "2025-11-21T11:21:11.432830+00:00"
+   },
+   {
+    "sessionId": "<redacted>-ses-42840750-e98b-4f74-b901-7aa11b0818bc",
+    "title": "New session for <redacted>  <redacted>  .",
+    "timestamp": "2025-11-17T07:38:00.630858+00:00"
+   },
+   {
+    "sessionId": "<redacted>-ses-c46d8461-b552-4acc-b5cf-8e6c738d10f9",
+    "title": "New session for <redacted>  <redacted>  .",
+    "timestamp": "2025-11-17T06:21:15.286001+00:00"
+   },
+   {
+    "sessionId": "<redacted>-ses-91fb3526-d99f-4e87-b0f8-0e575d8f7139",
+    "title": "New session for <redacted>  <redacted>  .",
+    "timestamp": "2025-11-17T05:46:22.194747+00:00"
+   },
+   {
+    "sessionId": "<redacted>-ses-fee6977c-bec8-4db4-95d6-8b1ea3ef5062",
+    "title": "New session for User",
+    "timestamp": "2025-11-11T03:57:23.522141+00:00"
+   },
+   {
+    "sessionId": "<redacted>-ses-b91692a9-5442-4d7d-8561-3974e009cea2",
+    "title": "New session for User",
+    "timestamp": "2025-11-11T03:45:01.245070+00:00"
+   }
+  ]
+ }
+}

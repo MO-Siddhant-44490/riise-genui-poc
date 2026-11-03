@@ -1,0 +1,26 @@
+{
+ "endpoint": "/transaction/v2/api/Mf/Cart/Summary",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "CartSummaryResponseModel",
+ "source_flow": "debug_dump",
+ "response": {
+  "data": {
+   "sipCount": 1,
+   "lumpsumCount": 0,
+   "sipTotal": 5000,
+   "lumpsumTotal": 0,
+   "totalCount": 1,
+   "grandTotal": 5000,
+   "schemeLogos": [
+    {
+     "isin": "INF247L01965",
+     "schemeName": "Motilal Oswal Large and Midcap Fund Regular-Growth",
+     "amcLogoUrl": "https://www.valueresearchonline.com/content-assets/images/amc-logo/9054-motilal-oswal-3__BASE__.png",
+     "itemAdded": 1
+    }
+   ]
+  }
+ }
+}

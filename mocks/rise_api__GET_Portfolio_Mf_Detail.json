@@ -1,0 +1,212 @@
+{
+ "endpoint": "/wms/v2/api/Portfolio/Mf/Detail",
+ "method": "GET",
+ "host": "api.dev.riseapp.in",
+ "http_status": 200,
+ "decoded_as": "PortfolioMfResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "entry": [
+   {
+    "ucid": 4965701,
+    "isin": "INF179KC1DV5",
+    "schemeName": "HDFC Silver ETF FoF Reg-G",
+    "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "units": "412303",
+    "investedValue": "1599916",
+    "marketValue": "1213815",
+    "dayChange": "-46367",
+    "dayChangePer": -381,
+    "sip": {
+     "dayChange": "-46367",
+     "dayChangePer": -381,
+     "investedValue": "1599916",
+     "marketValue": "1213815",
+     "units": "412303",
+     "xirr": -4845,
+     "avgNav": "3880",
+     "investedOn": 1767312000,
+     "nextInstallmentDate": 1793750400,
+     "nextInstallmentAmount": "200000"
+    },
+    "categoryRankInfo": {
+     "categoryRank": 11,
+     "totalRank": 15
+    },
+    "avgNav": "3880"
+   },
+   {
+    "ucid": 4965701,
+    "isin": "INF179KA1RZ8",
+    "schemeName": "HDFC Small Cap Reg-G",
+    "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/302-hdfc-1__BASE__.png",
+    "units": "8765",
+    "investedValue": "89758",
+    "marketValue": "113361",
+    "dayChange": "-2108",
+    "dayChangePer": -185,
+    "lumpsum": {
+     "dayChange": "-2108",
+     "dayChangePer": -185,
+     "investedValue": "89758",
+     "marketValue": "113361",
+     "units": "8765",
+     "xirr": 797,
+     "avgNav": "10240",
+     "investedOn": 1693180800
+    },
+    "categoryRankInfo": {
+     "categoryRank": 29,
+     "totalRank": 34
+    },
+    "avgNav": "10240"
+   },
+   {
+    "ucid": 4965701,
+    "isin": "INF174K01DS9",
+    "schemeName": "Kotak Mid Cap Reg-G",
+    "units": "3496",
+    "investedValue": "49996",
+    "marketValue": "46220",
+    "dayChange": "-402",
+    "dayChangePer": -86,
+    "sip": {
+     "dayChange": "-402",
+     "dayChangePer": -86,
+     "investedValue": "49996",
+     "marketValue": "46220",
+     "units": "3496",
+     "xirr": -2255,
+     "avgNav": "14300",
+     "investedOn": 1777852800,
+     "nextInstallmentDate": 1793577600,
+     "nextInstallmentAmount": "10000"
+    },
+    "categoryRankInfo": {
+     "categoryRank": 25,
+     "totalRank": 49
+    },
+    "avgNav": "14300"
+   },
+   {
+    "ucid": 4965701,
+    "isin": "INF959L01EE9",
+    "schemeName": "Navi Flexi Cap Reg-G",
+    "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8927-navi-2__BASE__.png",
+    "units": "13",
+    "investedValue": "23",
+    "marketValue": "30",
+    "sip": {
+     "investedValue": "23",
+     "marketValue": "30",
+     "units": "13",
+     "xirr": 4075,
+     "avgNav": "1769",
+     "investedOn": 1693180800,
+     "nextInstallmentAmount": "1000"
+    },
+    "categoryRankInfo": {
+     "categoryRank": 58,
+     "totalRank": 73
+    },
+    "avgNav": "1769"
+   },
+   {
+    "ucid": 4965701,
+    "isin": "INF959L01CK0",
+    "schemeName": "Navi Large & Midcap-G",
+    "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/8927-navi-2__BASE__.png",
+    "units": "18",
+    "investedValue": "50",
+    "marketValue": "61",
+    "lumpsum": {
+     "investedValue": "50",
+     "marketValue": "61",
+     "units": "18",
+     "xirr": 1015,
+     "avgNav": "2777",
+     "investedOn": 1693180800
+    },
+    "categoryRankInfo": {
+     "categoryRank": 42,
+     "totalRank": 43
+    },
+    "avgNav": "2777"
+   },
+   {
+    "ucid": 4965701,
+    "isin": "INF204K01489",
+    "schemeName": "Nippon India Multi Cap-G",
+    "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/24-nippon-india-3__BASE__.png",
+    "units": "740",
+    "investedValue": "20000",
+    "marketValue": "20685",
+    "dayChange": "-97",
+    "dayChangePer": -46,
+    "sip": {
+     "dayChange": "-48",
+     "dayChangePer": -46,
+     "investedValue": "10000",
+     "marketValue": "10342",
+     "units": "370",
+     "xirr": 191,
+     "avgNav": "27027",
+     "investedOn": 1737504000,
+     "nextInstallmentAmount": "10000"
+    },
+    "lumpsum": {
+     "dayChange": "-48",
+     "dayChangePer": -46,
+     "investedValue": "10000",
+     "marketValue": "10342",
+     "units": "370",
+     "xirr": 191,
+     "avgNav": "27027",
+     "investedOn": 1737504000
+    },
+    "categoryRankInfo": {
+     "categoryRank": 7,
+     "totalRank": 19
+    },
+    "avgNav": "27027"
+   },
+   {
+    "ucid": 4965701,
+    "isin": "INF966L01AA0",
+    "schemeName": "Quant Small Cap-G",
+    "amcLogo": "https://www.valueresearchonline.com/content-assets/images/amc-logo/11-quant-143__BASE__.png",
+    "units": "5612",
+    "investedValue": "99987",
+    "marketValue": "152114",
+    "dayChange": "-3060",
+    "dayChangePer": -201,
+    "sip": {
+     "dayChange": "-3060",
+     "dayChangePer": -201,
+     "investedValue": "99987",
+     "marketValue": "152114",
+     "units": "5612",
+     "xirr": 1411,
+     "avgNav": "17816",
+     "investedOn": 1693180800,
+     "nextInstallmentAmount": "100000"
+    },
+    "categoryRankInfo": {
+     "categoryRank": 17,
+     "totalRank": 34
+    },
+    "avgNav": "17816"
+   }
+  ],
+  "lastUpdatedTime": "1793603019375",
+  "summary": {
+   "name": "Mutual Funds",
+   "investedValue": "1859730",
+   "marketValue": "1546286",
+   "daysChange": "-52034",
+   "overallChange": "-313444",
+   "deepLinkUrl": "portfolio/mf",
+   "lastUpdatedTime": "1793603019375"
+  }
+ }
+}

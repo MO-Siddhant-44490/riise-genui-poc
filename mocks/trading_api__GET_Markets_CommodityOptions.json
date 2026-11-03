@@ -1,0 +1,562 @@
+{
+ "endpoint": "/TradingApiV2/api/Markets/CommodityOptions",
+ "method": "GET",
+ "host": "tradingapi.motilaloswaluat.com",
+ "http_status": 200,
+ "decoded_as": "MarketCommodityResponse",
+ "source_flow": "debug_dump",
+ "response": {
+  "scrips": [
+   {
+    "tradeSymbol": "CRUDEOIL",
+    "description": "17 Nov CE 9900",
+    "scripId": {
+     "scripCode": 582948,
+     "exchange": "MCX"
+    },
+    "tick": {
+     "ltp": 493,
+     "change": 100.0999984741211,
+     "perChange": 25.479999542236328
+    },
+    "oi": 3046,
+    "volume": 70636,
+    "value": 34681569.64,
+    "optionType": "CE",
+    "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+   },
+   {
+    "tradeSymbol": "CRUDEOIL",
+    "description": "17 Nov PE 9900",
+    "scripId": {
+     "scripCode": 583098,
+     "exchange": "MCX"
+    },
+    "tick": {
+     "ltp": 476.6000061035156,
+     "change": -105.69999694824219,
+     "perChange": -18.149999618530273
+    },
+    "oi": 3528,
+    "volume": 57875,
+    "value": 28634235,
+    "optionType": "PE",
+    "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+   },
+   {
+    "tradeSymbol": "CRUDEOIL",
+    "description": "17 Nov CE 10000",
+    "scripId": {
+     "scripCode": 582950,
+     "exchange": "MCX"
+    },
+    "tick": {
+     "ltp": 439.20001220703125,
+     "change": -21.299999237060547,
+     "perChange": -4.630000114440918
+    },
+    "oi": 4029,
+    "volume": 53360,
+    "value": 23750002.4,
+    "optionType": "CE",
+    "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+   },
+   {
+    "tradeSymbol": "CRUDEOIL",
+    "description": "17 Nov PE 9800",
+    "scripId": {
+     "scripCode": 583096,
+     "exchange": "MCX"
+    },
+    "tick": {
+     "ltp": 424.3999938964844,
+     "change": -99.4000015258789,
+     "perChange": -18.979999542236328
+    },
+    "oi": 3175,
+    "volume": 46175,
+    "value": 20941747.75,
+    "optionType": "PE",
+    "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+   },
+   {
+    "tradeSymbol": "CRUDEOIL",
+    "description": "17 Nov CE 9800",
+    "scripId": {
+     "scripCode": 582946,
+     "exchange": "MCX"
+    },
+    "tick": {
+     "ltp": 534.7999877929688,
+     "change": 100.19999694824219,
+     "perChange": 23.059999465942383
+    },
+    "oi": 1595,
+    "volume": 38630,
+    "value": 20565839.4,
+    "optionType": "CE",
+    "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+   },
+   {
+    "tradeSymbol": "CRUDEOIL",
+    "description": "17 Nov PE 9000",
+    "scripId": {
+     "scripCode": 583080,
+     "exchange": "MCX"
+    },
+    "tick": {
+     "ltp": 156.5,
+     "change": 1.100000023841858,
+     "perChange": 0.7099999785423279
+    },
+    "oi": 10284,
+    "volume": 36266,
+    "value": 6182990.34,
+    "optionType": "PE",
+    "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+   },
+   {
+    "tradeSymbol": "CRUDEOIL",
+    "description": "17 Nov PE 9500",
+    "scripId": {
+     "scripCode": 583090,
+     "exchange": "MCX"
+    },
+    "tick": {
+     "ltp": 297,
+     "change": -76.80000305175781,
+     "perChange": -20.549999237060547
+    },
+    "oi": 5931,
+    "volume": 35902,
+    "value": 11458123.3,
+    "optionType": "PE",
+    "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+   },
+   {
+    "tradeSymbol": "CRUDEOIL",
+    "description": "17 Nov CE 10500",
+    "scripId": {
+     "scripCode": 582960,
+     "exchange": "MCX"
+    },
+    "tick": {
+     "ltp": 265,
+     "change": -11.399999618530273,
+     "perChange": -4.119999885559082
+    },
+    "oi": 2954,
+    "volume": 31822,
+    "value": 8618352.26,
+    "optionType": "CE",
+    "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+   },
+   {
+    "tradeSymbol": "CRUDEOIL",
+    "description": "17 Nov CE 11500",
+    "scripId": {
+     "scripCode": 582980,
+     "exchange": "MCX"
+    },
+    "tick": {
+     "ltp": 90,
+     "change": 17.200000762939453,
+     "perChange": 23.6299991607666
+    },
+    "oi": 3351,
+    "volume": 27964,
+    "value": 2712228.36,
+    "optionType": "CE",
+    "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+   },
+   {
+    "tradeSymbol": "CRUDEOIL",
+    "description": "17 Nov PE 9700",
+    "scripId": {
+     "scripCode": 583094,
+     "exchange": "MCX"
+    },
+    "tick": {
+     "ltp": 377,
+     "change": -94,
+     "perChange": -19.959999084472656
+    },
+    "oi": 3785,
+    "volume": 27252,
+    "value": 11025614.16,
+    "optionType": "PE",
+    "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+   }
+  ]
+ },
+ "variants": {
+  "type=ActiveByVolume&top=10&commodity=CRUDEOIL": {
+   "scrips": [
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov CE 9900",
+     "scripId": {
+      "scripCode": 582948,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 493,
+      "change": 100.0999984741211,
+      "perChange": 25.479999542236328
+     },
+     "oi": 3046,
+     "volume": 70636,
+     "value": 34681569.64,
+     "optionType": "CE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov PE 9900",
+     "scripId": {
+      "scripCode": 583098,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 476.6000061035156,
+      "change": -105.69999694824219,
+      "perChange": -18.149999618530273
+     },
+     "oi": 3528,
+     "volume": 57875,
+     "value": 28634235,
+     "optionType": "PE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov CE 10000",
+     "scripId": {
+      "scripCode": 582950,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 439.20001220703125,
+      "change": -21.299999237060547,
+      "perChange": -4.630000114440918
+     },
+     "oi": 4029,
+     "volume": 53360,
+     "value": 23750002.4,
+     "optionType": "CE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov PE 9800",
+     "scripId": {
+      "scripCode": 583096,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 424.3999938964844,
+      "change": -99.4000015258789,
+      "perChange": -18.979999542236328
+     },
+     "oi": 3175,
+     "volume": 46175,
+     "value": 20941747.75,
+     "optionType": "PE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov CE 9800",
+     "scripId": {
+      "scripCode": 582946,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 534.7999877929688,
+      "change": 100.19999694824219,
+      "perChange": 23.059999465942383
+     },
+     "oi": 1595,
+     "volume": 38630,
+     "value": 20565839.4,
+     "optionType": "CE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov PE 9000",
+     "scripId": {
+      "scripCode": 583080,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 156.5,
+      "change": 1.100000023841858,
+      "perChange": 0.7099999785423279
+     },
+     "oi": 10284,
+     "volume": 36266,
+     "value": 6182990.34,
+     "optionType": "PE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov PE 9500",
+     "scripId": {
+      "scripCode": 583090,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 297,
+      "change": -76.80000305175781,
+      "perChange": -20.549999237060547
+     },
+     "oi": 5931,
+     "volume": 35902,
+     "value": 11458123.3,
+     "optionType": "PE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov CE 10500",
+     "scripId": {
+      "scripCode": 582960,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 265,
+      "change": -11.399999618530273,
+      "perChange": -4.119999885559082
+     },
+     "oi": 2954,
+     "volume": 31822,
+     "value": 8618352.26,
+     "optionType": "CE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov CE 11500",
+     "scripId": {
+      "scripCode": 582980,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 90,
+      "change": 17.200000762939453,
+      "perChange": 23.6299991607666
+     },
+     "oi": 3351,
+     "volume": 27964,
+     "value": 2712228.36,
+     "optionType": "CE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    },
+    {
+     "tradeSymbol": "CRUDEOIL",
+     "description": "17 Nov PE 9700",
+     "scripId": {
+      "scripCode": 583094,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 377,
+      "change": -94,
+      "perChange": -19.959999084472656
+     },
+     "oi": 3785,
+     "volume": 27252,
+     "value": 11025614.16,
+     "optionType": "PE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/crudeoil.svg"
+    }
+   ]
+  },
+  "type=ActiveByValue&exchangeCode=Mcx&top=10": {
+   "scrips": [
+    {
+     "tradeSymbol": "GOLDM",
+     "description": "27 Nov PE 140000",
+     "scripId": {
+      "scripCode": 584631,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 3980,
+      "change": -229,
+      "perChange": -5.440000057220459
+     },
+     "oi": 3260,
+     "volume": 55513,
+     "value": 177668801.37,
+     "optionType": "PE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/gold-mini.svg"
+    },
+    {
+     "tradeSymbol": "SILVERM",
+     "description": "23 Nov PE 185000",
+     "scripId": {
+      "scripCode": 580335,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 9325.5,
+      "change": 4980.5,
+      "perChange": 114.62999725341797
+     },
+     "oi": 1020,
+     "volume": 21499,
+     "value": 171972005.93,
+     "optionType": "PE",
+     "logoUrl": "img/035ee9614424.svg"
+    },
+    {
+     "tradeSymbol": "SILVERM",
+     "description": "23 Nov CE 190000",
+     "scripId": {
+      "scripCode": 577812,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 4250.5,
+      "change": -3824.5,
+      "perChange": -47.36000061035156
+     },
+     "oi": 4265,
+     "volume": 29034,
+     "value": 158119744.68,
+     "optionType": "CE",
+     "logoUrl": "img/035ee9614424.svg"
+    },
+    {
+     "tradeSymbol": "SILVERM",
+     "description": "23 Nov PE 190000",
+     "scripId": {
+      "scripCode": 577951,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 12725,
+      "change": 6444.5,
+      "perChange": 102.61000061035156
+     },
+     "oi": 3111,
+     "volume": 12829,
+     "value": 123656421.78,
+     "optionType": "PE",
+     "logoUrl": "img/035ee9614424.svg"
+    },
+    {
+     "tradeSymbol": "SILVERM",
+     "description": "23 Nov CE 185000",
+     "scripId": {
+      "scripCode": 580305,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 6001.5,
+      "change": -5112,
+      "perChange": -46
+     },
+     "oi": 1859,
+     "volume": 17268,
+     "value": 123463437.12,
+     "optionType": "CE",
+     "logoUrl": "img/035ee9614424.svg"
+    },
+    {
+     "tradeSymbol": "GOLDM",
+     "description": "27 Nov CE 140000",
+     "scripId": {
+      "scripCode": 584531,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 2707.5,
+      "change": -70,
+      "perChange": -2.5199999809265137
+     },
+     "oi": 2997,
+     "volume": 29250,
+     "value": 99055417.5,
+     "optionType": "CE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/gold-mini.svg"
+    },
+    {
+     "tradeSymbol": "GOLDM",
+     "description": "27 Nov PE 135000",
+     "scripId": {
+      "scripCode": 584641,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 1973.5,
+      "change": -145.5,
+      "perChange": -6.869999885559082
+     },
+     "oi": 3490,
+     "volume": 52487,
+     "value": 86121719.34,
+     "optionType": "PE",
+     "logoUrl": "https://tradingapi.motilaloswaluat.com/RevampImages/Commodity/gold-mini.svg"
+    },
+    {
+     "tradeSymbol": "SILVERM",
+     "description": "23 Nov CE 200000",
+     "scripId": {
+      "scripCode": 577802,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 2062,
+      "change": -1762.5,
+      "perChange": -46.08000183105469
+     },
+     "oi": 5591,
+     "volume": 30478,
+     "value": 80856914.88,
+     "optionType": "CE",
+     "logoUrl": "img/035ee9614424.svg"
+    },
+    {
+     "tradeSymbol": "SILVERM",
+     "description": "23 Nov PE 182000",
+     "scripId": {
+      "scripCode": 587629,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 7620,
+      "change": 4173.5,
+      "perChange": 121.08999633789062
+     },
+     "oi": 345,
+     "volume": 9697,
+     "value": 75296429.24,
+     "optionType": "PE",
+     "logoUrl": "img/035ee9614424.svg"
+    },
+    {
+     "tradeSymbol": "SILVERM",
+     "description": "23 Nov PE 183000",
+     "scripId": {
+      "scripCode": 581359,
+      "exchange": "MCX"
+     },
+     "tick": {
+      "ltp": 8412.5,
+      "change": 4704,
+      "perChange": 126.83999633789062
+     },
+     "oi": 317,
+     "volume": 9050,
+     "value": 71035350.5,
+     "optionType": "PE",
+     "logoUrl": "img/035ee9614424.svg"
+    }
+   ]
+  }
+ }
+}
